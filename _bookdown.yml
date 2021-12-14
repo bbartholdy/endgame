@@ -5,3 +5,22 @@ delete_merged_file: true
 language:
   ui:
     chapter_name: "Chapter "
+
+rmd_files:
+  # html: ["index.Rmd", # only works with gitbook
+  # "01-intro.Rmd",
+  # "02-background.Rmd",
+  # "03-article.Rmd",
+  # "04-article.Rmd",
+  # "05-article.Rmd",
+  # "06-discussion",
+  # "07-references",
+  # "08-backmatter"]
+latex: ["01-intro.Rmd",
+  "02-background.Rmd",
+  "03-article.Rmd",
+  "04-article.Rmd",
+  "05-article.Rmd",
+  "06-discussion",
+  "07-references",
+  "08-backmatter"]
