@@ -1,0 +1,24 @@
+bookdown::bs4_book:
+  css: bs4_style.css
+  theme:
+    primary: "#096B72"
+  repo: https://github.com/rstudio/bookdown-demo
+# bookdown::gitbook:
+#   css: css/style.css
+#   config:
+#     toc:
+#       before: |
+#         <li><a href="./">Dissertation Title</a></li>
+#       after: |
+#         <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+#     edit: https://github.com/bbartholdy/endgame/edit/main/%s
+#     download: ["pdf", "epub"]
+bookdown::pdf_book:
+  template: pandoc-templates/default.latex
+  includes:
+    in_header: latex/preamble.tex
+  latex_engine: xelatex
+  citation_package: biblatex
+  #citation_package: natbib
+  keep_tex: yes
+bookdown::epub_book: default
