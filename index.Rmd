@@ -39,7 +39,7 @@ biblatexoptions: [natbib, style=apa,refsection=chapter]
 suppress-bibliography: false
 csl: apa.csl
 link-citations: yes
-# url: your book url like https://bookdown.org/yihui/bookdown
+# url: endgame.websaur.org? # your book url like https://bookdown.org/yihui/bookdown
 # cover-image: path to the social sharing image like images/cover.jpg
 github-repo: bbartholdy/endgame
 description: "This is, or rather, this will be a PhD dissertation"
@@ -66,7 +66,8 @@ rbbt::bbt_write_bib(here("book.bib"), keys = refs, ignore = bbtignore, overwrite
 `r if (knitr:::is_html_output()) '
 # Hello {-}
 
-![Cover Image by Petra Korlevic](cover.png){.cover width="300"}This is a PhD dissertation written with the **bookdown** package [@R-bookdown].
+![Cover Image by Petra Korlevic](cover.png){.cover width="300"}This is a PhD dissertation written with the **bookdown** package [@R-bookdown]. A PDF version of the dissertation, which
+includes a variety of trivial formalities, can be found [here](_book/endgame.pdf).
 
 '`
 

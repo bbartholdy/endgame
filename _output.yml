@@ -1,5 +1,6 @@
 bookdown::bs4_book:
   css: bs4_style.css
+  keep_md: yes
   theme:
     primary: "#782386"
   split_bib: yes # per-chapter bibliography
