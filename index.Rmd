@@ -1,7 +1,7 @@
 --- 
-title: "The Perfect Dissertation"
-subtitle: "Does not exist"
-author: "A tired PhD student"
+title: "Putting Dental Calculus Under the Microscope"
+subtitle: ""
+author: "Bjørn Peare Bartholdy"
 date: "`r Sys.Date()`"
 # Mandatory for Leiden PhD dissertations
 proefschrift: 
@@ -9,13 +9,13 @@ proefschrift:
   day: Wednesday # day of week
   date: "21 March 3020" # date in dd month yyyy format
   time: "13.00" # time in 00.00 format
-  birthplace: "Earth" # optional info
-  birthyear: 2042 # optional info
+  birthplace: "Halifax" # optional info
+  birthyear: 1988 # optional info
 promotor: 
-  name: Thor Odinson
+  name: Dr. Amanda G. Henry
 copromotor: 
-  - name: Dr. Henry Walton Jones, Jr.
-    affiliation: Harvard
+  - name: Dr. Annelou van Gijn
+    #affiliation: Harvard
 committee: 
   - name: Dr. Bernadette Rostenkowski-Wolowitz
     affiliation: ZanGen Pharmaceuticals
@@ -27,7 +27,7 @@ committee:
     affiliation: California Institute of Technology
 funding: This research was funded by more money than I will ever see in my lifetime.
 #quote:
-#  quote: A quote that only makes sense to me   # can also be used for a dedication
+  # quote: Random quote only meaningful to me   # can also be used for a dedication
 #  source: Someone old
 site: bookdown::bookdown_site
 documentclass: book
@@ -85,5 +85,12 @@ Protocols available: <https://protocols.io/workspaces/byoc>
 Data available:
 
 `r if (knitr::is_html_output()) '<!--'`
+\clearpage
+\thispagestyle{empty}
+\vspace*{3cm}
+\textit{Til min far}
+\end{chapquote}
+\vspace*{\fill}
+
 \mainmatter
 `r if (knitr::is_html_output()) '-->'`
