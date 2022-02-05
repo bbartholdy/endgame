@@ -1,0 +1,237 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{book}
+\usepackage{amsmath,amssymb}
+\usepackage{lmodern}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  pdftitle={Putting Dental Calculus Under the Microscope},
+  pdfauthor={Bjørn Peare Bartholdy},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{5}
+\usepackage{booktabs}
+\usepackage{amsthm}
+\makeatletter
+\def\thm@space@setup{%
+  \thm@preskip=8pt plus 2pt minus 4pt
+  \thm@postskip=\thm@preskip
+}
+\makeatother
+
+%% Chapter formatting
+\usepackage{titlesec, blindtext, color}
+
+\definecolor{gray75}{gray}{0.75}
+\newcommand{\hsp}{\hspace{20pt}}
+\titleformat{\chapter}[hang]{\Huge\bfseries}{\thechapter\hsp\textcolor{gray75}{|}\hsp}{0pt}{\Huge\bfseries}
+
+%% Dedication
+\makeatletter
+\renewcommand{\@chapapp}{}% Not necessary...
+\newenvironment{chapquote}[2][2em]
+  {\setlength{\@tempdima}{#1}%
+   \def\chapquote@author{#2}%
+   \parshape 1 \@tempdima \dimexpr\textwidth-2\@tempdima\relax%
+   \itshape}
+  {\par\normalfont\hfill--\ \chapquote@author\hspace*{\@tempdima}\par\bigskip}
+\makeatother
+
+\frontmatter
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\usepackage[natbib,style=apa,refsection=chapter]{biblatex}
+\addbibresource{book.bib}
+\addbibresource{packages.bib}
+
+\title{Putting Dental Calculus Under the Microscope}
+\author{Bjørn Peare Bartholdy}
+\date{2022-02-05}
+
+\begin{document}
+
+%% Mandatory proefschrift page for Leiden PhD dissertations %%
+\clearpage
+\thispagestyle{empty}
+\begin{center}
+\Huge\textbf{Putting Dental Calculus Under the Microscope}\par
+\vspace{\baselineskip}
+\huge\textit{}\par
+\vfill % this space will be whatever is left on the page
+    \Large{Proefschrift}\par
+    \vspace{\baselineskip}
+    \linespread{1.3}
+    \large{ter verkrijging van \\
+    de graad van Doctor aan de Universiteit Leiden, \\
+    op gezag van Rector Magnificus Dr.~H.J. Farnsworth, \\
+    volgens besluit van het College voor Promoties \\
+    te verdedigen op Wednesday 21 March 3020 \\
+    klokke  uur \\[1.5cm]
+    door} \\[1.5cm]
+    \Large{Bjørn Peare Bartholdy}\par
+    \vspace{\baselineskip}
+    \large{geboren te Halifax \\
+    in 1988}
+\end{center}
+%% End: Proefschrift %%
+
+%% Promotor and committee page %%
+\clearpage
+\thispagestyle{empty}
+
+\noindent\begin{tabular}{p{8em} l}
+    \large
+    \textbf{Promotor}  & \large Dr.~Amanda G. Henry  \\ 
+    \rule{0pt}{4ex}\large\textbf{Co-Promotor}  & \large Dr.~Annelou van Gijn  \\ 
+    \large
+    \rule{0pt}{8ex}\textbf{Committee}  & \rule{0pt}{4ex}\large Dr.~Bernadette Rostenkowski-Wolowitz  \\
+    & \indent\textit{ZanGen Pharmaceuticals} \\  & \rule{0pt}{4ex}\large Dr.~Amy Farrah Fowler  \\
+    & \indent\textit{California Institute of Technology} \\  & \rule{0pt}{4ex}\large Dr.~Sheldon Cooper  \\
+    & \indent\textit{California Institute of Technology} \\  & \rule{0pt}{4ex}\large Dr.~Leonard Hofstadter  \\
+    & \indent\textit{California Institute of Technology} \\ 
+\end{tabular}
+
+\begingroup
+\hspace{0.000001cm}
+\vfill
+\begin{flushleft}
+\line(1,0){225} \\ %%%% Change colour of line to match chapters %%%%
+{\bf Front cover image:} Cover image by Petra Korlevic \\[0.5cm]
+{\bf Funding:} This research has received funding from the European Research Council under the European Union's Horizon 2020 research and innovation program, grant agreement number STG--677576 (``HARVEST''). 
+\end{flushleft}
+\endgroup
+%% End: promotor and committee page %%
+
+\maketitle
+
+{
+\setcounter{tocdepth}{1}
+\tableofcontents
+}
+\listoffigures
+\listoftables
+\hypertarget{acknowledgements}{%
+\chapter*{Acknowledgements}\label{acknowledgements}}
+\addcontentsline{toc}{chapter}{Acknowledgements}
+
+I acknowledge stuff.
+
+\hypertarget{open-science-statement}{%
+\chapter*{Open Science Statement}\label{open-science-statement}}
+\addcontentsline{toc}{chapter}{Open Science Statement}
+
+All materials and data, including the dissertation itself, are
+made available to the best of my ability. All articles in association with the
+dissertation are/will be Open Access.
+
+Protocols available: \url{https://protocols.io/workspaces/byoc}\\
+Data available:
+
+\clearpage
+\thispagestyle{empty}
+\vspace*{3cm}
+
+\textit{Til min far}
+\textbackslash end\{chapquote\}
+\vspace*{\fill}
+
+\mainmatter
+
+\hypertarget{introduction}{%
+\chapter{Introduction}\label{introduction}}
+
+\hypertarget{archaeological-applications}{%
+\section{Archaeological applications}\label{archaeological-applications}}
+
+\hypertarget{thesis-outline-and-structure}{%
+\section{Thesis outline and structure}\label{thesis-outline-and-structure}}
+
+\hypertarget{background}{%
+\chapter{Background}\label{background}}
+
+\hypertarget{oral-biofilms}{%
+\section{Oral biofilms}\label{oral-biofilms}}
+
+\hypertarget{oral-biofilm-models}{%
+\section{Oral biofilm models}\label{oral-biofilm-models}}
+
+\hypertarget{byoc-validation-article}{%
+\chapter{BYOC Validation Article}\label{byoc-validation-article}}
+
+Article in progress. Validation of the BYOC model using FTIR for the mineral
+composition and metagenomic analysis for the bacterial composition.
+
+\hypertarget{byoc-starch-article}{%
+\chapter{BYOC Starch Article}\label{byoc-starch-article}}
+
+Article applying the BYOC model to look at the incorporation of starch granules
+into dental calculus.
+
+Preprint currently available \href{https://www.biorxiv.org/content/10.1101/2021.10.27.466104v1}{here}
+
+\hypertarget{middenbeemster-calculus-article}{%
+\chapter{Middenbeemster Calculus Article}\label{middenbeemster-calculus-article}}
+
+Maybe\ldots{}
+
+\hypertarget{discussion}{%
+\chapter{Discussion}\label{discussion}}
+
+\hypertarget{limitations-of-the-biofilm-model}{%
+\section{Limitations of the biofilm model}\label{limitations-of-the-biofilm-model}}
+
+\hypertarget{potential-of-the-biofilm-model}{%
+\section{Potential of the biofilm model}\label{potential-of-the-biofilm-model}}
+
+\hypertarget{future-directions}{%
+\section{Future directions}\label{future-directions}}
+
+\printbibliography
+
+\end{document}
