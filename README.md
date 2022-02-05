@@ -6,4 +6,4 @@ package, and is available in the following formats:
 
 - 📁: [PDF](./link-to-pdf)
 - :link: [HTML](link-to-site)
-- 📁: [e-pub]() (no idea what this is...)
+- 📁: [e-pub]()
