@@ -19,7 +19,7 @@ bookdown::bs4_book:
 #     edit: https://github.com/bbartholdy/endgame/edit/main/%s
 #     download: ["pdf", "epub"]
 bookdown::pdf_book:
-  template: latex/default.latex # needs to be copied from pandoc-templates when changes are made
+  template: latex/default.latex
   includes:
     in_header: latex/preamble.tex
   latex_engine: xelatex

@@ -1,3 +1,0 @@
-[submodule "pandoc-templates"]
-	path = pandoc-templates
-	url = git@github.com:bbartholdy/pandoc-templates.git
