@@ -1,3 +1,0 @@
-# Middenbeemster Calculus Article
-
-Maybe...
