@@ -25,7 +25,8 @@ committee:
     affiliation: California Institute of Technology
   - name: Dr. Leonard Hofstadter
     affiliation: California Institute of Technology
-funding: This research was funded by more money than I will ever see in my lifetime.
+funding: |
+  This research has received funding from the European Research Council under the European Union’s Horizon 2020 research and innovation program, grant agreement   number STG–677576 (“HARVEST”).
 #quote:
   # quote: Random quote only meaningful to me   # can also be used for a dedication
 #  source: Someone old
@@ -40,7 +41,8 @@ suppress-bibliography: false
 csl: apa.csl
 link-citations: yes
 # url: endgame.websaur.org? # your book url like https://bookdown.org/yihui/bookdown
-# cover-image: path to the social sharing image like images/cover.jpg
+cover-image: cover.png # path to the social sharing image like images/cover.jpg
+cover-caption: Cover image by Petra Korlevic
 github-repo: bbartholdy/endgame
 description: "This is, or rather, this will be a PhD dissertation"
 lof: true

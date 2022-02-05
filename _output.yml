@@ -1,8 +1,9 @@
 bookdown::bs4_book:
-  css: bs4_style.css
+  #css: bs4_style.css
   keep_md: yes
   theme:
     primary: "#782386"
+    secondary: "#d1295a"
   split_bib: yes # per-chapter bibliography
   repo:
     base: https://github.com/bbartholdy/endgame
@@ -18,11 +19,11 @@ bookdown::bs4_book:
 #     edit: https://github.com/bbartholdy/endgame/edit/main/%s
 #     download: ["pdf", "epub"]
 bookdown::pdf_book:
-  template: pandoc-templates/default.latex
+  template: latex/default.latex # needs to be copied from pandoc-templates when changes are made
   includes:
     in_header: latex/preamble.tex
   latex_engine: xelatex
   citation_package: biblatex
   #citation_package: natbib
   keep_tex: yes
-bookdown::epub_book: default
+#bookdown::epub_book: default
