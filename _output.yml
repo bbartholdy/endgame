@@ -1,5 +1,7 @@
 bookdown::bs4_book:
   #css: bs4_style.css
+  includes:
+    in_header: partials/analytics.html
   keep_md: yes
   theme:
     primary: "#782386"
