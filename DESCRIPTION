@@ -5,7 +5,7 @@ Authors@R:
     person("Bjørn Peare", "Bartholdy", , "bpbartholdy@gmail.com", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0003-3985-1016"))
 Description: What the package does (one paragraph).
-Suggests: 
+Imports: 
     bookdown
 License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
     license
