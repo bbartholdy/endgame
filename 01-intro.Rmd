@@ -3,12 +3,15 @@
 <!-- chapter status badge -->
 ![](https://img.shields.io/badge/status-writing-blue)
 
-<!-- dental calculus in context -->
+An introduction to the dissertation where I put the study of dental calculus
+in context, as well as provide the outline and structure of the dissertation.
+
+<!-- dental calculus in context 
 
 
 ## Archaeological applications
 
-<!-- various archaeological applications of dental calculus -->
+<!-- various archaeological applications of dental calculus 
 
 
 ## Thesis outline and structure
