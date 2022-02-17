@@ -1,5 +1,7 @@
 # BYOC Starch Article
 
+![Thesis Status](https://img.shields.io/badge/status-submission-blue)
+
 Article applying the BYOC model to look at the incorporation of starch granules
 into dental calculus.
 

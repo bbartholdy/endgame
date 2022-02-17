@@ -2,7 +2,7 @@
 title: "Putting Dental Calculus Under the Microscope"
 subtitle: ""
 author: "Bjørn Peare Bartholdy"
-date: "2022-02-09"
+date: "2022-02-17"
 # Mandatory for Leiden PhD dissertations
 proefschrift: 
   rector: Dr. H.J. Farnsworth # name of current rector
@@ -57,11 +57,12 @@ lot: true
 
 ![Cover Image by Petra Korlevic](cover.png){.cover width="300"}This is a PhD dissertation written with the **bookdown** package [@R-bookdown]. A PDF version of the dissertation, which
 includes a variety of trivial formalities, will be released when it is done. In the meantime,
-you can follow the progress of the dissertation on this site.
+you can follow the progress of my dissertation on this site.
 
-**This is a draft of my dissertation (until further notice). It has yet to be reviewed by a committee.**
+**Note: This is a draft of my dissertation (until further notice). It has yet to be reviewed by a committee.**
 
-Current status: writing chapters.
+The amazing cover art that you can see above was created by the awesome
+[Petra Korlevic](https://twitter.com/petrathepostdoc)
 
 
 
@@ -76,6 +77,7 @@ made available to the best of my ability. All articles in association with the
 dissertation are/will be Open Access.
 
 Protocols available: <https://protocols.io/workspaces/byoc>  
+Code available: <https://github.com/bbartholdy>
 Data available:
 
 <!--

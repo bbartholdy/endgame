@@ -8,6 +8,3 @@ byoc-validation-article
 byoc-starch-article
 middenbeemster-calculus-article
 discussion
-limitations-of-the-biofilm-model
-potential-of-the-biofilm-model
-future-directions

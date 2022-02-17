@@ -1,5 +1,6 @@
 # Background
 
+![Thesis Status](https://img.shields.io/badge/status-writing-blue)
 <!-- dental calculus background? -->
 
 ## Oral biofilms
