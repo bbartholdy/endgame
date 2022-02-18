@@ -3,7 +3,7 @@ title: "Putting Dental Calculus Under the Microscope"
 subtitle: ""
 author: "Bjørn Peare Bartholdy"
 date: "`r Sys.Date()`"
-# Mandatory for Leiden PhD dissertations
+### Mandatory for Leiden PhD dissertations ###
 proefschrift: 
   rector: Dr. H.J. Farnsworth # name of current rector
   day: Wednesday # day of week
@@ -25,6 +25,7 @@ committee:
     affiliation: California Institute of Technology
   - name: Dr. Leonard Hofstadter
     affiliation: California Institute of Technology
+## End: Mandatory for Leiden PhD dissertations ###
 funding: |
   This research has received funding from the European Research Council under the European Union’s Horizon 2020 research and innovation program, grant agreement   number STG–677576 (“HARVEST”).
 #quote:
@@ -51,8 +52,8 @@ lot: true
 
 ```{r setup, include=FALSE}
 # generate r package bibliography
-bib_packages <- c(.packages(), 'bookdown', 'knitr', 'rmarkdown')
-knitr::write_bib(bib_packages, 'packages.bib')
+#bib_packages <- c(.packages(), 'bookdown', 'knitr', 'rmarkdown')
+#knitr::write_bib(bib_packages, 'packages.bib')
 # generate bibliography
 library(here)
 # ref_files <- here(c("01-intro.Rmd")) 
@@ -69,12 +70,12 @@ library(here)
 # Hello {-}
 
 ![Temporary cover](cover.png){.cover width="300"}This is a PhD dissertation written with the **bookdown** package [@R-bookdown]. A PDF version of the dissertation, which
-includes a variety of trivial formalities, will be released when it is done. In the meantime,
+includes a variety of trivial formalities, will be released when it is done. In the meantime
 you can follow the progress of my dissertation on this site.
 
 **Note: This is a draft of my dissertation (until further notice). It has yet to be reviewed by a committee.**
 
-The amazing cover art that you can see above was created by the awesome
+The amazing cover image was created by the awesome
 [Petra Korlevic](https://twitter.com/petrathepostdoc)
 
 '`
@@ -90,7 +91,7 @@ made available to the best of my ability. All articles in association with the
 dissertation are/will be Open Access.
 
 Protocols available: <https://protocols.io/workspaces/byoc>  
-Code available: <https://github.com/bbartholdy>
+Code available: <https://github.com/bbartholdy>  
 Data available:
 
 `r if (knitr::is_html_output()) '<!--'`

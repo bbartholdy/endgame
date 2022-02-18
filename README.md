@@ -1,6 +1,6 @@
 ## 👋 Welcome! 
 
-![Thesis Status](https://img.shields.io/badge/thesis-writing-blue) [![Netlify Status](https://api.netlify.com/api/v1/badges/097f8ec1-709e-461e-9192-526cc906e53f/deploy-status)](https://app.netlify.com/sites/compassionate-yalow-7e985c/deploys)
+![Thesis Status](https://img.shields.io/badge/thesis-writing-blue) [![Netlify Status](https://api.netlify.com/api/v1/badges/654e8f2b-273f-4ad4-bf70-5893719cb68c/deploy-status)](https://app.netlify.com/sites/bjorn-endgame/deploys)
 
 This is my PhD dissertation. It is written with the
 [**bookdown**](https://github.com/rstudio/bookdown) 

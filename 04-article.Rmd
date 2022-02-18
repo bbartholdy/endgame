@@ -1,8 +1,10 @@
-# BYOC Starch Article
+# Investigating Biases Associated with Dietary Starch Incorporation and Retention with an Oral Biofilm Model
 
-![Chapter Status](https://img.shields.io/badge/status-submission-blue) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5604670.svg)](https://doi.org/10.5281/zenodo.5604670)
+![Chapter Status](https://img.shields.io/badge/Status-journal submission-green)  
+![Current version](https://img.shields.io/badge/Version-preprint-blue)  
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5604670.svg)](https://doi.org/10.5281/zenodo.5604670)
 
-Article applying the BYOC model to look at the incorporation of starch granules
+An application of the BYOC model looking at the incorporation of starch granules
 into dental calculus.
 
-Preprint currently available [here](https://www.biorxiv.org/content/10.1101/2021.10.27.466104v1)
+Preprint currently available on [bioRxiv](https://www.biorxiv.org/content/10.1101/2021.10.27.466104v1)

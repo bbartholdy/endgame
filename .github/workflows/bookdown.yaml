@@ -2,7 +2,7 @@
 # Need help debugging build failures? Start at https://github.com/r-lib/actions#where-to-find-help
 on:
   push:
-    branches: [main, master]
+    branches: main
 
 name: bookdown
 
@@ -18,7 +18,7 @@ jobs:
       
       - name: Install missing system dependencies
         if: runner.os == 'Linux'
-        run: sudo apt-get install libcurl4-openssl-dev #-y libgtk2.0-dev asymptote
+        run: sudo apt-get install libcurl4-openssl-dev
 
       - uses: r-lib/actions/setup-r@v1
         with:
@@ -40,9 +40,20 @@ jobs:
       - name: Build site
         run: bookdown::render_book("index.Rmd", quiet = TRUE)
         shell: Rscript {0}
-
+        
       # - name: Deploy to GitHub pages 🚀
       #   uses: JamesIves/github-pages-deploy-action@4.1.4
       #   with:
       #     branch: gh-pages
       #     folder: _book
+        
+      - name: Deploy to Netlify
+        # NETLIFY_AUTH_TOKEN added in the repo's secrets
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+        run: |
+          npm install netlify-cli -g
+          netlify deploy --prod --dir _book
+          
+

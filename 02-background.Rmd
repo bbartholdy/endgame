@@ -1,6 +1,7 @@
 # Background
 <!-- chapter status badge -->
-![](https://img.shields.io/badge/status-writing-blue)
+![](https://img.shields.io/badge/status-writing-blue)  
+![Current version](https://img.shields.io/badge/Version-draft-blue)
 
 An introduction to biofilms.
 
