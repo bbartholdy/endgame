@@ -6,7 +6,8 @@ Authors@R:
            comment = c(ORCID = "0000-0003-3985-1016"))
 Description: What the package does (one paragraph).
 Imports: 
-    bookdown
+    bookdown,
+    tinytex
 License: CC BY 4.0
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
