@@ -1,6 +1,6 @@
 # BYOC Starch Article
 
-![Chapter Status](https://img.shields.io/badge/status-submission-blue)
+![Chapter Status](https://img.shields.io/badge/status-submission-blue) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5604670.svg)](https://doi.org/10.5281/zenodo.5604670)
 
 Article applying the BYOC model to look at the incorporation of starch granules
 into dental calculus.
