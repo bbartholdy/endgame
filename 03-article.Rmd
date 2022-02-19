@@ -1,7 +1,8 @@
 # BYOC Validation Article
 
 <!-- chapter status badge -->
-![](https://img.shields.io/badge/status-analysis-orange)
+![](https://img.shields.io/badge/Status-analysis-orange)  
+![Current version](https://img.shields.io/badge/Version-draft-blue) 
 
-Article in progress. Validation of the BYOC model using FTIR for the mineral
+Article in progress. Validation of the BYOC (build your own calculus) model using FTIR for the mineral
 composition and metagenomic analysis for the bacterial composition.

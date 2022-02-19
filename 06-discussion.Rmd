@@ -1,7 +1,7 @@
 # Discussion
 
 <!-- chapter status badge -->
-![Chapter Status](https://img.shields.io/badge/status-none-grey)  
+![Chapter Status](https://img.shields.io/badge/Status-none-grey)  
 ![Current version](https://img.shields.io/badge/Version-draft-blue)
 
 A chapter to discuss the limitations and potential of the biofilm model in
