@@ -5,7 +5,7 @@
 ![Current version](https://img.shields.io/badge/Version-draft-blue)  
 
 An introduction to the dissertation where I put the study of archaeological
-dental calculusin context, 
+dental calculus in context, 
 as well as provide the outline and structure of the dissertation.
 
 <!-- dental calculus in context 
