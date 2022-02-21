@@ -15,12 +15,12 @@ promotor:
   name: Dr. Amanda G. Henry
 copromotor: 
   - name: Dr. Annelou van Gijn
-    #affiliation: Harvard
+    #affiliation: required if different from Leiden
 committee: 
   - name: Dr. Bernadette Rostenkowski-Wolowitz
     affiliation: ZanGen Pharmaceuticals
   - name: Dr. Amy Farrah Fowler
-    affiliation: California Institute of Technology # required if not Leiden
+    affiliation: California Institute of Technology
   - name: Dr. Sheldon Cooper
     affiliation: California Institute of Technology
   - name: Dr. Leonard Hofstadter
@@ -41,7 +41,7 @@ biblatexoptions: [natbib, style=apa,refsection=chapter]
 suppress-bibliography: false
 csl: apa.csl
 link-citations: yes
-# url: endgame.websaur.org? # your book url like https://bookdown.org/yihui/bookdown
+url: https://myphd.netlify.app # your book url
 cover-image: cover.png # path to the social sharing image like images/cover.jpg
 cover-caption: Cover image by Petra Korlevic
 github-repo: bbartholdy/endgame
