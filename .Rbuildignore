@@ -5,3 +5,4 @@
 ^LICENSE\.md$
 ^\.github$
 ^CHANGELOG\.md$
+^README\.Rmd$

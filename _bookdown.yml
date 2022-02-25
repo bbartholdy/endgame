@@ -4,7 +4,7 @@ before_chapter_script: _common.R
 delete_merged_file: true
 language:
   ui:
-    chapter_name: "Chapter "
+    chapter_name: ""
 rmd_files:
   # html: ["index.Rmd", # only works with gitbook
   # "01-intro.Rmd",
