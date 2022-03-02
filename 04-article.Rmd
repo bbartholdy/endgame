@@ -1,6 +1,6 @@
 # Investigating Biases Associated with Dietary Starch Incorporation and Retention with an Oral Biofilm Model
 
-![Chapter Status](https://img.shields.io/badge/Status-journal submission-green)  
+![Chapter Status](https://img.shields.io/badge/Status-under review-orange)  
 ![Current version](https://img.shields.io/badge/Version-preprint-blue) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5604670.svg)](https://doi.org/10.5281/zenodo.5604670)
 
 We used the BYOC model to try and look at how starch granules are incorporated
