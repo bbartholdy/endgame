@@ -4,13 +4,14 @@ Version: 0.0.0.9000
 Authors@R: 
     person("Bjørn Peare", "Bartholdy", , "bpbartholdy@gmail.com", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0003-3985-1016"))
-Description: What the package does (one paragraph).
+Description: This is a PhD dissertation.
 Imports: 
     bookdown,
     bslib,
     downlit,
     here,
-    tinytex
+    tinytex,
+    rmarkdown
 License: CC BY 4.0
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
