@@ -20,6 +20,6 @@ latex: ["01-intro.Rmd",
   "03-article.Rmd",
   "04-article.Rmd",
   "05-article.Rmd",
-  "06-discussion",
-  "07-references",
-  "08-backmatter"]
+  "06-discussion.Rmd",
+  "07-references.Rmd",
+  "08-backmatter.Rmd"]

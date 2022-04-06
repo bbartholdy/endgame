@@ -1,8 +1,10 @@
 # Background
 
+`r if (knitr:::is_html_output()) '
 <!-- chapter status badge -->
 ![](https://img.shields.io/badge/Status-writing-yellow)  
 ![Current version](https://img.shields.io/badge/Version-draft-blue) 
+'`
 
 An introduction to biofilms.
 
