@@ -33,12 +33,12 @@ funding: |
 #  source: Someone old
 site: bookdown::bookdown_site
 documentclass: book
-bibliography: [book.bib, packages.bib]
+section-refs-bibliography: [book.bib, packages.bib]
 #biblio-style: apalike
 #biblio-style: authoryear
-biblatexoptions: [style=apa,refsegment=chapter]
-#reference-section-title: References
-suppress-bibliography: false
+#biblatexoptions: [style=apa,refsegment=chapter]
+reference-section-title: References
+#suppress-bibliography: true
 csl: apa.csl
 link-citations: yes
 url: https://myphd.netlify.app # your book url
@@ -104,7 +104,6 @@ Data available: TBD
 \thispagestyle{empty}
 \vspace*{3cm}
 \textit{Til min far}
-\end{chapquote}
 \vspace*{\fill}
 
 \mainmatter

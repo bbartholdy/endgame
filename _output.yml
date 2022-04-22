@@ -24,10 +24,10 @@ bookdown::pdf_book:
   template: latex/default.latex
   includes:
     in_header: latex/preamble.tex
-  #pandoc_args:
-  #  - --lua-filter=section-refs.lua # possible section bibliography solution
+  pandoc_args:
+    - --lua-filter=section-refs.lua # possible section bibliography solution
   latex_engine: xelatex
-  citation_package: biblatex
+  #citation_package: default
   #citation_package: natbib
   keep_tex: yes
 #bookdown::epub_book: default

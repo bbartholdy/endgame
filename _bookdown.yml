@@ -5,14 +5,14 @@ delete_merged_file: true
 language:
   ui:
     chapter_name: ""
-rmd_files: [
-    "index.Rmd",
-    "01-intro.Rmd",
-    "02-background.Rmd",
-    "03-article.Rmd",
-    "04-article.Rmd",
-    "05-article.Rmd",
-    "06-discussion.Rmd",
-    "07-references.Rmd",
-    "08-backmatter.Rmd"
-    ]
+# rmd_files: [
+#     "index.Rmd",
+#     "01-intro.Rmd",
+#     "02-background.Rmd",
+#     "03-article.Rmd",
+#     "04-article.Rmd",
+#     "05-article.Rmd",
+#     "06-discussion.Rmd",
+#     "07-references.Rmd",
+#     "08-backmatter.Rmd"
+#     ]
