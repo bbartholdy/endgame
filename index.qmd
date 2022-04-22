@@ -1,0 +1,42 @@
+`r if (knitr:::is_html_output()) '
+# Hello {-}
+
+This is a PhD dissertation written with the **bookdown** package [@R-bookdown]. A PDF version of the dissertation, which
+includes a variety of trivial formalities, will be released when it is done. In the meantime
+you can follow the progress of my dissertation on this site.
+
+**Note: This is a continuously updated draft of my dissertation (until further notice). It has yet to be reviewed by a committee.**
+
+The amazing cover image was created by the awesome
+[Petra Korlevic](https://twitter.com/petrathepostdoc). The site is hosted by [Netlify](https://www.netlify.com) and [GitHub](https://www.github.com), and is
+licensed under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
+
+**Disclaimer:** This site contains a bare-bones tracker to count the number of
+visitors. No other information is recorded.
+
+'`
+
+# Acknowledgements {-}
+
+I will attempt to acknowledge everyone involved.
+
+# Open Science Statement {-}
+
+All materials and data, including the dissertation itself, are 
+made available to the best of my ability. All articles in association with the
+dissertation are/will be Open Access.
+
+Protocols available: <https://protocols.io/workspaces/byoc>  
+Code available: <https://github.com/bbartholdy>  
+Data available: TBD
+
+`r if (knitr::is_html_output()) '<!--'`
+\clearpage
+\thispagestyle{empty}
+\vspace*{3cm}
+\textit{Til min far}
+\end{chapquote}
+\vspace*{\fill}
+
+\mainmatter
+`r if (knitr::is_html_output()) '-->'`

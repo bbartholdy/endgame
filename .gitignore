@@ -5,3 +5,5 @@
 *_files
 _book/
 chapters.*
+
+/.quarto/
