@@ -5,13 +5,14 @@ book:
   title: "Putting Dental Calculus Under the Microscope"
   subtitle: ""
   author: "Bjørn Peare Bartholdy"
-  date: Unpublished
+  date: "Unpublished"
   output-file: "endgame"
   cover-image: cover.png # path to the social sharing image like images/cover.jpg
   downloads: pdf
   chapters: 
     - index.qmd
     - 01-intro.qmd
+    - 02-background.qmd
 
 ### FROM _bookdown.yml ###
 # book_filename: "endgame"
@@ -75,9 +76,11 @@ format:
     pdf-engine: xelatex
     cite-method: citeproc
     filters: 
-      - section-refs.lua
+      - section-refs.lua # needs pandoc version >= 2.11 to work 
     
 bibliography: book.bib
+#suppress-bibliography: true
+csl: apa.csl
 
 # ### Mandatory for Leiden PhD dissertations ###
 # proefschrift: 
