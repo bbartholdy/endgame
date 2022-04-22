@@ -10,6 +10,9 @@ An introduction to the dissertation where I put the study of archaeological
 dental calculus in context, 
 as well as provide the outline and structure of the dissertation.
 
+Related discussions have started to take place in recent years
+[@radiniDirtyTeeth2022; @bucchiComparisonsMethods2019; @wrightAdvancingRefining2021].
+
 \printbibliography[segment=\therefsegment,heading=subbibliography]
 <!-- dental calculus in context 
 
