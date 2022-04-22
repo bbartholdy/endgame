@@ -2,6 +2,8 @@ bookdown::bs4_book:
   #css: bs4_style.css
   includes:
     in_header: partials/analytics.html
+  pandoc_args:
+    - --lua-filter=section-refs.lua # possible section bibliography solution
   keep_md: yes
   theme:
     primary: "#782386"

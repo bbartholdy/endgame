@@ -37,7 +37,7 @@ section-refs-bibliography: [book.bib, packages.bib]
 #biblio-style: apalike
 #biblio-style: authoryear
 #biblatexoptions: [style=apa,refsegment=chapter]
-reference-section-title: References
+#reference-section-title: References
 #suppress-bibliography: true
 csl: apa.csl
 link-citations: yes
