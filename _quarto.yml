@@ -70,15 +70,20 @@ book:
 format:
   html:
     theme: [cosmo, style.scss]
-    
+    #reference-location: section
+    #citeproc: true
+    bibliography: [book.bib]
+    #filters: 
+    #- section-refs.lua # needs pandoc version >= 2.11 to work 
+
   pdf:
     documentclass: scrbook
     pdf-engine: xelatex
     cite-method: citeproc
+    section-refs-bibliography: book.bib
     filters: 
       - section-refs.lua # needs pandoc version >= 2.11 to work 
     
-bibliography: book.bib
 #suppress-bibliography: true
 csl: apa.csl
 
