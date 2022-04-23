@@ -1,11 +1,22 @@
 /*-- scss:defaults --*/
+
+/* Cover image colours:
+#782386 (purple)
+#ab1866 (pink)
+#d1295a (pinkish-red)
+#e05b5c (peach)
+#ffcc66 (starch) */
+
 // Base document colors
-$body-bg: #181818;
-$body-color: white;
-$link-color: #75AADB;
+//$body-bg: #181818;
+//$body-color: white;
+$link-color: #d1295a;
+$footer-bg: #782386;
 
 // Code blocks
 $code-block-bg-alpha: -.8;
+
+// Fonts
 
 p.caption {
   color: #777;

@@ -9,19 +9,18 @@ book:
   output-file: "endgame"
   cover-image: cover.png # path to the social sharing image like images/cover.jpg
   downloads: pdf
+  description: "This is, or rather, this will be a PhD dissertation"
+  repo-url: "https://github.com/bbartholdy/endgame"
+  site-url: "https://myphd.netlify.app"
   chapters: 
     - index.qmd
     - 01-intro.qmd
     - 02-background.qmd
 
 ### FROM _bookdown.yml ###
-# book_filename: "endgame"
 # new_session: true
 # before_chapter_script: _common.R
 # delete_merged_file: true
-# language:
-#   ui:
-#     chapter_name: ""
 # rmd_files: [
 #     "index.Rmd",
 #     "01-intro.Rmd",
@@ -69,8 +68,10 @@ book:
   
 format:
   html:
-    theme: [cosmo, style.scss]
-    #reference-location: section
+    theme: 
+      light: [lightly, style.scss]
+      dark: [darkly, style.scss]
+    reference-location: section
     #citeproc: true
     bibliography: [book.bib]
     #filters: 
@@ -123,10 +124,8 @@ csl: apa.csl
 # biblatexoptions: [natbib, style=apa,refsection=chapter]
 # #reference-section-title: References
 # suppress-bibliography: false
-# csl: apa.csl
 # link-citations: yes
 # url: https://myphd.netlify.app # your book url
 # github-repo: bbartholdy/endgame
-# description: "This is, or rather, this will be a PhD dissertation"
 # lof: true
 # lot: true
