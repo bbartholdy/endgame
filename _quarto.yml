@@ -14,7 +14,7 @@ book:
   repo-url: "https://github.com/bbartholdy/endgame"
   site-url: "https://myphd.netlify.app"
   page-footer: 
-    left: Putting Dental Calculus Under the Microscope" was written by Bjørn Peare Bartholdy. It was last built on {{< var build-date >}} {{< env $(date) >}}.
+    left: Putting Dental Calculus Under the Microscope" was written by Bjørn Peare Bartholdy. It was last built on {{< meta date >}}.
     right: 
     - icon: github
       href: https://github.com/bbartholdy

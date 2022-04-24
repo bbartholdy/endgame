@@ -1,4 +1,4 @@
-build-date: $(date)
+# build-date: need current date variable
 
 # chapter-versions:
   # draft: "![Current version](https://img.shields.io/badge/Version-draft-blue)"
