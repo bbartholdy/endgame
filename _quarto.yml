@@ -5,13 +5,21 @@ book:
   title: "Putting Dental Calculus Under the Microscope"
   subtitle: ""
   author: "Bjørn Peare Bartholdy"
-  date: "Unpublished"
+  date: last-modified
+  date-format: iso
   output-file: "endgame"
   cover-image: cover.png # path to the social sharing image like images/cover.jpg
   downloads: pdf
   description: "This is, or rather, this will be a PhD dissertation"
   repo-url: "https://github.com/bbartholdy/endgame"
   site-url: "https://myphd.netlify.app"
+  page-footer: 
+    left: Putting Dental Calculus Under the Microscope" was written by Bjørn Peare Bartholdy. It was last built on {{< var build-date >}} {{< env $(date) >}}.
+    right: 
+    - icon: github
+      href: https://github.com/bbartholdy
+    - icon: twitter 
+      href: https://twitter.com/osteobjorn
   chapters: 
     - index.qmd
     - 01-intro.qmd
@@ -80,6 +88,7 @@ format:
   pdf:
     documentclass: scrbook
     pdf-engine: xelatex
+    keep-tex: true
     cite-method: citeproc
     section-refs-bibliography: book.bib
     filters: 

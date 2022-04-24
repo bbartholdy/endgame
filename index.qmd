@@ -1,8 +1,8 @@
-`r if (knitr:::is_html_output()) '
+`r if (!knitr:::is_html_output()) '<!--'`
 # Hello {-}
 
 This is a PhD dissertation written with the **bookdown** package [@R-bookdown]. A PDF version of the dissertation, which
-includes a variety of trivial formalities, will be released when it is done. In the meantime
+includes a variety of trivial formalities, will be released when it's done. In the meantime
 you can follow the progress of my dissertation on this site.
 
 **Note: This is a continuously updated draft of my dissertation (until further notice). It has yet to be reviewed by a committee.**
@@ -14,7 +14,7 @@ licensed under the [Creative Commons Attribution 4.0 International License](http
 **Disclaimer:** This site contains a bare-bones tracker to count the number of
 visitors. No other information is recorded.
 
-'`
+`r if (!knitr:::is_html_output()) '-->'`
 
 # Acknowledgements {-}
 
