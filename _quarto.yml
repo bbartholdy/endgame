@@ -24,6 +24,7 @@ book:
     - index.qmd
     - 01-intro.qmd
     - 02-background.qmd
+    - 04-article.Rmd
 
 ### FROM _bookdown.yml ###
 # new_session: true
@@ -64,20 +65,23 @@ format:
     #- section-refs.lua # needs pandoc version >= 2.11 to work 
 
   pdf:
-    documentclass: scrbook
+    documentclass: book
+    block-headings: false # needed for titlesec to work
+    lot: true
+    lof: true
     #pdf-engine: latexmk
     keep-tex: true
     cite-method: citeproc
     section-refs-bibliography: book.bib
-    template: latex/default.latex
+    #template: latex/default.latex
+    template: pandoc-templates/default.latex
     #include-before-body: latex/proef.tex
-    #include-in-header: latex/preamble.tex
+    include-in-header: latex/preamble.tex
     filters: 
       - section-refs.lua # needs pandoc version >= 2.11 to work 
     
 # link-citations: yes
 csl: apa.csl
-
 ### Mandatory for Leiden PhD dissertations ###
 proefschrift:
   rector: Dr. H.J. Farnsworth # name of current rector

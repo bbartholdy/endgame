@@ -16,11 +16,13 @@ visitors. No other information is recorded.
 
 `r if (!knitr:::is_html_output()) '-->'`
 
-## Acknowledgements {-}
+\frontmatter
+
+# Acknowledgements {-}
 
 I will attempt to acknowledge everyone involved.
 
-## Open Science Statement {-}
+# Open Science Statement {-}
 
 All materials and data, including the dissertation itself, are 
 made available to the best of my ability. All articles in association with the
