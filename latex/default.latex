@@ -485,8 +485,8 @@ $endif$
 \vfill
 \begin{flushleft}
 \line(1,0){225} \\ %%%% Change colour of line to match chapters %%%%
-{\bf Front cover image:} $cover-caption$ \\[0.5cm]
-$if(funding)${\bf Funding:} $funding$ $endif$
+\textbf{Front cover image:} $cover-caption$ \\[0.5cm]
+$if(funding)$\textbf{Funding:} $funding$ $endif$
 \end{flushleft}
 \endgroup
 %% End: promotor and committee page %%
