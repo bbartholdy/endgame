@@ -75,7 +75,7 @@ format:
     filters: 
       - section-refs.lua # needs pandoc version >= 2.11 to work 
     
-#suppress-bibliography: true
+# link-citations: yes
 csl: apa.csl
 
 ### Mandatory for Leiden PhD dissertations ###
@@ -106,16 +106,3 @@ funding: |
 # #quote:
 #   # quote: Random quote only meaningful to me   # can also be used for a dedication
 # #  source: Someone old
-# site: bookdown::bookdown_site
-# documentclass: book
-# bibliography: [book.bib, packages.bib]
-# #biblio-style: apalike
-# #biblio-style: authoryear
-# biblatexoptions: [natbib, style=apa,refsection=chapter]
-# #reference-section-title: References
-# suppress-bibliography: false
-# link-citations: yes
-# url: https://myphd.netlify.app # your book url
-# github-repo: bbartholdy/endgame
-# lof: true
-# lot: true
