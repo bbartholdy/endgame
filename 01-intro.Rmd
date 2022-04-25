@@ -1,9 +1,8 @@
-# Introduction
+# Introduction {#intro}
 
 `r if (knitr:::is_html_output()) '
 <!-- chapter status badge -->
-![](https://img.shields.io/badge/Status-writing-yellow)  
-![Current version](https://img.shields.io/badge/Version-draft-blue)  
+![](https://img.shields.io/badge/Status-writing-yellow) ![Current version](https://img.shields.io/badge/Version-draft-blue)  
 '`
 
 <!-- The dissertation will be made widely available, so I want it to be as accessible as possible.
@@ -21,15 +20,15 @@ Dental calculus is formed from dental plaque, which consists mainly of bacteria 
 a surrounding structure called the extracellular matrix (more details in Chapter 2).
 When the local environment within and around the plaque reaches a favourable alkaline
 pH, both the extracellular matrix and bacteria within will calcify
-[whiteDentalCalculus1997; @jinSupragingivalCalculus2002].
+[@whiteDentalCalculus1997; @jinSupragingivalCalculus2002].
 The alkaline pH causes minerals (especially calcium and phosphate)
 from saliva to enter the plaque, which start to solidify the extracellular matrix
 and eventually also the bacteria. The main crystals
 of dental calculus that form within the plaque biofilm are octacalcium phosphate,
 brushite, whitlockite, and hydroxyapatite. Octacalcium phosphate is most common
-early in the mineralisation process, but will be replaced by hydroxyapatite as the
-calculus ages
-[@jinSupragingivalCalculus2002; akcaliDentalCalculus2018; @abrahamDentalCalculus2005].
+early in the mineralisation process, but will gradually be replaced by hydroxyapatite
+as the calculus ages
+[@jinSupragingivalCalculus2002; @akcaliDentalCalculus2018; @abrahamDentalCalculus2005].
 The whole process repeats itself when new bacteria colonise the surface of the newly
 formed dental calculus, creating multiple layers of dental calculus
 [@jepsenCalculusRemoval2011; @akcaliDentalCalculus2018].
@@ -50,7 +49,10 @@ calculus, it can preserve these microparticles over long periods of time, even a
 the person whose teeth provided the home for the calculus has died. This is why
 archaeologists have become increasingly interested in dental calculus.
 
-## Dental calculus in archaeology
+Hydroxyapatite strongly binds DNA. Calculus is richest source os aDNA on
+skeletal remains (Warinner: a new era in palaeomicrobiology)
+
+## Dental calculus in archaeology {#intro-arch}
 
 The main uses of dental calculus, at the moment, are to explore research questions
 involving diet and the evolution of the oral biome and oral health
@@ -114,7 +116,7 @@ markers of plants and animals within dental calulus is difficult, but not imposs
 (see @warinnerEvidenceMilk2014). Most of the
 DNA within dental calculus will be oral bacteria, and this will overwhelm the
 signal from plant DNA. Plants are also really complicated (personal communication with
-Zandra Fageräs, James Fellows Yates, and Nikolay Oskolkov in the SPAAM community).
+Zandra Fagernäs, James Fellows Yates, and Nikolay Oskolkov in the SPAAM community).
 A newer field of biomolecular archaeology, paleoproteomics, has also jumped on the
 calculus bangwagon. Hendy and coauthors were able to identify a number of food
 proteins in dental calculus, including cereals, plants, and milk proteins from
@@ -129,7 +131,7 @@ dental calculus came up as one of them; albeit not the most common, which was
 More recently @yaussyCalculusSurvivorship2019 looked at how it relates to overall health
 in a population, not just oral health<!--any other studies?-->.
 
-![Word cloud of most common dental terms in articles @pilloudOutliningDefinition2019](../figures/wordcloud.png)
+![Word cloud of most common dental terms in articles @pilloudOutliningDefinition2019](figures/wordcloud.png)
 
 This wide range of applications, and the fact that it's pretty much ubiquitous in the
 past (yay, poor oral hygiene), makes it a really exciting area for the future of
@@ -149,7 +151,7 @@ calculus? I'm not referring to its formation or composition, which I briefly
 described [above](#intro). How do we categorise it? Is it a dental disease? An oral
 health condition? A byproduct of oral conditions? To answer this, it's necessary to
 look at various definitions of oral health. I know, definitions in an introduction
-are a little cliche, but sometimes necessary.
+are a little cliché, but sometimes necessary.
 Definitions of oral health are
 often purposefully (and confusingly) broad, because it's a very complex topic. It
 extends beyond physical well-being and into the realms of emotional and social comfort.

@@ -2,20 +2,142 @@
 
 `r if (knitr:::is_html_output()) '
 <!-- chapter status badge -->
-![](https://img.shields.io/badge/Status-writing-yellow)  
-![Current version](https://img.shields.io/badge/Version-draft-blue) 
+![](https://img.shields.io/badge/Status-writing-yellow) ![Current version](https://img.shields.io/badge/Version-draft-blue) 
 '`
 
-An introduction to biofilms.
+The human mouth, or oral cavity, contains many different types of surfaces
+available for bacterial to attach and grow.
+These surfaces are both hard (teeth) and soft (mucosa, tongue, gingiva), and are exposed to
+the external environment. The conditions within the oral cavity can also vary considerably,
+causing a unique range of habitats for a wide variety of microbes.
+In fact, the oral biome contains over <!--??????--> bacteria, from over 600 different
+species, some of which still haven't been named yet<!--cite-->.
+The oral biome is complex. You just won't believe how vastly, hugely,
+mind-bogglingly complex it is. I mean, you may think quantum physics is complicated,
+but that's just peanuts to the oral biome [@adamsHitchhikersGuide2002<!--, page number!-->].
 
-<!-- dental calculus background? -->
-
-<!--
 ## Oral biofilms
 
-<!-- brief intro to oral biofilms 
+<!-- what is it? -->
+The study of biofilms represents a recent paradigm shift in microbiology
+[@costertonBacterialBiofilmsNature1987; @costertonMicrobialBiofilms1995].
+Before this, researchers believed that you could isolate bacteria of
+interest and learn about its growth, metabolism, etc. They assumed
+bacteria would behave the same way as a free-floating organism in a
+lab test tube as it would in a real-world environment (such as the human mouth).
+More recently researchers have discovered that the
+behaviour of bacteria differs when they are part of a larger community,
+compared to when they are grown in isolation.
+One such baterial community is a biofilm. Biofilms consist of multi-species
+communities of bacteria enclosed in an extracellular matrix of their
+own creation. The ability to produce this matrix gives the bacteria an
+adaptive advantage. It provides them with resistance to both antimicrobials
+(such as antibiotics) and
+immune responses from the host, that would normally affect their
+ability to survive [@marshDentalPlaque2005, @marshPhysiologicalApproaches1997].
+Its viscoelastic nature provides some protection against mechanical
+destruction and dislodgement [@petersonViscoelasticityBiofilms2015].
+It also allows them to acquire nutrients from outside the biofilm,
+as well as generate and distribute nutrients within the biofilm to
+different species of bacteria [@flemmingBiofilmsEmergent2016].
 
+### Dental plaque
+
+Dental calculus forms from a specific oral biofilm known as dental plaque.
+After we clean our teeth, our saliva coats the surface (enamel) of our teeth
+with a layer of proteins known as the dental pellicle
+(or acquired enamel pellicle).
+The pellicle is a film that protects our teeth from both mechanical wear and chemical
+decay. 
+<!-- stage 1 -->
+It also contains adhesins that allow certain bacteria to attach to the film.
+These bacteria are known as early coloniser bacteria (or pioneer colonisers), and
+include *Streptococcus* spp., *Actinomyces* spp., and *Haemophilus* spp
+[@zijngeBiofilmArchitecture2010, @uzelMicrobialShifts2011].
+The initial attachment occurs when the random movement of bacteria and the flow
+of saliva brings them close enough to the pellicle to attach.
+As bacteria approach the pellicle-coated surface of a tooth, there are both
+attractive and repulsive forces at work. This is because both the bacteria and
+pellicle proteins have a negative charge, like putting together the wrong ends
+of two magnets. Depending on the distance from the bacteria to the surface, there
+will be an attractive (van der Waals) or repulsive (electrostatic energy) forces,
+leading to a game of 'will-they-won't-they'
+between the bacteria and pellicle. If the bacteria come too close to the surface,
+the initial attraction (primary maximum) will most likely be overcome by the
+repulsion (primary maximum). Bacteria are more likely to attach when they encounter
+attractive forces at a further distance (secondary minimum).
+Bacteria may also attach directly to the surface of the pellicle with hair-like
+structures (fimbriae) that are present on the surface of some bacteria. These
+hair-like structures attach to matching receptors that are present in the pellicle.
+
+These receptors are often carbohydrates formed by
+the host, meaning us. Early colonisers are also able to attach to proteins and
+enzymes present in saliva, as well as the surface of other early colonisers
+[@nikitkovaStarchBiofilms2013, @jinSupragingivalCalculus2002].
+
+While some bacteria specialise in attaching to surfaces, not all of them have this
+ability. However, once the specialists have attached, they allow other bacteria
+(secondary colonisers) to attach to them (coadhesion). This can occur on a large scale,
+allowing the number
+and types of bacteria on the tooth surface to grow (co-aggregation) [@jinSupragingivalCalculus2002; @marshDentalPlaque2006].
+
+The early attractive forces are weak, and attachment is initially reversible,
+as bacteria can become detached by salivary flow, shearing action by the tongue.
+
+Firm attachment occurs when...
+
+<!-- stage 2 -->
+
+
+<!-- stage 3 -->
+
+<!-- stage 4 -->
+
+<!-- oral biofilm models before plaque? -->
+
+
+<!--### Dental calculus? -->
+
+#### Bacterial competition
+
+Bacteria can produce compounds that inhibit the growth of other bacteria.
+Production of acids can reduce the pH of biofilms and inhibit pH sensitive
+bacteria. Other bacteria can produce compounds that are toxic to yet other
+bacteria (e.g. \(H_2O_2\) and bacteriocins).
+
+### Saliva
+
+Saliva is hugely important to the ‘normal’ functioning of the oral biome,
+and as such has a large role in the formation of dental calculus. Saliva
+is a biofilm(?) comprised of around 99% water; however, the remaining 1%
+consists of proteins, enzymes, …., which provides it with a wide variety of
+functions (cite).
 
 ## Oral biofilm models
 
-<!-- brief intro to types of biofilm models -->
+<!-- what is it -->
+
+<!-- what are the different types -->
+
+
+## Dental calculus?
+
+<!--
+	Dental calculus
+	Formation
+		Process of formation and mineralisation
+		Aetiology
+	Composition
+		Organic
+		Inorganic
+	Diet
+		Effect of diet
+		Effect on diet
+
+Dental calculus (move to top?)
+  - mineralisation of biofilms
+  - calculus as a (trap) for all kinds of particles
+  - archaeological applications
+-->
+
+## Starch?
