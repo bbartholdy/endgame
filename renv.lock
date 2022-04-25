@@ -51,14 +51,6 @@
       "Hash": "45f0398006e83a5b10b72a90663d8d8c",
       "Requirements": []
     },
-    "Rcpp": {
-      "Package": "Rcpp",
-      "Version": "1.0.8",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "22b546dd7e337f6c0c58a39983a496bc",
-      "Requirements": []
-    },
     "askpass": {
       "Package": "askpass",
       "Version": "1.1",
@@ -239,14 +231,6 @@
       "Hash": "bb4341986bc8b914f0f0acf2e4a3f2f7",
       "Requirements": []
     },
-    "commonmark": {
-      "Package": "commonmark",
-      "Version": "1.7",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "0f22be39ec1d141fd03683c06f3a6e67",
-      "Requirements": []
-    },
     "cpp11": {
       "Package": "cpp11",
       "Version": "0.4.2",
@@ -420,17 +404,6 @@
       "Repository": "CRAN",
       "Hash": "77bd60a6157420d4ffa93b27cf6a58b8",
       "Requirements": []
-    },
-    "fontawesome": {
-      "Package": "fontawesome",
-      "Version": "0.2.2",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "55624ed409e46c5f358b2c060be87f67",
-      "Requirements": [
-        "htmltools",
-        "rlang"
-      ]
     },
     "forcats": {
       "Package": "forcats",
@@ -624,19 +597,6 @@
         "rlang"
       ]
     },
-    "httpuv": {
-      "Package": "httpuv",
-      "Version": "1.6.5",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "97fe71f0a4a1c9890e6c2128afa04bc0",
-      "Requirements": [
-        "R6",
-        "Rcpp",
-        "later",
-        "promises"
-      ]
-    },
     "httr": {
       "Package": "httr",
       "Version": "1.4.2",
@@ -702,29 +662,6 @@
         "yaml"
       ]
     },
-    "koRpus": {
-      "Package": "koRpus",
-      "Version": "0.13-8",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "ca7f1c23a900deface718333b652824f",
-      "Requirements": [
-        "Matrix",
-        "data.table",
-        "sylly"
-      ]
-    },
-    "koRpus.lang.en": {
-      "Package": "koRpus.lang.en",
-      "Version": "0.1-4",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "911ceaaa2facebe24eb246663bb5165b",
-      "Requirements": [
-        "koRpus",
-        "sylly.en"
-      ]
-    },
     "labeling": {
       "Package": "labeling",
       "Version": "0.4.2",
@@ -732,17 +669,6 @@
       "Repository": "CRAN",
       "Hash": "3d5108641f47470611a32d0bdf357a72",
       "Requirements": []
-    },
-    "later": {
-      "Package": "later",
-      "Version": "1.3.0",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "7e7b457d7766bc47f2a5f21cc2984f8e",
-      "Requirements": [
-        "Rcpp",
-        "rlang"
-      ]
     },
     "lattice": {
       "Package": "lattice",
@@ -811,17 +737,6 @@
       "Repository": "CRAN",
       "Hash": "18e9c28c1d3ca1560ce30658b22ce104",
       "Requirements": []
-    },
-    "miniUI": {
-      "Package": "miniUI",
-      "Version": "0.1.1.1",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "fec5f52652d60615fdb3957b3d74324a",
-      "Requirements": [
-        "htmltools",
-        "shiny"
-      ]
     },
     "modelr": {
       "Package": "modelr",
@@ -926,20 +841,6 @@
         "crayon",
         "hms",
         "prettyunits"
-      ]
-    },
-    "promises": {
-      "Package": "promises",
-      "Version": "1.2.0.1",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "4ab2c43adb4d4699cf3690acd378d75d",
-      "Requirements": [
-        "R6",
-        "Rcpp",
-        "later",
-        "magrittr",
-        "rlang"
       ]
     },
     "ps": {
@@ -1147,43 +1048,6 @@
         "stringr"
       ]
     },
-    "shiny": {
-      "Package": "shiny",
-      "Version": "1.7.1",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "00344c227c7bd0ab5d78052c5d736c44",
-      "Requirements": [
-        "R6",
-        "bslib",
-        "cachem",
-        "commonmark",
-        "crayon",
-        "ellipsis",
-        "fastmap",
-        "fontawesome",
-        "glue",
-        "htmltools",
-        "httpuv",
-        "jsonlite",
-        "later",
-        "lifecycle",
-        "mime",
-        "promises",
-        "rlang",
-        "sourcetools",
-        "withr",
-        "xtable"
-      ]
-    },
-    "sourcetools": {
-      "Package": "sourcetools",
-      "Version": "0.1.7",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "947e4e02a79effa5d512473e10f41797",
-      "Requirements": []
-    },
     "stringi": {
       "Package": "stringi",
       "Version": "1.7.6",
@@ -1202,24 +1066,6 @@
         "glue",
         "magrittr",
         "stringi"
-      ]
-    },
-    "sylly": {
-      "Package": "sylly",
-      "Version": "0.1-6",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "ad4955c417c7b109a409898e50b8a02c",
-      "Requirements": []
-    },
-    "sylly.en": {
-      "Package": "sylly.en",
-      "Version": "0.1-3",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "f1209ba13858a8da5712764e8613dc22",
-      "Requirements": [
-        "sylly"
       ]
     },
     "sys": {
@@ -1406,31 +1252,6 @@
       "Hash": "a376b424c4817cda4920bbbeb3364e85",
       "Requirements": []
     },
-    "wordcountaddin": {
-      "Package": "wordcountaddin",
-      "Version": "0.3.0.9000",
-      "Source": "GitHub",
-      "RemoteType": "github",
-      "RemoteHost": "api.github.com",
-      "RemoteRepo": "wordcountaddin",
-      "RemoteUsername": "benmarwick",
-      "RemoteRef": "HEAD",
-      "RemoteSha": "4abfe5dee267e200abff5717b91acae008d8d757",
-      "Hash": "4347adc78ae8f5af986cd6d359ae7325",
-      "Requirements": [
-        "fs",
-        "knitr",
-        "koRpus",
-        "koRpus.lang.en",
-        "miniUI",
-        "purrr",
-        "rstudioapi",
-        "shiny",
-        "stringi",
-        "sylly",
-        "sylly.en"
-      ]
-    },
     "xfun": {
       "Package": "xfun",
       "Version": "0.30",
@@ -1445,14 +1266,6 @@
       "Source": "Repository",
       "Repository": "CRAN",
       "Hash": "40682ed6a969ea5abfd351eb67833adc",
-      "Requirements": []
-    },
-    "xtable": {
-      "Package": "xtable",
-      "Version": "1.8-4",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "b8acdf8af494d9ec19ccb2481a9b11c2",
       "Requirements": []
     },
     "yaml": {

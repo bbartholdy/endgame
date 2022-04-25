@@ -2,16 +2,16 @@ bookdown::bs4_book:
   #css: bs4_style.css
   includes:
     in_header: partials/analytics.html
-  pandoc_args:
-    - --lua-filter=section-refs.lua # possible section bibliography solution
-  keep_md: yes
+  # pandoc_args:
+  #   - --lua-filter=section-refs.lua # possible section bibliography solution
+  # keep_md: yes
   theme:
     primary: "#782386"
     secondary: "#d1295a"
   split_bib: yes # per-chapter bibliography
-  repo:
-    base: https://github.com/bbartholdy/endgame
-    branch: main
+  # repo:
+  #   base: https://github.com/bbartholdy/endgame
+  #   branch: main
 # bookdown::gitbook:
 #   css: css/style.css
 #   config:
