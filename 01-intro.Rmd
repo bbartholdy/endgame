@@ -1,21 +1,30 @@
 # Introduction {#intro}
 
+<!-- Putting the study of dental calculus in context -->
+
 `r if (knitr:::is_html_output()) '
 <!-- chapter status badge -->
 ![](https://img.shields.io/badge/Status-writing-yellow) ![Current version](https://img.shields.io/badge/Version-draft-blue)  
 '`
 
+```{r}
+#| setup
+#| include: false
+
+library(here)
+source(here("scripts/wos_papers.R"))
+```
+
 <!-- The dissertation will be made widely available, so I want it to be as accessible as possible.
 This is why the writing won't be particularly "academic" [**highly exagerated airquotes**]. That 
 boring stuff is reserved for the articles -->
 
-<!-- Putting the study of dental calculus in context -->
-
 Dental calculus is becoming a popular substance in archaeological research. You
-may also know it as tartar or mineralised plaque. In other languages it is often
-a related to "tooth stones". In fact, calculus is itself latin for 'pebble'. This
-was orginially used as a term for mathematical calculations using counting stones,
-and only later used to describe calicifications in the human body<!--cite?-->.
+may also know it as tartar or mineralised plaque. In other languages the word is
+often related to "tooth stones". In fact, calculus is itself latin for 'pebble'.
+This was orginially used as a term for mathematical calculations using counting
+stones, and only later used to describe calicifications in the human body
+(https://www.etymonline.com/word/calculus).
 Dental calculus is formed from dental plaque, which consists mainly of bacteria and
 a surrounding structure called the extracellular matrix (more details in Chapter 2).
 When the local environment within and around the plaque reaches a favourable alkaline
@@ -46,11 +55,11 @@ you (or your dentist)<!--cite-->. Dental plaque can trap a variety of different
 microparticles, including bacteria, human proteins, and small debris from the food
 we eat [@akcaliDentalCalculus2018]. When the plaque mineralises and becomes dental
 calculus, it can preserve these microparticles over long periods of time, even after
-the person whose teeth provided the home for the calculus has died. This is why
-archaeologists have become increasingly interested in dental calculus.
-
-Hydroxyapatite strongly binds DNA. Calculus is richest source os aDNA on
-skeletal remains (Warinner: a new era in palaeomicrobiology)
+the person whose teeth provided a home for the calculus has died.
+Also, the main crystal forms in calculus strongly bind DNA, making
+calculus a fantastic source of ancient DNA (aDNA) from the mouth [@warinnerNewEra2015].
+This is probably why archaeologists have become increasingly interested in dental
+calculus.
 
 ## Dental calculus in archaeology {#intro-arch}
 
@@ -69,8 +78,14 @@ to a common clinical scoring sytem [@greeneSimplifiedOral1964],
 and is still widely used today. More detailed
 methods are also available [@dobneyMethodEvaluating1987; @greeneQuantifyingCalculus2005]
 
+```{r}
+#| echo: false
+
+titles_plot + bioarch_title_wordcloud / dental_title_wordcloud
+```
+
 One of the most common uses of dental calculus is to try and recreate the diet
-of past people and populations<!--refer to wordcloud-->. One of the ways to do this is by dissolving the
+of past people and populations<!--refer to wordcloud-->. One of the ways to do this is dissolving the
 calculus in a weak acid and identifying (microscopic) fragments of plants that
 were trapped within the calculus.
 As far as I can tell, the first attempt at this was the extraction of phytoliths
@@ -79,12 +94,12 @@ As far as I can tell, the first attempt at this was the extraction of phytoliths
 This was a somewhat isolated use-case, and it didn't really catch on until the 1990s
 [@ciochonOpalPhytoliths1990; Middleton 1990, in @middletonOpalPhytoliths1994].
 The first extractions from human teeth followed shortly [@foxPhytolithCalculus1996],
-and it is now one of the most common uses of dental calculus in archaeology.
-There are studies using plant microremains (especially starch granules and phytoliths)
+and there are now studies using plant microremains
+(especially starch granules and phytoliths)
 from dental calculus to infer diet in past peoples from across the world,
 including Rapa Nui [@dudgeonDietGeography2014], China [@chenStarchGrains2021],
 Europe [@fiorinCombiningDental2021], and more
-[@buckleyDentalCalculus2014; @henryCalculusSyria2008; mickleburghNewInsights2012].
+[@buckleyDentalCalculus2014; @henryCalculusSyria2008; @mickleburghNewInsights2012].
 The durable nature of dental calculus also means that microremains within it can survive
 for millenea, allowing us to look at the diets of early humans and other hominins
 [@pipernoStarchGrains2008; @henryCalculusSyria2008; @chenStarchGrains2021; @henryNeanderthalCalculus2014; @henryDietAustralopithecus2012; @buckleyDentalCalculus2014; @hardyNeanderthalMedics2012; @hardyStarchGranulesDental2009].
@@ -179,9 +194,8 @@ in a cavity (or caries). Dental caries are unequivocally considered a dental dis
 If, instead, the biofilm calcifies, dental calculus is the result. Its status in oral
 health is questionable.
 
-Dental calculus
-is not known to be painful, nor does it affect the ability to perform the functions listed
-above. This means it's neither an oral disease, nor condition, right?
+Dental calculus is not known to be painful, nor does it affect the ability to perform
+the functions listed above. This means it's neither an oral disease, nor condition, right?
 Well, with continued accumulation, it may affect the confidence of the person
 performing these tasks [@collinsHomelessDental2007], and in extreme cases it can affect
 function [@balajiUnusualPresentation2019]. Most of the virulence and disease-causing
@@ -236,21 +250,19 @@ debris and bacteria [@whiteBoneManual2005, @whiteHumanOsteology2011]. They're no
 More detailed descriptions can usually be found in paleopathology textbooks.
 A section on dental calculus will usually be included within a chapter on
 dental diseases [e.g. @robertsDentalDisease2007; @waldronPalaeopathology2020],
-but will be completely eclipsed
-by its more famous sibling, dental caries<!--despite both originating from dental plaque-->.
+but will be completely eclipsed by its more famous sibling, dental caries.
 In some cases, dental calculus may even be hidden within a section on periodontal
-disease or plaque [e.g. @ortnerIdentificationPathological2003; @aufderheidePaleopathology1998].
+disease or plaque
+[e.g. @ortnerIdentificationPathological2003; @aufderheidePaleopathology1998].
 The focus of these (sub)sections is varied, with some simply describing what it is,
 and others giving
 brief discussion on the relationship between calculus and periodontal disease.
-A more detailed section was dedicated to dental calculus in the most recent
-edition of *Ortner's Identification
+A more detailed section was dedicated to dental calculus in *Ortner's Identification
 of Pathological Conditions in Human Skeletal Remains*, with a detailed description
 of formation, structure, and application in (biomolecular) archaeology
 [@kinastonOrtnerDentition2019], which
 extends well beyond any (paleo)pathological significance of dental calculus.
-Don't get me wrong, I think it's awesome that it was afforded so much attention;
-and much of the credit (I'm assuming) goes to Dr. Monica Tromp for this section.
+Don't get me wrong, I think it's awesome that it was afforded so much attention.
 With the exception of the last example, can we fault the authors/editors for not
 giving it more attention? After all, it's not a dental disease, and its relationship
 with periodontal disease is unclear. It's clear that it has implications for oral
@@ -312,20 +324,34 @@ the most common appearance of dental calculus here is in journal articles. This 
 that there will be a short paragraph on dental calculus formation (and sometimes
 composition) in the introduction section. These will often be as long, if not longer,
 than the sections in textbooks devoted to dental calculus
-[@velskoMicrobialDifferences2019].
-
-The focus of these paragraphs are generally the same. They describe the formation
-and mineral composition of dental calculus, and provide some examples of how
-dental calculus has been used in related studies (not unlike what I have done here).
+[@velskoMicrobialDifferences2019]. The focus of these paragraphs are generally the same.
+They describe the formation and mineral composition of dental calculus, and provide some
+examples of how dental calculus has been used in related studies (not unlike what I have
+done here).
 
 Let's summarise: Bioarchaeologists are interested in how dental calculus relates
 to dental and general health; paleodietary researchers are interested in the food
-remains that are trapped inside; paleogeneticists are interested in accessing the
-oral microbiome...
-
+remains that are trapped inside; and paleogeneticists are interested in accessing the
+oral bacteria that have been fossilised inside.
 This lack of study specifically devoted to dental calculus as a substance, rather
 than a means to an end, leaves a lot of questions regarding the expected behaviour
 of the information extracted from dental calculus.
+
+Some studies have also explored how various dietary components can either promote or
+prevent the growth of dental calculus; overall it's still pretty unclear, though.
+High-protein diets are linked to an increase of urea, which is linked to an increase
+in oral pH, which is linked to mineral deposition
+[@wongCalciumPhosphate2002; @dibdinOralUrea1998]. BUT, protein may also inhibit
+crystalisation [@hidakaDietCalculus2007].
+Starch consumption has been linked to increased rates of caries in early farming
+populations<!--citations - paleopathology at the origins of agriculture-->. This is
+consistent with *in vitro* testing, at least for starches high in amylose content<!--examples-->.
+So a high-starch diet causes caries, not calculus, right? Well, starches with a high
+amylopectin content are linked to increased calcification [@hidakaDietCalculus2007].
+It likely depends on what is consumed along with the starch [@hidakaStarchRole2008].
+There is also some (*in vitro*) evidence to suggest that silica may promote dental calculus
+formation by promoting mineral precipitation, i.e. the transfer of minerals from
+saliva to the biofilm [@damenSilicicAcid1989].
 
 <!--As an ectopic growth, some may have considered it 'exempt' from ethical considerations,
 and an easy target for destructive analyses. However, the bulk of the bacteria are
@@ -347,23 +373,47 @@ So, it's not a great way to study the diet of a single person, but generally sui
 to study patterns in the diet of a population. The more people you study, the more
 likely you are to gain a complete picture of the diet in a population; just like the
 more monkeys with typewriters you have, the more likely they are to reproduce
-Shakespeare.
+Shakespeare. This is not meant to be discouraging. The fact that we can still see
+(in some cases, literally) remains that were consumed thousands of years ago is
+pretty cool. We just need a better understanding of why the record of diet from
+dental calculus differs from the actual intake of food. This will allow us to make
+more robust interpretations about past dietary practices.
+Something that may influence the dietary record that we get from calculus is the
+method we use to extract the dietary remains from calculus, i.e. sampling.
+Our understanding of dental calculus sampling is improving, with studies looking
+at the effect of various acids used to dissolve calculus (commonly EDTA or HCl)
+[@trompEDTACalculus2017; @bucchiComparisonsMethods2019; sotoStructuralCharacterization2019].
+As well how the choice of tooth may affect our results [@fagernasMicrobialBiogeography2021].
 
-Our understanding of dental calculus sampling is improving
-[@trompEDTACalculus2017; @fagernasMicrobialBiogeography2021; @bucchiComparisonsMethods2019],
-but we need more methodological validation<!--why?-->.
-
-These studies provide valuable insight to the representation of dental calculus
-in reconstructions of diet. The only issue is the inability to control factors
+These studies provide valuable insights into potential biases of our sampling methods
+and the representation of diet within dental calculus, with a minor caveat.
+Most of these studies have been conducted on living primates or archaeological
+remains. An issue with using living (or once living) organisms is the inability
+to control factors
 related to the variability between subjects; basically, studying humans is messy
-and complicated. A method of study that offers more control, is the growth of
+and complicated because we are all quite unique. It's a lovely sentiment but it
+can make for some messy science. Not bad science (not at all!), just messy.
+A method of study that offers more control, is the growth of
 plaque and calculus in a lab. This allows us to control many of the things that
-we are difficult to control in humans, such as the bacteria that colonise our mouth
-(each person has a pretty unique ... of bacteria); our genetics (again, each person is
-pretty unique); oral enzyme activity, which fluctuates throughout the day; and the number
-of microremains that enter our mouth, dietary or otherwise.
+we are difficult to control in humans, such as the bacteria that colonise our mouth,
+where each person has a pretty unique makeup of bacteria. We also have a very unique
+genome (with the exception of identical twins) that plays a role in how quickly we form
+calculus in our mouth (if at all). Certain enzymes start digesting our food before as
+soon as it enters our mouth, and the activity of these
+enzymes fluctuate throughout the day <!--in response to meals, stress, others-->
+within people (let alone between people).
+Finally, the number of microremains that enter our mouth over days, weeks, months,
+can be very different between people, even with the same diet.
+All these things can muddy the results of research on living subjects, where a
+lab-grown approach can help tease out the pesky confounding factors.
+I don't believe research conducted on lab-grown biofilms can in any way replace
+studies with modern or archaeological individuals, nor should they. But it can
+complement these studies by zooming in on certain aspects that are too difficult to
+isolate in (once-)living people.
 
-Often we can draw from clinical studies, as there are common goals, e.g. discovering
+Who, then, should research the fundamental aspects of dental calculus that will
+help us interpret what we see in archaeological dental calculus?
+Often we can draw from clinical studies as there are common goals, e.g. discovering
 the aetiology and/or presentation of a disease. However, the motivation driving the
 studies in archaeology and dental research are inherently different<!--insert ref to wordclouds-->; although there is certainly overlap in some areas.
 While clinical
@@ -382,47 +432,21 @@ Dental calculus has also become less of a problem with the use of modern dental 
 practices and regular visits to the dentist [@velskoMicrobialDifferences2019].
 
 <!--relocate-->
-Some studies have also explored how various dietary components can either promote or
-prevent the growth of dental calculus; overall it's still pretty unclear, though.
-High-protein diets are linked to an increase of urea, which is linked to an increase
-in oral pH, which is linked to mineral deposition
-[@wongCalciumPhosphate2002; dibdinOralUrea1998]. BUT, protein may also inhibit
-crystalisation [@hidakaDietCalculus2007].
-Starch consumption has been linked to increased rates of caries in early farming
-populations<!--citations - paleopathology at the origins of agriculture-->. This is
-consistent with *in vitro* testing, at least for starches high in amylose content<!--examples-->.
-So a high-starch diet causes caries, not calculus, right? Well, starches with a high
-amylopectin content are linked to increased calcification [@hidakaDietCalculus2007].
-It likely depends on what is consumed along with the starch [@hidakaStarchRole2008].
-There is also some (*in vitro*) evidence to suggest that silica may promote dental calculus
-formation by promoting mineral precipitation, i.e. the transfer of minerals from
-saliva to the biofilm [@damenSilicicAcid1989].
-
 So archaeologists view it as a treasure trove of information from the past, where
 the larger the deposit, the better. Clinial dentistry views it as a nuisance to be
 removed and, ideally, prevented from forming in the first place.
 
-While efforts are being made to understand the information that
-can be extracted from dental calculus, little is being done to
-understand the effect of various factors on the growth, and the
-biases that accompany the analytical methods.
-
-A fundamental level of experimentation.
-
-Using oral biofilm models to grow dental calculus is in no way a novel
+We just need a more systematic approach to teaching and
+studying dental calculus. This disseration is a contribution to a
+dental-calculus-centric area of research, by ... on a mineralised oral biofilm
+model. Using oral biofilm models to grow dental calculus is in no way a novel
 concept. In fact, it has been applied for decades
-[@fehrVitroCalculus1960; @middletonVitroCalculus1965].
+[@fehrVitroCalculus1960; @middletonVitroCalculus1965; @sissonsMultistationPlaque1991].
 
 The choice of the type of oral biofilm model used in this dissertation...
 
 Many different kinds of biofilm models, single species, multispecies (select species). Multispecies biofilm inoculated with whole saliva, while most difficult to control, is most realistic model. Collaboration between the bacteria facilitates growth: e.g. S. mutans, which produces lactic acid, and V. parvula, which consumes it. There are additional examples of this cooperation indicating the benefit of oral bacteria growing in densely populated community biofilms.
 <!-- move to chapter 2? -->
-
-Who, then, should research the fundamental aspects of dental calculus that will
-help us interpret what we see in archaeological dental calculus? The answer is,
-probably archaeologists. We just need a more systematic approach to teaching and
-studying dental calculus. This disseration is a contribution to a dental-calculus-centric
-area of research.
 
 ## Thesis outline and structure
 <!--Move to a Preface chapter?-->

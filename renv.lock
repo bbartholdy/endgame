@@ -51,6 +51,14 @@
       "Hash": "45f0398006e83a5b10b72a90663d8d8c",
       "Requirements": []
     },
+    "Rcpp": {
+      "Package": "Rcpp",
+      "Version": "1.0.8",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "22b546dd7e337f6c0c58a39983a496bc",
+      "Requirements": []
+    },
     "askpass": {
       "Package": "askpass",
       "Version": "1.1",
@@ -471,6 +479,20 @@
         "withr"
       ]
     },
+    "ggwordcloud": {
+      "Package": "ggwordcloud",
+      "Version": "0.5.0",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "5a8990f2674c53377591a618de93e4bb",
+      "Requirements": [
+        "Rcpp",
+        "colorspace",
+        "ggplot2",
+        "png",
+        "scales"
+      ]
+    },
     "glue": {
       "Package": "glue",
       "Version": "1.6.2",
@@ -785,6 +807,17 @@
         "askpass"
       ]
     },
+    "patchwork": {
+      "Package": "patchwork",
+      "Version": "1.1.1",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "c446b30cb33ec125ff02588b60660ccb",
+      "Requirements": [
+        "ggplot2",
+        "gtable"
+      ]
+    },
     "pillar": {
       "Package": "pillar",
       "Version": "1.7.0",
@@ -809,6 +842,14 @@
       "Source": "Repository",
       "Repository": "CRAN",
       "Hash": "01f28d4278f15c76cddbea05899c5d6f",
+      "Requirements": []
+    },
+    "png": {
+      "Package": "png",
+      "Version": "0.1-7",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "03b7076c234cb3331288919983326c55",
       "Requirements": []
     },
     "prettyunits": {
@@ -869,6 +910,28 @@
       "Repository": "CRAN",
       "Hash": "5e3c5dc0b071b21fa128676560dbe94d",
       "Requirements": []
+    },
+    "rbbt": {
+      "Package": "rbbt",
+      "Version": "0.0.0.9000",
+      "Source": "GitHub",
+      "RemoteType": "github",
+      "RemoteHost": "api.github.com",
+      "RemoteUsername": "paleolimbot",
+      "RemoteRepo": "rbbt",
+      "RemoteRef": "master",
+      "RemoteSha": "7c76fcca8ff29e4554910e631bfe24ffe5aac2de",
+      "Hash": "99f05f0fac45c3e3ccab462e03057a7b",
+      "Requirements": [
+        "clipr",
+        "fs",
+        "httr",
+        "knitr",
+        "readr",
+        "rmarkdown",
+        "rstudioapi",
+        "stringr"
+      ]
     },
     "readr": {
       "Package": "readr",

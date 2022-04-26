@@ -2,11 +2,11 @@
 
 `r if (knitr:::is_html_output()) '
 <!-- chapter status badge -->
-![](https://img.shields.io/badge/Status-writing-yellow) ![Current version](https://img.shields.io/badge/Version-draft-blue) 
+![Current status](https://img.shields.io/badge/Status-writing-yellow) ![Current version](https://img.shields.io/badge/Version-draft-blue)
 '`
 
 The human mouth, or oral cavity, contains many different types of surfaces
-available for bacterial to attach and grow.
+available for bacteria to attach and grow.
 These surfaces are both hard (teeth) and soft (mucosa, tongue, gingiva), and are exposed to
 the external environment. The conditions within the oral cavity can also vary considerably,
 causing a unique range of habitats for a wide variety of microbes.
