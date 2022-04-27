@@ -27,22 +27,22 @@ jobs:
         with:
           use-public-rspm: true
           
-      - uses: r-lib/actions/setup-r-dependencies@v2
-        with:
-          needs: book
+      # - uses: r-lib/actions/setup-r-dependencies@v2
+      #   with:
+      #     needs: book
 
       - uses: r-lib/actions/setup-renv@v1
 
-      - name: Cache bookdown results
-        uses: actions/cache@v2
-        with:
-          path: _bookdown_files
-          key: bookdown-${{ hashFiles('**/*Rmd') }}
-          restore-keys: bookdown-
+      # - name: Cache bookdown results
+      #   uses: actions/cache@v2
+      #   with:
+      #     path: _bookdown_files
+      #     key: bookdown-${{ hashFiles('**/*Rmd') }}
+      #     restore-keys: bookdown-
 
-      - name: Build site
-        run: bookdown::render_book("index.Rmd", quiet = TRUE)
-        shell: Rscript {0}
+      # - name: Build site
+      #   run: bookdown::render_book("index.Rmd", quiet = TRUE)
+      #   shell: Rscript {0}
 
       - name: Build Quarto site
         run: |
