@@ -24,7 +24,10 @@ book:
     - index.qmd
     - 01-intro.qmd
     - 02-background.qmd
+    - 03-article.Rmd
     - 04-article.Rmd
+    - 05-article.Rmd
+    - 06-discussion.Rmd
 
 ### FROM _bookdown.yml ###
 # new_session: true

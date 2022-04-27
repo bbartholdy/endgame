@@ -4,7 +4,7 @@ on:
   push:
     branches: main
 
-name: bookdown
+name: build
 
 jobs:
   build-book:
