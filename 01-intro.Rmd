@@ -82,10 +82,12 @@ to a common clinical scoring sytem [@greeneSimplifiedOral1964],
 and is still widely used today. More detailed
 methods are also available [@dobneyMethodEvaluating1987; @greeneQuantifyingCalculus2005]
 
-```{r plot-and-wordclouds}
+```{r}
 #| label: plot-and-wordclouds
+#| fig-cap: "Plot of articles with the term 'dental calculus' in the title."
 
-titles_plot + bioarch_title_wordcloud / dental_title_wordcloud
+titles_plot + bioarch_title_wordcloud / dental_title_wordcloud + 
+  plot_annotation(tag_levels = "A")
 ```
 
 One of the most common uses of dental calculus is to try and recreate the diet

@@ -189,7 +189,9 @@ titles_plot <- wos_records_comb %>%
   geom_line(alpha = 0.8) +
   line_theme +
   theme_minimal() +
-  theme(legend.position = "bottom")
+  theme(legend.position = "bottom", 
+        legend.title = element_blank(),
+        panel.grid.minor.x = element_blank())
   
 # dental_keywords %>%
 #   slice_head(n = 10) %>%
