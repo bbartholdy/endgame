@@ -1,10 +1,6 @@
 # Discussion
 
-`r if (knitr:::is_html_output()) '
-<!-- chapter status badge -->
-![Chapter Status](https://img.shields.io/badge/Status-none-grey)  
-![Current version](https://img.shields.io/badge/Version-draft-blue)
-'`
+`r if (knitr:::is_html_output()) ' {{< var discussion.status >}} {{< var discussion.version >}}'`
 
 A chapter to discuss the limitations and potential of the biofilm model in
 archaeological research.

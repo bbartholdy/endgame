@@ -1,0 +1,3 @@
+# Article 3 
+
+`r if (knitr:::is_html_output()) ' {{< var article3.status >}} {{< var article3.version >}} '`

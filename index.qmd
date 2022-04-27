@@ -16,6 +16,17 @@ visitors. No other information is recorded.
 
 `r if (!knitr:::is_html_output()) '-->'`
 
+```{r}
+#| label: bib-setup
+#| include: false
+
+#library(here)
+#ref_files <- list.files(here(), pattern = "*.qmd|*.Rmd")
+#refs <- rbbt::bbt_detect_citations(ref_files)
+#bbtignore <- c("R-bookdown", "R-base")
+#rbbt::bbt_write_bib(here("book.bib"), keys = refs, ignore = bbtignore, overwrite = T, translator = "bibtex")
+```
+
 \frontmatter
 
 # Acknowledgements {-}
