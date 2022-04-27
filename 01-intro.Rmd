@@ -26,7 +26,9 @@ often related to "tooth stones". In fact, calculus is itself latin for 'pebble'.
 This was orginially used as a term for mathematical calculations using counting
 stones, and only later used to describe calicifications in the human body
 (https://www.etymonline.com/word/calculus). This can be the cause of some confusion,
-as calculus is a branch of mathematics. If you see the
+as calculus is also a branch of mathematics. If you see the the term 'calculus' in
+this disseration, you can safely assume that I'm referring to stuff that grows
+on your teeth and for which you receive lectures from your dentist.
 Dental calculus is formed from dental plaque, which consists mainly of bacteria and
 a surrounding structure called the extracellular matrix (more details in Chapter 2).
 When the local environment within and around the plaque reaches a favourable alkaline
@@ -80,16 +82,16 @@ to a common clinical scoring sytem [@greeneSimplifiedOral1964],
 and is still widely used today. More detailed
 methods are also available [@dobneyMethodEvaluating1987; @greeneQuantifyingCalculus2005]
 
-```{r}
+```{r plot-and-wordclouds}
 #| label: plot-and-wordclouds
 
 titles_plot + bioarch_title_wordcloud / dental_title_wordcloud
 ```
 
 One of the most common uses of dental calculus is to try and recreate the diet
-of past people and populations<!--refer to wordcloud-->. One of the ways to do this is dissolving the
-calculus in a weak acid and identifying (microscopic) fragments of plants that
-were trapped within the calculus.
+of past people and populations \@ref(fig:plot-and-wordclouds).
+One of the ways to do this is dissolving the calculus in a weak acid and identifying
+(microscopic) fragments of plants that were trapped within.
 As far as I can tell, the first attempt at this was the extraction of phytoliths
 (silicified plant remains) from the teeth of cows, sheep, and horses
 [@armitageExtractionIdentification1975].
@@ -147,7 +149,9 @@ explored the terms associated with a number publications on dental or oral healt
 dental calculus came up as one of them; albeit not the most common, which was
 (unsurprisingly) dental caries [@pilloudOutliningDefinition2019, Figure 1].
 More recently @yaussyCalculusSurvivorship2019 looked at how it relates to overall health
-in a population, not just oral health<!--any other studies?-->.
+in a population, not just oral health<!--any other studies?-->. They suggest that
+individuals with more calculus are more at risk than individuals with less or no
+calculus.
 
 ![Word cloud of most common dental terms in articles @pilloudOutliningDefinition2019](figures/wordcloud.png)
 
@@ -225,22 +229,21 @@ actually protect it from wearing down (although there are better options).
 
 ## The study of dental calculus {#intro-study}
 
-I think it's fair to say that dental calculus should be included in
-duscussions of pathological oral conditions, even if its role is secondary. But who's
-currently studying dental calculus as a substance in its own right? And why do we
-need to learn more about it if we're just interested in what's inside?
-Related discussions have started to take place in recent years
-[@radiniDirtyTeeth2022; @bucchiComparisonsMethods2019; @wrightAdvancingRefining2021].
-
-It seems that the researchers studying dental calculus approach it
-from a wide range of different fields and backgounds, including paleogenetics,
-paleoproteomics, paleobotany, and bioarchaeology. The paleogeneticists mine it for the
+It seems that the researchers who are studying dental calculus approach it
+from a wide range of different fields and backgounds, including genetics,
+proteomics, botany, and (bio)archaeology. The paleogeneticists mine it for the
 wealth
 of information it contains on oral health and disease in the past<!--citations-->.
 Palaeodiet researchers extract microremains and residues from food<!--citations-->
 to infer dietary practices. <!-- need more examples. dental anthropologists? paleopathologists?-->
 This leaves calculus publications and conference presentations scattered across
 multiple venues, with no clear gathering point.
+I think it's fair to say that dental calculus should be included in
+discussions of pathological oral conditions, even if its role is secondary. But who's
+currently studying dental calculus as a substance in its own right? And why do we
+need to learn more about it if we're just interested in what's inside?
+Related discussions have started to take place in recent years
+[@radiniDirtyTeeth2022; @bucchiComparisonsMethods2019; @wrightAdvancingRefining2021].
 
 <!-- number of articles mentioning dental calculus in bioarchaeology journals (WOS)
 compared to total number of journals (use percentage from Wiley web scrape of AJBA and IJO)-->
@@ -396,7 +399,7 @@ Something that may influence the dietary record that we get from calculus is the
 method we use to extract the dietary remains from calculus, i.e. sampling.
 Our understanding of dental calculus sampling is improving, with studies looking
 at the effect of various acids used to dissolve calculus (commonly EDTA or HCl)
-[@trompEDTACalculus2017; @bucchiComparisonsMethods2019; sotoStructuralCharacterization2019].
+[@trompEDTACalculus2017; @bucchiComparisonsMethods2019; @sotoStructuralCharacterization2019].
 As well how the choice of tooth may affect our results [@fagernasMicrobialBiogeography2021].
 
 These studies provide valuable insights into potential biases of our sampling methods
@@ -404,8 +407,8 @@ and the representation of diet within dental calculus, with a minor caveat.
 Most of these studies have been conducted on living primates or archaeological
 remains. An issue with using living (or once living) organisms is the inability
 to control factors
-related to the variability between subjects; basically, studying humans is messy
-and complicated because we are all quite unique. It's a lovely sentiment but it
+related to the variability between subjects. Basically, studying humans is messy
+and complicated because we're all unique. It's a lovely sentiment but it
 can make for some messy science. Not bad science (not at all!), just messy.
 A method of study that offers more control, is the growth of
 plaque and calculus in a lab. This allows us to control many of the things that
@@ -436,7 +439,7 @@ effect that the growth and development of plaque has on what we can say about di
 Further, the interest in dental calculus as a field of clinical research has been declining
 since the 2000s, which, as far as I'm aware, is when the last studies growing dental calclulus
 in a lab were conducted. We can see this by the number of clinical articles with
-the term dental calculus in the title<!--figure ?-->.
+the term dental calculus in the title (Figure \@ref(fig:plot-and-wordclouds)).
 And they certainly aren't interested in how food debris becomes trapped inside our
 calculus.
 There is more interest in preventing dental calculus from forming in the first
@@ -454,10 +457,6 @@ forming in the first place.
 This lack of study specifically devoted to dental calculus as a substance, rather
 than a means to an end, leaves a lot of questions regarding the expected behaviour
 of the information extracted from dental calculus.
-
-Who, then, should research the fundamental aspects of dental calculus that will
-help us interpret what we see in archaeological dental calculus?
-
 We need a more systematic approach to teaching and
 studying dental calculus. This disseration is a contribution to a
 dental-calculus-centric area of research. The main focus of my PhD was
