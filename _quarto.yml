@@ -24,7 +24,7 @@ book:
     - index.qmd
     - 01-intro.qmd
     - 02-background.qmd
-    - 03-article.Rmd
+    - 03-article.qmd
     - 04-article.Rmd
     - 05-article.Rmd
     - 06-discussion.Rmd
@@ -33,27 +33,6 @@ book:
 # new_session: true
 # before_chapter_script: _common.R
 # delete_merged_file: true
-# rmd_files: [
-#     "index.Rmd",
-#     "01-intro.Rmd",
-#     "02-background.Rmd",
-#     "03-article.Rmd",
-#     "04-article.Rmd",
-#     "05-article.Rmd",
-#     "06-discussion.Rmd",
-#     "07-references.Rmd",
-#     "08-backmatter.Rmd"
-#     ]
-
-### FROM _output.yml ###
-# #   config:
-# #     toc:
-# #       before: |
-# #         <li><a href="./">Dissertation Title</a></li>
-# #       after: |
-# #         <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
-# #     edit: https://github.com/bbartholdy/endgame/edit/main/%s
-# #     download: ["pdf", "epub"]
 
 format:
   html:
