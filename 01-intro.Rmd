@@ -8,7 +8,7 @@
 '`
 
 ```{r}
-#| setup
+#| label: setup
 #| include: false
 
 library(here)
@@ -19,12 +19,14 @@ source(here("scripts/wos_papers.R"))
 This is why the writing won't be particularly "academic" [**highly exagerated airquotes**]. That 
 boring stuff is reserved for the articles -->
 
-Dental calculus is becoming a popular substance in archaeological research. You
+Dental calculus is becoming a popular substance in research on the behaviour and
+biology of people in the past. You
 may also know it as tartar or mineralised plaque. In other languages the word is
 often related to "tooth stones". In fact, calculus is itself latin for 'pebble'.
 This was orginially used as a term for mathematical calculations using counting
 stones, and only later used to describe calicifications in the human body
-(https://www.etymonline.com/word/calculus).
+(https://www.etymonline.com/word/calculus). This can be the cause of some confusion,
+as calculus is a branch of mathematics. If you see the
 Dental calculus is formed from dental plaque, which consists mainly of bacteria and
 a surrounding structure called the extracellular matrix (more details in Chapter 2).
 When the local environment within and around the plaque reaches a favourable alkaline
@@ -43,10 +45,10 @@ formed dental calculus, creating multiple layers of dental calculus
 [@jepsenCalculusRemoval2011; @akcaliDentalCalculus2018].
 Dental plaque can accumulate more easily on teeth
 (and calculus), because they are a hard, non-shedding surface. Most of the surfaces
-in the mouth are covered by a layer of cells called the oral epithelium.
+in our mouth are covered by a layer of cells called the oral epithelium.
 These cells are continuously renewed as
 the new cells are formed and dead cells fall off<!--citation: probably ten cate-->.
-This continuous renewal means that it is difficult for
+This constant turnover means that it is difficult for
 bacteria to build the communities they require for producing biofilms. Enamel, the
 white substance that covers the crown of your teeth, behaves differently. It stops
 growing when the tooth has fully formed. After that, there is no renewal. This allows
@@ -79,7 +81,7 @@ and is still widely used today. More detailed
 methods are also available [@dobneyMethodEvaluating1987; @greeneQuantifyingCalculus2005]
 
 ```{r}
-#| echo: false
+#| label: plot-and-wordclouds
 
 titles_plot + bioarch_title_wordcloud / dental_title_wordcloud
 ```
@@ -137,8 +139,9 @@ calculus bangwagon. Hendy and coauthors were able to identify a number of food
 proteins in dental calculus, including cereals, plants, and milk proteins from
 different sources [@hendyProteomicCalculus2018].
 
-To a lesser extent, it has also been mentioned in relation to dental health
-[@drewettExcavationOval1975; @sagneStudiesPeriodontal1977; @zhangDentalDisease1982].
+To a lesser extent, the presence and amount of dental calculus on teeth has been used
+as an indicator of dental health
+[@drewettExcavationOval1975; @sagneStudiesPeriodontal1977; @zhangDentalDisease1982; @lieverseDentalHealth2007].
 @pilloudOutliningDefinition2019
 explored the terms associated with a number publications on dental or oral health,
 dental calculus came up as one of them; albeit not the most common, which was
@@ -156,10 +159,10 @@ areas of study within (and beyond) archaeology. Most researchers seem to
 see it as a means to the information contained within, rather than being worth studying
 in its own right (with some exceptions, of course). This can be problematic.
 Other than what we can see with our current methods, what do
-we really know about dental calculus and the biases that affect these methods
-and potentially distort our interpretations of the past?
+we really know about dental calculus and how its growth and structure affect the
+reliability of these methods and potentially distort our interpretations of the past?
 
-## What is dental calculus?
+## What is dental calculus? {#intro-what}
 
 First, we must answer a single, surprisingly difficult question: What is dental
 calculus? I'm not referring to its formation or composition, which I briefly
@@ -218,9 +221,9 @@ relationship is still under debate, with calculus likely being a secondary contr
 [@jepsenCalculusRemoval2011]. As such, we can probably limit the definition to an oral
 condition and not necessarily a dental disease [@pilloudOutliningDefinition2019].
 In fact, dental calculus is quite hard, so a layer of dental calculus on a tooth can
-actually protect it from wearing down (although I wouldn't recommend this).
+actually protect it from wearing down (although there are better options).
 
-## The study of dental calculus
+## The study of dental calculus {#intro-study}
 
 I think it's fair to say that dental calculus should be included in
 duscussions of pathological oral conditions, even if its role is secondary. But who's
@@ -243,14 +246,25 @@ multiple venues, with no clear gathering point.
 compared to total number of journals (use percentage from Wiley web scrape of AJBA and IJO)-->
 The lack of a specific field of study for dental calculus to belong may be
 related to how it's taught to students (and if it's taught at all).
-The most popular osteoarchaeology textbooks briefly mention dental calculus as
-more of a footnote than anything else. A couple of lines describing
+Textbooks from the more established fields in bioarchaeology are probably
+a good indicator of the teaching curricula, which also impacts research
+focus.
+The most popular osteoarchaeology textbooks only briefly mention dental
+calculus as more of a footnote than anything else. A couple of lines describing
 what it is (usually 'mineralised plaque') and that it can contain food
-debris and bacteria [@whiteBoneManual2005, @whiteHumanOsteology2011]. They're not wrong.
-More detailed descriptions can usually be found in paleopathology textbooks.
-A section on dental calculus will usually be included within a chapter on
-dental diseases [e.g. @robertsDentalDisease2007; @waldronPalaeopathology2020],
-but will be completely eclipsed by its more famous sibling, dental caries.
+debris and bacteria [@whiteBoneManual2005, @whiteHumanOsteology2011].
+They're not wrong.
+Diseases that are visible in the skeleton as boney reactions to the disease
+processes have a very clear home in paleopathology. No one questions whether
+or not the degradation of vertebrae (kyphosis) caused by tuberculosis should
+be included in the paleopathology textbooks (at least not as far as I'm aware).
+They even include sections on dental disease, where more detailed descriptions
+of dental calculus are usually found. But, wait! Didn't we just come to the
+conclusion that dental calculus isn't really a dental disease? Yes, but let's
+ignore that for the time-being.
+A section containing a few paragraphs on dental calculus will usually be included
+within a chapter on dental diseases [e.g. @robertsDentalDisease2007; @waldronPalaeopathology2020]. Dental caries, calculus' more famous sibling, will
+often get a few pages.
 In some cases, dental calculus may even be hidden within a section on periodontal
 disease or plaque
 [e.g. @ortnerIdentificationPathological2003; @aufderheidePaleopathology1998].
@@ -314,31 +328,31 @@ the Dental Anthropology Association's (DAA) website gives more room for interpre
 [@daaDentalAnthropology]
 (<http://www.dentalanthropology.org/>, accessed 30-Nov-2021).
 
-This description more explicitly encompasses a dietary and health perspective, which
+This description more directly addresses a dietary and health perspective, which
 certainly applies to dental calculus, as long as you consider it part of the dentition.
 It's possible we'll see dental calculus included in more detail in future textbooks,
 given how it has increased in popularity over the last decade or so.
 
 Since the use of dental calculus in biomolecular archaeology is relatively new,
-the most common appearance of dental calculus here is in journal articles. This means
-that there will be a short paragraph on dental calculus formation (and sometimes
-composition) in the introduction section. These will often be as long, if not longer,
-than the sections in textbooks devoted to dental calculus
+there are fewer available textbooks, and it rarely has a dedicated course.
+The most common place to find descriptions of dental calculus is, therefore,
+journal articles. There will be a short paragraph on dental calculus formation (and sometimes
+composition) in the introduction section. These are quite variable and are often limited
+by the word count of the journal. Despite this, the descriptions will often be as long,
+if not longer, than the sections in textbooks devoted to dental calculus
 [@velskoMicrobialDifferences2019]. The focus of these paragraphs are generally the same.
 They describe the formation and mineral composition of dental calculus, and provide some
-examples of how dental calculus has been used in related studies (not unlike what I have
-done here).
+examples of how dental calculus has been used in related studies (not unlike the beginning
+of this chapter).
 
-Let's summarise: Bioarchaeologists are interested in how dental calculus relates
-to dental and general health; paleodietary researchers are interested in the food
-remains that are trapped inside; and paleogeneticists are interested in accessing the
-oral bacteria that have been fossilised inside.
-This lack of study specifically devoted to dental calculus as a substance, rather
-than a means to an end, leaves a lot of questions regarding the expected behaviour
-of the information extracted from dental calculus.
-
-Some studies have also explored how various dietary components can either promote or
-prevent the growth of dental calculus; overall it's still pretty unclear, though.
+## What do we know?
+<!--relocate-->
+Some interpretations from previous studies on archaeological dental calculus were
+getting a little too confident in dietary interpretations from the presence of
+dental calculus, prompting a great review article aimed at (bio)archaeologists.
+The review covered how various dietary components can either promote or
+prevent the growth of dental calculus. The conclusion: overall it's still pretty unclear
+[@lieverseDietAetiology1999].
 High-protein diets are linked to an increase of urea, which is linked to an increase
 in oral pH, which is linked to mineral deposition
 [@wongCalciumPhosphate2002; @dibdinOralUrea1998]. BUT, protein may also inhibit
@@ -411,11 +425,10 @@ studies with modern or archaeological individuals, nor should they. But it can
 complement these studies by zooming in on certain aspects that are too difficult to
 isolate in (once-)living people.
 
-Who, then, should research the fundamental aspects of dental calculus that will
-help us interpret what we see in archaeological dental calculus?
 Often we can draw from clinical studies as there are common goals, e.g. discovering
 the aetiology and/or presentation of a disease. However, the motivation driving the
-studies in archaeology and dental research are inherently different<!--insert ref to wordclouds-->; although there is certainly overlap in some areas.
+studies in archaeology and dental research are inherently different; although,
+there is certainly overlap in some areas (Figure \@ref(fig:plot-and-wordclouds)).
 While clinical
 dentistry is interested in the effect that diet (among many other factors) has on
 the growth and development of plaque, archaeologists are more interested in the
@@ -432,20 +445,37 @@ Dental calculus has also become less of a problem with the use of modern dental 
 practices and regular visits to the dentist [@velskoMicrobialDifferences2019].
 
 <!--relocate-->
-So archaeologists view it as a treasure trove of information from the past, where
-the larger the deposit, the better. Clinial dentistry views it as a nuisance to be
-removed and, ideally, prevented from forming in the first place.
+Let's summarise: Bioarchaeologists are interested in how dental calculus relates
+to dental and general health; paleodietary researchers are interested in the food
+remains that are trapped inside; and paleogeneticists are interested in accessing the
+oral bacteria that have been fossilised within.
+Clinial dentistry views it as a nuisance to be removed and, ideally, prevented from
+forming in the first place.
+This lack of study specifically devoted to dental calculus as a substance, rather
+than a means to an end, leaves a lot of questions regarding the expected behaviour
+of the information extracted from dental calculus.
 
-We just need a more systematic approach to teaching and
+Who, then, should research the fundamental aspects of dental calculus that will
+help us interpret what we see in archaeological dental calculus?
+
+We need a more systematic approach to teaching and
 studying dental calculus. This disseration is a contribution to a
-dental-calculus-centric area of research, by ... on a mineralised oral biofilm
-model. Using oral biofilm models to grow dental calculus is in no way a novel
+dental-calculus-centric area of research. The main focus of my PhD was
+the development, validation, and application of a mineralised oral biofilm
+model. In short, can I grow calculus in the lab? Is what I'm growing actually
+calculus (or at least close enough)? Can the model be used to inform archaeological
+research? Using oral biofilm models to grow dental calculus is in no way a novel
 concept. In fact, it has been applied for decades
 [@fehrVitroCalculus1960; @middletonVitroCalculus1965; @sissonsMultistationPlaque1991].
 
-The choice of the type of oral biofilm model used in this dissertation...
-
-Many different kinds of biofilm models, single species, multispecies (select species). Multispecies biofilm inoculated with whole saliva, while most difficult to control, is most realistic model. Collaboration between the bacteria facilitates growth: e.g. S. mutans, which produces lactic acid, and V. parvula, which consumes it. There are additional examples of this cooperation indicating the benefit of oral bacteria growing in densely populated community biofilms.
+There are many different kinds of biofilm models, which I will cover in more detail in
+[Chapter 2](#background), single species and multispecies (select species).
+Multispecies biofilm inoculated with whole saliva, while most difficult to control, is most
+realistic model. <!--Collaboration between the bacteria facilitates growth: e.g. S. mutans, which produces lactic acid, and V. parvula, which consumes it. There are additional examples of this cooperation indicating the benefit of oral bacteria growing in densely populated community biofilms.-->
+The choice of the type of oral biofilm model used in this dissertation was mainly determined
+by access to facilities and finances. The multiwell culture plate is a...
+and is also more realistic for the facilities and finances of most archaeological departments
+and grants (it's not exactly the 'sexiest' topic).
 <!-- move to chapter 2? -->
 
 ## Thesis outline and structure
@@ -453,9 +483,10 @@ Many different kinds of biofilm models, single species, multispecies (select spe
 
 Chapter 1 is a brief introduction/rant on the topic of dental calculus and its
 current applications in archaeology, which I assume you have just finished reading.
-In the chapter I attempt to contextualise the study of dental calculus
+I do my best to contextualise the study of dental calculus
 and identify some areas where we may have some additional questions.
-Chapter 2 will provide background info on oral biofilms
+
+Chapter 2 provides some background information on oral biofilms
 and oral biofilm models in more detail than I can do in the research articles
 included in Chapters 3 and 4. So if you're already well-versed in oral
 microbiology, feel free to skip to Chapter 3. If not, I recommend picking
@@ -466,34 +497,28 @@ alternatives than something written by a PhD student in archaeology.
 
 Chapter 3 is a research article where we (myself and coauthors) examine
 the applicability of
-our biofilm model as a proxy for dental calculus. In short: is what we're
+our biofilm model as a proxy for dental calculus. In other words: is what we're
 growing actually dental calculus, or ar least close enough that we can use
 it to explore our research questions?
 We used Fourier Transform Infrared Spectroscopy (FTIR) to examine the mineral
 composition of the model calculus and compared it to reference spectra
 of real calculus.
 
-an evaluation of the developed BYOC protocol, with the goal of validating
-it as a viable proxy for dental calculus. We look into the mineral composition using
-FTIR, and the bacterial composition using DNA.
-
 Chapter 4 is a second research article where we used the biofilm model to
-try and look at how starch granules are incorporated
-into dental calculus. We 'fed' the biofilm with a known quantity of starch granules
+try and look at how starch granules are incorporated into dental calculus.
+We 'fed' the biofilm with a known quantity of starch granules
 during the growth period to see if the input quantity/ratio matched the extracted
 quantity (or output).
 
 Chapter 5 is bonus paper, in the sense that it does not involve the biofilm
-model in any way. Instead, we look at possible medicinal compounds in the dental
+model in any way. It's also the only one that involves actual archaeological
+material. We look at possible medicinal compounds in the dental
 calculus of a Post-medieval Dutch population. We employed Ultra High Performance
 Lqiuid Chromatography coupled with Mass Spectrometry (UHPLC-MS) to identify
 various compounds in dental calculus, including alkaloids and other compounds
 that could have been used as medicine. <!-- remove from dissertation?? -->
 
-is the 'odd one out' in this dissertation, but also the most 'archaeological'
-in the sense that it involves actual archaeological remains.
-
-and Chapter 6 is a discussion on the limitations and future potential of dental
+Chapter 6 is a discussion on the limitations and future potential of dental
 calulus in the field of archaeology, and what biofilms can contribute.
 
 <!-- In the interest of normalising "failure", I have included in the appendix, a chapter on the experiments that failed throughout the course of my PhD. A lot of science is failure; in fact, arguably the main proportion of experiments end in "failure" and will not be published (at least in my case), but that doesn't mean that they were a waste of time, or that nothing can be gained from these early steps. -->
