@@ -490,12 +490,12 @@ $if(proefschrift)$
     op gezag van Rector Magnificus $proefschrift.rector$, \\
     volgens besluit van het College voor Promoties \\
     te verdedigen op $proefschrift.day$ $proefschrift.date$ \\
-    klokke $time$ uur \\[1.5cm]
+    klokke $proefschrift.time$ uur \\[1.5cm]
     door} \\[1.5cm]
     \Large{$author$}\par
     \vspace{\baselineskip}
-    \large{geboren te $proefschrift.birthplace$ \\
-    in $proefschrift.birthyear$}
+    $if(proefschrift.birthplace)$\large{geboren te $proefschrift.birthplace$ \\
+    in $proefschrift.birthyear$}$endif$
 \end{center}
 $endif$
 %% End: Proefschrift %%
