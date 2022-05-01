@@ -9,8 +9,8 @@ proefschrift:
   day: Wednesday # day of week
   date: "21 March 3020" # date in dd month yyyy format
   time: "13.00" # time in 00.00 format
-  #birthplace: "Halifax" # optional info
-  #birthyear: 1988 # optional info
+  birthplace: "Earth" # optional info
+  birthyear: "the 20th century" # optional info
 promotor: 
   name: Dr. Amanda G. Henry
 copromotor: 
