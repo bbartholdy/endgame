@@ -17,7 +17,7 @@ how many are there at any given time, but most estimates are in the
 billions (a number we can't really comprehend anyway).
 The oral biome is complex. You just won't believe how vastly, hugely,
 mind-bogglingly complex it is. I mean, you may think quantum physics is complicated,
-but that's just peanuts to the oral biome [@adamsHitchhikersGuide2002<!--, page number!-->].
+but that's just peanuts to the oral biome [@adamsHitchhikersGuide2002, p.66].
 
 ## Biofilms
 
