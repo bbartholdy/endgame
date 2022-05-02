@@ -913,6 +913,28 @@
       "Hash": "5e3c5dc0b071b21fa128676560dbe94d",
       "Requirements": []
     },
+    "rbbt": {
+      "Package": "rbbt",
+      "Version": "0.0.0.9000",
+      "Source": "GitHub",
+      "RemoteType": "github",
+      "RemoteHost": "api.github.com",
+      "RemoteRepo": "rbbt",
+      "RemoteUsername": "paleolimbot",
+      "RemoteRef": "HEAD",
+      "RemoteSha": "7c76fcca8ff29e4554910e631bfe24ffe5aac2de",
+      "Hash": "dabcd67c5591f584394d596a06e7b361",
+      "Requirements": [
+        "clipr",
+        "fs",
+        "httr",
+        "knitr",
+        "readr",
+        "rmarkdown",
+        "rstudioapi",
+        "stringr"
+      ]
+    },
     "readr": {
       "Package": "readr",
       "Version": "2.1.2",
