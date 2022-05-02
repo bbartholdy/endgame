@@ -29,28 +29,6 @@ diss_palette <- c(
 
 scales::show_col(diss_palette)
 
-dissertation_pal <- function(alpha, 
-                             begin, end, direction, option){
-  scales::manual_pal(diss_palette)
-}
-
-scale_colour_diss <- function(...) {
-  ggplot2::discrete_scale("colour", "dissertation", dissertation_pal(), ...)
-}
-
-scale_color_diss <- scale_colour_diss
-
-scale_fill_diss <- function(...) {
-  ggplot2::discrete_scale('fill', 'dissertation', disseration_pal(), ...)
-}
-
-scale_colour_diss <- function (..., alpha = 1, begin = 0, end = 1, direction = 1, 
-          option = "D", aesthetics = "colour") 
-{
-  discrete_scale(aesthetics, "dissertation", dissertation_pal(alpha, 
-                                                      begin, end, direction, option), ...)
-}
-
 plot_theme <- theme_minimal() +
   theme(panel.grid.minor.x = element_blank(),
         panel.grid.major.x = element_blank(),
