@@ -1,5 +1,6 @@
 project:
   type: book
+  pre-render: _common.R
 
 book:
   title: "Putting Dental Calculus Under the Microscope"
