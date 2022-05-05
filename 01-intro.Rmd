@@ -449,7 +449,7 @@ place, so most studies focus on prevention of short-term dental plaque accumulat
 Dental calculus has also become less of a problem with the use of modern dental hygiene
 practices and regular visits to the dentist [@velskoMicrobialDifferences2019].
 
-<!--relocate-->
+<!--relocate?-->
 Let's summarise: Bioarchaeologists are interested in how dental calculus relates
 to dental and general health; paleodietary researchers are interested in the food
 remains that are trapped inside; and paleogeneticists are interested in accessing the
@@ -470,14 +470,17 @@ concept. In fact, it has been applied for decades
 [@fehrVitroCalculus1960; @middletonVitroCalculus1965; @sissonsMultistationPlaque1991].
 
 There are many different kinds of biofilm models, which I will cover in more detail in
-[Chapter 2](#background), single species and multispecies (select species).
-Multispecies biofilm inoculated with whole saliva, while most difficult to control, is most
-realistic model. <!--Collaboration between the bacteria facilitates growth: e.g. S. mutans, which produces lactic acid, and V. parvula, which consumes it. There are additional examples of this cooperation indicating the benefit of oral bacteria growing in densely populated community biofilms.-->
-The choice of the type of oral biofilm model used in this dissertation was mainly determined
-by access to facilities and finances. The multiwell culture plate is a useful
-model that allows us to generate many samples with the same treatments,
-and is also more realistic for the facilities and finances of most archaeological departments
-and grants (it's not exactly the 'sexiest' topic).
+[Chapter 2](#background). These can include a single species of bacteria, select species
+determined by the researchers (defined consortium), and multiple species from some
+natural source (the human mouth, for example).
+Multispecies biofilm inoculated with whole saliva, while most difficult to control, is a
+more realistic model. <!--Collaboration between the bacteria facilitates growth: e.g. S. mutans, which produces lactic acid, and V. parvula, which consumes it. There are additional examples of this cooperation indicating the benefit of oral bacteria growing in densely populated community biofilms.-->
+We used a 24-well plate with a plastic substratum suspended from a lid. The model
+was inoculated with whole saliva. The choice of the model in this dissertation was
+mainly driven by facilities and financial limitations. That being said, the multiwell
+culture plate is a useful model that allows us to generate many samples with the same
+treatments, and is also more realistic for the facilities and finances of most archaeological
+departments and grants (it's not exactly the 'sexiest' topic).
 <!-- move to chapter 2? -->
 
 ## Thesis outline and structure
