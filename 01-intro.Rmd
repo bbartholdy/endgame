@@ -91,7 +91,7 @@ titles_plot + bioarch_title_wordcloud / dental_title_wordcloud +
 ```
 
 One of the most common uses of dental calculus is to try and recreate the diet
-of past people and populations \@ref(fig:plot-and-wordclouds).
+of past people and populations (Figure \@ref(fig:plot-and-wordclouds)B).
 One of the ways to do this is dissolving the calculus in a weak acid and identifying
 (microscopic) fragments of plants that were trapped within.
 As far as I can tell, the first attempt at this was the extraction of phytoliths
@@ -433,7 +433,7 @@ isolate in (once-)living people.
 Often we can draw from clinical studies as there are common goals, e.g. discovering
 the aetiology and/or presentation of a disease. However, the motivation driving the
 studies in archaeology and dental research are inherently different; although,
-there is certainly overlap in some areas (Figure \@ref(fig:plot-and-wordclouds)).
+there is certainly overlap in some areas (Figure \@ref(fig:plot-and-wordclouds)B and C).
 While clinical
 dentistry is interested in the effect that diet (among many other factors) has on
 the growth and development of plaque, archaeologists are more interested in the
@@ -441,7 +441,7 @@ effect that the growth and development of plaque has on what we can say about di
 Further, the interest in dental calculus as a field of clinical research has been declining
 since the 2000s, which, as far as I'm aware, is when the last studies growing dental calclulus
 in a lab were conducted. We can see this by the number of clinical articles with
-the term dental calculus in the title (Figure \@ref(fig:plot-and-wordclouds)).
+the term dental calculus in the title (Figure \@ref(fig:plot-and-wordclouds)A).
 And they certainly aren't interested in how food debris becomes trapped inside our
 calculus.
 There is more interest in preventing dental calculus from forming in the first
@@ -474,7 +474,8 @@ There are many different kinds of biofilm models, which I will cover in more det
 Multispecies biofilm inoculated with whole saliva, while most difficult to control, is most
 realistic model. <!--Collaboration between the bacteria facilitates growth: e.g. S. mutans, which produces lactic acid, and V. parvula, which consumes it. There are additional examples of this cooperation indicating the benefit of oral bacteria growing in densely populated community biofilms.-->
 The choice of the type of oral biofilm model used in this dissertation was mainly determined
-by access to facilities and finances. The multiwell culture plate is a...
+by access to facilities and finances. The multiwell culture plate is a useful
+model that allows us to generate many samples with the same treatments,
 and is also more realistic for the facilities and finances of most archaeological departments
 and grants (it's not exactly the 'sexiest' topic).
 <!-- move to chapter 2? -->
