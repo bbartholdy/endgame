@@ -1,7 +1,7 @@
 `r if (!knitr:::is_html_output()) '<!--'`
 # Hello {-}
 
-This is a PhD dissertation written with the **bookdown** package [@R-bookdown]. A PDF version of the dissertation, which
+This is a PhD dissertation written with the **bookdown** package [@bookdown]. A PDF version of the dissertation, which
 includes a variety of trivial formalities, will be released when it's done. In the meantime
 you can follow the progress of my dissertation on this site.
 
