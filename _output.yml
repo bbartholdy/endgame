@@ -23,8 +23,8 @@ bookdown::bs4_book:
 #     edit: https://github.com/bbartholdy/endgame/edit/main/%s
 #     download: ["pdf", "epub"]
 bookdown::pdf_book:
-  #template: latex/default.latex
-  template: pandoc-templates/default.latex
+  template: latex/default.latex
+  #template: pandoc-templates/default.latex
   includes:
     in_header: latex/preamble.tex
   pandoc_args:

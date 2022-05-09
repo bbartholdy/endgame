@@ -17,13 +17,13 @@ copromotor:
   - name: Dr. Annelou van Gijn
     #affiliation: required if different from Leiden
 committee: 
-  - name: Dr. Bernadette Rostenkowski-Wolowitz
-    affiliation: ZanGen Pharmaceuticals
   - name: Dr. Amy Farrah Fowler
     affiliation: California Institute of Technology
-  - name: Dr. Sheldon Cooper
-    affiliation: California Institute of Technology
   - name: Dr. Leonard Hofstadter
+    affiliation: California Institute of Technology
+  - name: Dr. Bernadette Rostenkowski-Wolowitz
+    affiliation: ZanGen Pharmaceuticals
+  - name: Dr. Sheldon Cooper
     affiliation: California Institute of Technology
 ## End: Mandatory for Leiden PhD dissertations ###
 funding: |
