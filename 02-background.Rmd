@@ -156,6 +156,11 @@ Oral biofilm models are...
 
 <!-- limitations of in vivo biofilms @bjarnsholtVivoBiofilm2013 - Discussion? 
 
+## Saliva?
+
+Saliva is an important part of our mouth, and has many functions that keeps
+our mouth in working order.
+
 ## Dental calculus?
 
 <!--

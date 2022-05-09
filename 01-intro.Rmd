@@ -473,10 +473,11 @@ There are many different kinds of biofilm models, which I will cover in more det
 [Chapter 2](#background). These can include a single species of bacteria, select species
 determined by the researchers (defined consortium), and multiple species from some
 natural source (the human mouth, for example).
-Multispecies biofilm inoculated with whole saliva, while most difficult to control, is a
-more realistic model. <!--Collaboration between the bacteria facilitates growth: e.g. S. mutans, which produces lactic acid, and V. parvula, which consumes it. There are additional examples of this cooperation indicating the benefit of oral bacteria growing in densely populated community biofilms.-->
 We used a 24-well plate with a plastic substratum suspended from a lid. The model
-was inoculated with whole saliva. The choice of the model in this dissertation was
+was inoculated with whole saliva. Multispecies biofilm inoculated with whole saliva
+is difficult to control, but is a
+more realistic model since it can include the complex dynamics between the oral
+bacteria during biofilm formation. The choice of the model in this dissertation was
 mainly driven by facilities and financial limitations. That being said, the multiwell
 culture plate is a useful model that allows us to generate many samples with the same
 treatments, and is also more realistic for the facilities and finances of most archaeological
