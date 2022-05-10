@@ -1,4 +1,5 @@
-`r if (!knitr:::is_html_output()) '<!--'`
+::: {.content-visible when-format="html"}
+
 # Hello {-}
 
 This is a PhD dissertation written with the **bookdown** package [@bookdown]. A PDF version of the dissertation, which
@@ -14,7 +15,7 @@ licensed under the [Creative Commons Attribution 4.0 International License](http
 **Disclaimer:** This site contains a bare-bones tracker to count the number of
 visitors. No other information is recorded.
 
-`r if (!knitr:::is_html_output()) '-->'`
+:::
 
 ```{r}
 #| label: bib-setup
@@ -43,7 +44,7 @@ Protocols available: <https://protocols.io/workspaces/byoc>
 Code available: <https://github.com/bbartholdy>  
 Data available: TBD
 
-`r if (knitr::is_html_output()) '<!--'`
+::: {.content-visible when-format="pdf"}
 \clearpage
 \thispagestyle{empty}
 \vspace*{3cm}
@@ -51,4 +52,4 @@ Data available: TBD
 \vspace*{\fill}
 
 \mainmatter
-`r if (knitr::is_html_output()) '-->'`
+:::

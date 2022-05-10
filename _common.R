@@ -11,8 +11,22 @@
 #bib_packages <- c(.packages(), 'bookdown', 'knitr', 'rmarkdown')
 #knitr::write_bib(bib_packages, 'packages.bib')
 
-# update bibliography
+# set ggplot theme
+
+if (!nzchar(Sys.getenv("QUARTO_PROJECT_RENDER_ALL"))) {
+  quit()
+}
+
+# generate/update bibliography
 library(here)
 library(rbbt)
 ref_files <- list.files(here(), "*.qmd")
-bbt_update_bib(ref_files, here("book.bib"))
+
+if (file.exists(here("book.bib"))) {
+  bbt_update_bib(ref_files, here("book.bib"))
+} else {
+  refs <- bbt_detect_citations(ref_files)
+  rbbt::bbt_write_bib(here("book.bib"), refs)
+}
+
+quit()
