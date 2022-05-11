@@ -13,11 +13,19 @@
 
 # set ggplot theme
 
+calculus_palette <- c(
+  "#782386",
+  "#ab1866",
+  "#d1295a",
+  "#e05b5c",
+  "#ffcc66"
+)
+
+# generate/update bibliography
 if (!nzchar(Sys.getenv("QUARTO_PROJECT_RENDER_ALL"))) {
   quit()
 }
 
-# generate/update bibliography
 library(here)
 library(rbbt)
 ref_files <- list.files(here(), "*.qmd")
@@ -28,5 +36,3 @@ if (file.exists(here("book.bib"))) {
   refs <- bbt_detect_citations(ref_files)
   rbbt::bbt_write_bib(here("book.bib"), refs)
 }
-
-quit()

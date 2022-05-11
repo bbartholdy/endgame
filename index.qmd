@@ -9,24 +9,14 @@ you can follow the progress of my dissertation on this site.
 **Note: This is a continuously updated draft of my dissertation (until further notice). It has yet to be reviewed by a committee.**
 
 The amazing cover image was created by the awesome
-[Petra Korlevic](https://twitter.com/petrathepostdoc). The site is hosted by [Netlify](https://www.netlify.com) and [GitHub](https://www.github.com), and is
-licensed under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
+[Petra Korlevic](https://twitter.com/petrathepostdoc). The site is hosted by [Netlify](https://www.netlify.com)
+and [GitHub](https://www.github.com), and is licensed under the
+[Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
 
 **Disclaimer:** This site contains a bare-bones tracker to count the number of
 visitors. No other information is recorded.
 
 :::
-
-```{r}
-#| label: bib-setup
-#| include: false
-
-#library(here)
-#ref_files <- list.files(here(), pattern = "*.qmd|*.Rmd")
-#refs <- rbbt::bbt_detect_citations(ref_files)
-#bbtignore <- c("R-bookdown", "R-base")
-#rbbt::bbt_write_bib(here("book.bib"), keys = refs, ignore = bbtignore, overwrite = T, translator = "bibtex")
-```
 
 \frontmatter
 
