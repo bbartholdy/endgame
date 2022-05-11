@@ -49,7 +49,7 @@ Dental plaque can accumulate more easily on teeth
 (and calculus), because they are a hard, non-shedding surface. Most of the surfaces
 in our mouth are covered by a layer of cells called the oral epithelium.
 These cells are continuously renewed as
-the new cells are formed and dead cells fall off<!--citation: probably ten cate-->.
+the new cells are formed and dead cells fall off [@squierOralMucosa1998].
 This constant turnover means that it is difficult for
 bacteria to build the communities they require for producing biofilms. Enamel, the
 white substance that covers the crown of your teeth, behaves differently. It stops
