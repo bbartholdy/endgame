@@ -1,0 +1,51 @@
+<!-- A brief curriculum vitae of the author is included at the end of the dissertation. This curriculum vitae should specify the following: 
+a. Date of birth b. Place of birth 
+c. The period during which the candidate followed his/her pre-university education or its equivalent and the relevant institution 
+d. Any qualifications pertaining to the diplomas obtained 
+e. Details of professional activities following the completion of the candidate’s academic education, and 
+f. If appropriate, the institute at which the PhD research was conducted. -->
+# Curriculum Vitae {-}
+
+I obtained my BSc (honours) in archaeology with a concentration in physical 
+anthropology at the University of Calgary in 2015. My thesis was supervised 
+by Dr. Mary Anne Katzenberg and explored the application of micro-CT in 
+archaeological examination of osteoarthritis lesions in the vertebrae of 
+unprovenanced skeletal remains. I went on to get my MSc in Osteoarchaeology at
+Leiden University in 2017. Here, my thesis research was supervised by Dr. Andrea Waters-Rist and looked for relationships between enamel properties and dental 
+disease in the deciduous dentition, using micro-CT. The materials used for this
+research was from a 19th century Dutch population.
+
+I started my PhD position in 2017, under the supervision of Dr. Amanda Henry. 
+The main focus of the research involved developing and validating a protocol 
+to develop a model dental calculus system, which could be used to explore 
+dietary research questions from an archaeological perspective. The protocol was
+validated using Fourier Transform Infrared (FTIR) spectroscopy to assess the 
+mineral composition, and metagenomic analysis to characterise the microbiome.
+The protocol was then applied to explore dietary questions ...
+
+Alongside my PhD research, I participated in a variety of activities both related
+and completely unrelated to my dissertation research. I helped develop and 
+co-instructed the Quantitative Methods in Archaeology course for two consequetive
+years. I co-supervised multiple Master's students in the MSc Osteoarchaeology
+specialisation.
+I also taught a number of guest lectures on dental calculus, dental diseases, 
+statistics, and open science. I was a teaching assitant in the Osteoarchaeology 
+course for third year Bachelor's. I received my Data Carpentry teaching certification
+and co-instructed multiple Data Carpentry workshops teaching the R Statistical 
+Programming language to social scientists,
+hosted by Leiden University, TU Delft, Erasmus University Rotterdam.
+
+Organised a workshop on dental non-metrics
+Editor-in-chief for the Inter-Section journal
+Steering committee of ARCHON
+Archaeology ambassador for the Open Science Community Leiden
+Founded the Rchaeology community, attempting to bring together 
+archaeologists from all fields with an interest in using/learning 
+R Statistical Programming language. The community currently consists of a 
+Facebook group, a Twitter profile, a Slack workspace, and a website.
+Co-supervised Master's theses.
+SPAAM
+<!-- guest lectures -->
+<!-- teaching assitant -->
+<!-- co-instructor -->
+<!-- host/help workshops -->

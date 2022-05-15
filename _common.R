@@ -2,10 +2,19 @@
 #options(width = 60)
 
 # example chunk options set globally
+
 # knitr::opts_chunk$set(
 #   comment = "#>",
 #   collapse = TRUE
 #   )
+
+knitr::opts_chunk$set(
+  comment = "#>",
+  collapse = TRUE,
+  warning = FALSE,
+  message = FALSE,
+  echo = FALSE
+  )
 
 # generate r package bibliography
 #bib_packages <- c(.packages(), 'bookdown', 'knitr', 'rmarkdown')

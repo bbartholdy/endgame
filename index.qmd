@@ -2,7 +2,7 @@
 
 # Hello {-}
 
-This is a PhD dissertation written with the **bookdown** package [@bookdown]. A PDF version of the dissertation, which
+This is a PhD dissertation written in [Quarto](https://quarto.org/). A PDF version of the dissertation, which
 includes a variety of trivial formalities, will be released when it's done. In the meantime
 you can follow the progress of my dissertation on this site.
 
@@ -22,7 +22,53 @@ visitors. No other information is recorded.
 
 # Acknowledgements {-}
 
+::: {.content-visible when-format="html"}
 I will attempt to acknowledge everyone involved.
+:::
+
+::: {.content-visible when-format="pdf"}
+Where to begin? So many people helped shape this thesis, and are therefore also 
+to blame for this work.
+
+<!-- Amanda -->
+
+<!-- Shira -->
+
+<!-- Stephanie -->
+
+<!-- James and Zandra 
+
+James Fellows Yates and Dr. Zandra Fagernäs were always able to reignite my
+excitement for the project when I occasionally felt it slipping away. Their
+enthusiasm was always appreciated. James was also an important contributor
+to the main biofilm model paper, as I struggled to implement the EAGER pipeline,
+not to mention an inspiration on how to PhDad.
+
+<!-- Irina -->
+
+<!-- Open Science 
+
+Dr. Ben Marwick and Dr. Esther Plomp, whose passion and commitment to open science
+inspired me to make all of my work as open and transparent as possible. This also
+likely contributed to some of the delays, so thanks for that.
+
+<!-- Middenbeemster historical society -->
+
+<!-- Danish lab -->
+
+<!-- Jessica and Rachel -->
+
+<!-- Supriya and Nina 
+
+Supriya and Nina for having the patience to be friends with a PhD student with a small child.
+
+<!-- family 
+
+Of course, I have to include my family, since they are the most likely to read this.
+
+And finally, most importantly, Liam, for making everything a bit more of a challenge,
+-->
+:::
 
 # Open Science Statement {-}
 
