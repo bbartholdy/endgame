@@ -24,8 +24,8 @@ book:
       href: https://twitter.com/osteobjorn
   chapters: 
     - index.qmd
-    - 01-intro.qmd
-    - 02-background.qmd
+    - 01-intro.Rmd
+    - 02-background.Rmd
     - 03-article.qmd
     - 04-article.Rmd
     #- 05-article.Rmd
@@ -61,6 +61,13 @@ format:
     
 # link-citations: yes
 csl: apa.csl
+knitr:
+  opts_chunk: 
+    collapse: true
+    comment: "#>"
+    echo: false
+    message: false
+    warning: false
 ### Mandatory for Leiden PhD dissertations ###
 proefschrift:
   rector: Dr. H.J. Farnsworth # name of current rector
