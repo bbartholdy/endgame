@@ -2,10 +2,9 @@
 
 <!-- Putting the study of dental calculus in context -->
 
-`r if (knitr:::is_html_output()) '
-<!-- chapter status badge -->
-![](https://img.shields.io/badge/Status-writing-yellow) ![Current version](https://img.shields.io/badge/Version-draft-blue)  
-'`
+::: {.content-visible when-format="html"}
+{{< var intro.status >}} {{< var intro.version >}}
+:::
 
 ```{r}
 #| label: setup
@@ -83,7 +82,7 @@ and is still widely used today. More detailed
 methods are also available [@dobneyMethodEvaluating1987; @greeneQuantifyingCalculus2005]
 
 ```{r}
-#| label: plot-and-wordclouds
+#| label: fig-plot-and-wordclouds
 #| fig-cap: "Plot of articles with the term 'dental calculus' in the title."
 
 titles_plot + bioarch_title_wordcloud / dental_title_wordcloud + 
@@ -91,7 +90,7 @@ titles_plot + bioarch_title_wordcloud / dental_title_wordcloud +
 ```
 
 One of the most common uses of dental calculus is to try and recreate the diet
-of past people and populations (Figure \@ref(fig:plot-and-wordclouds)B).
+of past people and populations ([@fig-plot-and-wordclouds]B).
 One of the ways to do this is dissolving the calculus in a weak acid and identifying
 (microscopic) fragments of plants that were trapped within.
 As far as I can tell, the first attempt at this was the extraction of phytoliths
@@ -137,7 +136,7 @@ markers of plants and animals within dental calulus is difficult, but not imposs
 (see @warinnerEvidenceMilk2014). Most of the
 DNA within dental calculus will be oral bacteria, and this will overwhelm the
 signal from plant DNA. Plants are also really complicated (personal communication with
-Zandra Fagernäs, James Fellows Yates, and Nikolay Oskolkov in the SPAAM community).
+Zandra Fagernäs, James Fellows Yates, and Nikolay Oskolkov in the SPAAM community)<!-- also Fagernas 2020?-->.
 A newer field of biomolecular archaeology, paleoproteomics, has also jumped on the
 calculus bangwagon. Hendy and coauthors were able to identify a number of food
 proteins in dental calculus, including cereals, plants, and milk proteins from
@@ -433,7 +432,7 @@ isolate in (once-)living people.
 Often we can draw from clinical studies as there are common goals, e.g. discovering
 the aetiology and/or presentation of a disease. However, the motivation driving the
 studies in archaeology and dental research are inherently different; although,
-there is certainly overlap in some areas (Figure \@ref(fig:plot-and-wordclouds)B and C).
+there is certainly overlap in some areas ([@fig-plot-and-wordclouds]B and C).
 While clinical
 dentistry is interested in the effect that diet (among many other factors) has on
 the growth and development of plaque, archaeologists are more interested in the
@@ -441,7 +440,7 @@ effect that the growth and development of plaque has on what we can say about di
 Further, the interest in dental calculus as a field of clinical research has been declining
 since the 2000s, which, as far as I'm aware, is when the last studies growing dental calclulus
 in a lab were conducted. We can see this by the number of clinical articles with
-the term dental calculus in the title (Figure \@ref(fig:plot-and-wordclouds)A).
+the term dental calculus in the title ([@fig-plot-and-wordclouds]A).
 And they certainly aren't interested in how food debris becomes trapped inside our
 calculus.
 There is more interest in preventing dental calculus from forming in the first
@@ -527,4 +526,4 @@ that could have been used as medicine. <!-- remove from dissertation?? -->
 Chapter 6 is a discussion on the limitations and future potential of dental
 calulus in the field of archaeology, and what biofilms can contribute.
 
-<!-- In the interest of normalising "failure", I have included in the appendix, a chapter on the experiments that failed throughout the course of my PhD. A lot of science is failure; in fact, arguably the main proportion of experiments end in "failure" and will not be published (at least in my case), but that doesn't mean that they were a waste of time, or that nothing can be gained from these early steps. -->
+## References {-}
