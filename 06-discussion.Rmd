@@ -1,6 +1,8 @@
 # Discussion
 
-`r if (knitr:::is_html_output()) ' {{< var discussion.status >}} {{< var discussion.version >}}'`
+::: {.content-visible when-format="html"}
+{{< var discussion.status >}} {{< var discussion.version >}}
+:::
 
 A chapter to discuss the limitations and potential of the biofilm model in
 archaeological research.

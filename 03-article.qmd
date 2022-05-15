@@ -1,6 +1,8 @@
 # BYOC Validation Article
 
-`r if (knitr:::is_html_output()) ' {{< var article1.status >}} {{< var article1.version >}} '`
+::: {.content-visible when-format="html"}
+{{< var article1.status >}} {{< var article1.version >}}
+:::
 
 Article in progress. Validation of the BYOC (build your own calculus) model using FTIR for the mineral
 composition and metagenomic analysis for the bacterial composition.

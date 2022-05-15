@@ -1,6 +1,8 @@
 # Introduction
 
-`r if (knitr:::is_html_output()) ' {{< var intro.status >}} {{< var intro.version >}}  '`
+::: {.content-visible when-format="html"}
+{{< var intro.status >}} {{< var intro.version >}}
+:::
 
 An introduction to the dissertation where I put the study of archaeological
 dental calculus in context, 

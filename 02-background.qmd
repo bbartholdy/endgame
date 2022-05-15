@@ -1,6 +1,8 @@
 # Background
 
-`r if (knitr:::is_html_output()) '{{< var background.status >}} {{< var background.version >}}'`
+::: {.content-visible when-format="html"}
+{{< var background.status >}} {{< var background.version >}}
+:::
 
 An introduction to biofilms.
 
