@@ -7,7 +7,7 @@ book:
   subtitle: ""
   author: "Bjørn Peare Bartholdy"
   date: last-modified
-  date-format: iso
+  date-format: "DD-MMM-YYYY"
   output-file: "endgame"
   cover-image: cover.png # path to the social sharing image like images/cover.jpg
   downloads: pdf
@@ -16,7 +16,7 @@ book:
   site-url: "https://myphd.netlify.app"
   page-footer: 
     left: |
-      *Putting Dental Calculus Under the Microscope* was written by Bjørn Peare Bartholdy. It was last built on {{< meta date >}}.
+      *Putting Dental Calculus Under the Microscope* was written by {{< meta book.author >}}. It was last built on {{< meta book.date >}}.
     right: 
     - icon: github
       href: https://github.com/bbartholdy
