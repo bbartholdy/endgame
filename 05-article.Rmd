@@ -1,0 +1,5 @@
+# Article 3 
+
+::: {.content-visible when-format="html"}
+{{< var article3.status >}} {{< var article3.version >}}
+:::

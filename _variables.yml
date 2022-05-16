@@ -1,0 +1,34 @@
+# build-date: need current date variable
+
+# chapter-versions:
+  # draft: "![Current version](https://img.shields.io/badge/Version-draft-blue)"
+
+# chapter-status:
+  # writing: "![](https://img.shields.io/badge/Status-writing-yellow)"
+  # analysis: "![](https://img.shields.io/badge/Status-analysis-orange)"
+  # under review: "![Chapter Status](https://img.shields.io/badge/Status-under review-red)"
+
+intro: 
+  version: "![Current version](https://img.shields.io/badge/Version-draft-blue)"
+  status: "![](https://img.shields.io/badge/Status-writing-yellow)"
+
+background:
+  version: "![Current version](https://img.shields.io/badge/Version-draft-blue)"
+  status: "![](https://img.shields.io/badge/Status-writing-yellow)"
+
+article1:
+  version: "![Current version](https://img.shields.io/badge/Version-draft-blue)"
+  status: "![](https://img.shields.io/badge/Status-analysis-orange)"
+
+article2:
+  version: "![Current version](https://img.shields.io/badge/Version-0.1.0-blue)"
+  status: "![Chapter Status](https://img.shields.io/badge/Status-under review-red)"
+  doi: "[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5604670.svg)](https://doi.org/10.5281/zenodo.5604670)"
+
+article3:
+  version: "![Current version](https://img.shields.io/badge/Version-draft-blue)"
+  status: "![](https://img.shields.io/badge/Status-analysis-orange)"
+
+discussion:
+  version: "![Current version](https://img.shields.io/badge/Version-none-grey)"
+  status: "![](https://img.shields.io/badge/Status-none-grey)"

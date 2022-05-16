@@ -1,9 +1,8 @@
 # Investigating Biases Associated with Dietary Starch Incorporation and Retention with an Oral Biofilm Model
 
-`r if (knitr:::is_html_output()) '
-![Chapter Status](https://img.shields.io/badge/Status-under review-orange)  
-![Current version](https://img.shields.io/badge/Version-preprint-blue) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5604670.svg)](https://doi.org/10.5281/zenodo.5604670)
-'`
+::: {.content-visible when-format="html"}
+{{< var article2.status >}} {{< var article2.version >}} {{< var article2.doi >}}
+:::
 
 We used the BYOC model to try and look at how starch granules are incorporated
 into dental calculus. We 'fed' the biofilm with a known quantity of starch granules

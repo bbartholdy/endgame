@@ -2,12 +2,13 @@
 # Need help debugging build failures? Start at https://github.com/r-lib/actions#where-to-find-help
 on:
   push:
-    branches: main
+    branches-ignore: 
+      - '**'
 
-name: bookdown
+name: build
 
 jobs:
-  bookdown:
+  build-book:
     runs-on: ubuntu-latest
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
@@ -17,31 +18,40 @@ jobs:
       - uses: r-lib/actions/setup-pandoc@v2
         with:
           pandoc-version: '2.17.1'
-      
+            
       - name: Install missing system dependencies
         if: runner.os == 'Linux'
         run: sudo apt-get update && sudo apt-get install libcurl4-openssl-dev
+
+      - name: Install Quarto
+        uses: quarto-dev/quarto-actions/install-quarto@main
+        with:
+          tinytex: true
 
       - uses: r-lib/actions/setup-r@v1
         with:
           use-public-rspm: true
           
-      - uses: r-lib/actions/setup-r-dependencies@v2
-        with:
-          needs: book
+      # - uses: r-lib/actions/setup-r-dependencies@v2
+      #   with:
+      #     needs: book
 
       - uses: r-lib/actions/setup-renv@v1
 
-      - name: Cache bookdown results
-        uses: actions/cache@v2
-        with:
-          path: _bookdown_files
-          key: bookdown-${{ hashFiles('**/*Rmd') }}
-          restore-keys: bookdown-
+      # - name: Cache bookdown results
+      #   uses: actions/cache@v2
+      #   with:
+      #     path: _bookdown_files
+      #     key: bookdown-${{ hashFiles('**/*Rmd') }}
+      #     restore-keys: bookdown-
 
-      - name: Build site
-        run: bookdown::render_book("index.Rmd", quiet = TRUE)
-        shell: Rscript {0}
+      # - name: Build site
+      #   run: bookdown::render_book("index.Rmd", quiet = TRUE)
+      #   shell: Rscript {0}
+
+      - name: Build Quarto site
+        run: |
+          quarto render --to all
         
       # - name: Deploy to GitHub pages 🚀
       #   uses: JamesIves/github-pages-deploy-action@4.1.4

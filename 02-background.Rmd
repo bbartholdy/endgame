@@ -1,9 +1,8 @@
 # Background {#background}
 
-`r if (knitr:::is_html_output()) '
-<!-- chapter status badge -->
-![Current status](https://img.shields.io/badge/Status-writing-yellow) ![Current version](https://img.shields.io/badge/Version-draft-blue)
-'`
+::: {.content-visible when-format="html"}
+{{< var background.status >}} {{< var background.version >}}
+:::
 
 The human mouth, or oral cavity, contains many different types of surfaces
 available for bacteria to attach and grow.
