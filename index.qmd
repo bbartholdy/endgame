@@ -80,7 +80,7 @@ Protocols available: <https://protocols.io/workspaces/byoc>
 Code available: <https://github.com/bbartholdy>  
 Data available: TBD
 
-::: {.content-visible when-format="pdf"}
+::: {.content-hidden when-format="html"}
 \clearpage
 \thispagestyle{empty}
 \vspace*{3cm}

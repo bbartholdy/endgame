@@ -21,7 +21,7 @@ article1:
   status: "![](https://img.shields.io/badge/Status-analysis-orange)"
 
 article2:
-  version: "![Current version](https://img.shields.io/badge/Version-0.1.0-blue)"
+  version: "![Current version](https://img.shields.io/github/v/release/bbartholdy/byoc-starch?label=version)"
   status: "![Chapter Status](https://img.shields.io/badge/Status-under review-red)"
   doi: "[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5604670.svg)](https://doi.org/10.5281/zenodo.5604670)"
 
