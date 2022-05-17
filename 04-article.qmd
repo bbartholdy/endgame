@@ -4,6 +4,8 @@
 {{< var article2.status >}} {{< var article2.version >}} {{< var article2.doi >}}
 :::
 
+## Summary
+
 We used the BYOC model to try and look at how starch granules are incorporated
 into dental calculus. We 'fed' the biofilm with a known quantity of starch granules
 during the growth period. Preliminary results suggest that a very small proportion
@@ -12,3 +14,9 @@ influences the likelihood of retention.
 
 Preprint currently available on [bioRxiv](https://www.biorxiv.org/content/10.1101/2021.10.27.466104v1).  
 Data and code available on [OSF](https://osf.io/uc5qy/).
+
+## Introduction
+
+{{< include articles/byoc-starch/analysis/paper/intro.Rmd >}}
+
+## References {-}

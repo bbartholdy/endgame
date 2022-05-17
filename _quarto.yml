@@ -27,7 +27,7 @@ book:
     - 01-intro.Rmd
     - 02-background.Rmd
     - 03-article.qmd
-    - 04-article.Rmd
+    - 04-article.qmd
     #- 05-article.Rmd
     - 06-discussion.Rmd
 
@@ -39,7 +39,7 @@ format:
     reference-location: section
     include-in-header: partials/analytics.html
     #citeproc: true
-    bibliography: [book.bib]
+    bibliography: [book.bib, articles/byoc-starch/analysis/paper/refs.bib]
     #filters: 
     #- section-refs.lua
 
@@ -51,7 +51,7 @@ format:
     #pdf-engine: latexmk
     keep-tex: true
     cite-method: citeproc
-    section-refs-bibliography: book.bib
+    section-refs-bibliography: [book.bib, articles/byoc-starch/analysis/paper/refs.bib]
     template: latex/default.latex
     #template: pandoc-templates/default.latex
     #include-before-body: latex/proef.tex
