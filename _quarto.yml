@@ -1,6 +1,8 @@
 project:
   type: book
   pre-render: _common.R # causes issue with quarto preview - issue caused by `bbt_update_bib(ref_files, here("book.bib"))`
+  execute:
+    freeze: auto
 
 book:
   title: "Putting Dental Calculus Under the Microscope"
@@ -27,7 +29,7 @@ book:
     - 01-intro.Rmd
     - 02-background.Rmd
     - 03-article.qmd
-    - 04-article.qmd
+    - articles/byoc-starch/04-article.qmd
     #- 05-article.Rmd
     - 06-discussion.Rmd
 
@@ -40,8 +42,6 @@ format:
     include-in-header: partials/analytics.html
     #citeproc: true
     bibliography: [book.bib, articles/byoc-starch/analysis/paper/refs.bib]
-    #filters: 
-    #- section-refs.lua
 
   pdf:
     documentclass: book
@@ -52,8 +52,7 @@ format:
     keep-tex: true
     cite-method: citeproc
     section-refs-bibliography: [book.bib, articles/byoc-starch/analysis/paper/refs.bib]
-    template: latex/default.latex
-    #template: pandoc-templates/default.latex
+    template: pandoc-templates/default.latex
     #include-before-body: latex/proef.tex
     include-in-header: latex/preamble.tex
     filters: 

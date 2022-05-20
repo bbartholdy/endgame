@@ -1,3 +1,6 @@
+---
+engine: knitr
+---
 # BYOC Validation Article
 
 ::: {.content-visible when-format="html"}
