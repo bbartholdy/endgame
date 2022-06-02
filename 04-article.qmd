@@ -1,22 +1,71 @@
-# Investigating Biases Associated with Dietary Starch Incorporation and Retention with an Oral Biofilm Model
+---
+engine: knitr
+execute-dir: project
+title: Investigating Biases Associated with Dietary Starch Incorporation and Retention with an Oral Biofilm Model
+shift-heading-level-by: 1
+---
 
 ::: {.content-visible when-format="html"}
 {{< var article2.status >}} {{< var article2.version >}} {{< var article2.doi >}}
 :::
 
-## Summary
+::: {.content-visible when-format="html"}
+# Summary
 
 We used the BYOC model to try and look at how starch granules are incorporated
 into dental calculus. We 'fed' the biofilm with a known quantity of starch granules
 during the growth period. Preliminary results suggest that a very small proportion
 of consumed starch is retained by the calculus. The size of starch granules also
-influences the likelihood of retention.
+influences the likelihood of retention, with larger granules less likely to be
+trapped in the calculus.
 
 Preprint currently available on [bioRxiv](https://www.biorxiv.org/content/10.1101/2021.10.27.466104v1).  
 Data and code available on [OSF](https://osf.io/uc5qy/).
+:::
 
-## Introduction
+```{r setup-starch, include=FALSE}
+knitr::opts_chunk$set(
+  echo = FALSE,
+  warning = FALSE,
+  message = FALSE,
+  #fig.path = "frontiers/figures/",
+  #fig.path = "../figures/",
+  fig.align = "center",
+  #fig.ext = "jpg",
+  fig.pos = "H",
+  dpi = 300) 
+library(tidyverse)
+library(broom)
+library(here)
+library(patchwork)
+# load R scripts
+source(here("analysis/scripts/analysis.R"))
+source(here("analysis/scripts/tables.R"))
+source(here("analysis/scripts/figures.R"))
+source(here("analysis/scripts/amylase-assay.R"))
 
-{{< include articles/byoc-starch/analysis/paper/intro.Rmd >}}
+cor_r <- signif(count_cor$estimate, 3)
+cor_ci <- signif(count_cor$conf.int, 3)
+cor2_r <- signif(count_cor$estimate, 3)
+cor2_ci <- signif(count_cor$conf.int, 3)
+```
 
-## References {-}
+# Introduction
+
+{{< include analysis/paper/intro.Rmd >}}
+
+# Materials and Methods
+
+{{< include analysis/paper/matmet.Rmd >}}
+
+# Results
+
+{{< include analysis/paper/results.Rmd >}}
+
+# Discussion
+
+{{< include analysis/paper/discussion.Rmd >}}
+
+# Conclusion
+
+{{< include analysis/paper/conclusion.Rmd >}}

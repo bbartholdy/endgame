@@ -41,14 +41,16 @@ ref_files <- list.files(here(), ".qmd|.Rmd")
 keys <- bbt_detect_citations(ref_files)
 bbt_ignore <- keys[grepl("fig-", keys)] # detect figure references
 
-if (file.exists(here("book.bib"))) {
-  bbt_update_bib(
-    ref_files, 
-    here("book.bib"),
-    ignore = bbt_ignore)
-} else {
-  bbt_write_bib(
-    here("book.bib"), 
-    keys, 
-    ignore = bbt_ignore)
-}
+try(
+  if (file.exists(here("book.bib"))) {
+    bbt_update_bib(
+      ref_files, 
+      here("book.bib"),
+      ignore = bbt_ignore)
+  } else {
+    bbt_write_bib(
+      here("book.bib"), 
+      keys, 
+      ignore = bbt_ignore)
+  }
+)
