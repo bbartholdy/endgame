@@ -3,8 +3,10 @@
 
 library(here)
 library(patchwork)
-library(tidyverse)
+library(ggplot2)
+library(dplyr)
 library(ggwordcloud)
+library(stringr)
 
 # Data upload -------------------------------------------------------------
 
@@ -53,7 +55,7 @@ wos_records_cleaned <- wos_records %>%
     publisher = PU
   ) %>%
   mutate(
-    source = as_factor(source)
+    source = as.factor(source)
   ) %>%
   filter(year != 2022)
 
