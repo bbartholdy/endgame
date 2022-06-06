@@ -1,6 +1,6 @@
-[submodule "articles/byoc-starch"]
-	path = articles/byoc-starch
-	url = git@github.com:bbartholdy/byoc-starch.git
 [submodule "pandoc-templates"]
 	path = pandoc-templates
 	url = git@github.com:bbartholdy/pandoc-templates.git
+[submodule "articles/byoc-starch"]
+	path = articles/byoc-starch
+	url = git@github.com:bbartholdy/byoc-starch.git
