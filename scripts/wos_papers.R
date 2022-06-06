@@ -5,6 +5,7 @@ library(here)
 library(patchwork)
 library(ggplot2)
 library(dplyr)
+library(tidyr)
 library(ggwordcloud)
 library(stringr)
 
