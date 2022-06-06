@@ -35,13 +35,13 @@ if (!nzchar(Sys.getenv("QUARTO_PROJECT_RENDER_ALL"))) {
   quit()
 }
 
+try(
 library(here)
 library(rbbt)
 ref_files <- list.files(here(), ".qmd|.Rmd")
 keys <- bbt_detect_citations(ref_files)
 bbt_ignore <- keys[grepl("fig-", keys)] # detect figure references
 
-try(
   if (file.exists(here("book.bib"))) {
     bbt_update_bib(
       ref_files, 
