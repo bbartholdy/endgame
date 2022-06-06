@@ -18,15 +18,12 @@ visitors. No other information is recorded.
 
 :::
 
+::: {.content-visible when-format="pdf"}
 \frontmatter
+:::
 
 # Acknowledgements {-}
 
-::: {.content-visible when-format="html"}
-I will attempt to acknowledge everyone involved.
-:::
-
-::: {.content-visible when-format="pdf"}
 Where to begin? So many people helped shape this thesis, and are therefore also 
 to blame for this work.
 
@@ -68,7 +65,6 @@ Of course, I have to include my family, since they are the most likely to read t
 
 And finally, most importantly, Liam, for making everything a bit more of a challenge,
 -->
-:::
 
 # Open Science Statement {-}
 
@@ -80,7 +76,7 @@ Protocols available: <https://protocols.io/workspaces/byoc>
 Code available: <https://github.com/bbartholdy>  
 Data available: TBD
 
-::: {.content-hidden when-format="html"}
+::: {.content-visible when-format="pdf"}
 \clearpage
 \thispagestyle{empty}
 \vspace*{3cm}
