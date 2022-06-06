@@ -29,7 +29,7 @@ book:
     - 01-intro.Rmd
     - 02-background.Rmd
     - 03-article.qmd
-    - articles/byoc-starch/04-article.qmd
+    - 04-article.qmd
     #- 05-article.Rmd
     - 06-discussion.Rmd
 
