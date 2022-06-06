@@ -31,11 +31,14 @@ jobs:
         with:
           use-public-rspm: true
           
-      # - uses: r-lib/actions/setup-r-dependencies@v2
-      #   with:
-      #     needs: book
+      - uses: r-lib/actions/setup-r-dependencies@v2
 
-      - uses: r-lib/actions/setup-renv@v1
+      - name: Include submodules
+        uses: actions/checkout@v2
+        with:
+          submodules: recursive
+
+      #- uses: r-lib/actions/setup-renv@v1
 
       # - name: Cache bookdown results
       #   uses: actions/cache@v2
