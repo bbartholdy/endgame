@@ -29,20 +29,41 @@ knitr::opts_chunk$set(
   warning = FALSE,
   message = FALSE,
   #fig.path = "frontiers/figures/",
-  #fig.path = "../figures/",
+  fig.path = "figures/",
   fig.align = "center",
   #fig.ext = "jpg",
   fig.pos = "H",
-  dpi = 300) 
-library(tidyverse)
+  dpi = 300)
 library(broom)
 library(here)
 library(patchwork)
+library(ggplot2)
+plt1_ph1 <- readr::read_tsv(
+  here("articles/byoc-starch/analysis/data/raw_data/ExpM_plate1_photometric1.csv"),
+  col_names = F)
+plt1_ph2 <- readr::read_tsv(
+  here("articles/byoc-starch/analysis/data/raw_data/ExpM_plate1_photometric2.csv"),
+  col_names = F)
+
+plt2_ph1 <- readr::read_tsv(
+  here("articles/byoc-starch/analysis/data/raw_data/ExpM_plate2_photometric1.csv"),
+  col_names = F)
+plt2_ph2 <- readr::read_tsv(
+  here("articles/byoc-starch/analysis/data/raw_data/ExpM_plate2_photometric2.csv"),
+  col_names = F)
+# starch counts in samples
+raw_counts <- readr::read_csv(here("articles/byoc-starch/analysis/data/raw_data/starch_counts.csv"))
+# starch counts in solutions
+sol_counts <- readr::read_csv(here("articles/byoc-starch/analysis/data/raw_data/solution_counts.csv"))
 # load R scripts
-source(here("analysis/scripts/analysis.R"))
-source(here("analysis/scripts/tables.R"))
-source(here("analysis/scripts/figures.R"))
-source(here("analysis/scripts/amylase-assay.R"))
+source(here("articles/byoc-starch/analysis/scripts/analysis.R"))
+source(here("articles/byoc-starch/analysis/scripts/tables.R"))
+source(here("articles/byoc-starch/analysis/scripts/figures.R"))
+source(here("articles/byoc-starch/analysis/scripts/amylase-assay.R"))
+readr::write_csv(sol_corr, here("articles/byoc-starch/analysis/data/derived_data/sol_corr.csv"))
+readr::write_csv(corr_counts, here("articles/byoc-starch/analysis/data/derived_data/corr_counts.csv"))
+readr::write_csv(corr_comb, here("articles/byoc-starch/analysis/data/derived_data/corr_comb.csv"))
+
 
 cor_r <- signif(count_cor$estimate, 3)
 cor_ci <- signif(count_cor$conf.int, 3)
@@ -52,20 +73,20 @@ cor2_ci <- signif(count_cor$conf.int, 3)
 
 # Introduction
 
-{{< include analysis/paper/intro.Rmd >}}
+{{< include articles/byoc-starch/analysis/paper/intro.Rmd >}}
 
 # Materials and Methods
 
-{{< include analysis/paper/matmet.Rmd >}}
+{{< include articles/byoc-starch/analysis/paper/matmet.Rmd >}}
 
 # Results
 
-{{< include analysis/paper/results.Rmd >}}
+{{< include articles/byoc-starch/analysis/paper/results.Rmd >}}
 
 # Discussion
 
-{{< include analysis/paper/discussion.Rmd >}}
+{{< include articles/byoc-starch/analysis/paper/discussion.Rmd >}}
 
 # Conclusion
 
-{{< include analysis/paper/conclusion.Rmd >}}
+{{< include articles/byoc-starch/analysis/paper/conclusion.Rmd >}}

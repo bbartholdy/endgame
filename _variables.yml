@@ -7,6 +7,7 @@
   # writing: "![](https://img.shields.io/badge/Status-writing-yellow)"
   # analysis: "![](https://img.shields.io/badge/Status-analysis-orange)"
   # under review: "![Chapter Status](https://img.shields.io/badge/Status-under review-red)"
+  # accepted: "![](https://img.shields.io/badge/Status-accepted-green)"
 
 intro: 
   version: "![Current version](https://img.shields.io/badge/Version-draft-blue)"
@@ -22,7 +23,7 @@ article1:
 
 article2:
   version: "![Current version](https://img.shields.io/github/v/release/bbartholdy/byoc-starch?label=version)"
-  status: "![Chapter Status](https://img.shields.io/badge/Status-under review-red)"
+  status: "[![](https://img.shields.io/badge/Status-accepted-green)](https://doi.org/10.3389/feart.2022.886512)"
   doi: "[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5604670.svg)](https://doi.org/10.5281/zenodo.5604670)"
 
 article3:
