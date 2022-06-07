@@ -25,6 +25,7 @@ jobs:
       - name: Install Quarto
         uses: quarto-dev/quarto-actions/install-quarto@main
         with:
+          version: 0.9.426
           tinytex: true
 
       - uses: r-lib/actions/setup-r@v1
@@ -38,36 +39,16 @@ jobs:
         with:
           submodules: recursive
 
-      #- uses: r-lib/actions/setup-renv@v1
-
-      # - name: Cache bookdown results
-      #   uses: actions/cache@v2
-      #   with:
-      #     path: _bookdown_files
-      #     key: bookdown-${{ hashFiles('**/*Rmd') }}
-      #     restore-keys: bookdown-
-
-      # - name: Build site
-      #   run: bookdown::render_book("index.Rmd", quiet = TRUE)
-      #   shell: Rscript {0}
-
       - name: Build Quarto site
         run: |
           quarto render --to all
         
-      # - name: Deploy to GitHub pages 🚀
-      #   uses: JamesIves/github-pages-deploy-action@4.1.4
-      #   with:
-      #     branch: gh-pages
-      #     folder: _book
-        
-      # - name: Deploy to Netlify
-        # NETLIFY_AUTH_TOKEN added in the repo's secrets
-      #   env:
-      #     NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
-      #     NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
-      #   run: |
-      #     npm install netlify-cli -g
-      #     netlify deploy --prod --dir _book
+      - name: Deploy to Netlify
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+        run: |
+          npm install netlify-cli -g
+          netlify deploy --prod --dir _book
           
 
