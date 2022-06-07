@@ -9,6 +9,7 @@ Imports:
     here,
     dplyr,
     ggplot2,
+    ggwordcloud,
     patchwork,
     tidyr,
     stringr,
