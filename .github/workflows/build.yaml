@@ -61,13 +61,13 @@ jobs:
       #     branch: gh-pages
       #     folder: _book
         
-      - name: Deploy to Netlify
+      # - name: Deploy to Netlify
         # NETLIFY_AUTH_TOKEN added in the repo's secrets
-        env:
-          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
-          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
-        run: |
-          npm install netlify-cli -g
-          netlify deploy --prod --dir _book
+      #   env:
+      #     NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+      #     NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+      #   run: |
+      #     npm install netlify-cli -g
+      #     netlify deploy --prod --dir _book
           
 
