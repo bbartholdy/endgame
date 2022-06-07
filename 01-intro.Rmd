@@ -11,6 +11,7 @@
 #| include: false
 
 library(here)
+library(patchwork)
 source(here("scripts/wos_papers.R"))
 ```
 
