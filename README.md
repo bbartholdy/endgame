@@ -1,6 +1,6 @@
 ## 👋 Welcome! 
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/654e8f2b-273f-4ad4-bf70-5893719cb68c/deploy-status)](https://app.netlify.com/sites/myphd/deploys) [![Build](https://github.com/bbartholdy/endgame/actions/workflows/bookdown.yaml/badge.svg)](https://github.com/bbartholdy/endgame/actions/workflows/bookdown.yaml)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/654e8f2b-273f-4ad4-bf70-5893719cb68c/deploy-status)](https://app.netlify.com/sites/myphd/deploys) [![build](https://github.com/bbartholdy/endgame/actions/workflows/build.yaml/badge.svg)](https://github.com/bbartholdy/endgame/actions/workflows/build.yaml)
 ![Thesis Status](https://img.shields.io/badge/Status-writing-blue) [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 This is my PhD dissertation. It is written with the
