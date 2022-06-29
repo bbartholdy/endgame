@@ -39,7 +39,8 @@ format:
       light: [lightly, style.scss]
       dark: [darkly, style.scss]
     reference-location: section
-    include-in-header: partials/analytics.html
+    #include-in-header: partials/analytics.html
+    include-after-body: partials/analytics.html
     #citeproc: true
     bibliography: [book.bib, articles/byoc-starch/analysis/paper/refs.bib]
 
@@ -48,7 +49,6 @@ format:
     block-headings: false # needed for titlesec to work
     lot: true
     lof: true
-    #pdf-engine: latexmk
     keep-tex: true
     cite-method: citeproc
     section-refs-bibliography: [book.bib, articles/byoc-starch/analysis/paper/refs.bib]
