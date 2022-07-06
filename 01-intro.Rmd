@@ -459,6 +459,8 @@ This lack of systematic research specifically devoted to dental calculus as a su
 rather than a means to an end, leaves a lot of questions regarding the expected
 behaviour of dental calculus and how information from the past becomes trapped inside.
 
+<!-- specific aims of the dissertation research (bullet-form) -->
+
 ## Thesis outline and structure
 
 This disseration is a contribution to a dental-calculus-centric body of knowledge.
@@ -494,13 +496,13 @@ departments and grants.
 current applications in archaeology, which I assume you have just finished reading.
 I do my best to contextualise the study of dental calculus
 and identify some areas where we may have some additional questions.  
-[Chapter 2](#background) provides some background information on oral biofilms
+[Chapter 2](#chap-background) provides some background information on oral biofilms
 and oral biofilm models in more detail than I can do in the research articles
 included in Chapters 3 and 4. So if you're already well-versed in oral
 microbiology, feel free to skip to Chapter 3. If not, I recommend picking
 up a textbook written by actual experts in the field of oral microbiology.
 If, for some reason, you can't access one of these, feel free to read
-[Chapter 2](#background). I suppose there are worse
+[Chapter 2](#chap-background). I suppose there are worse
 alternatives than something written by a PhD student in archaeology.  
 [Chapter 3](#byoc-valid) is a research article where we (myself and coauthors) examine
 the applicability of
@@ -515,14 +517,14 @@ try and look at how starch granules are incorporated into dental calculus.
 We 'fed' the biofilm with a known quantity of starch granules
 during the growth period to see if the input quantity/ratio matched the extracted
 quantity (or output).  
-Chapter 5 is bonus paper, in the sense that it does not involve the biofilm
+Chapter 5 is bonus paper, in the sense that it doesn't involve the biofilm
 model in any way. It's also the only one that involves actual archaeological
 material. We look at possible medicinal compounds in the dental
 calculus of a Post-medieval Dutch population. We employed Ultra High Performance
-Lqiuid Chromatography coupled with Mass Spectrometry (UHPLC-MS) to identify
+Liquid Chromatography coupled with tandem Mass Spectrometry (UHPLC-MS/MS) to identify
 various compounds in dental calculus, including alkaloids and other compounds
 that could have been used as medicine.<!-- remove from dissertation?? -->  
-[Chapter 6](#chap-discussion) is a discussion on the limitations and future potential of dental
-calulus in the field of archaeology, and what biofilms can contribute.
+[Chapter 6](#chap-discussion) is a discussion on the limitations and future potential of
+dental calulus in the field of archaeology, and what biofilms can contribute.
 
 ## References {-}

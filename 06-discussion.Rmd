@@ -1,16 +1,19 @@
-# Discussion
+# Discussion {#chap-discussion}
 
 ::: {.content-visible when-format="html"}
 {{< var discussion.status >}} {{< var discussion.version >}}
 :::
 
-A chapter to discuss the limitations and potential of the biofilm model in
-archaeological research.
+A chapter to discuss the limitations and potential of biofilm models
+and calculus in archaeological research.
 
 <!--# Limitations of the biofilm model
 
+limitations of in vivo biofilms @bjarnsholtVivoBiofilm2013 - Discussion? 
 
-## Potential of the biofilm model
+## Future directions 
 
+Potential of the biofilm model
 
-## Future directions -->
+Potential of dental calculus in archaeology
+-->

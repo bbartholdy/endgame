@@ -1,7 +1,7 @@
 ---
 engine: knitr
 ---
-# BYOC Validation Article
+# BYOC Validation Article {#byoc-valid}
 
 ::: {.content-visible when-format="html"}
 {{< var article1.status >}} {{< var article1.version >}}

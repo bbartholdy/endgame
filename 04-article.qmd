@@ -1,15 +1,12 @@
 ---
 engine: knitr
-execute-dir: project
 title: Investigating Biases Associated with Dietary Starch Incorporation and Retention with an Oral Biofilm Model
 shift-heading-level-by: 1
 ---
 
 ::: {.content-visible when-format="html"}
 {{< var article2.status >}} {{< var article2.version >}} {{< var article2.doi >}}
-:::
 
-::: {.content-visible when-format="html"}
 # Summary
 
 We used the BYOC model to try and look at how starch granules are incorporated
@@ -71,7 +68,7 @@ cor2_r <- signif(count_cor$estimate, 3)
 cor2_ci <- signif(count_cor$conf.int, 3)
 ```
 
-# Introduction
+# Introduction {#byoc-starch}
 
 {{< include articles/byoc-starch/analysis/paper/intro.Rmd >}}
 
