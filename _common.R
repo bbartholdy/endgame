@@ -38,6 +38,7 @@ if (!nzchar(Sys.getenv("QUARTO_PROJECT_RENDER_ALL"))) {
 library(here)
 
 ref_files <- list.files(here(), ".qmd|.Rmd")
+keys <- rbbt::bbt_detect_citations(ref_files)
 
 try(
   if (file.exists(here("book.bib"))) {
@@ -48,7 +49,7 @@ try(
   } else {
     rbbt::bbt_write_bib(
       here("book.bib"), 
-      keys = rbbt::bbt_detect_citations(ref_files), 
+      keys = keys, 
       ignore = keys[grepl("fig-", keys)]) # detect figure references
   }
 )
