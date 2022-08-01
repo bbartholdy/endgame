@@ -2,7 +2,7 @@ project:
   type: book
   pre-render: _common.R # causes issue with quarto preview - issue caused by `bbt_update_bib(ref_files, here("book.bib"))`
   execute:
-    freeze: auto
+    freeze: true
 
 book:
   title: "Putting Dental Calculus Under the Microscope"
@@ -27,7 +27,7 @@ book:
   chapters: 
     - index.qmd
     - 01-intro.Rmd
-    - 02-background.Rmd
+    - 02-background.qmd
     - 03-article.qmd
     - 04-article.qmd
     #- 05-article.Rmd

@@ -1,0 +1,410 @@
+# Background {#chap-background}
+
+::: {.content-visible when-format="html"}
+{{< var background.status >}} {{< var background.version >}}
+:::
+
+The human mouth, or oral cavity, contains many different types of surfaces
+available for bacteria to attach and grow.
+These surfaces are both hard (teeth) and soft (mucosa, tongue, gingiva), and are exposed to
+the external environment. The conditions within the oral cavity can also vary considerably,
+causing a unique range of habitats for a wide variety of microbes.
+In fact, the oral biome contains bacteria from over 600 different
+species, some of which still haven't been named yet<!--cite-->.
+There are so many bacteria in our mouth that it's actually hard to determine
+how many are there at any given time, but most estimates are in the
+billions. The oral biome is complex. You just won't believe how vastly, hugely,
+mind-bogglingly complex it is. I mean, you may think quantum physics is complicated,
+but that's just peanuts to the oral biome [@adamsHitchhikersGuide2002, p.66].
+As such, this chapter reflects the knowledge at the time of writing, and no
+warranty is given for the inevitable new developments that will change what we now
+believe to be true.<!-- rephrase -->
+
+## Biofilms
+
+<!-- what is it? -->
+The study of biofilms represents a recent paradigm shift in microbiology
+[@costertonBacterialBiofilmsNature1987; @costertonMicrobialBiofilms1995].
+Before this, researchers believed that you could isolate bacteria of
+interest and learn about its growth, metabolism, etc. They assumed
+bacteria would behave the same way as a free-floating organism in a
+lab test tube as it would in a real-world environment (such as the human mouth).
+More recently researchers have discovered that the
+behaviour of bacteria differs when they are part of a larger community,
+compared to when they are grown in isolation.
+One such baterial community is a biofilm. Biofilms consist of multi-species
+communities of bacteria enclosed in an extracellular matrix of their
+own creation. The ability to produce this matrix gives the bacteria an
+adaptive advantage. It equips them with resistance to both antimicrobials
+(such as antibiotic medication) and
+immune responses from the host that would normally affect their
+ability to survive [@marshDentalPlaque2005, @marshPhysiologicalApproaches1997].
+The viscoelastic nature of the biofilm provides some protection against mechanical
+destruction and dislodgement [@petersonViscoelasticityBiofilms2015].
+<!--rephrase-->It also allows them to acquire nutrients from outside the biofilm,
+as well as generate and distribute nutrients within the biofilm to
+different species of bacteria [@flemmingBiofilmsEmergent2016].
+
+### Dental plaque
+
+Dental calculus forms from a specific oral biofilm known as dental plaque.
+After we clean our teeth, our saliva coats the surface of our teeth (enamel)
+with a layer of proteins known as the dental pellicle
+(or acquired enamel pellicle).
+The pellicle is a film that protects our teeth from both mechanical wear and
+chemical decay, but in doing so, provides a viable surface for microorganisms
+to attach, initiating the formation of a biofilm.
+
+![A simplified overview of biofilm formation. Still under construction.](./figures/biofilm_form.png)
+
+<!-- pellicle and initial physicochemical attachment -->
+Biofilm formation goes through several, often abitrarily defined, stages of growth.
+They are arbitrary because they are defined by the researchers who study them,
+but also necessary as a foundation to explain the growth of a biofilm.
+Rather than thinking about the stages as occurring sequentially, you should think of
+them as occurring concurrently across different areas of the tooth surface. Biofilm
+formation is a very dynamic process.
+The pellicle contains proteins (known as adhesins) that allow certain bacteria to
+attach, so when the pellicle covers the tooth surface it becomes a surface
+for bacterial attachment. The first bacteria to attach are known as early coloniser
+bacteria (or pioneer colonisers), and
+include *Streptococcus* species (spp.), *Actinomyces* spp., and *Haemophilus* spp
+[@zijngeBiofilmArchitecture2010, @uzelMicrobialShifts2011].
+The initial attachment occurs when the random movement of bacteria and the flow
+of saliva brings them close enough to the pellicle to attach. Some bacteria have
+a limited ability to move if they have long hair-like structures known as
+flagella.
+As bacteria approach the pellicle-coated surface of a tooth, there are both
+attractive and repulsive forces at work. This is because both the bacteria and
+pellicle proteins have a negative charge, like putting together the wrong ends
+of two magnets. Depending on the distance from the bacteria to the surface, there
+will be attractive (van der Waals) or repulsive (electrostatic energy) forces,
+leading to a game of 'will-they-won't-they'
+between the bacteria and pellicle. If the bacteria come too close to the surface,
+the initial attraction (primary maximum) will most likely be overcome by the
+repulsion (primary maximum). Bacteria are more likely to attach when they encounter
+attractive forces at a further distance (secondary minimum).
+The early attractive forces are weak, and attachment is initially reversible,
+as bacteria can become detached by salivary flow or shearing action by the tongue
+[@marshDentalPlaque2016].
+
+These receptors are often carbohydrates formed by
+the host, meaning us. Early colonisers are also able to attach to proteins and
+enzymes present in saliva, as well as the surface of other early colonisers
+[@nikitkovaStarchBiofilms2013, @jinSupragingivalCalculus2002].
+
+While some bacteria specialise in attaching to surfaces, not all of them have this
+ability. However, once the specialists have attached, they allow other bacteria
+(secondary colonisers) to attach to them (coadhesion). This can occur on a large scale,
+allowing the number
+and types of bacteria on the tooth surface to grow, due to the ability of different
+species to attach to each other (coaggregation)
+[@jinSupragingivalCalculus2002; @marshDentalPlaque2006]. Coaggregation is an
+important part in oral biofilm formation, and most oral taxa have the ability
+to coaggregate with distinct species through cell-cell interactions
+[@kolenbranderOralMultispecies2010].
+
+<!-- direct (non-reversible) attachment to surface -->
+Bacteria may also attach directly to the surface of the pellicle with hair-like <!-- yes, hair-like again... -->
+structures (fimbriae) that are present on the surface of some bacteria. These
+hair-like structures attach to matching receptors that
+are present in the pellicle.
+
+Firm attachment occurs when bacteria are more directly attached to the surface,
+rather than weak long-distance (physicochemical) forces. Some bacteria have
+components on their surface that allow them to attach directly to complementary
+components on the dental pellicle (adhesin-receptor interactions). These
+attachments are very specific because only certain bacteria have the right
+molecules on their surface. These are mainly *Streptococcus* spp. After
+the direct attachment has occurred, coadhesion allows bacteria of other
+types to attach to the already attached bacteria. For example, *S. gordonii*
+can attach to both the pellicle and *A. naeslundii*. And there are many more
+examples of these bacteria-host and bacteria-bacteria interactions that
+are involved in the growth of a biofilm. Not all attachments involve proteins.
+They can also involve carbohydrates, enzymes, and various appendages on the
+surface of the bacteria, although these appendages often consist of proteins
+in their structure (for example pili and fimbriae, which have already
+been mentioned).
+
+<!-- bacterial multiplication of early colonisers-->
+
+Fundamental changes in the genes of bacteria can occur upon attachment to the
+dental pellicle, inducing a biofilm phenotype in many bacteria that favours
+coaggregation between distinct species<!-- cite-->.
+
+<!-- metabolism of early colonisers and modification of local environment-->
+
+<!-- biofilm and extracellular matrix formation -->
+As the biofilm formed by early colonisers grows through continued multiplication and
+coadhesion/coaggregation, the proportion of streptococci
+gradually decreases while
+there is an increase of *Actinomyces* spp. and *Fusobacterium nucleatum*.
+*F. nucleatum* is a bacterium also known as the 'bridging species', as it's
+believed to play an important part in linking together early and late coloniser
+species---including *Prevotella* spp., *S. gordonii*, and *Porphyromonas gingivalis*---
+which would not otherwise be able to coaggregate
+[@kolenbranderAdhereToday1993; @kolenbranderOralMultispecies2010].
+
+Once there is a sufficient amount and diversity of bacteria adhering to a surface,
+the communities can alter the local environment for more favourable conditions.
+an extracellular matrix will be formed from the production of polymers by certain
+bacterial species [@marshMicrobiologyDental2010].
+Microenvironmental changes can allow species to survive in otherwise unfavourable
+environments. An example is the survival of obligate anaerobes in an environment
+which is largely aerobic (oxygen is continuously introduced to the oral cavity
+through breathing). This is made possible by bacteria with the ability to
+consume oxygen and produce carbon dioxide[@marshDentalPlaque2005]. In fact, dental plaque
+predominantly consists of obligate and facultative anaerobes<!-- Marsh -->.
+A pH balance may be maintained by species that are able to consume acidic metabolic
+products, produced by other species, and convert them to weaker acids.
+*Veillonella* spp. especially [@marshDentalPlaque2005].
+Further changes in members of the biofilm community can also occur through
+horizontal gene transfer.
+Working as a community to increase survivability in the harsh and dynamic
+environment of the oral cavity, with rapid changes in pH, oxygen, nutrient
+availability, etc. Metabolic products of some bacteria are used by others
+as nutrients. Hydrogen peroxide produced by streptococci can be used by
+... and lactate formed by carbohydrate fermentation ....
+
+Bacteria can produce compounds that inhibit the growth of other bacteria.
+Production of acids can reduce the pH of biofilms and inhibit pH sensitive
+bacteria. Other bacteria can produce compounds that are toxic to yet other
+bacteria (e.g. \(H_2O_2\) and bacteriocins).
+
+Competition between bacteria still exists within the biofilm. The metabolic
+by-products produced by some bacteria may allow them to gain an advantage
+over others. The aforementioned acid-production by some bacteria can cause
+unfavourable conditions for species that prefer more neutral pH environments,
+particularly in the absence of secondary feeders that would normally neutralise
+these compounds. A more direct example of bacterial competition is the ability
+of bacteria to produce substances that are toxic to other bacteria. These are
+often proteins or peptides termed bacteriocins, and can either inhibit or even
+kill bacteria [@grahamEnterococcusFaecalis2017; @dawBacteriocinsNature1996].
+Oral streptococci produce toxins that give them a competitive advantage over
+other species ... Resistance and even use of these as a nutrient allow
+*Veillonella* spp. to accumulate in the biofilm ...
+[@edlundUncoveringComplex2018].
+<!-- bacteriocins, hydrogen peroxide, organic acids and low pH, nutrient competition -->
+
+<!--Biofilm maturation
+
+Detachment of bacteria and colonisation of other areas of a surface.-->
+
+### Dental calculus
+
+<!-- biofilm mineralisation -->
+<!-- Dental calculus is mineralised plaque. At what point does plaque become calculus? Is there a critical threshold? Is it gradual?-->
+<!-- need to be more consistent with terminology of mineral, salt, ions, etc. -->
+The exact mechanism of biomineralisation within dental plaque is not very well
+understood. As such, the processes outlined in this particular section are
+inevitably subject to change with scientific advancements, and I take no
+responsibility for the accuracy of this section if you are reading this in the
+future (or reading it my present but you are from the future - all depending on
+where you land on the mechanisms and feasibility time-travel).
+
+<!-- initial mineralisation -->
+Initial mineralisation of dental plaque is a chemical process in which equilibrium
+of minerals in saliva and gingival crevicular fluid tips towards saturation with
+regard to calcium and phosphate, causing an increase of precipitation relative to
+dissolution. This means, that when the concentration
+of ions surpassess a critical threshold to overcome dissolution, salts will deposit
+on the plaque instead of dissolving in the saliva. Plaque absorbs the minerals and,
+once the concentration of minerals reaches a critical threshold (supersaturation),
+nucleation is triggered within the plaque matrix and initiates crystal growth.
+This may or may not involve spontaneous
+(or homogenous) nucleation, as it's unclear whether mineral concentrations are
+sufficient to cause spontaneous nucleation, or whether other biochemical
+processes act as a catalyst [@omelonReviewPhosphate2013]. That it's a chemical
+process can be shown by the ability to produce calculus deposits in germ-free
+rats [@theiladeGermfreeCalculus1964; @glasGermfreeCalculus1962]. It's unclear
+how the germ-free calculus compares to conventional calculus, and, to my
+knowledge there have only been studies done on rats.
+Just because calculus growth can be induced in sterile conditions, doesn't
+mean bacteria are non-essential to the process.
+Bacteria are inevitably part of the scaffolding of dental calculus in humans,
+since, as I mentioned in the beginning of this chapter, our mouths are full
+of bacteria. Mineralisation does seem to start in the biofilm matrix between
+microorganisms, but they are eventually mineralised along with the biofilm matrix
+[@friskoppUltrastructureNondecalcified1983].
+There are pockets of living bacteria within dental calculus. These pockets and
+the layer of plaque that covers the surface of dental calculus are likely what
+cause the correlation between calculus presence and periodontal disease
+[@tanBacterialViability2004].
+While the process can be explained by chemistry, the conditions leading up to
+and surrounding the process are both chemical and biological in nature,
+and certainly involve bacteria.
+
+The main mineral components of calculus are crystals containing various combinations
+of calcium and phosphate ions. Other salts are also present, but the bulk of the
+crystals are made up of calcium and phosphate.
+
+Two critical aspects of plaque mineralisation are
+therefore a ... source of the calcium and phosphate
+salts, and crystal nucleation/growth promoters (and of course an absence of inhibitors).
+
+
+The essentials for calculus formation are therefore a source of minerals, and
+particular conditions encouraging crystal formation and growth.
+The source of minerals for mineralisation of supragingival plaque is saliva,
+while the source of minerals subgingival plaque is gingival crevicular fluid.
+Both fluids are a rich source of calcium and phosphate (and other) minerals
+[@jinSupragingivalCalculus2002].
+
+<!-- factors affecting saturation of minerals - pH, saliva flow rates, saliva mineral content -->
+
+<!-- mineralisation starts around the microbes before calcifying the microbes
+themselves, with the cell wall likely being the last to calcify @friskoppUltrastructureNondecalcified1983 -->
+
+It's likely that multiple biomineralisation events occur under various conditions,
+resulting in a somewhat heterogenous calculus composition<!--cite--> [@friskoppComparativeScanning1980; @friskoppUltrastructureNondecalcified1983].
+The differing susceptibility of bacteria to calcification is also a contributer
+the heterogenous composition.
+
+<!-- Need an analogy. 
+	minerals are the ingredients, promoters are the ..., and local environment is the ... --->
+
+A complex interaction between conditions in the local environment, availability
+of minerals, the equilibrium between precipitation and dissolution, balance
+between nucleation promoters and inhibitors. 
+
+
+Salivary pH also affects saturation
+of salts, which in turn is influenced by salivary flow rates. Increased flow rate
+of saliva will increase salivary pH, which reduces dissolution and increases
+precipitation of calcium and phosphate. This is an important mechanism against
+caries development, where the saliva acts as a buffer for the oral cavity, reducing
+the impact of short-term pH drops caused by acid-producing bacteria
+[@doddsHealthBenefits2005; @jinSupragingivalCalculus2002]. Higher rates of salivary
+flow are also likely to contribute to an increase in calcium and phosphate secretion
+in addition to pH, all contributing to an environment favouring plaque mineralisation.
+<!-- promoters and inhibitors of mineralisation -->
+There are also a number of inhibitors and promoters of mineralisation present in
+the oral cavity, originating both from saliva and bacteria. Two substances known
+to promote plaque mineralisation through hydroxyapatite formation and deposition,
+calcium-phospholipid-phosphate complexes (CPLX), are present in bacteria. The
+species that has received the most attention is *Corynebacterium matruchotii*
+(formerly *Bacterionema matruchotii*), which accumulates
+calcium within its cell structure
+[@takazoeCalciumHydroxyapatite1970; @enneverIntracellularCalcification1960 in @enneverMicrobiologicCalcification1967; @boyan-salyersRelationshipProteolipids1980].
+Biomineralisation is not a feature unique to *Corynebacterium matruchotii*.
+Even species associated with caries may induce calcification under the right conditions
+and after cell death [@moorerCalcificationCariogenic1993; @sidawayMicrobiologicalStudy1978a].
+
+An intricate inter-connected system which maintains a balance, and when changes
+happen to one or more parts of the system, can result in disease. Or calculus.
+<!-- bacterial mineralisation -->
+
+<!--
+<!-- early tooth biofilms are mainly commensal species -->
+
+<!--### Dental calculus? 
+
+#### Bacterial competition
+
+
+### Saliva
+
+Saliva is hugely important to the ‘normal’ functioning of the oral biome,
+and as such has a large role in the formation of dental calculus. Saliva
+is a biofilm(?) comprised of around 99% water; however, the remaining 1%
+consists of proteins, enzymes, …., which provides it with a wide variety of
+functions (cite). -->
+
+## Oral biofilm models
+
+<!-- what is it -->
+Biofilm models are a way to of studying the growth and development of
+biofilms by creating models that replicate the conditions and complexity
+(to some extent) of biofilms in a lab. Models allow researchers to conduct
+various experiments on biofilms to test the efficacy of treatments on the
+growth and pathogenicity of biofilms.
+
+Biofilm models can differ widely in their complexity. The simplest models
+generally involve multiwell plates (e.g., 6-, 24-, and 98-well plates) with
+a substratum (usually glass cover-slips or hydroxyapatite discs) placed at
+the bottom of the well. An inoculate, either single (pure culture) or multiple
+select species (defined consortium), or organisms occuring naturally within a
+system (microcosm). Examples of microcosms used for oral biofilm models are
+plaque and saliva.<!-- rephrase -->
+The inoculate is added to the wells to initiate biofilm formation on the
+substrata. Medium
+containing salivary components may be added for extended experiments (where donated
+saliva may be too limited).
+Similar models suspend the substrata from a lid
+to promote active attachment of bacteria to the substrata [@extercateAAA2010],
+which also allows samples to be periodically transferred between solutions/media
+if necessary.
+
+Another level of model complexity can be added by adjusting the rate at which nutrients
+are dispersed in the system and the overall nutrient supply.
+Nutrient distribtion can be continuous, semi-continuous, or batch cultures, with the latter
+providing a finite amount of nutrients in a closed system, like an agar plate, versus
+a continuous supply of nutrients dispersed through the system from a reservoir that can
+be replenished (with semi-continuous landing somewhere in between).
+
+Finally, the artificial mouth models provide control over a large number of
+parameters using multiple chambers dedicated to providing complete control
+over the flow of
+treatment and/or nutrient conditions, as well as the environmental conditions
+such as pH, temperature, and gas phase, as well as access to real-time measurements
+[@sissonsArtificialPlaque1997].
+
+The complexity of a model can either be introduced
+as a selective inoculation (pure culture, defined consortium, microcosm)
+or as complexity in reproducing the oral environment.
+
+Benefits of pure cultures and defined consortia are reproducibility between
+experiments and more control over physiological and factors and making it easier
+to take various measurements. Microcosms have the benefit of more closely
+mimicking the complexity of the organisms' natural environment [@mcbainBiofilmModels2009].
+However, even microcosms can be limited in their ability to recreate the complexity and
+diversity of the oral microbiome [@tianUsingDGGE2010].
+
+Models developed for studying oral biofilms include, in somewhat increasing complexity,
+the ACTA active attachment (AAA) model [@extercateAAA2010], Calgary biofilm device
+[@ceriCalgaryBiofilm1999], modified Robbins device (MRD) [@honraetModifiedRobbins2006],
+constant depth film-fermenter (CDFF) [@petersConstantDepth1988],
+and the multistation artificial mouth (MAM) [@sissonsMultistationPlaque1991]
+representing the upper echelon of complexity.
+
+The duration of biofilm growth depends on the scope of the study. Some are
+used to explore initial biofilm formation and prevention and may last up
+from a few hours to 48 hours [@extercateAAA2010; dibdinDiffusionSugars1981],
+while experiments looking at maturation and calcification of biofilms can last
+up to six weeks
+[@sissonsMultistationPlaque1991; @wongCalciumPhosphate2002; @filocheFluorescenceAssay2007].
+Alternatives to *in vitro* models are *in situ* models which usually involve
+growing plaque on a removable surface inside a the mouth of a willing participant.
+These models add a level of realism, as they are grown inside an actual oral
+cavity, and can reflect biogeographical differences in biofilm composition caused
+by differing conditions across the oral cavity. They also come with additional difficulties
+and reduced control over experimental parameters [@marshRoleMicrobiology1995; @zeroSituCaries1995].
+
+<!-- 
+
+## Saliva?
+
+Saliva is an important part of our mouth, and has many functions that keeps
+our mouth in working order.
+
+## Dental calculus?
+
+<!--
+	Dental calculus
+	Formation
+		Process of formation and mineralisation
+		Aetiology
+	Composition
+		Organic
+		Inorganic
+	Diet
+		Effect of diet
+		Effect on diet
+
+Dental calculus (move to top?)
+  - mineralisation of biofilms
+  - calculus as a (trap) for all kinds of particles
+  - archaeological applications
+-->
+
+<!-- ## Starch? -->
