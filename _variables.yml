@@ -10,7 +10,7 @@
   # accepted: "![](https://img.shields.io/badge/Status-accepted-green)"
 
 intro: 
-  version: "![Current version](https://img.shields.io/badge/Version-draft-blue)"
+  version: "![Current version](https://img.shields.io/badge/Version-First draft-blue)"
   status: "![](https://img.shields.io/badge/Status-writing-yellow)"
 
 background:

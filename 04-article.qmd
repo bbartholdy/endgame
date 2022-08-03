@@ -2,6 +2,7 @@
 engine: knitr
 title: Investigating Biases Associated with Dietary Starch Incorporation and Retention with an Oral Biofilm Model
 shift-heading-level-by: 1
+#top-level-division: section
 ---
 
 ::: {.content-visible when-format="html"}
@@ -9,7 +10,7 @@ shift-heading-level-by: 1
 
 # Summary
 
-We used the BYOC model to try and look at how starch granules are incorporated
+We used the BYOC model to look at how starch granules are incorporated
 into dental calculus. We 'fed' the biofilm with a known quantity of starch granules
 during the growth period. Preliminary results suggest that a very small proportion
 of consumed starch is retained by the calculus. The size of starch granules also
