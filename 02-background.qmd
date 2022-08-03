@@ -5,7 +5,8 @@
 :::
 
 The human mouth, or oral cavity, contains many different types of surfaces
-available for bacteria to attach and grow.
+available for bacteria to attach and grow. A similar thing can be said for
+the mouths of other mammals, but that's not the focus here.
 These surfaces are both hard (teeth) and soft (mucosa, tongue, gingiva), and are exposed to
 the external environment. The conditions within the oral cavity can also vary considerably,
 causing a unique range of habitats for a wide variety of microbes.
@@ -23,7 +24,7 @@ believe to be true.<!-- rephrase -->
 ## Biofilms
 
 <!-- what is it? -->
-The study of biofilms represents a recent paradigm shift in microbiology
+The concept of biofilms represents a recent paradigm shift in microbiology
 [@costertonBacterialBiofilmsNature1987; @costertonMicrobialBiofilms1995].
 Before this, researchers believed that you could isolate bacteria of
 interest and learn about its growth, metabolism, etc. They assumed
@@ -55,7 +56,7 @@ The pellicle is a film that protects our teeth from both mechanical wear and
 chemical decay, but in doing so, provides a viable surface for microorganisms
 to attach, initiating the formation of a biofilm.
 
-![A simplified overview of biofilm formation. Still under construction.](./figures/biofilm_form.png)
+![A simplified overview of biofilm formation. Still under construction.](./figures/biofilm_formation.png){#fig-biofilm-form fig-alt="Overview of biofilm formation progressing through stages, including ..."}
 
 <!-- pellicle and initial physicochemical attachment -->
 Biofilm formation goes through several, often abitrarily defined, stages of growth.
@@ -63,7 +64,8 @@ They are arbitrary because they are defined by the researchers who study them,
 but also necessary as a foundation to explain the growth of a biofilm.
 Rather than thinking about the stages as occurring sequentially, you should think of
 them as occurring concurrently across different areas of the tooth surface. Biofilm
-formation is a very dynamic process.
+formation is a very dynamic process, and is often over-simplified in visualisations
+(not unlike @fig-biofilm-form).
 The pellicle contains proteins (known as adhesins) that allow certain bacteria to
 attach, so when the pellicle covers the tooth surface it becomes a surface
 for bacterial attachment. The first bacteria to attach are known as early coloniser
@@ -102,7 +104,7 @@ species to attach to each other (coaggregation)
 [@jinSupragingivalCalculus2002; @marshDentalPlaque2006]. Coaggregation is an
 important part in oral biofilm formation, and most oral taxa have the ability
 to coaggregate with distinct species through cell-cell interactions
-[@kolenbranderOralMultispecies2010].
+[@kolenbranderOralMultispecies2010; @palmerInterbacterialAdhesion2017].
 
 <!-- direct (non-reversible) attachment to surface -->
 Bacteria may also attach directly to the surface of the pellicle with hair-like <!-- yes, hair-like again... -->
@@ -169,7 +171,7 @@ as nutrients. Hydrogen peroxide produced by streptococci can be used by
 Bacteria can produce compounds that inhibit the growth of other bacteria.
 Production of acids can reduce the pH of biofilms and inhibit pH sensitive
 bacteria. Other bacteria can produce compounds that are toxic to yet other
-bacteria (e.g. \(H_2O_2\) and bacteriocins).
+bacteria (e.g. $H_2O_2$ and bacteriocins).
 
 Competition between bacteria still exists within the biofilm. The metabolic
 by-products produced by some bacteria may allow them to gain an advantage
@@ -188,14 +190,17 @@ other species ... Resistance and even use of these as a nutrient allow
 
 <!--Biofilm maturation
 
-Detachment of bacteria and colonisation of other areas of a surface.-->
+Detachment of bacteria and colonisation of other areas of a surface is an important part of
+biofilm maturation.-->
+Perhaps ironically, an important part of the maturation of a biofilm is detachment of
+bacteria from the biofilm.
 
 ### Dental calculus
 
 <!-- biofilm mineralisation -->
 <!-- Dental calculus is mineralised plaque. At what point does plaque become calculus? Is there a critical threshold? Is it gradual?-->
 <!-- need to be more consistent with terminology of mineral, salt, ions, etc. -->
-The exact mechanism of biomineralisation within dental plaque is not very well
+The exact mechanism of biomineralisation within dental plaque is not fully
 understood. As such, the processes outlined in this particular section are
 inevitably subject to change with scientific advancements, and I take no
 responsibility for the accuracy of this section if you are reading this in the
@@ -234,50 +239,63 @@ While the process can be explained by chemistry, the conditions leading up to
 and surrounding the process are both chemical and biological in nature,
 and certainly involve bacteria.
 
-The main mineral components of calculus are crystals containing various combinations
-of calcium and phosphate ions. Other salts are also present, but the bulk of the
-crystals are made up of calcium and phosphate.
+The essentials for calculus formation are therefore a source of minerals, and
+particular conditions encouraging crystal formation and growth.
+
+<!-- factors affecting saturation of minerals - pH, saliva flow rates, saliva mineral content -->
 
 Two critical aspects of plaque mineralisation are
 therefore a ... source of the calcium and phosphate
 salts, and crystal nucleation/growth promoters (and of course an absence of inhibitors).
-
-
-The essentials for calculus formation are therefore a source of minerals, and
-particular conditions encouraging crystal formation and growth.
 The source of minerals for mineralisation of supragingival plaque is saliva,
 while the source of minerals subgingival plaque is gingival crevicular fluid.
 Both fluids are a rich source of calcium and phosphate (and other) minerals
 [@jinSupragingivalCalculus2002].
-
-<!-- factors affecting saturation of minerals - pH, saliva flow rates, saliva mineral content -->
-
-<!-- mineralisation starts around the microbes before calcifying the microbes
-themselves, with the cell wall likely being the last to calcify @friskoppUltrastructureNondecalcified1983 -->
-
-It's likely that multiple biomineralisation events occur under various conditions,
-resulting in a somewhat heterogenous calculus composition<!--cite--> [@friskoppComparativeScanning1980; @friskoppUltrastructureNondecalcified1983].
-The differing susceptibility of bacteria to calcification is also a contributer
-the heterogenous composition.
-
-<!-- Need an analogy. 
-	minerals are the ingredients, promoters are the ..., and local environment is the ... --->
-
-A complex interaction between conditions in the local environment, availability
-of minerals, the equilibrium between precipitation and dissolution, balance
-between nucleation promoters and inhibitors. 
-
+<!-- mineral availability in saliva -->
+The main mineral components of calculus are crystals containing various combinations
+of calcium and phosphate ions. Other salts are also present, but the bulk of the
+crystals are made up of calcium and phosphate. The main source of minerals in the
+oral cavity is saliva, which enters the mouth through salivary glands. The three
+main paired glands are the parotid, sublingual, and submandibular glands, located
+by the cheeks, under the tongue, and under the lower jaw bone, respectively. The
+locations of the glands contribute to the pattern of dental calculus deposits
+within the mouth, with commonly occur on buccal portion of maxillary (upper) molars
+and lingual portion of mandibular (lower) incisors
+[@jinSupragingivalCalculus2002; @whiteDentalCalculus1997].
+Saliva contains sodium (Na), potassium (K), calcium (Ca), chlorine (Cl),
+bicarbonate (buffer), and inorganic phosphate (Pi)
+[@dawesEffectsDietSalivary1970; @doddsHealthBenefits2005].
 
 Salivary pH also affects saturation
 of salts, which in turn is influenced by salivary flow rates. Increased flow rate
 of saliva will increase salivary pH, which reduces dissolution and increases
-precipitation of calcium and phosphate. This is an important mechanism against
-caries development, where the saliva acts as a buffer for the oral cavity, reducing
-the impact of short-term pH drops caused by acid-producing bacteria
-[@doddsHealthBenefits2005; @jinSupragingivalCalculus2002]. Higher rates of salivary
+precipitation of calcium and phosphate. This is an important mechanism that protects
+our teeth against demineralisation of the enamel caused by caries. Protection is
+provided by the exchange of calcium and phosphate from saliva to enamel
+[@dahlenMicrobiologicalStudy2010].
+Saliva further acts
+as a buffer for the oral cavity, reducing
+the impact of short-term drops in pH caused by metabolic byproducts of acid-producing
+bacteria [@doddsHealthBenefits2005; @jinSupragingivalCalculus2002]. Higher rates of salivary
 flow are also likely to contribute to an increase in calcium and phosphate secretion
 in addition to pH, all contributing to an environment favouring plaque mineralisation.
+Metabolic byproducts produced by bacteria can also affect local pH, both pushing towards
+alkaline conditions as well as acidic. A major cause of acidic pH is metabolism
+of overabundant dietary sugars, especially the metabolic activity of
+*Streptococcus mutans*, known to be one of the main culprits behind dental caries
+[@bowenOralBiofilms2018; @extercateAAA2010].
+
+Conversely, alkaline conditions can
+be induced by metabolism of various products that can either be directly or
+indirectly linked to diet. One such product is urea. Urea is present in saliva,
+and its concentration depends on multiple factors, including diet<!-- citation-->.
+Hydrolysis of urea produces ...<!-- ammonia? --> and causes a rise in pH.
+Bacteria possess the ability to...
+[@wongCalciumPhosphate2002; @sissonsPHResponseUrea1994].
+
+<!-- The salivary minerals play an important role in remineralisation of enamel.... -->
 <!-- promoters and inhibitors of mineralisation -->
+<!-- bacterial mineralisation -->
 There are also a number of inhibitors and promoters of mineralisation present in
 the oral cavity, originating both from saliva and bacteria. Two substances known
 to promote plaque mineralisation through hydroxyapatite formation and deposition,
@@ -290,10 +308,24 @@ Biomineralisation is not a feature unique to *Corynebacterium matruchotii*.
 Even species associated with caries may induce calcification under the right conditions
 and after cell death [@moorerCalcificationCariogenic1993; @sidawayMicrobiologicalStudy1978a].
 
+<!-- nucleation and crystal growth inhibitors -->
+[@jinSupragingivalCalculus2002; ]
+
+It's likely that multiple biomineralisation events occur under various conditions,
+resulting in a heterogenous calculus composition with crystals of various stages
+of growth [@friskoppComparativeScanning1980; @friskoppUltrastructureNondecalcified1983].
+The differing susceptibility of bacteria to calcification is also a contributor
+the heterogenous composition.
+
+<!-- Need an analogy. 
+	minerals are the ingredients, promoters are the ..., and local environment is the ... --->
+
+A complex interaction between conditions in the local environment, availability
+of minerals, the equilibrium between precipitation and dissolution, balance
+between nucleation promoters and inhibitors. 
+
 An intricate inter-connected system which maintains a balance, and when changes
 happen to one or more parts of the system, can result in disease. Or calculus.
-<!-- bacterial mineralisation -->
-
 <!--
 <!-- early tooth biofilms are mainly commensal species -->
 
