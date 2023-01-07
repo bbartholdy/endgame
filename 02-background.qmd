@@ -324,7 +324,7 @@ cause the correlation between calculus presence and periodontal disease
 While the process can be explained by chemistry, the conditions leading up to
 and surrounding the process are both chemical and biological in nature,
 and certainly involve bacteria.
-
+<!-- @bertranMineralizationDNA2013-->
 The main source of minerals in the
 oral cavity is saliva, which enters the mouth through salivary glands. The three
 main paired glands are the parotid, sublingual, and submandibular glands, located
