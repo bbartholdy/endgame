@@ -58,7 +58,7 @@ format:
     include-in-header: latex/preamble.tex
     filters: 
       - section-refs.lua # needs pandoc version >= 2.11 to work 
-      - shift-article-headings.lua
+      #- shift-article-headings.lua
     
 # link-citations: yes
 csl: apa.csl
