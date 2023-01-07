@@ -35,7 +35,7 @@ jobs:
           use-public-rspm: true
           
       #- uses: r-lib/actions/setup-r-dependencies@v2
-      - uses: r-lib/actions/setup-renv@v1
+      - uses: r-lib/actions/setup-renv@v2
 
       - name: Build Quarto site
         run: |
