@@ -81,7 +81,7 @@ Data available: TBD
 \clearpage
 \thispagestyle{empty}
 \vspace*{3cm}
-\textit{Til min far}
+\textit{En bar røv at trutte i}
 \vspace*{\fill}
 
 \mainmatter
