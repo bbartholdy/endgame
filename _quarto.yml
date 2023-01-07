@@ -1,6 +1,6 @@
 project:
   type: book
-  pre-render: _common.R # causes issue with quarto preview - issue caused by `bbt_update_bib(ref_files, here("book.bib"))`
+  #pre-render: _common.R # causes issue with quarto preview - issue caused by `bbt_update_bib(ref_files, here("book.bib"))`
   execute:
     freeze: true
 
@@ -57,6 +57,7 @@ format:
     include-in-header: latex/preamble.tex
     filters: 
       - section-refs.lua # needs pandoc version >= 2.11 to work 
+      - shift-article-headings.lua
     
 # link-citations: yes
 csl: apa.csl
