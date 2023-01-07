@@ -1,8 +1,9 @@
 project:
   type: book
-  #pre-render: _common.R # causes issue with quarto preview - issue caused by `bbt_update_bib(ref_files, here("book.bib"))`
-  execute:
-    freeze: true
+  pre-render: _common.R # causes issue with quarto preview - issue caused by `bbt_update_bib(ref_files, here("book.bib"))`
+execute:
+  freeze: true
+
 
 book:
   title: "Putting Dental Calculus Under the Microscope"
