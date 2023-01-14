@@ -57,7 +57,9 @@ growing when the tooth has fully formed. After that, there is no renewal. This a
 bacteria to continue to grow and develop communities if there is no intervention from
 you (or your dentist)<!--cite-->. Dental plaque can trap a variety of different
 microparticles, including bacteria, human proteins, and small debris from the food
-we eat [@akcaliDentalCalculus2018]. When the plaque mineralises and becomes dental
+we eat
+[@hendyProteomicCalculus2018; @henryCalculusSyria2008; @delafuenteDNAHuman2013].
+When the plaque mineralises and becomes dental
 calculus, it can preserve these microparticles over long periods of time, even after
 the person whose teeth provided a home for the calculus has died.
 Also, the main crystal forms in calculus strongly bind DNA, making
@@ -80,7 +82,7 @@ A simple three-stage archaeolgy-specific scoring method was developed
 [@brothwellDiggingBones1981], similar
 to a common clinical scoring sytem [@greeneSimplifiedOral1964],
 and is still widely used today. More detailed
-methods are also available [@dobneyMethodEvaluating1987; @greeneQuantifyingCalculus2005]
+methods are also available [@dobneyMethodEvaluating1987; @greeneQuantifyingCalculus2005].
 
 ```{r}
 #| label: fig-plot-and-wordclouds
@@ -234,8 +236,7 @@ actually protect it from wearing down (although there are better options).
 It seems that the researchers who are studying dental calculus approach it
 from a wide range of different fields and backgounds, including genetics,
 proteomics, botany, and (bio)archaeology. The paleogeneticists mine it for the
-wealth
-of information it contains on oral health and disease in the past<!--citations-->.
+wealth of information it contains on oral health and disease in the past<!--citations-->.
 Palaeodiet researchers extract microremains and residues from food<!--citations-->
 to infer dietary practices. <!-- need more examples. dental anthropologists? paleopathologists?-->
 This leaves calculus publications and conference presentations scattered across

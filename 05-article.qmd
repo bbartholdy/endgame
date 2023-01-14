@@ -1,0 +1,11 @@
+# Multiproxy analysis exploring patterns of diet and disease in dental calculus and skeletal remains from a 19th century Dutch population
+
+::: {.content-visible when-format="html"}
+{{< var article3.status >}} {{< var article3.version >}}
+
+## Summary {-}
+
+We used a fancy chemical method to find different types of ...
+in dental calculus from, Middenbeemster, a rural 19th century
+archaeological population in the Netherlands. 
+:::

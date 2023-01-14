@@ -1,0 +1,27 @@
+# Discussion {#chap-discussion}
+
+::: {.content-visible when-format="html"}
+{{< var discussion.status >}} {{< var discussion.version >}}
+
+A chapter to discuss the limitations and potential of biofilm models
+and calculus in archaeological research. And to reflect on the many,
+many questions that arose during my research.
+
+:::
+
+<!-- goal/summary of the dissertation -->
+In this dissertation I have mainly focuses on the development, validation, and
+application of an oral biofilm model and its potential for informing
+archaeological research. I have shown that it was possible to develop a
+protocol for an oral biofilm model with a relatively simple setup, and
+use it to grow model dental calculus, and also showed that it can serve
+as a reasonable proxy to natural dental calculus (Chapter 3<!--insert hyperlink; and citation-->).
+In Chapter 4 [@bartholdyInvestigatingBiases2022] I demonstrated how the oral biofilm
+model can answer questions
+related to using dental calculus for paleodietary reconstructions, specifically
+using the identification and quantification of starch granules.
+Chapter 5 ... archaeological calculus...
+
+The goal of the model was to provide
+
+

@@ -3,19 +3,6 @@
 
 # example chunk options set globally
 
-# knitr::opts_chunk$set(
-#   comment = "#>",
-#   collapse = TRUE
-#   )
-
-knitr::opts_chunk$set(
-  comment = "#>",
-  collapse = TRUE,
-  warning = FALSE,
-  message = FALSE,
-  echo = FALSE
-  )
-
 # generate r package bibliography
 #bib_packages <- c(.packages(), 'bookdown', 'knitr', 'rmarkdown')
 #knitr::write_bib(bib_packages, 'packages.bib')
@@ -30,7 +17,7 @@ calculus_palette <- c(
   "#ffcc66"
 )
 
-# generate/update bibliography
+# generate/update bibliography only if rendering project
 if (!nzchar(Sys.getenv("QUARTO_PROJECT_RENDER_ALL"))) {
   quit()
 }

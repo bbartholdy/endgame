@@ -4,7 +4,6 @@ project:
 execute:
   freeze: true
 
-
 book:
   title: "Putting Dental Calculus Under the Microscope"
   subtitle: ""
@@ -27,12 +26,12 @@ book:
       href: https://twitter.com/osteobjorn
   chapters: 
     - index.qmd
-    - 01-intro.Rmd
+    - 01-intro.qmd
     - 02-background.qmd
     - 03-article.qmd
     - 04-article.qmd
-    #- 05-article.Rmd
-    - 06-discussion.Rmd
+    - 05-article.qmd
+    - 06-discussion.qmd
 
 format:
   html:

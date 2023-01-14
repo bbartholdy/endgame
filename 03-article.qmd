@@ -1,11 +1,11 @@
----
-engine: knitr
----
-# BYOC Validation Article {#byoc-valid}
+# Assessing the validity of a calcifying oral biofilm model as a suitable proxy for dental calculus {#byoc-valid}
 
 ::: {.content-visible when-format="html"}
 {{< var article1.status >}} {{< var article1.version >}}
-:::
+
+## Summary {-}
 
 Article in progress. Validation of the BYOC (build your own calculus) model using FTIR for the mineral
 composition and metagenomic analysis for the bacterial composition.
+:::
+

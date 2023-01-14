@@ -8,9 +8,10 @@ shift-heading-level-by: 1
 ::: {.content-visible when-format="html"}
 {{< var article2.status >}} {{< var article2.version >}} {{< var article2.doi >}}
 
-# Summary
+# Summary {-}
 
-We used the BYOC model to look at how starch granules are incorporated
+We used our oral biofilm model, as described in Chapter 3, to look at how starch
+granules are incorporated
 into dental calculus. We 'fed' the biofilm with a known quantity of starch granules
 during the growth period. Preliminary results suggest that a very small proportion
 of consumed starch is retained by the calculus. The size of starch granules also
