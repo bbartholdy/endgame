@@ -3,6 +3,8 @@ project:
   pre-render: _common.R # causes issue with quarto preview - issue caused by `bbt_update_bib(ref_files, here("book.bib"))`
 execute:
   freeze: true
+  echo: false
+  warning: false
 
 book:
   title: "Putting Dental Calculus Under the Microscope"
@@ -65,9 +67,7 @@ knitr:
   opts_chunk: 
     collapse: true
     comment: "#>"
-    echo: false
     message: false
-    warning: false
 ### Mandatory for Leiden PhD dissertations ###
 proefschrift:
   rector: Dr. H.J. Farnsworth # name of current rector
