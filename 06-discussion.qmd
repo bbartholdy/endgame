@@ -5,23 +5,41 @@
 
 A chapter to discuss the limitations and potential of biofilm models
 and calculus in archaeological research. And to reflect on the many,
-many questions that arose during my research.
+many questions that arose during my research. In fact there were more
+new questions that arose than were answered. Yay, science!
 
 :::
 
 <!-- goal/summary of the dissertation -->
-In this dissertation I have mainly focuses on the development, validation, and
+In this dissertation I have mainly focused on the development, validation, and
 application of an oral biofilm model and its potential for informing
 archaeological research. I have shown that it was possible to develop a
 protocol for an oral biofilm model with a relatively simple setup, and
 use it to grow model dental calculus, and also showed that it can serve
 as a reasonable proxy to natural dental calculus (Chapter 3<!--insert hyperlink; and citation-->).
 In Chapter 4 [@bartholdyInvestigatingBiases2022] I demonstrated how the oral biofilm
-model can answer questions
+model can answer questions and address hidden biases
 related to using dental calculus for paleodietary reconstructions, specifically
-using the identification and quantification of starch granules.
-Chapter 5 ... archaeological calculus...
+using the identification and quantification of starch granules. Our results
+showed that what goes in, doesn't necessarily come out. And the loss of information
+is not evenly distributed across the different types of starches, depending on
+size and morphology.
+Chapter 5 is a study conducted on archaeological dental calculus. This is, after
+all, a dissertation in archaeology. We analysed dental calculus samples from
+a rural Dutch archaeological site in Middenbeemster, using ultra high performance
+liquid chromatography tandem mass spectrometry (UHPLC-ESI-MS/MS). This allowed
+us to identify a number of residues from plants that may have been consumed for
+nutrition, medicine, or recreation.
 
-The goal of the model was to provide
+## Dental calculus model
 
+The goal of the model was to provide a relatively simple setup to explore fundamental
+aspects of dental calculus and its application in paleodietary research.
 
+<!--How it can improve our understanding of the mechanism by which dietary compounds become trapped in dental calculus?-->
+
+<!-- Limitations of this and other biofilm models -->
+
+<!-- future directions and potential of the biofilm model for archaeological research -->
+
+<!-- Calculus research potential in the future, dietary and otherwise -->

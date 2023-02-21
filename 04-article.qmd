@@ -37,6 +37,8 @@ library(broom)
 library(here)
 library(patchwork)
 library(ggplot2)
+devtools::load_all("articles/byoc-starch/")
+
 plt1_ph1 <- readr::read_tsv(
   here("articles/byoc-starch/analysis/data/raw_data/ExpM_plate1_photometric1.csv"),
   col_names = F)
@@ -59,9 +61,9 @@ source(here("articles/byoc-starch/analysis/scripts/analysis.R"))
 source(here("articles/byoc-starch/analysis/scripts/tables.R"))
 source(here("articles/byoc-starch/analysis/scripts/figures.R"))
 source(here("articles/byoc-starch/analysis/scripts/amylase-assay.R"))
-readr::write_csv(sol_corr, here("articles/byoc-starch/analysis/data/derived_data/sol_corr.csv"))
-readr::write_csv(corr_counts, here("articles/byoc-starch/analysis/data/derived_data/corr_counts.csv"))
-readr::write_csv(corr_comb, here("articles/byoc-starch/analysis/data/derived_data/corr_comb.csv"))
+#readr::write_csv(sol_corr, here("articles/byoc-starch/analysis/data/derived_data/sol_corr.csv"))
+#readr::write_csv(corr_counts, here("articles/byoc-starch/analysis/data/derived_data/corr_counts.csv"))
+#readr::write_csv(corr_comb, here("articles/byoc-starch/analysis/data/derived_data/corr_comb.csv"))
 
 
 cor_r <- signif(count_cor$estimate, 3)
