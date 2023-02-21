@@ -10,7 +10,7 @@
   # accepted: "![](https://img.shields.io/badge/Status-accepted-green)"
 
 intro: 
-  version: "![Current version](https://img.shields.io/badge/Version-First draft-blue)"
+  version: "![Current version](https://img.shields.io/badge/Version-Second draft-blue)"
   status: "![](https://img.shields.io/badge/Status-revising-yellow)"
 
 background:
@@ -18,18 +18,19 @@ background:
   status: "![](https://img.shields.io/badge/Status-revising-yellow)"
 
 article1:
-  version: "![Current version](https://img.shields.io/badge/Version-Second draft-blue)"
+  version: "![](https://img.shields.io/github/v/release/bbartholdy/byoc-valid?include_prereleases)"
   status: "![](https://img.shields.io/badge/Status-revising-yellow)"
 
 article2:
-  version: "![Current version](https://img.shields.io/github/v/release/bbartholdy/byoc-starch?label=version)"
+  version: "[![](https://img.shields.io/github/v/release/bbartholdy/byoc-starch?include_prereleases)](https://github.com/bbartholdy/byoc-starch/releases)"
   status: "[![](https://img.shields.io/badge/Status-published-blue)](https://doi.org/10.3389/feart.2022.886512)"
   doi: "[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5604670.svg)](https://doi.org/10.5281/zenodo.5604670)"
 
 article3:
-  version: "![Current version](https://img.shields.io/badge/Version-Second draft-blue)"
-  status: "![](https://img.shields.io/badge/Status-revising-yellow)"
+  version: "![](https://img.shields.io/github/v/release/bbartholdy/mb11CalculusPilot?include_prereleases)"
+  status: "![](https://img.shields.io/badge/Status-preprint-blue)"
+  doi: "[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7649825.svg)](https://zenodo.org/badge/DOI/10.5281/zenodo.7649825)"
 
 discussion:
-  version: "![Current version](https://img.shields.io/badge/Version-none-grey)"
-  status: "![](https://img.shields.io/badge/Status-none-grey)"
+  version: "![Current version](https://img.shields.io/badge/Version-First draft-blue)"
+  status: "![](https://img.shields.io/badge/Status-writing-yellow)"

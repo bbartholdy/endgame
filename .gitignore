@@ -7,3 +7,5 @@ _book/
 chapters.*
 archive/
 /.quarto/
+/.vscode/
+/.luarc.json

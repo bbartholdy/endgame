@@ -1,11 +1,72 @@
-# Multiproxy analysis exploring patterns of diet and disease in dental calculus and skeletal remains from a 19th century Dutch population
+---
+engine: knitr
+title: Multiproxy analysis exploring patterns of diet and disease in dental calculus and skeletal remains from a 19th century Dutch population
+#shift-heading-level-by: 1
+---
 
 ::: {.content-visible when-format="html"}
-{{< var article3.status >}} {{< var article3.version >}}
+{{< var article3.status >}} {{< var article3.version >}} {{< var article3.doi >}}
 
 ## Summary {-}
 
-We used a fancy chemical method to find different types of ...
+We used a fancy chemical method to find different types of food
+and possible medicine
 in dental calculus from, Middenbeemster, a rural 19th century
 archaeological population in the Netherlands. 
 :::
+
+```{r}
+#| label: setup
+#| include: false
+#| cache: false
+
+library(here)
+library(readr)
+devtools::load_all("articles/mb11CalculusPilot")
+
+# upload data
+metadata <- read_tsv(here("articles/mb11CalculusPilot/analysis/data/raw_data/metadata.tsv"))
+demography <- read_csv(here("articles/mb11CalculusPilot/analysis/data/raw_data/demography.csv"))
+lloq <- read_tsv(here("articles/mb11CalculusPilot/analysis/data/raw_data/lloq.tsv"))
+uhplc_data_comb <- read_csv(here("articles/mb11CalculusPilot/analysis/data/derived_data/uhplc-data_combined.csv"))
+dental_inv <- read_csv(here("articles/mb11CalculusPilot/analysis/data/raw_data/dental-inv.csv"))
+caries <- read_csv(here("articles/mb11CalculusPilot/analysis/data/raw_data/caries.csv"))
+periodont <- read_csv(here("articles/mb11CalculusPilot/analysis/data/raw_data/periodontitis.csv"))
+periap <- read_csv(here("articles/mb11CalculusPilot/analysis/data/raw_data/periapical.csv"))
+#calculus <- read_csv(here("analysis/data/raw_data/calculus.csv"))
+calculus_full <- read_csv(here("articles/mb11CalculusPilot/analysis/data/raw_data/calculus_full.csv"))
+sinusitis_clean <- read_csv(here("articles/mb11CalculusPilot/analysis/data/derived_data/sinusitis_cleaned.csv"))
+path_cond_clean <- read_csv(here("articles/mb11CalculusPilot/analysis/data/derived_data/path-conditions_cleaned.csv"))
+
+source(here("articles/mb11CalculusPilot/analysis/scripts/setup-qmd.R"))
+#source(here("analysis/supplementary-materials/supp-mat.qmd"), local = knitr::knit_global())
+# set viridis as default pallette
+
+options(ggplot.discrete.colour = function() scale_fill_viridis_d())
+```
+
+## Introduction {#mb11CalculusPilot}
+
+{{< include articles/mb11CalculusPilot/analysis/paper/_intro.qmd >}}
+
+## Materials {#mb11CalculusPilot-mat}
+
+{{< include articles/mb11CalculusPilot/analysis/paper/_materials.qmd >}}
+
+## Methods
+
+{{< include articles/mb11CalculusPilot/analysis/paper/_methods.qmd >}}
+
+## Results
+
+{{< include articles/mb11CalculusPilot/analysis/paper/_results.qmd >}}
+
+## Discussion
+
+{{< include articles/mb11CalculusPilot/analysis/paper/_discussion.qmd >}}
+
+## Conclusion
+
+{{< include articles/mb11CalculusPilot/analysis/paper/_conclusions.qmd >}}
+
+## References {-}
