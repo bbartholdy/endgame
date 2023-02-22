@@ -1,6 +1,6 @@
 {
   "R": {
-    "Version": "4.2.0",
+    "Version": "4.2.2",
     "Repositories": [
       {
         "Name": "CRAN",
@@ -1445,6 +1445,20 @@
       "Repository": "CRAN",
       "Hash": "06c85365a03fdaf699966cc1d3cf53ea",
       "Requirements": []
+    },
+    "rticles": {
+      "Package": "rticles",
+      "Version": "0.24",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "cb84b88016fa556ff9476b71d8d5e3f0",
+      "Requirements": [
+        "knitr",
+        "rmarkdown",
+        "tinytex",
+        "xfun",
+        "yaml"
+      ]
     },
     "rversions": {
       "Package": "rversions",
