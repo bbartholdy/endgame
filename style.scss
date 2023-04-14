@@ -18,6 +18,42 @@ $code-block-bg-alpha: -.8;
 
 // Fonts
 
+@font-face {
+  font-family: "Atkinson Hyperlegible";
+  src: url('font/woff2/Atkinson-Hyperlegible-Regular-102a.woff2');
+  src: url('font/woff2/Atkinson-Hyperlegible-Regular-102a.woff2') format('woff2');
+       font-weight: normal;
+       font-style: normal;
+}
+
+@font-face {
+  font-family: "Atkinson Hyperlegible";
+  src: url('font/woff2/Atkinson-Hyperlegible-Bold-102a.woff2');
+  src: url('font/woff2/Atkinson-Hyperlegible-Bold-102a.woff2') format('woff2');
+       font-weight: bold;
+       font-style: normal;
+}
+
+@font-face {
+  font-family: "Atkinson Hyperlegible";
+  src: url('font/woff2/Atkinson-Hyperlegible-Italic-102a.woff2');
+  src: url('font/woff2/Atkinson-Hyperlegible-Italic-102a.woff2') format('woff2');
+       font-weight: normal;
+       font-style: italic;
+}
+
+@font-face {
+  font-family: "Atkinson Hyperlegible";
+  src: url('font/woff2/Atkinson-Hyperlegible-BoldItalic-102a.woff2');
+  src: url('font/woff2/Atkinson-Hyperlegible-BoldItalic-102a.woff2') format('woff2');
+       font-weight: bold;
+       font-style: italic;
+}
+
+body {
+  font-family: 'Atkinson Hyperlegible' !important;
+}
+
 p.caption {
   color: #777;
   margin-top: 10px;
