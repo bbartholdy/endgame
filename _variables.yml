@@ -33,7 +33,7 @@ article2:
   badges:
     version: "[![](https://img.shields.io/github/v/release/bbartholdy/byoc-starch?include_prereleases)](https://github.com/bbartholdy/byoc-starch/releases)"
     status: "[![](https://img.shields.io/badge/Status-published-blue)](https://doi.org/10.3389/feart.2022.886512)"
-  doi: "[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5604670.svg)](https://doi.org/10.5281/zenodo.5604670)"
+    doi: "[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5604670.svg)](https://doi.org/10.5281/zenodo.5604670)"
   doi: https://doi.org/10.5281/zenodo.5604670
   github: https://github.com/bbartholdy/byoc-starch
 

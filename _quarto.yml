@@ -46,7 +46,7 @@ format:
     #include-in-header: partials/analytics.html
     include-after-body: partials/analytics.html
     #citeproc: true
-    bibliography: [book.bib, articles/byoc-starch/analysis/paper/refs.bib, articles/mb11CalculusPilot/analysis/paper/references.bib]
+    bibliography: [book.bib]
 
   pdf:
     documentclass: book
@@ -55,15 +55,17 @@ format:
     lof: true
     keep-tex: true
     cite-method: citeproc
-    section-refs-bibliography: [book.bib, articles/byoc-starch/analysis/paper/refs.bib, articles/mb11CalculusPilot/analysis/paper/references.bib]
+    bibliography: [book.bib]
+    #section-refs-bibliography: [book.bib, articles/byoc-starch/analysis/paper/refs.bib, articles/mb11CalculusPilot/analysis/paper/references.bib]
     template: pandoc-templates/default.latex
     #include-before-body: latex/proef.tex
     include-in-header: latex/preamble.tex
-    filters: 
-      - section-refs.lua # needs pandoc version >= 2.11 to work 
+    #filters: 
+      #- section-refs.lua # needs pandoc version >= 2.11 to work 
       #- shift-article-headings.lua
     
 # link-citations: yes
+#bibliography: [book.bib, articles/byoc-starch/analysis/paper/refs.bib, articles/mb11CalculusPilot/analysis/paper/references.bib]
 csl: apa.csl
 knitr:
   opts_chunk: 
