@@ -1,0 +1,6 @@
+fig_tab.Rmd
+paper.Rmd
+supp-mat.*
+_supp-mat.qmd
+*.yml
+**/06-reports/*
