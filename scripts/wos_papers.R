@@ -1,6 +1,8 @@
 # Extracting information from web of science "dental calculus" search on 2022-04-08
   # Search url: https://www.webofscience.com/wos/woscc/summary/64c9d655-fc5b-41bf-a09d-0c57e2ef57a9-2f9c1140/relevance/1
 
+  # Full export to tab delimited file
+
 library(here)
 library(patchwork)
 library(ggplot2)

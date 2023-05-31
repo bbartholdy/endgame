@@ -5,10 +5,15 @@
 ::: {.content-visible when-format="html"}
 {{< var intro.status >}} {{< var intro.version >}}
 
+::: {.callout-note icon="false"}
+
 ## Summary {-}
 
-What is dental calculus? Is it bad? What makes it so interesting to archaeologists?
+What is dental calculus? Why does it grow on our teeth? Is it bad?
+What makes it so interesting to archaeologists?
 Am I going to answer any of these questions?
+
+:::
 :::
 
 ```{r}
@@ -30,7 +35,7 @@ may also know it as tartar or mineralised plaque. In other languages the word is
 often related to "tooth stones". In fact, calculus is itself latin for 'pebble'.
 This was orginially used as a term for mathematical calculations using counting
 stones, and only later used to describe calicifications in the human body
-(https://www.etymonline.com/word/calculus). This can be the cause of some confusion,
+(<https://www.etymonline.com/word/calculus>). This can be the cause of some confusion,
 as calculus is also a branch of mathematics. If you see the the term 'calculus' in
 this disseration, you can safely assume that I'm referring to stuff that grows
 on your teeth and for which you receive lectures from your dentist, and not the
@@ -172,7 +177,7 @@ in a population, not just oral health<!--any other studies?-->. They suggest tha
 individuals with more calculus are more at risk than individuals with less or no
 calculus.
 
-![Word cloud of most common dental terms in articles. Figure is from @pilloudOutliningDefinition2019, Figure 1](figures/wordcloud.png) {#fig-dental-terms}
+![Word cloud of most common dental terms in articles. Figure is from @pilloudOutliningDefinition2019, Figure 1](figures/wordcloud.png){#fig-dental-terms}
 
 This wide range of applications, and the fact that it's pretty much ubiquitous in the
 past (thanks to poor oral hygiene), makes it a really exciting area for the future of
@@ -451,18 +456,18 @@ Often we can draw from clinical studies as there are common goals, e.g. discover
 the aetiology and/or presentation of a disease. However, the motivation driving the
 studies in archaeology and dental research are inherently different; although,
 there is certainly overlap in some areas ([@fig-plot-and-wordclouds]B and C).
-While clinical
-dentistry is interested in the effect that diet (among many other factors) has on
-the growth and development of plaque, archaeologists are more interested in the
-effect that the growth and development of plaque has on what we can say about diet.
+There is more interest in preventing dental calculus from forming in the first
+place, so most studies focus on anti-microbial treatments and inhibition of biofilm
+formation and plaque buildup [@extercateAAA2010].
+Archaeologists are more interested in
+questions related to how diet influences the growth of biofilms, and how fragments
+become embedded inside, and what we can say about diet.
 Further, the interest in dental calculus as a field of clinical research has been declining
 since the 2000s, which, as far as I'm aware, is when the last studies growing dental calclulus
 in a lab were conducted. We can see this by the number of clinical articles with
 the term dental calculus in the title ([@fig-plot-and-wordclouds]A).
 And they certainly aren't interested in how food debris becomes trapped inside our
 calculus.
-There is more interest in preventing dental calculus from forming in the first
-place, so most studies focus on prevention of short-term dental plaque accumulation.
 Dental calculus has also become less of a problem with the use of modern dental hygiene
 practices and regular visits to the dentist [@velskoMicrobialDifferences2019].
 
@@ -474,29 +479,74 @@ nuisance to be removed and, ideally, prevented from forming in the first place.
 This lack of systematic research specifically devoted to dental calculus as a substance,
 rather than a means to an end, leaves a lot of questions regarding the expected
 behaviour of dental calculus and how information from the past becomes trapped inside.
+To summarise the summary: we need to ask more basic questions about dental calculus.
 
-## Aims
+## Aims {#intro-aims}
 
-This disseration is a contribution to a dental-calculus-centric body of knowledge.
-The main focus of my dissertation is the development, validation, and application of
-an oral biofilm model to inform interpretations on archaeological dental calculus.
+This disseration is a contribution to a dental-calculus-centric body of knowledge,
+and addresses a gap in the fundamental research on dental calculus to further our
+understanding of how we can use dental calculus to reconstruct the diets of people
+in the past.
+The main focus is the development, validation, and application of
+a calcifying oral biofilm model to inform interpretations on archaeological dental
+calculus.
+
 In short, can I grow calculus in the lab? Is what I'm growing actually a substance
 that resembles calculus? And can the model be used to inform archaeological research;
-specifically, how should we interpret the food debris extracted from dental calculus? 
+specifically, how should we interpret the food debris extracted from dental calculus?
 
-<!-- specific aims of the dissertation research (bullet-form) -->
-Can a biofilm model provide useful ... for archaeological research?
+<!-- specific aims of the dissertation research (bullet-form)
+Can an oral biofilm model provide useful insights on the mechanisms by which dietary components are
+incorporated into dental calculus and the biases produced in this process?
+
+Can an oral biofilm model address some of the limitations associated with using
+dental calculus to reconstruct past diets?
 
 Produce a better understanding of how dietary intake relates to the record
-of diet from dental calculus.
+of diet from archaeological dental calculus.
 
-Explore the potential uses of dental calculus in archaeological research.
+Assess the potential and limitations of dental calculus to explore dietary and
+non-dietary uses of plants in past populations. -->
+
+<!-- "You can't possibly be a scientist if you mind people thinking that you're a fool." (so long and thanks... p. 108).
+This means sometimes asking the apparently obvious questions, like how does food become trapped in dental calculus.
+And occasionally you'll find that no one really has a good answer to these questions. (PREFACE?) -->
+
 
 ## Thesis outline and structure
 
-To address the aims of the dissertation, I grew dental calculus
-on lab equipment instead of inside a mouth.
+If you have made it to this point, you have probably read [Chapter 1](#chap-intro),
+in which I provide some context to the study of dental calculus in archaeology
+and identify some areas that could benefit from further investigation.
 
+[Chapter 2](#chap-background) provides some background information on oral biofilms
+and oral biofilm models in more detail than I can do in the research articles
+included in Chapters 3 and 4. So if you're already well-versed in oral
+microbiology, feel free to skip to Chapter 3. If not, I recommend picking
+up a textbook written by actual experts in the field of oral microbiology.
+If, for some reason, you can't access one of these, feel free to read
+[Chapter 2](#chap-background). I suppose there are worse
+options than something written by a PhD student in archaeology.
+
+To address the aims of the dissertation outlined earlier in [this chapter](#intro-aims),
+I developed a protocol to grow dental
+calculus in a lab [... on lab equipment] instead of inside a mouth. The reason
+for using lab-grown biofilms instead of humans is that the *in vitro* lab model offers more
+control over all the factors that go into the growth of dental calculus, at least
+in theory. The real world is messy, and sometimes you need to remove things from
+the real world to break it down and really get into the nitty gritty of how it works.
+<!-- the next part is also in the discussion... -->
+I chose to use a 24-well plate with a plastic substratum suspended from a lid. The model
+was inoculated with whole saliva, which can be more difficult to control, but more
+closely replicate the complex dynamics between oral bacteria during biofilm
+formation, such as metabolic dependencies [@roderStudyingBacterial2016; @mcbainBiofilmModels2009].
+My choice of model was partially driven by
+available facilities and financial limitations, and partially by the benefits of being
+able to generate a large number of samples under similar, adjustable conditions. 
+It's arguably also more realistic for the facilities and finances of most archaeological
+departments and grants.
+Our model uses a simplified high-throughput setup more commonly seen in shorter-term
+biofilm models that mainly focus on dental plaque [@extercateAAA2010; @tianUsingDGGE2010].
 Using oral biofilm models to grow dental calculus is in
 no way a novel concept. In fact, it has been applied for decades to study
 the growth and mineralisation of biofilms
@@ -506,44 +556,33 @@ select species
 determined by the researchers (defined consortium), and multiple species from some
 natural source (the human mouth, for example). I will cover the different types of models
 in more detail in [Chapter 2](#background).
-I chose to use a 24-well plate with a plastic substratum suspended from a lid. The model
-was inoculated with whole saliva. Multispecies biofilms inoculated with whole saliva
-are more difficult to control, but are a
-more realistic model since they can include the complex dynamics between the oral
-bacteria during biofilm formation. My choice of model was partially driven by
-available facilities and financial limitations, and partially by the benefits of being
-able to generate a large number of samples under similar, adjustable conditions. 
-It's arguably also more realistic for the facilities and finances of most archaeological
-departments and grants.
+Since there are many biofilm models to choose from, developing a new protocol may
+seem counter-productive; however, few are developed for long-term
+growth and even fewer with the purpose of mineralising the biofilm to form dental calculus.
+One of the exceptions involves a highly complex
+setup that is unlikely to be supported by budgets and facilities available to most
+archaeological laboratories [@sissonsMultistationPlaque1991].
 
-<!--Move to a Preface chapter?-->
-[Chapter 1](#chap-intro) is a brief introduction/rant on the topic of dental calculus and its
-current applications in archaeology, which I assume you have just finished reading.
-I do my best to contextualise the study of dental calculus
-and identify some areas where we may have some additional questions.  
-[Chapter 2](#chap-background) provides some background information on oral biofilms
-and oral biofilm models in more detail than I can do in the research articles
-included in Chapters 3 and 4. So if you're already well-versed in oral
-microbiology, feel free to skip to Chapter 3. If not, I recommend picking
-up a textbook written by actual experts in the field of oral microbiology.
-If, for some reason, you can't access one of these, feel free to read
-[Chapter 2](#chap-background). I suppose there are worse
-alternatives than something written by a PhD student in archaeology.  
-[Chapter 3](#byoc-valid) is about developing and validating the oral biofilm
-model. In other words: is what we're
-growing actually dental calculus, or ar least close enough that we can use
-it to explore our research questions?
-Specifically, it is a research article where we (myself and coauthors)
-examine the applicability of
-our biofilm model as a proxy for dental calculus.
-We used Fourier Transform Infrared Spectroscopy (FTIR) to examine the mineral
-composition of the model calculus and compared it to reference spectra
-of real calculus.  
-[Chapter 4](#byoc-starch) is a research article where we used the biofilm model to
-look at how well starch granules are incorporated into dental calculus.
-We 'fed' the biofilm with a known quantity of starch granules
-during the growth period to see if the input quantity/ratio matched the extracted
-quantity (or output).  
+After developing a working protocol, the next step was to determine if the stuff
+I grew in the lab is actually
+dental calculus. Or at least something close enough that we can use
+it to explore our research questions.
+To do this, we (myself and coauthors) determined the mineral
+and bacterial composition of our model using Fourier Transform Infrared (FTIR)
+spectroscopy and metagenomic classification [Chapter 3](#byoc-valid).
+We then compared the results of these analyses to naturally grown dental calculus,
+both modern and archaeological.
+
+Being confident that our model looks and behaves like human dental calculus,
+we then set out to test some very basic [properties] of starch
+grains within dental calculus.
+[Chapter 4](#byoc-starch) is a research article where we 'fed' the biofilm with
+a known quantity of starch granules during the growth period to see if the input
+quantity/ratio matched the extracted quantity (or output). Those who are
+familiar with dental calculus research will not be surprised that it did not.
+The more interesting outcome of the study is the more detailed explanation of how
+the input and output starch quantities were mismatched.
+
 [Chapter 5](#mb11CalculusPilot) is a separate article, in the sense that it doesn't
 involve the biofilm model in any way. Rather, it addresses the theme of the overall
 utility of dental calculus in archaeological research.
@@ -551,7 +590,10 @@ We look at possible medicinal compounds in the dental
 calculus of a Post-medieval Dutch population. We employed Ultra High Performance
 Liquid Chromatography coupled with tandem Mass Spectrometry (UHPLC-MS/MS) to identify
 various compounds in dental calculus, including alkaloids and other compounds.
+It shows the potential of dental calculus to inform about past practices, but also
+highlights some of the limitations we are currently experiencing in the field.
 [Chapter 6](#chap-discussion) is a discussion on the limitations and future potential of
-dental calulus in the field of archaeology, and what biofilms can contribute.
+dental calulus in the field of archaeology, and what biofilm models can contribute to our
+understanding of past diet.
 
 ## References {-}

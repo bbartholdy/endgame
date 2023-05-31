@@ -1,11 +1,33 @@
+---
+bibliography: articles/byoc-valid/07-publication/references.bib
+---
+
 # Assessing the validity of a calcifying oral biofilm model as a suitable proxy for dental calculus {#byoc-valid}
 
 ::: {.content-visible when-format="html"}
-{{< var article1.status >}} {{< var article1.version >}}
+{{< var article1.badges.status >}} {{< var article1.badges.version >}} {{< var article1.badges.doi >}}
+
+::: {.callout-note icon="false"}
 
 ## Summary {-}
 
-Article in progress. Validation of the BYOC (build your own calculus) model using FTIR for the mineral
-composition and metagenomic analysis for the bacterial composition.
+This chapter is an article that describes a protocol for the growth of a calcifying
+oral biofilm model, or artificial dental calculus. We also make sure that the
+artificial dental calculus is a good substitute for the real thing by determining
+the bacterial and mineral makeup of our model calculus and compare it to natural
+dental calculus, both archaeological and modern.
+
 :::
 
+:::
+
+```{r}
+#| label: setup-byoc-valid
+library(here)
+library(readr)
+#knitr::opts_knit$set(root.dir = here())
+#source("articles/byoc-valid/02-scripts/99_setup-qmd.R", local = T)
+```
+
+
+{{< include articles/byoc-valid/07-publication/01-intro.qmd >}}

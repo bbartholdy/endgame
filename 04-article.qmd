@@ -6,7 +6,9 @@ shift-heading-level-by: 1
 ---
 
 ::: {.content-visible when-format="html"}
-{{< var article2.status >}} {{< var article2.version >}} {{< var article2.doi >}}
+{{< var article2.badges.status >}} {{< var article2.badges.version >}} {{< var article2.badges.doi >}}
+
+::: {.callout-note icon="false"}
 
 # Summary {-}
 
@@ -18,8 +20,9 @@ of consumed starch is retained by the calculus. The size of starch granules also
 influences the likelihood of retention, with larger granules less likely to be
 trapped in the calculus.
 
-Preprint currently available on [bioRxiv](https://www.biorxiv.org/content/10.1101/2021.10.27.466104v1).  
+Published in [Frontiers in Earth Science](). Preprint available on [bioRxiv](https://www.biorxiv.org/content/10.1101/2021.10.27.466104v1).  
 Data and code available on [OSF](https://osf.io/uc5qy/).
+:::
 :::
 
 ```{r setup-starch, include=FALSE}
@@ -37,6 +40,7 @@ library(broom)
 library(here)
 library(patchwork)
 library(ggplot2)
+library(rticles)
 devtools::load_all("articles/byoc-starch/")
 
 plt1_ph1 <- readr::read_tsv(

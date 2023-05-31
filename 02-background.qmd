@@ -3,6 +3,8 @@
 ::: {.content-visible when-format="html"}
 {{< var background.status >}} {{< var background.version >}}
 
+::: {.callout-note icon="false"}
+
 ## Summary {-}
 
 At any given moment, there are millions, if not billions, of microorganisms calling
@@ -36,6 +38,7 @@ be too complicated. Here, we can study the system under highly controlled condit
 to different to try and understand why it acts the way it does in disease
 and health.
 
+:::
 :::
 
 The human mouth, or oral cavity, contains many different types of surfaces

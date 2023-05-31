@@ -24,8 +24,8 @@ book:
     right: 
     - icon: github
       href: https://github.com/bbartholdy
-    - icon: twitter 
-      href: https://twitter.com/osteobjorn
+    - icon: mastodon 
+      href: https://fediscience.org/@bjorn
   chapters: 
     - index.qmd
     - 01-intro.qmd
@@ -34,6 +34,8 @@ book:
     - 04-article.qmd
     - 05-article.qmd
     - 06-discussion.qmd
+#  appendices:
+ #   - supp-mat.qmd
 
 format:
   html:
