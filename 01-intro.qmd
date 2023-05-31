@@ -88,7 +88,7 @@ These topics have not changed much since the early uses of dental calculus in
 archaeological research, but the methods certainly have.
 
 In the past, some researchers would consider calculus a nuissance because it
-obscured tooth and root morphology [@scottBriefHistoryDental2015]; this had made
+obscured tooth and root morphology [@scottBriefHistory2015]; this had made
 a lot of people very angry and been widely regarded as a bad move
 [@adamsRestaurantEnd2002, p.1].
 A simple three-stage archaeolgy-specific scoring method was developed
@@ -126,7 +126,7 @@ Europe [@fiorinCombiningDental2021], and more
 [@buckleyDentalCalculus2014; @henryCalculusSyria2008; @mickleburghNewInsights2012].
 The durable nature of dental calculus also means that microremains within it can survive
 for millenea, allowing us to look at the diets of early humans and other hominins
-[@pipernoStarchGrains2008; @henryCalculusSyria2008; @chenStarchGrains2021; @henryNeanderthalCalculus2014; @henryDietAustralopithecus2012; @buckleyDentalCalculus2014; @hardyNeanderthalMedics2012; @hardyStarchGranulesDental2009].
+[@pipernoStarchGrains2008; @henryCalculusSyria2008; @chenStarchGrains2021; @henryNeanderthalCalculus2014; @henryDietAustralopithecus2012; @buckleyDentalCalculus2014; @hardyNeanderthalMedics2012; @hardyStarchGranules2009].
 It's also considered useful because it represents a more recent and direct source
 of diet than
 teeth or other bones, since the turnover is much quicker in calculus than bone.
@@ -318,7 +318,7 @@ the study of dental calculus. However, it's not included in
 studying archaeological teeth.
 The editors briefly acknowledge the valuable information
 gained from calculus and that it holds a lot of potential; but that's it
-[@scottBriefHistoryDental2015].
+[@scottBriefHistory2015].
 Other notable absences include textbooks such as
 *Technique and Application in Dental Anthropology* and
 *New Direction in Dental Anthropology* [@townsendDentalAnthropology2012],
@@ -401,7 +401,7 @@ seemingly unlimited resource for dietary substances. We don't know exactly how
 this happens, and herein lies the potential for bias.
 Efforts have been made to understand
 how much of the consumed food makes it into the calculus. These include studies
-on modern humans [@leonardDentalCalculus2015] and non-human primates
+on modern humans [@leonardPlantMicroremains2015] and non-human primates
 [@powerChimpCalculus2015; @powerRepresentativenessDental2021],
 where food intake is meticulously documented, and calculus subsequently analysed.
 These studies have common findings; the amount of the diet that becomes trapped
@@ -423,7 +423,7 @@ Something that may influence the dietary record that we get from calculus is the
 method we use to extract the dietary remains from calculus.
 Our understanding of dental calculus extraction methods is improving, with studies looking
 at the effect of various acids used to dissolve calculus (commonly EDTA or HCl)
-[@trompEDTACalculus2017; @bucchiComparisonsMethods2019; @sotoStructuralCharacterization2019];
+[@trompEDTACalculus2017; @bucchiComparisonsMethods2019; @sotoCharacterizationDecontamination2019];
 as is our understanding of how the choice of tooth may affect our results [@fagernasMicrobialBiogeography2021].
 
 These studies provide valuable insights into potential biases of our sampling methods

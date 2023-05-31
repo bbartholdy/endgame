@@ -64,7 +64,7 @@ believe to be true.<!-- rephrase -->
 
 <!-- what is it? -->
 The concept of biofilms represents a recent paradigm shift in microbiology
-[@costertonBacterialBiofilmsNature1987; @costertonMicrobialBiofilms1995].
+[@costertonBacterialBiofilms1987; @costertonMicrobialBiofilms1995].
 Previously, researchers believed that you could isolate the organism of
 interest and learn about its growth, metabolism, etc. They assumed
 bacteria would behave the same as a free-floating organism in a
@@ -126,7 +126,7 @@ flagella, but most are brought to the surface by saliva<!--cite-->.
 
 As bacteria approach the pellicle-coated surface of a tooth, there are both
 attractive and repulsive forces at work. Repulsion because both the bacteria and
-pellicle proteins have a net negative charge [@songEffectsMaterialProperties2015],
+pellicle proteins have a net negative charge [@songEffectsMaterial2015],
 causing eloctrostatic repulsive force; and attraction from van der Waals forces.
 Bacteria may be more or less likely to attach depending on the distance from the
 bacteria to the surface.
@@ -334,7 +334,7 @@ main paired glands are the parotid, sublingual, and submandibular glands, locate
 by the cheeks, under the tongue, and under the lower jaw bone, respectively.
 Saliva contains sodium (Na), potassium (K), calcium (Ca), chlorine (Cl),
 bicarbonate (buffer), and inorganic phosphate (Pi)
-[@dawesEffectsDietSalivary1970; @doddsHealthBenefits2005], and the
+[@dawesEffectsDiet1970; @doddsHealthBenefits2005], and the
 locations of the glands contribute to the pattern of dental calculus deposits
 within the mouth, which commonly grow on the buccal portion of maxillary (upper) molars
 and the lingual portion of mandibular (lower) incisors

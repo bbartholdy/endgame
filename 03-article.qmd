@@ -1,7 +1,3 @@
----
-bibliography: articles/byoc-valid/07-publication/references.bib
----
-
 # Assessing the validity of a calcifying oral biofilm model as a suitable proxy for dental calculus {#byoc-valid}
 
 ::: {.content-visible when-format="html"}
@@ -29,5 +25,6 @@ library(readr)
 #source("articles/byoc-valid/02-scripts/99_setup-qmd.R", local = T)
 ```
 
+## Introduction
 
 {{< include articles/byoc-valid/07-publication/01-intro.qmd >}}

@@ -40,7 +40,7 @@ library(broom)
 library(here)
 library(patchwork)
 library(ggplot2)
-library(rticles)
+#library(rticles)
 devtools::load_all("articles/byoc-starch/")
 
 plt1_ph1 <- readr::read_tsv(
