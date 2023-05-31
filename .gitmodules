@@ -7,3 +7,6 @@
 [submodule "articles/mb11CalculusPilot"]
 	path = articles/mb11CalculusPilot
 	url = https://github.com/bbartholdy/mb11CalculusPilot.git
+[submodule "articles/byoc-valid"]
+	path = articles/byoc-valid
+	url = https://github.com/bbartholdy/byoc-valid
