@@ -10,7 +10,7 @@ book:
   title: "Putting Dental Calculus Under the Microscope"
   subtitle: ""
   author: "Bjørn Peare Bartholdy"
-  date: last-modified
+  #date: last-modified
   date-format: "DD-MMM-YYYY"
   output-file: "endgame"
   cover-image: cover.png # path to the social sharing image like images/cover.jpg
@@ -20,7 +20,7 @@ book:
   site-url: "https://myphd.netlify.app"
   page-footer: 
     left: |
-      *Putting Dental Calculus Under the Microscope* was written by {{< meta book.author >}}. It was last built on {{< meta book.date >}}.
+      *Putting Dental Calculus Under the Microscope* was written by {{< meta book.author >}}. It was last built on {{< meta format.html.date-modified >}}.
     right: 
     - icon: github
       href: https://github.com/bbartholdy
@@ -42,6 +42,7 @@ format:
     theme: 
       light: [lightly, style.scss]
       dark: [darkly, style.scss]
+    date-modified: today
     reference-location: section
     #include-in-header: partials/analytics.html
     include-after-body: partials/analytics.html
@@ -63,7 +64,7 @@ format:
     #filters: 
       #- section-refs.lua # needs pandoc version >= 2.11 to work 
       #- shift-article-headings.lua
-    
+   
 # link-citations: yes
 #bibliography: [book.bib, articles/byoc-starch/analysis/paper/refs.bib, articles/mb11CalculusPilot/analysis/paper/references.bib]
 csl: apa.csl
