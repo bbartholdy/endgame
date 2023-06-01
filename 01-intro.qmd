@@ -158,7 +158,8 @@ DNA within dental calculus will be oral bacteria, and this will overwhelm the
 signal from plant DNA. Plants are also really complicated because the plant DNA
 only makes up a fraction of the DNA extracted from calculus, which is
 overwhelmed by the presence of endogenous and bacterial DNA (personal communication with
-Zandra Fagernäs, James Fellows Yates, and Nikolay Oskolkov in the SPAAM community)<!-- also Fagernas 2020?-->.
+Zandra Fagernäs, James Fellows Yates, and Nikolay Oskolkov in the SPAAM community)
+[@fagernasMicrobialBiogeography2022].
 A newer field of biomolecular archaeology, paleoproteomics, may be able to
 [resolve] this issue by targeting to plant proteins.
 Hendy and coauthors were able to identify a number of these in dental calculus,
@@ -433,7 +434,7 @@ remains. An issue with using living (or once living) organisms is the inability
 to control factors
 related to the variability between subjects. Basically, studying humans is messy
 and complicated because we're all unique. It's a lovely sentiment but it
-can make for some messy science. Not bad science (not at all!), just messy.
+can make for some messy science. Not bad science (not at all!). Just messy.
 A method of study that offers more control, is the growth of
 plaque and calculus in a lab. This allows us to control many of the things that
 we are difficult to control in humans, such as the bacteria that colonise our mouth,
@@ -481,6 +482,12 @@ rather than a means to an end, leaves a lot of questions regarding the expected
 behaviour of dental calculus and how information from the past becomes trapped inside.
 To summarise the summary: we need to ask more basic questions about dental calculus.
 
+## What don't we know?
+
+<!-- restructure 'what do we know?' - seems to be a mix of both -->
+
+<!-- mechanism of incorporation -->
+
 ## Aims {#intro-aims}
 
 This disseration is a contribution to a dental-calculus-centric body of knowledge,
@@ -515,7 +522,7 @@ And occasionally you'll find that no one really has a good answer to these quest
 
 ## Thesis outline and structure
 
-If you have made it to this point, you have probably read [Chapter 1](#chap-intro),
+If you have made it to this point, you have probably read most of [Chapter 1](#chap-intro),
 in which I provide some context to the study of dental calculus in archaeology
 and identify some areas that could benefit from further investigation.
 

@@ -514,7 +514,7 @@ the ground. The initial biofilm growth and burial are included in a blog post
 (https://www.leidenarchaeologyblog.nl/articles/spit-tartar-and-burial-an-experiments-diary),
 but no further results were written up because of the aforementioned issue with
 the protocol. This particular failure motivated me to revise the protocol and properly
-validate the grown model dental calculus [see [Chapter 3](03-article1.qmd) and @bartholdyAssessingValidity2023].
+validate the grown model dental calculus [see [Chapter 3](#byoc-valid) and @bartholdyAssessingValidity2023].
 
 
 ### Future perspectives
