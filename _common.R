@@ -32,11 +32,11 @@ mb11_file_files <- list.files(here("articles/mb11CalculusPilot/analysis/paper"),
 
 
 file_names <- c(diss_files, byoc_valid_files, byoc_starch_files, mb11_file_files)
-all_files <- all_file_names[stringr::str_detect(all_file_names, "supp-mat|fig_tab", negate = T)]
+all_files <- file_names[stringr::str_detect(file_names, "supp-mat|fig_tab", negate = T)]
 keys <- bbt_detect_citations(all_files)
 bbt_ignore <- keys[grepl("fig-|tbl-", keys)]
 
-
+try(
 if(file.exists(here("book.bib"))) {
   bbt_update_bib(here(all_files),
     here("book.bib"),
@@ -50,3 +50,4 @@ if(file.exists(here("book.bib"))) {
     overwrite = T,
     translator = "bibtex")
 }
+)
