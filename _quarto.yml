@@ -14,6 +14,10 @@ book:
   date-format: "DD-MMM-YYYY"
   output-file: "endgame"
   cover-image: cover.png # path to the social sharing image like images/cover.jpg
+  cover-image-alt: |
+    The image depicts a tooth with a layer of dental calculus around the crown.
+    A magnifying glass is placed over some of the dental calculus and gives us a
+    look at some cartoonish-looking bacteria eating starch granules.
   downloads: pdf
   description: "This is, or rather, this will be a PhD dissertation"
   repo-url: "https://github.com/bbartholdy/endgame"
@@ -34,8 +38,10 @@ book:
     - 04-article.qmd
     - 05-article.qmd
     - 06-discussion.qmd
-#  appendices:
- #   - supp-mat.qmd
+  appendices:
+    #- supp-mat.qmd
+    - 98-summary.qmd
+    #- 99-cv.qmd
 
 format:
   html:
@@ -51,18 +57,19 @@ format:
 
   pdf:
     documentclass: book
-    block-headings: false # needed for titlesec to work
+    block-headings: false # needed for titlesec (preamble.tex) to work
     lot: true
     lof: true
     keep-tex: true
     cite-method: citeproc
+    link-citations: true
     bibliography: [book.bib]
     #section-refs-bibliography: [book.bib, articles/byoc-starch/analysis/paper/refs.bib, articles/mb11CalculusPilot/analysis/paper/references.bib]
     template: pandoc-templates/default.latex
     #include-before-body: latex/proef.tex
     include-in-header: latex/preamble.tex
-    #filters: 
-      #- section-refs.lua # needs pandoc version >= 2.11 to work 
+    filters: 
+      - section-refs.lua # needs pandoc version >= 2.11 to work 
       #- shift-article-headings.lua
    
 # link-citations: yes
@@ -98,6 +105,7 @@ committee:
 ## End: Mandatory for Leiden PhD dissertations ###
 funding: |
   This research has received funding from the European Research Council under the European Union’s Horizon 2020 research and innovation program, grant agreement   number STG–677576 (“HARVEST”).
+cover-caption: Petra Korlevic
 # #quote:
 #   # quote: Random quote only meaningful to me   # can also be used for a dedication
 # #  source: Someone old
