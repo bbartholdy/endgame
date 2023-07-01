@@ -38,9 +38,9 @@ book:
     - 04-article.qmd
     - 05-article.qmd
     - 06-discussion.qmd
-  appendices:
+  #appendices:
     #- supp-mat.qmd
-    - 98-summary.qmd
+    #- 98-summary.qmd
     #- 99-cv.qmd
 
 format:
