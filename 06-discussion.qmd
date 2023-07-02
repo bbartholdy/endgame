@@ -665,12 +665,11 @@ Contamination is widely recognised as a risk in all aspects of archaeological
 research, including paleobotany [@crowtherDocumentingContamination2014] and
 aDNA
 [@llamasFieldLaboratory2017; @cooperAncientDNA2000; @gilbertBiochemicalPhysical2005; @gilbertAssessingAncient2005; @knappSettingStage2012], often because of bold
-claims made in the past (no specifics will be mentioned).
+claims made in the past (no specifics will be mentioned here).
 Protocols for dental calculus sampling include various steps for decontaminating
 dental calculus, and range from brushing the surface to UV-radiation and sonication.
-Use of liquids for decontamination may be problematic when there are plans
-to do biomolecular analyses [@velsko], and microscopic analyses involving radiation
-may affect the DNA content [@immelEffectXray2016].
+Although, the use of liquids for decontamination may be problematic when there
+are plans to do biomolecular analyses [@velskoDentalCalculus2017].
 Sodium hydroxide (NaOH) has been suggested
 as a better decontamination solution based on testing on synthetic precipitates
 of calcium phosphate (the principal component of dental calculus)
@@ -837,7 +836,11 @@ Since dental calculus has become the target for many different types of analyses
 and studies, there have been attempts to unify extraction protocols for different
 analyses to save on time and minimise destructive sampling, such as a combined
 extraction protocol for aDNA and proteomics [@fagernasUnifiedProtocol2020] and
-aDNA and plant microremains [@modiCalculusMethodologies2020]. We should continue
+aDNA and plant microremains [@modiCalculusMethodologies2020]. 
+The sequence of analyses should also be considered, as some 'non-destructive'
+techniques may cause invisible damage to the samples. For example, high-powered
+imaging techniques involving radiation may affect the quantity and quality of
+extracted DNA [@immelEffectXray2016]. We should continue
 to explore ways to minimise the amount of material required to conduct our
 studies.
 

@@ -1,3 +1,7 @@
+---
+shift-heading-level-by: -1
+---
+
 # Assessing the validity of a calcifying oral biofilm model as a suitable proxy for dental calculus {#byoc-valid}
 
 ::: {.content-visible when-format="html"}
@@ -19,12 +23,64 @@ dental calculus, both archaeological and modern.
 
 ```{r}
 #| label: setup-byoc-valid
-library(here)
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+library(stringr)
+library(patchwork)
+library(forcats)
+library(cowplot)
 library(readr)
-#knitr::opts_knit$set(root.dir = here())
-#source("articles/byoc-valid/02-scripts/99_setup-qmd.R", local = T)
+library(here)
+
+knitr::opts_chunk$set(fig.path = "figures/fig-byoc-valid-")
+
+dna_metadata <- read_tsv(here("articles/byoc-valid/01-documentation/metadata.tsv"))
+dna_analysis_metadata <- read_tsv(here("articles/byoc-valid/01-documentation/analysis-metadata.tsv"))
+dna_experiment_metadata <- read_tsv(here("articles/byoc-valid/01-documentation/experiment-metadata.tsv"))
+bac_properties <- read_tsv(here("articles/byoc-valid/01-documentation/species-properties.tsv"))
+genus_oxytol <- read_tsv(here("articles/byoc-valid/01-documentation/genus-O2tolerance.tsv"))
+otu_table <- read_tsv(here("articles/byoc-valid/05-results/post-decontam_taxatable.tsv"))
+pca_loadings <- readr::read_tsv(here("articles/byoc-valid/05-results/all-pca-loadings.tsv"))
+load(here("articles/byoc-valid/05-results/spca_byoc.rda"))
+load(here("articles/byoc-valid/05-results/spca_species.rda"))
+alpha_div <- read_tsv(here("articles/byoc-valid/05-results/alpha-diversity.tsv"))
+byoc_logf_full <- read_tsv(here("articles/byoc-valid/05-results/byoc_logf-full.tsv"))
+plaque_logf_full <- read_tsv(here("articles/byoc-valid/05-results/plaque_logf-full.tsv"))
+clr_compar_long <- readr::read_tsv(here("articles/byoc-valid/05-results/clr-compar.tsv")) %>%
+  pivot_longer(-sample, values_to = "clr_count", names_to = "species")
+clr_byoc_long <- readr::read_tsv(here("articles/byoc-valid/05-results/clr-byoc.tsv")) %>%
+  pivot_longer(-sample, values_to = "clr_count", names_to = "species")
+
+source(here("articles/byoc-valid/02-scripts/99_setup-qmd.R"))
+source(here("articles/byoc-valid/02-scripts/99_metagen-figures.R"))
+
+#ftir_metadata <- read_tsv(here("01-documentation/ftir-metadata.tsv"))
+ftir_metadata <- read_tsv(here("articles/byoc-valid/01-documentation/ftir-metadata.tsv"))
+ftir_data_raw <- read_csv(here("articles/byoc-valid/05-results/ftir-data.csv"))
+ftir_grind_data <- read_csv(here("articles/byoc-valid/05-results/grind-data_cleaned.csv"))
+
+source(here("articles/byoc-valid/02-scripts/99_tables.R"))
+#source(here("02-scripts/99_figures.R"))
+source(here("articles/byoc-valid/02-scripts/99_ftir-figures.R"))
+
+# upload names and versions of software used
+software_versions <- readr::read_tsv(here("articles/byoc-valid/01-documentation/software_versions.csv"), col_names = c("software", "version"))
+
 ```
 
 ## Introduction
 
 {{< include articles/byoc-valid/07-publication/01-intro.qmd >}}
+
+## Materials and methods
+
+{{< include articles/byoc-valid/07-publication/02-matmet.qmd >}}
+
+## Results
+
+{{< include articles/byoc-valid/07-publication/03-results.qmd >}}
+
+## Discussion
+
+{{< include articles/byoc-valid/07-publication/04-disc.qmd >}}

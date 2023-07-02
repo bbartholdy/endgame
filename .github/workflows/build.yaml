@@ -17,7 +17,7 @@ jobs:
         with:
           submodules: recursive
 
-      - uses: r-lib/actions/setup-pandoc@v2
+      - uses: r-lib/actions/setup-pandoc@v2 # v3 now available
         with:
           pandoc-version: '3.1.2'
             

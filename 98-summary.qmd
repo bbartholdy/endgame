@@ -1,0 +1,120 @@
+# Summary {-}
+
+<!-- Dental calculus -->
+
+Dental calculus. This small, hard, inconspicuous substance that forms on the of
+teeth humans and animals contains a surprising amount of information about our
+lives. During formation and growth as a living plaque biofilm, it tends to
+accumulate a wide variety of very small objects, especially bacteria and food
+debris, from various sources. 
+These sources and
+the particles they leave behind in our mouth are influenced by activities and
+biological processes that are unique to us, such as our dietary preferences,
+oral hygiene practices, genetics, and the environment in which we live.
+<!-- archaeological dental calculus -->
+What makes it so interesting to archaeologists is that, following mineralisation,
+these particles become trapped and
+well-protected against removal and degradation during hundreds to thousands of
+years in the ground, preserving a picture of the activities performed by its
+human host. This picture can be unlocked by archaeologists by extracting and
+identifying proteins from plants and animals, and genetic material and microremains
+from plants that were trapped inside the calculus matrix.
+<!-- Problem formulation -->
+The major problem—one of the major problems, for there are several—one of the many
+major problems is that this picture was never a complete picture of a lifetime of
+activities. Another problem is that it has faded over the years, and some parts of
+picture have been completely erased. There are many things influencing what gets
+trapped inside dental calculus, what gets preserved for all those years until it
+can be analysed, and how much of that information we can extract and interpret.
+<!-- research questions -->
+We know that these problems exist. We know that they limit our interpretations of
+past activities. We need to approach these problems more systematically at a
+fundamental level. 
+
+We need to find out more
+about what exactly is causing external particles to become trapped inside our
+dental calculus, and be able to quantify exactly how they impact our interpretations
+of dietary practices from archaeological dental calculus.
+
+My dissertation introduces a potential method for resolving these issues, namely
+a protocol for growing artificial dental calculus in a lab. Working with a very
+controlled model of dental calculus in a lab allows me
+to explore the influence of a wide range of factors that may influence the uptake
+of particles into dental calculus, and what biases are introduced by these factors
+as well as the methods we currently use to extract information from archaeological
+dental calculus. Addressing these fundamental issues and limitations will go a
+long way towards improving the resolution of our interpretations of past dietary
+activities. I also explore new ways to extract information from archaeological
+dental calculus to learn more about our past.
+
+<!-- summary of dissertation chapters -->
+**Chapter 1** is a brief introduction into the many uses of
+archaeological dental calculus to reconstruct the diet of past populations.
+I also outline the current state of dental calculus research, and some of the
+problems we are facing. I only briefly describe what dental calculus is, and
+how it is formed; this is an important concept to understand, since it influences
+the uptake of food particles, and is influenced by diet. **Chapter 2** provides
+more detail on the formation and growth of dental plaque, and mineralisation
+to form dental calculus. Here, I also provide an overview of oral biofilm models
+to provide some context for the experiments I conducted in my dissertation research
+using an oral biofilm model
+
+**Chapter 3** is the first article, which introduces
+the oral biofilm model I developed for my research. In this article we also
+assess the ability of our model to mimic the properties of natural dental calculus
+in order to justify using model calculus as a proxy for archaeological dental
+calculus. By characterising the bacteria present in the model calculus,
+<!-- elaborate on method - sequencing the DNA and identifying species abundances-->
+we found
+that it was indicative of an oral microbiome, though somewhat distinct from the
+natural calculus we used as a comparison. We also determined the mineral content
+using Fourier Transform Infrared (FTIR) spectroscopy, which established that the
+model was primarily made up of carbonate hydroxyapatite, the predominant mineral
+in natural dental calculus. The second article that forms **Chapter 4** we applied
+the calculus model to find out what happens when we add a known amount of
+dietary starch granules to model calculus during formation, and attempt to extract
+the starches using a common method for extraction of starches from archaeological
+dental calculus. We were able to validate what previous studies on modern humans
+and non-human primates have shown, that the quantity of starches that we extract
+from calculus, is not very representative of the dietary intake.
+We also discovered that one of the causes for this misrepresentation of the starch
+record is that large starch granules were being incorporated at a lower rate
+than smaller granules. This was demonstrated by the fact that potato granules,
+which are quite a bit larger than wheat, were underrepresented in our extracted
+counts.
+
+In addition to diving into the causes behind dental calculus limitations, we also
+sought out to find novel uses for archaeological dental calculus. In **Chapter 5**,
+the final article in this dissertation, we used a novel method employing
+ultra high performance liquid chromatography-tandem mass spectrometry
+(UHPLC-MS/MS) to identify various plant-based alkaloids traditionally used
+for medication and non-dietary activities, such as nicotine, opioids, and
+cannabinoids.
+We were unable to detect opioids and cannabinoids, but
+we found evidence of alkaloids and metabolites derived from the consumption of
+tea and/or coffee, as well as nicotine (and its metabolite, cotinine), and
+salicylic acid, the primary phytohormone in willow bark. 
+ We combined these results with the presence of skeletal and dental
+indicators of disease to find patterns of potential disease management.
+We were unable to
+definitively link the presence of these with evidence of disease to justify
+medicinal activities, but we found some interesting correlations between
+maxillary sinusitis and markers of tobacco-use and consumption of tea and coffee.
+
+In the final part of the dissertation, **Chapter 6**, I discuss the outcomes of
+the studies from previous chapters, addressing the oral biofilm model and its
+implications for archaeological research. I lay out the challenges we need to
+accept to further our understanding of archaeological dental calculus and how it
+relates to the dietary activities of the people we study in the past. This includes
+systematically conducting more fundamental research to understand the mechanisms
+causing various dietary (and non-dietary) markers to become entrapped in dental
+calculus.
+
+
+<!-- discussion -->
+
+# Samenvatting {-}
+
+<!-- will be provided when the English version is approved -->
+
+<!-- non-specialist summary -->
