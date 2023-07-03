@@ -1,7 +1,3 @@
----
-shift-heading-level-by: -1
----
-
 # Assessing the validity of a calcifying oral biofilm model as a suitable proxy for dental calculus {#byoc-valid}
 
 ::: {.content-visible when-format="html"}
