@@ -81,10 +81,10 @@ Data available: TBD
 \clearpage
 \thispagestyle{empty}
 \vspace*{3cm}
-\textit{En bar røv at trutte i}
-\vspace*{\fill}
+\hfill\textit{En bar røv at trutte i}
 \par
-\vspace*{4cm} - Jan Bartholdy
+\hfill\vspace*{4cm} Jan Bartholdy
+\vspace*{\fill}
 
 \mainmatter
 :::
