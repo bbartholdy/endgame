@@ -15,11 +15,11 @@ dissertation:
 
 intro: 
   version: "![Current version](https://img.shields.io/badge/Version-Second draft-blue)"
-  status: "![](https://img.shields.io/badge/Status-revising-yellow)"
+  status: "![](https://img.shields.io/badge/Status-under review-red)"
 
 background:
-  version: "![Current version](https://img.shields.io/badge/Version-First draft-blue)"
-  status: "![](https://img.shields.io/badge/Status-revising-yellow)"
+  version: "![Current version](https://img.shields.io/badge/Version-Second draft-blue)"
+  status: "![](https://img.shields.io/badge/Status-under review-red)"
 
 article1:
   badges:
@@ -47,4 +47,4 @@ article3:
 
 discussion:
   version: "![Current version](https://img.shields.io/badge/Version-First draft-blue)"
-  status: "![](https://img.shields.io/badge/Status-writing-yellow)"
+  status: "![](https://img.shields.io/badge/Status-under review-red)"

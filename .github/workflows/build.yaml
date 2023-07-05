@@ -2,7 +2,15 @@
 # Need help debugging build failures? Start at https://github.com/r-lib/actions#where-to-find-help
 on:
   push:
-    branches: main
+    branches: 
+      - main
+    # paths-ignore:
+    #   - '**.md'
+    paths:
+      - '**.qmd'
+      - '**.yml'
+      - '**.bib'
+      - '**.scss'
 
 name: build
 
@@ -37,16 +45,23 @@ jobs:
       #- uses: r-lib/actions/setup-r-dependencies@v2
       - uses: r-lib/actions/setup-renv@v2
 
-      - name: Build Quarto site
-        run: |
-          quarto render --to all
-        
-      - name: Deploy to Netlify
-        env:
+      - name: Render and Publish
+        uses: quarto-dev/quarto-actions/publish@v2
+        with:
+          target: netlify
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
-        run: |
-          npm install netlify-cli -g
-          netlify deploy --prod --dir _book
           
+      # - name: Build Quarto site
+      #   run: |
+      #     quarto render --to all
+      #   
+      # - name: Deploy to Netlify
+      #   env:
+      #     NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+      #     NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+      #   run: |
+      #     npm install netlify-cli -g
+      #     netlify deploy --prod --dir _book
+      #     
 
