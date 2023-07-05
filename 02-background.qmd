@@ -7,6 +7,10 @@
 
 ## Summary {-}
 
+The oral biome is complex. You just won't believe how vastly,
+hugely,
+mind-bogglingly complex it is. I mean, you may think quantum physics is complicated,
+but that's just peanuts to the oral biome<!--[@adamsHitchhikersGuide2002, p.66]-->.
 At any given moment, there are millions, if not billions, of microorganisms calling
 your mouth 'home'. These come from a selection of at least 700 species, with
 a few hundred different species living within the mouth of a single person.
@@ -48,19 +52,28 @@ the external environment. For this reason, the conditions within the
 oral cavity can vary considerably,
 resulting in a unique range of habitats for a wide variety of microbes.
 In fact, the oral biome contains bacteria from over 700 different
-species, some of which still haven't been named<!--cite-->.
+species, some of which still haven't been named, or even cultured.
 There are so many bacteria in our mouth that it's actually hard to determine
 how many there are at any given time, but most estimates are in the
-billions. The oral biome is complex. You just won't believe how vastly, hugely,
-mind-bogglingly complex it is. I mean, you may think quantum physics is complicated,
-but that's just peanuts to the oral biome [@adamsHitchhikersGuide2002, p.66].
-As such, this chapter reflects the knowledge at the time of writing, and no
-warranty is given for the inevitable new developments that will change what we now
-believe to be true.<!-- rephrase -->
+billions. Some like stable temperatures and lots of oxygen. Others are better
+at dealing with fluctuations in temperature and oxygen availability. Some
+can fend for themselves and take what they need from the environment. Others
+depend on the presence of other species to break down their food into smaller
+pieces. Some like acidity. Others like alkalinity. So how can they all seemingly
+thrive in the same place at the same time? The answer is biofilms.
+
+As an archaeologist, you may be wondering why you need to know all this stuff.
+Dental calculus is the result of a very complex series of events, that involves
+the physiology of saliva, particular diets, age, genetics, and a bunch of other
+things. To better understand what we see when we analyse archaeological dental
+calculus to get at diet, we need to understand all of the processes that went into
+forming it in the first place. Only then can we begin to fully unlock its potential
+in reconstructing past diets. In any case, we all have mouths, so on some level
+I'm sure this knowledge will be relevant.
 
 <!-- teeth? -->
 
-## Biofilms
+## Oral biofilms {#background-biofilms}
 
 <!-- what is it? -->
 The concept of biofilms represents a recent paradigm shift in microbiology
@@ -93,7 +106,7 @@ Biofilms are quite persistent structures, and very few surfaces exist
 that can completely prevent bacterial colonisation and biofilm formation
 [@rennerPhysicochemicalRegulation2011].
 
-### Dental plaque
+### Dental plaque {#dental-plaque}
 
 Dental calculus forms from a specific oral biofilm known as dental plaque.
 After we clean our teeth, our saliva coats the surface of our teeth (enamel)
@@ -177,8 +190,8 @@ While some bacteria specialise in attaching to surfaces, not all of them possess
 ability. However, once the specialists have attached, they facilitate the adhesion of
 other bacteria (secondary colonisers) by allowing them to attach to their surface (coadhesion)
 rather than directly to the pellicle.
-For example, *S. gordonii*
-can attach to the pellicle and facilitate coadhesion with *A. naeslundii*
+For example, *Streptococcus gordonii*
+can attach to the pellicle and facilitate coadhesion with *Actinomyces naeslundii*
 [@palmerCoaggregationInteractions2003].
 Not all attachments involve proteins.
 They can also involve carbohydrates, enzymes, and various appendages on the
@@ -202,8 +215,8 @@ coaggregation between distinct species.<!-- cite. -->
 <!--  extracellular matrix formation and biofilm maturation -->
 As the biofilm formed by early colonisers grows through continued multiplication and
 coadhesion/coaggregation, the diversity of the biofilm increases. The proportion of
-early-colonising streptococci gradually decreases while
-there is an increase of *Tannerella forsythia* *Actinomyces* spp. and *Fusobacterium nucleatum*
+early-colonising streptococci gradually decreases while there is an increase of
+*Tannerella forsythia*, *Actinomyces* spp., and *Fusobacterium nucleatum*
 [@zijngeBiofilmArchitecture2010].
 *F. nucleatum* is a bacterium also known as the 'bridging species', as it's
 believed to play an important part in linking together early and late coloniser
@@ -287,7 +300,7 @@ species will ultimately shape the wider biofilm communities.
 <!-- time-span of initial formation and maturation. Climax communities by 24 hours. -->
 <!-- segway to biofilm mineralisation, as opposed to demineralisation of enamel. -->
 
-### Dental calculus
+### Dental calculus {#dental-calculus}
 
 <!-- biofilm mineralisation -->
 The exact mechanism of dental calculus formation is not fully
@@ -400,29 +413,25 @@ between conditions in the local environment, availability
 of minerals, the equilibrium between precipitation and dissolution, balance
 between nucleation promoters and inhibitors. 
 
-## Oral biofilm models
+## Oral biofilm models {#background-biofilm-models}
 
 <!-- what is it -->
 Biofilm models are a way of studying the growth and development of
 biofilms. By creating models that replicate the conditions and complexity
 (to some extent) of biofilms in a lab, models allow researchers to conduct
 various experiments to test the efficacy of treatments on the growth and
-pathogenicity of biofilms.
-There are many choices to be made when growing a biofilm, such as the
-composition of the initial oral microbial community, nutrient content
-and availability,
-and the makeup of the atmosphere [surrounding] the model.
-As such, biofilm models can differ widely in their complexity and
-ability to mimic conditions in a human mouth. 
-A choice of model can be made based on the end-goals of the research, or
-in some cases the choice is made for you based on (a lack of) available
-equipment and financial constraints.
+pathogenicity of biofilms. There are many choices to be made when growing a biofilm,
+such as the composition of the initial oral microbial community, nutrient content
+and availability, and the makeup of the atmosphere in which the model is situated.
+As such, biofilm models can differ widely in their complexity and ability to
+mimic conditions in a human mouth. A choice of model can be made based on the
+end-goals of the research, or in some cases the choice is made for you based on
+(a lack of) available equipment and financial constraints.
 All models must have a defined biome containing a substratum and
 nutrients. The substratum is a surface on which the biofilm is intended
 to form and grow. For oral biofilm models the environment is the oral cavity
-and the substrata are the teeth, tongue, mucosa, or whatever the model isthe biofilm
-supposed to be mimicing.
-The simplest models
+and the substrata are the teeth, tongue, mucosa, or whatever the model is the
+biofilm supposed to be mimicking. The simplest models
 generally involve multiwell plates (e.g., 6-, 24-, and 98-well plates) with
 a substratum, usually glass cover-slips or hydroxyapatite discs, placed at
 the bottom of the well. Similar models suspend the substrata from a lid
@@ -451,8 +460,9 @@ As such, the content of the inoculate influences the complexity of the
 biofilm microbiome as well as the interactions between
 the communities within the biofilm [@roderStudyingBacterial2016].
 It's not always possible to use donated saliva as a growth medium for the duration
-of the experiment. Especially if the experiment lasts more than a few days.
-Media containing salivary components may be added for extended experiments.
+of the experiment, especially if the experiment lasts more than a few days.
+Media with salivary components can be created as a substitute for long lasting
+experiments.
 There are many different recipes for media floating around out there,
 but most of them are generally a mixture containing mucin, proteins, minerals
 commonly found in saliva, and a buffer to maintain pH
@@ -461,17 +471,17 @@ commonly found in saliva, and a buffer to maintain pH
 More complicated models make use of increasingly sophisticated equipment to
 mimic the oral environment. Another level of model complexity can be added
 by adjusting the rate at which nutrients are dispersed through the system,
-and the overall nutrient supply.
-Nutrient distribtion can be continuous, semi-continuous, or batch cultures, with the latter
-providing a finite amount of nutrients in a closed system. An example of a batch culture model
-is a biofilm grown on an agar plate, which has a finite amount of resources [@kearnsMasterRegulator2005].
-Once the nutrients in the agar have been depleted, that's it.
-At the other end of the spectrum is a system with a pump attached to a reservoir
-that can continuously supply the biofilm with growth medium, similar to salivary flow.
-In between the former options is the semi-continuous supply of nutrients.
-This can, for example, be the multiwell plate model with a lid, where the
-samples can be periodically transferred to new plates containing fresh growth medium
-[@extercateAAA2010]. Other parameters that can be controlled to more closely
+and the overall nutrient supply. Nutrient distribution can be continuous,
+semi-continuous, or batch cultures, with the latter providing a finite amount of
+nutrients in a closed system. An example of a batch culture model is a biofilm
+grown on an agar plate, which has a finite amount of resources
+[@kearnsMasterRegulator2005]. Once the nutrients in the agar have been depleted,
+that's it. At the other end of the spectrum is a system with a pump attached to
+a reservoir that can continuously supply the biofilm with growth medium, similar
+to salivary flow. In between the former options is the semi-continuous supply of
+nutrients. This can, for example, be the multiwell plate model with a lid, where
+the samples can be periodically transferred to new plates containing fresh growth
+medium [@extercateAAA2010]. Other parameters that can be controlled to more closely
 simulate conditions in the oral cavity are pH and gas phase, as can be done
 with the multistation artificial mouth (MAM). The MAM gives researchers control
 over a large number of parameters using multiple chambers with complete control
@@ -510,5 +520,20 @@ Alternatives to *in vitro* models are *in situ* models which usually involve
 growing plaque on a removable surface inside a the mouth of a willing participant.
 These models add a level of realism, as they are grown inside an actual oral
 cavity, and can reflect biogeographical differences in biofilm composition caused
-by differing conditions across the oral cavity. They also come with additional difficulties
-and reduced control over experimental parameters [@marshRoleMicrobiology1995; @zeroSituCaries1995].
+by differing conditions across the oral cavity. They also come with additional
+difficulties and reduced control over experimental parameters
+[@marshRoleMicrobiology1995; @zeroSituCaries1995].
+
+Reiterating a point made in the [Introduction](#chap-intro), and
+[Discussion](#chap-discussion), and probably somewhere in the articles as well,
+the benefit
+of using an oral biofilm model over naturally occurring dental calculus in the
+mouth of a research participant, is the control that it provides to tweak every
+aspect of system, from the quantity and quality of nutrients available, to the
+amount of enzymes and bacterial species present. Plus, the added ethical benefit
+of not needing to ask someone to give up their oral hygiene regime for a few weeks.
+The following chapters, [Chapter 3](#byoc-valid) and [Chapter 4](#byoc-starch),
+provide a small glimpse of what a model looks like, and how it might be used to
+inform archaeological research.
+
+## References {-}

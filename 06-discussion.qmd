@@ -126,6 +126,23 @@ microremains become trapped inside calculus, how much of what we consume ends up
 inside calculus, and to what extent our current methods are able to accurately
 extract that information.
 
+<!-- from the Introduction chapter
+I chose to use a 24-well plate with a plastic substratum suspended from a lid. The model
+was inoculated with whole saliva, which can be more difficult to control, but more
+closely replicate the complex dynamics between oral bacteria during biofilm
+formation, such as metabolic dependencies [@roderStudyingBacterial2016; @mcbainBiofilmModels2009].
+My choice of model was partially driven by
+available facilities and financial limitations, and partially by the benefits of being
+able to generate a large number of samples under similar, adjustable conditions. 
+It's arguably also more realistic for the facilities and finances of most archaeological
+departments and grants.
+Our model uses a simplified high-throughput setup more commonly seen in shorter-term
+biofilm models that mainly focus on dental plaque [@extercateAAA2010; @tianUsingDGGE2010].
+Using oral biofilm models to grow dental calculus is in
+no way a novel concept. In fact, it has been applied for decades to study
+the growth and mineralisation of biofilms
+[@fehrVitroCalculus1960; @middletonVitroCalculus1965; @sissonsMultistationPlaque1991].-->
+
 The model we chose was a simple model using a shaking incubator and a 24 deepwell
 plate with the plastic lids as a substratum. The artificial saliva we used was
 based on the basal modified medium used by Sissons and colleagues
@@ -147,7 +164,7 @@ and facultative anaerobes.
 The natural samples also had a more diverse representation of bacteria from all
 stages of biofilm development, including early- middle-, and late-colonisers, while
 model calculus samples were predominantly late-colonisers
-[[Chapter 3](#byoc-valid); @bartholdyAssessingValidity2023].
+[[**Chapter 3**](#byoc-valid); @bartholdyAssessingValidity2023].
 Results from our metagenomic analysis were similar to a comparable *in vitro*
 biofilm model.
 In their study, the authors also used a 24-well plate with pooled saliva as
@@ -155,7 +172,7 @@ inoculate. The growth medium was similar but also contained a sheep's-blood seru
 and the samples were only grown for 24 hours [@edlundUncoveringComplex2018].
 As with our model, the comparison with natural oral samples showed a lower overall
 richness and diversity, and a distinct microbial profile
-[[Chapter 3](#byoc-valid); @bartholdyAssessingValidity2023]. Given that our results
+[[**Chapter 3**](#byoc-valid); @bartholdyAssessingValidity2023]. Given that our results
 are similar to a short-term biofilm model, we may be replacing the medium too
 often (every three days), and not allowing communities to establish more
 complex metabolic pathways that are normally present in mature biofilms.
@@ -188,7 +205,7 @@ to archaeological calculus. Not only did the archaeological calculus spend a few
 hundred years maturing in the ground, allowing crystals to expand into the
 gaps created by degraded organic matter [@weinerBiologicalMaterials2010], but
 given the known lack of oral hygiene practices in the past, the calculus was surely
-older than 25 days before being buried<!--cite?-->.
+older than 25 days before being buried.
 We also only analysed a single archaeological sample, so we don't know how
 representative this sample is of archaeological samples in general. Perhaps this
 was a particularly under- or over-mineralised sample. It would be more appropriate
@@ -221,7 +238,7 @@ granules could influence the likelihood of being retained in the biofilm.
 We also found that a very, VERY, low proportion of the starch granules that we
 'fed' our samples actually made it into the dental calculus; only 0.06% to 0.16%
 of granules from the treatment solutions were extracted from the dental calculus
-[[Chapter 4](#byoc-starch); @bartholdyInvestigatingBiases2022]. Given how few
+[[**Chapter 4**](#byoc-starch); @bartholdyInvestigatingBiases2022]. Given how few
 actually make it in, this may suggest that evidence for dietary starches are
 the result of repeated exposure to a large quantity of granule-containing foods.
 
@@ -388,14 +405,14 @@ So far nothing has been done to explore the dietary perspective in which we're
 interested.
 
 This question also came up during the analysis of archaeological dental
-calculus in [Chapter 5](#mb11CalculusPilot) [@bartholdyMultiproxyAnalysis2023].
+calculus in [**Chapter 5**](#mb11CalculusPilot) [@bartholdyMultiproxyAnalysis2023].
 Based on the presence of many metabolites, it seems that this may not have been
 during consumption, but rather during excretion through saliva, or, put more
 simply, when the molecules are on their way out of the body again. This makes some
 sense, since
 food actually spends relatively little time in our mouth while we're eating, and
 significantly longer travelling through our body. This may also explain
-the very low retention of starch granules we found in [Chapter 4](#byoc-starch).
+the very low retention of starch granules we found in [**Chapter 4**](#byoc-starch).
 It seems that most of the starch granules are swallowed, while few become lodged
 in our teeth/plaque and are eventually trapped in dental calculus. Without looking
 into the mechanism by which starches and other food molecules are incorporated
@@ -413,7 +430,7 @@ important question to answer is how, and, to what extent, they influence this
 process. A systematic approach would be to set up multiple experiments with
 different sets of defined consortia grown under the same conditions.
 On a related note, the absence of host salivary $\alpha$-amylase activity in our
-model (as shown in [Chapter 4](#byoc-starch), @bartholdyInvestigatingBiases2022)
+model (as shown in [**Chapter 4**](#byoc-starch), @bartholdyInvestigatingBiases2022)
 provides an opportunity to explore the effect of various amylase levels on the
 incorporation and retention of dietary compounds, especially starches, in dental
 calculus. $\alpha$-amylase can be purchased from most laboratory supply
@@ -603,7 +620,7 @@ control samples from surrounding soil <!--(found this out the hard way) -->and t
 findings in separate labs, with clear identification of potential contaminants
 [@crowtherDocumentingContamination2014].
 
-In the study from [[Chapter 5](#mb11CalculusPilot); @bartholdyMultiproxyAnalysis2023],
+In the study from [[**Chapter 5**](#mb11CalculusPilot); @bartholdyMultiproxyAnalysis2023],
 we detected various compounds in dental
 calculus using UHPLC-MS/MS, including salicylic acid, a phytohormone from willow
 trees (*Salix alba*, for example) with medicinal properties. Willow bark
@@ -716,7 +733,7 @@ the ground. The initial biofilm growth and burial are included in a blog post
 but no further results were written up because of the aforementioned issue with
 the protocol, and intrusion by a pandemic.
 This particular failure motivated me to revise the protocol and properly
-validate the grown model dental calculus (see [Chapter 3](#byoc-valid) and @bartholdyAssessingValidity2023).
+validate the grown model dental calculus (see [**Chapter 3**](#byoc-valid) and @bartholdyAssessingValidity2023).
 
 <!--The effect of lab processing methods on dental calculus and the remains contained
 within has been addressed in previous research.
@@ -786,7 +803,14 @@ suffer from a low resolution, since they can generally "only" (highly exaggerate
 air quotes since it's still incredibly useful) offer insights into
 very broad dietary trends [@katzenbergStableIsotope2008], whereas methods used on
 dental calculus can be much more specific<!-- (pun intended)-->, sometimes even
-incredibly so [@hendyProteomicCalculus2018; @scottExoticFoods2021].
+incredibly so [@hendyProteomicCalculus2018; @scottExoticFoods2021]. Others have
+also noted that the source of collagen protein in dental calculus, the primary
+target for stable isotope analyses, can be difficult to determine given all the
+microorganisms residing in plaque and dental calculus. This leaves questions
+about what the isotopes are actually saying about diet, if anything
+[@salazar-garciaDentalCalculus2014; @priceTestingValidity2018], and may be more
+related to dental disease or contamination from other archaeological materials
+[@mackiePreservationMetaproteome2017].
 
 If sheer quantity of DNA is what
 you're after then there really is no better substance than dental calculus. It
@@ -816,18 +840,27 @@ databases that allow us to make more robust identifications on smaller DNA fragm
 dental calculus can become even more of a treasure trove of information than it
 is already.
 
-While they are abundant in the past, dental calculus deposits are quite small,
-ranging from less than one to around a hundred milligrams. It is therefore
-important to make our sampling as efficient as possible so we can retain some of
-the material for future analyses and replication.
-Many of the analytical methods used on dental calculus required destruction of at
-least part of the sample. When deciding to perform destructive analyses, it is
-important to consider the goal of the research. Dental calculus may not be suitable
-for all purposes. Horses for courses. There are likely better sites to sample for
-human DNA. And while it has been preferentially targeted due to the fact that it's
-technically considered an ectopic growth and is not given the same ethical scrutiny
-as skeletal material, maybe it should. After all, it does contain human DNA, and
-our microbiomes are unique.
+Detecting metabolites in dental calculus has its own set of considerations.
+Until now, the most common separation method for analysing metabolites has been
+using high temperatures to vaporise samples into a gas phase
+(the 'GC' in GC-MS)  and decompose metabolites within samples 
+for subsequent identification by mass spectrometry (MS). The benefit being large
+reference databases used to identify various compounds. However, it may not be
+the best option for
+every use-case, and the high temperatures required can cause problems, such as
+degradation of the compounds. Some
+metabolites, particularly alkaloids, are less volatile<!--?????-->, and are therefore not
+easily vaporised and detected following derivatization [@zimmermanBiomolecularArchaeology2023].
+Not a great feature when looking for
+potentially interesting dietary and non-dietary alkaloids. Methods using liquid
+chromatography coupled with mass-spectrometry (LC-MS) use lower temperatures and
+are able to
+detect these compounds directly, .i.e., without the step of derivatization
+[@sorensenSensitiveDetermination2017; @rustichelliSimultaneousSeparation1996].
+This reduces sample preparation time,
+but comes at a higher cost, financially for instrumentation and operators (a
+serious consideration for archaeological budgets).
+<!-- targeted vs. untargeted approach?-->
 
 If dental calculus is the best substance for the particular research goal, then
 it's important to maximise the information extracted from the samples, and minimise
@@ -843,6 +876,20 @@ imaging techniques involving radiation may affect the quantity and quality of
 extracted DNA [@immelEffectXray2016]. We should continue
 to explore ways to minimise the amount of material required to conduct our
 studies.
+
+
+While they are abundant in the past, dental calculus deposits are quite small,
+ranging from less than one to around a hundred milligrams. It is therefore
+important to make our sampling as efficient as possible so we can retain some of
+the material for future analyses and replication.
+Many of the analytical methods used on dental calculus required destruction of at
+least part of the sample. When deciding to perform destructive analyses, it is
+important to consider the goal of the research. Dental calculus may not be suitable
+for all purposes. Horses for courses. There are likely better sites to sample for
+human DNA. And while it has been preferentially targeted due to the fact that it's
+technically considered an ectopic growth and is not given the same ethical scrutiny
+as skeletal material, maybe it should. After all, it does contain human DNA, and
+our microbiomes are unique.
 
 ## Thoughts on the future
 
@@ -933,7 +980,10 @@ methods. Not to mention, visually scoring calculus deposits is cheaper and
 requires no specialised equipment.
 The presence of dental calculus and the size of the deposit can be
 meaningful. For example, @yaussyCalculusSurvivorship2019 found an decreased
-survivorship in individuals with dental calculus formations.
+survivorship in individuals with dental calculus formations. Past populations
+are also a well-suited target to explore the relationship between dental diseases,
+such as dental calculus and periodontitis; and between dental diseases and diet,
+since oral hygiene interventions were less widespread in the past.
 Therefore, it's crucial to record the deposit *in situ* before
 proceeding with destructive sampling. This means taking photos and scoring the
 deposit using existing methods, such as [@brothwellDiggingBones1981], and recording
