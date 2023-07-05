@@ -1,0 +1,4 @@
+- source: project
+  netlify:
+    - id: "654e8f2b-273f-4ad4-bf70-5893719cb68c"
+      url: "https://myphd.netlify.app"
