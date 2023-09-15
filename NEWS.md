@@ -12,7 +12,7 @@ were different.
 - Issue with chapter 4 article (sections rendering as chapters) fixed.
 - No major changes to the actual content
 
-All modifications to content can be seen in commit 851c7f1.
+All modifications to content can be seen in commit https://github.com/bbartholdy/endgame/commit/851c7f1ee4a8827f8ae4092ad7ce727be13acf19
 
 ### 2023-07-05
 
