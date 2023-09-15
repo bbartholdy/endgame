@@ -1,6 +1,6 @@
 # News
 
-### ???
+### 2023-09-15
 
 Revisions made based on supervisor feedback.
 
