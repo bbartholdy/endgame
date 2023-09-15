@@ -14,12 +14,12 @@ dissertation:
   github: https://github.com/bbartholdy/endgame
 
 intro: 
-  version: "![Current version](https://img.shields.io/badge/Version-Second draft-blue)"
-  status: "![](https://img.shields.io/badge/Status-under review-red)"
+  version: "![Current version](https://img.shields.io/badge/Version-v1-blue)"
+  status: "![](https://img.shields.io/badge/Status-committee-red)"
 
 background:
-  version: "![Current version](https://img.shields.io/badge/Version-Second draft-blue)"
-  status: "![](https://img.shields.io/badge/Status-under review-red)"
+  version: "![Current version](https://img.shields.io/badge/Version-v1-blue)"
+  status: "![](https://img.shields.io/badge/Status-committee-red)"
 
 article1:
   badges:
@@ -46,5 +46,5 @@ article3:
   github: https://github.com/bbartholdy/mb11CalculusPilot
 
 discussion:
-  version: "![Current version](https://img.shields.io/badge/Version-First draft-blue)"
-  status: "![](https://img.shields.io/badge/Status-under review-red)"
+  version: "![Current version](https://img.shields.io/badge/Version-v1-blue)"
+  status: "![](https://img.shields.io/badge/Status-committee-red)"

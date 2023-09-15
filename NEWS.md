@@ -1,8 +1,22 @@
 # News
 
+### ???
+
+Revisions made based on supervisor feedback.
+
+Main changes made:
+
+- Update citation entries in Zotero to fix in-text citations where there were discrepancies in how authors
+were entered, resulting in the generated in-text citations thinking identical authors
+were different.
+- Issue with chapter 4 article (sections rendering as chapters) fixed.
+- No major changes to the actual content
+
+All modifications to content can be seen in commit 851c7f1.
+
 ### 2023-07-05
 
-First draft of dissertation submitted to supervisor.
+First draft of dissertation submitted to supervisors.
 
 ### 2023-05-30
 
@@ -17,7 +31,7 @@ is the third article-chapter in the dissertation.
 
 ### 2022-07-07
 
-First article published in journal Frontiers in Earch Science (<https://doi.org/10.3389/feart.2022.886512>).
+First article published in journal Frontiers in Earth Science (<https://doi.org/10.3389/feart.2022.886512>).
 The article is the second article-chapter in the dissertation.
 
 ### 2022-05-16

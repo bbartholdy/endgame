@@ -11,9 +11,10 @@ anthropology at the University of Calgary in 2015. My thesis was supervised
 by Dr. Mary Anne Katzenberg and explored the application of micro-CT in 
 archaeological examination of osteoarthritis lesions in the vertebrae of 
 unprovenanced skeletal remains. I went on to get my MSc in Osteoarchaeology at
-Leiden University in 2017. Here, my thesis research was supervised by Dr. Andrea Waters-Rist and looked for relationships between enamel properties and dental 
+Leiden University in 2017. Here, my thesis research was supervised by Dr. Andrea
+Waters-Rist, where I looked for relationships between enamel properties and dental 
 disease in the deciduous dentition, using micro-CT. The materials used for this
-research was from a 19th century Dutch population.
+research were from a 19th century Dutch population.
 
 I started my PhD position in 2017, under the supervision of Dr. Amanda Henry. 
 The main focus of the research involved developing and validating a protocol 
@@ -29,11 +30,16 @@ co-instructed the Quantitative Methods in Archaeology course for two consequetiv
 years. I co-supervised multiple Master's students in the MSc Osteoarchaeology
 specialisation.
 I also taught a number of guest lectures on dental calculus, dental diseases, 
-statistics, and open science. I was a teaching assitant in the Osteoarchaeology 
+statistics, and open science. I was a teaching assistant in the Osteoarchaeology 
 course for third year Bachelor's. I received my Data Carpentry teaching certification
 and co-instructed multiple Data Carpentry workshops teaching the R Statistical 
 Programming language to social scientists,
-hosted by Leiden University, TU Delft, Erasmus University Rotterdam.
+co-hosted by Leiden University, TU Delft, Erasmus University Rotterdam, and
+Vrije Universiteit Amsterdam.
+
+After my PhD contract ended, I took a job as a Data Steward at TU Delft, at the
+faculty of Mechanical, Maritime, and Materials Engineering. In this role I provide
+support and training for researchers on research data management and Open Science.
 
 Organised a workshop on dental non-metrics
 Editor-in-chief for the Inter-Section journal
