@@ -2,7 +2,6 @@
 engine: knitr
 title: Investigating Biases Associated with Dietary Starch Incorporation and Retention with an Oral Biofilm Model
 shift-heading-level-by: 1
-#top-level-division: section
 ---
 
 ::: {.content-visible when-format="html"}
@@ -74,22 +73,22 @@ cor2_r <- signif(count_cor$estimate, 3)
 cor2_ci <- signif(count_cor$conf.int, 3)
 ```
 
-# Introduction {#byocstarch-intro}
+## Introduction {#byocstarch-intro}
 
 {{< include articles/byoc-starch/analysis/paper/intro.Rmd >}}
 
-# Materials and Methods
+## Materials and Methods
 
 {{< include articles/byoc-starch/analysis/paper/matmet.Rmd >}}
 
-# Results
+## Results
 
 {{< include articles/byoc-starch/analysis/paper/results.Rmd >}}
 
-# Discussion
+## Discussion
 
 {{< include articles/byoc-starch/analysis/paper/discussion.Rmd >}}
 
-# Conclusion
+## Conclusion
 
 {{< include articles/byoc-starch/analysis/paper/conclusion.Rmd >}}

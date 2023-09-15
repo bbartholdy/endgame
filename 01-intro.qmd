@@ -33,17 +33,17 @@ Dental calculus is becoming a popular substance in research on the behaviour and
 biology of people in the past. You
 may also know it as tartar or mineralised plaque. In other languages the word is
 often related to "tooth stones". In fact, calculus is itself latin for 'pebble'.
-This was orginially used as a term for mathematical calculations using counting
-stones, and only later used to describe calicifications in the human body
+This was originally used as a term for mathematical calculations using counting
+stones, and only later used to describe various calcifications in the human body
 (<https://www.etymonline.com/word/calculus>). This can be the cause of some confusion,
-as calculus is also a branch of mathematics. If you see the the term 'calculus' in
-this disseration, you can safely assume that I'm referring to stuff that grows
+as calculus is also a branch of mathematics. If you see the term 'calculus' in
+this dissertation, you can safely assume that I'm referring to stuff that grows
 on your teeth and for which you receive lectures from your dentist, and not the
 topic you dreaded in high school.
 
 I will briefly describe the formation of dental calculus here, but for a more
 thorough review of the entire process I refer you to [Chapter 2](#chap-background).
-Dental calculus is formed from dental plaque, a substance that forms on you teeth
+Dental calculus is formed from dental plaque, a substance that grows on your teeth
 and consists mainly of bacteria and
 a surrounding structure called the extracellular matrix.
 When the local environment within and around the plaque reaches a favourable alkaline
@@ -73,37 +73,41 @@ we eat
 When the plaque mineralises, it can preserve these microparticles over long periods
 of time, even after
 the person whose teeth provided a home for the calculus has died.
-Also, the main crystal forms in calculus strongly bind DNA, making
+Also, the main crystal structures in calculus strongly bind DNA, making
 calculus a fantastic source of ancient DNA (aDNA) from the mouth [@warinnerNewEra2015].
-This is probably why archaeologists have become increasingly interested in dental
-calculus.
-
 Another advantage of dental calculus is that it represents a more recent and direct
-source of diet than teeth or other bones, since the turnover is much quicker in
-calculus than bone.
-Calculus can form within weeks at any point during an individual's life and may
-indicate direct consumption, while bone can take years to incorporate a dietary
-signal. Further, enamel stops forming after the crown of the last tooth has
-developed---third molars, or 'wisdom teeth---at around 16 years of age,
+source of diet than teeth or other bones. While bones and teeth can take years to
+remodel and incorporate a dietary signal, calculus forms on a much smaller
+timescale and is in direct contact with the dietary material.
+Calculus can form within weeks at any point during an individual's life
+and may, therefore,
+indicate a recent and direct consumption of food, while bone can take years to
+show a (indirect) dietary signal, following food molecules entering the
+bloodstream, and finally entering the bone from there.
+Further, enamel stops forming after the crown of the
+last tooth has developed---third molars, or 'wisdom teeth---at around 16 years of age,
 and the turnover of dentin is very limited [@hillsonDentalAnthropology1996].
+These properties are probably why archaeologists have become increasingly
+interested in dental calculus.
 
 ## Dental calculus in archaeology {#intro-arch}
 
 The main archaeological interest in dental calculus is to explore research questions
-involving diet and the evolution of the oral biome and oral health
+involving diet and the evolution of the oral biome and oral health. To this end,
+it can contribute a surprising amount for such a small, seemingly insignificant
+material. This relates to its ability to retain and preserve a wide variety
+of different materials, from the food we eat to the bacteria that make their home
+in our mouths
 [@yatesOralMicrobiome2021; @henryCalculusSyria2008; @warinnerPathogensHost2014; @warinnerEvidenceMilk2014; @adlerSequencingAncient2013].
-These topics have not changed much since the early uses of dental calculus in
-archaeological research, but the methods certainly have.
-
-In the past, some researchers would consider calculus a nuisance because it
-obscured tooth and root morphology [@scottBriefHistory2015]; this had made
-a lot of people very angry and been widely regarded as a bad move
-[@adamsRestaurantEnd2002, p.1].
-A simple three-stage archaeology-specific scoring method was developed
-[@brothwellDiggingBones1981], similar
-to a common clinical scoring system [@greeneSimplifiedOral1964],
-and is still widely used today. More detailed
-methods are also available [@dobneyMethodEvaluating1987; @greeneQuantifyingCalculus2005].
+The goal of current studies targeting archaeological dental calculus have not changed much
+since the early uses of dental calculus in archaeological research, but the methods
+certainly have, allowing us to unearth<!--pun always intended--> information
+that was previously not considered possible.
+By my count, archaeological dental calculus has now been subject to various forms
+of microscopy
+[@middletonOpalPhytoliths1994; @charlierSEMCalculus2010; @powerSynchrotronRadiationbased2022];
+extractions of biomolecules including DNA, proteins, and metabolites [@adlerSequencingAncient2013; @warinnerEvidenceMilk2014];
+and stable isotope analyses.
 
 ```{r}
 #| label: fig-plot-and-wordclouds
@@ -113,9 +117,9 @@ titles_plot + bioarch_title_wordcloud / dental_title_wordcloud +
   plot_annotation(tag_levels = "A")
 ```
 
-Perhaps the most common uses of dental calculus is to try and recreate the diet
+Perhaps the most common use of dental calculus is to recreate the diet
 of past people and populations ([@fig-plot-and-wordclouds]B).
-One of the ways to do this is dissolving the calculus in a weak acid, a
+One of the ways to do this is by dissolving the calculus in a weak acid or
 decalcifant, or mechanically breaking it up. This process releases any fragments
 of plants that were trapped within the calculus and can be identified, for example
 with a microscope. The tricky part is not destroying the plant fragments when
@@ -123,24 +127,25 @@ releasing them from the calculus.
 As far as I can tell, the first attempt at this was the extraction of phytoliths
 (silicified plant remains) from the teeth of cows, sheep, and horses
 [@armitageExtractionIdentification1975].
-This was a somewhat isolated use-case, and it didn't really catch on until the 1990s
+This was a somewhat isolated use-case, and the method didn't really catch on until
+the 1990s
 [@ciochonOpalPhytoliths1990; Middleton 1990, in @middletonOpalPhytoliths1994].
 The first extractions from human teeth followed shortly [@foxPhytolithCalculus1996],
 and there are now studies using plant microremains
 (especially starch granules and phytoliths)
 from dental calculus to infer diet in past peoples from across the world,
-including Rapa Nui [@dudgeonDietGeography2014], China [@chenStarchGrains2021],
+including Pacific Islands [@dudgeonDietGeography2014], China [@chenStarchGrains2021],
 Europe [@fiorinCombiningDental2021], and more
 [@buckleyDentalCalculus2014; @henryCalculusSyria2008; @mickleburghNewInsights2012].
 The durable nature of dental calculus also means that microremains within it can
-survive for millenea, allowing us to look at the diets of early humans and other
+survive for millennia, allowing us to look at the diets of early humans and other
 hominins
 [@pipernoStarchGrains2008; @henryCalculusSyria2008; @chenStarchGrains2021; @henryNeanderthalCalculus2014; @henryDietAustralopithecus2012; @buckleyDentalCalculus2014; @hardyNeanderthalMedics2012; @hardyStarchGranules2009].
 
 
 That bacteria can become trapped within calculus has been known to archaeologists
 for a while [@brothwellDiggingBones1981<!--check-->; @vandermeerschMiddlePaleolithic1994], but it wasn't
-utilised in archaeological research until DNA extraction started to become more accessible
+used in archaeological research until DNA extraction started to become more accessible
 [@delafuenteDNAHuman2013].
 Dental calculus then became part of the third scientific revolution in archaeology.
 The early studies focused on oral health in the past
@@ -181,42 +186,62 @@ as an indicator of dental health
 explored the terms associated with a number publications on dental or oral health,
 dental calculus came up as one of them; albeit not the most common, which was
 (unsurprisingly) dental caries (@fig-dental-terms).
-More recently @yaussyCalculusSurvivorship2019 looked at how it relates to overall health
-in a population, not just oral health<!--any other studies?-->. They suggest that
-individuals with more calculus are more at risk than individuals with less or no
-calculus.
-
-![Word cloud of most common dental terms in articles. Figure is from @pilloudOutliningDefinition2019, Figure 1](figures/wordcloud.png){#fig-dental-terms}
 
 To a lesser, lesser extent, it has also provided some interesting insights on
 non-dietary activities, such as occupations and smoking habits. In a rare find,
-blue pigment was detected in the dental calculus of a Medieval German woman.
-This blue pigment happened to originate from lapis lazuli, an exotic stone used
-to write manuscripts [@radiniMedievalWomen2019]. Nicotine was detected in dental
+blue particles were detected in the dental calculus of a Medieval German woman.
+These blue particles originated from lapis lazuli, an exotic stone
+often ground into pigments and used
+to illuminate manuscripts [@radiniMedievalWomen2019]. Nicotine was detected in dental
 calculus of pre-colonisation individuals from California using UPLC-MS/MS,
 showing direct consumption of tobacco and providing more
 detailed insights on the demographics of consumption in a way that no other
 human-adjacent archaeological materials can.
 
-This wide range of applications, and the fact that it's pretty much ubiquitous in the
-past (thanks to poor oral hygiene), makes it a really exciting target for future
-paleodietary research.
+![Word cloud of most common dental terms in articles. Figure is from @pilloudOutliningDefinition2019, Figure 1](figures/wordcloud.png){#fig-dental-terms}
+
+It wasn't always appreciated for the wealth of information hidden within its
+hardened shell.<!-- can't really blame them, most dental research is focused on its prevention and removal...-->
+Until roughly 20 years ago, archaeologists who encountered calculus had limited
+use for this material.
+Some researchers quantified it using a simple four-stage scoring method that was
+developed for recording deposits
+on archaeological dental calculus [@brothwellDiggingBones1981], similar
+to a common clinical scoring system [@greeneSimplifiedOral1964]. 
+The four-stage
+system is probably still the most widely used among archaeologists. More detailed
+methods are also available [@dobneyMethodEvaluating1987; @greeneQuantifyingCalculus2005],
+but the original method is generally preferred for its simplicity.
+Unfortunately,
+knowing the size of a calculus deposit is not as valuable as being able to
+analyse the deposit itself, and the deposits were often
+removed because they obscured tooth and root morphology [@scottBriefHistory2015].
+This had made a lot of people very angry and been widely regarded as a bad move
+[@adamsRestaurantEnd2002, p.1]. Hindsight being what it is, it's hard to blame
+anyone. A lot of dental research mainly focuses on the prevention and removal
+of dental calculus.
+
+The wide range of applications for dental calculus that we know about today,
+and the fact that it's pretty much ubiquitous in the
+past thanks to poor oral hygiene, makes it a really exciting target for future
+(and current) paleodietary research.
 That being said, the study of dental calculus doesn't seem to fit into any predefined
 areas of study within (and beyond) archaeology. Most researchers seem to
 see it as a means to the information contained within, rather than being worth studying
-in its own right (with some exceptions, of course). This can be problematic.
+in its own right. This can be problematic.
 Other than what we can see with our current methods, what do
 we really know about dental calculus and how its growth and structure affect the
 reliability of these methods and potentially distort our interpretations of the past?
 
 ## What is dental calculus? {#intro-what}
 
-First, we must answer a single, surprisingly difficult question: What is dental
+To answer these questions, we must first answer a single, surprisingly difficult
+question: What is dental
 calculus? I'm not referring to its formation or composition, which I briefly
-described [above](#intro). How do we categorise it? Is it a dental disease? An oral
-health condition? A byproduct of oral conditions? To answer this, it's necessary to
-look at various definitions of oral health. Definitions in an introduction
-are a little cliché and tedious, but often necessary. Since oral health is a
+described [above](#chap-intro). How do we categorise it? Is it a dental disease? An oral
+health condition? A byproduct of oral conditions? We start by exploring various
+definitions of oral health. Definitions in an introduction
+are a little cliché and tedious, but often necessary<!--insert shrug emoji-->. Since oral health is a
 complex topic, definitions of oral health are often purposefully (and confusingly)
 broad, and they extend beyond physical well-being and into the realms of emotional
 and social comfort.
@@ -275,7 +300,7 @@ actually protect it from wearing down (although there are better options).
 ## The study of dental calculus {#intro-study}
 
 It seems that the researchers who are studying dental calculus approach it
-from a wide range of different fields and backgounds, including genetics,
+from a wide range of different fields and backgrounds, including genetics,
 proteomics, botany, and (bio)archaeology. The paleogeneticists mine it for the
 wealth of information it contains on oral health and disease in the past
 [@yatesOralMicrobiome2021; @warinnerPathogensHost2014].
@@ -293,8 +318,6 @@ need to learn more about it if we're just interested in what's inside?
 Related discussions have started to take place in recent years
 [@radiniDirtyTeeth2022; @bucchiComparisonsMethods2019; @wrightAdvancingRefining2021].
 
-<!-- number of articles mentioning dental calculus in bioarchaeology journals (WOS)
-compared to total number of journals (use percentage from Wiley web scrape of AJBA and IJO)-->
 The lack of a specific field of study for dental calculus to belong may be
 related to how it's taught to students (and if it's taught at all).
 Textbooks from the more established fields in bioarchaeology are probably
@@ -436,8 +459,8 @@ of food that was consumed. The most likely reason is that the formation of denta
 calculus differs between people [@powerChimpCalculus2015].
 So, it's not a great way to study the diet of a single person, but generally suitable
 to study patterns in the diet of a population. The more people you study, the more
-likely you are to gain a complete picture of the diet in a population
-<!--just like the
+likely you are to gain a complete picture of the diet in a population.
+<!--kinda like the
 more monkeys with typewriters you have, the more likely they are to reproduce
 Shakespeare. This is not meant to be discouraging.-->
 The fact that we can still see
@@ -462,16 +485,17 @@ to control factors
 related to the variability between subjects. Basically, studying humans is messy
 and complicated because we're all unique. It's a lovely sentiment but it
 can make for some messy science. Not bad science (not at all!). Just messy.
-A method of study that offers more control, is the growth of
+A method of study that offers more control is the growth of
 plaque and calculus in a lab. This allows us to control many of the things that
 are difficult to control in humans, such as the bacteria that colonise our mouth,
 where each person has a pretty unique makeup of bacteria. We also have a very unique
 genome (with the exception of identical twins) that plays a role in how quickly we form
-calculus in our mouth (if at all). Certain enzymes start digesting our food before as
+calculus in our mouth (if at all). Certain enzymes start digesting our food as
 soon as it enters our mouth, and the activity of these
 enzymes fluctuates throughout the day, causing a lot of variability both within and
 between individuals.<!--in response to meals, stress, etc.-->
-Finally, the number of microremains that enter our mouth over days, weeks, months,
+Finally, the number of microremains that enter our mouth over days, weeks, and
+months,
 can be very different between people, even with the same diet.
 All these things can muddy the results of research on living subjects, where a
 lab-grown approach can help tease out <!--the pesky--> confounding factors.
@@ -523,7 +547,7 @@ calculus. By developing a model system we can isolate the effects of confounding
 factors in dental calculus and diet, and explore new uses for dental calculus
 in paleodietary reconstructions through fundamental experimentation. I also aim
 to assess the potential and limitations of dental calculus to explore dietary
-activities past populations.
+activities of past populations.
 
 Every decision we make, from sampling to statistical analysis, leads us down a
 unique path towards a different interpretation from the other possible paths in
@@ -604,7 +628,7 @@ We then compared the results of these analyses to naturally grown dental calculu
 both modern and archaeological.
 
 Being confident that our model looks and behaves like human dental calculus,
-we then set out to test some very basic [properties] of starch
+we then set out to test some very basic behaviours of starch
 grains within dental calculus.
 [**Chapter 4**](#byoc-starch) is a research article where we 'fed' the biofilm with
 a known quantity of starch granules during the growth period to see if the input

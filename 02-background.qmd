@@ -63,7 +63,7 @@ pieces. Some like acidity. Others like alkalinity. So how can they all seemingly
 thrive in the same place at the same time? The answer is biofilms.
 
 As an archaeologist, you may be wondering why you need to know all this stuff.
-Dental calculus is the result of a very complex series of events, that involves
+Dental calculus is the result of a very complex series of events that involves
 the physiology of saliva, particular diets, age, genetics, and a bunch of other
 things. To better understand what we see when we analyse archaeological dental
 calculus to get at diet, we need to understand all of the processes that went into
@@ -85,23 +85,22 @@ lab test tube as it would in a real-world environment (such as the human mouth).
 More recently researchers have discovered that the
 behaviour of bacteria differs when they are part of a larger community,
 compared to when they are grown in isolation.
-One such baterial community is a biofilm. Biofilms consist of large,
-intricate, multi-species
+Biofilms consist of large, intricate, multi-species
 communities of bacteria enclosed in an extracellular matrix of their
 own creation. The ability to produce this matrix gives the bacteria living
 within it an adaptive advantage compared to free-floating (planktonic) organisms.
 It equips them with resistance to both antimicrobials (such as antibiotic medication)
 and immune responses from the host that would normally be detrimental to their
 ability to survive [@marshDentalPlaque2005; @marshPhysiologicalApproaches1997].
-Resistence to varying conditions is especially important in the oral cavity,
+Resistance to varying conditions is especially important in the oral cavity,
 which is a site of frequent fluctuations in temperature, pH,
 and oxygen availability<!--citation-->.
 The viscoelastic nature of the biofilm provides some protection against mechanical
 destruction and dislodgement caused by, for example, the tongue and
-dental hygience practices [@petersonViscoelasticityBiofilms2015].
+dental hygiene practices [@petersonViscoelasticityBiofilms2015].
 <!--rephrase-->It also allows them to acquire nutrients from outside the biofilm,
-as well as generate and distribute nutrients within the biofilm to
-different communities of bacteria [@flemmingBiofilmsEmergent2016].
+as well as generate and distribute nutrients within the biofilm to the
+various communities of bacteria residing inside [@flemmingBiofilmsEmergent2016].
 Biofilms are quite persistent structures, and very few surfaces exist
 that can completely prevent bacterial colonisation and biofilm formation
 [@rennerPhysicochemicalRegulation2011].
@@ -114,7 +113,7 @@ with a layer of proteins known as the dental pellicle (or acquired enamel pellic
 The pellicle is a film that protects our teeth from both mechanical wear and
 chemical decay, but in doing so, provides a viable surface for microorganisms
 to attach and initiate biofilm growth<!-- in a process known as...--> [@yaoIdentificationProtein2003].
-Biofilm formation goes through several, often abitrarily defined, stages of growth.
+Biofilm formation goes through several, often arbitrarily defined, stages of growth.
 They are arbitrary because they are defined by the researchers who study them,
 but are also necessary as a foundation to explain the development of a biofilm.
 Rather than thinking about the stages as occurring sequentially, you should think of
@@ -127,10 +126,14 @@ formation is a very dynamic process, and is often over-simplified in visualisati
 <!-- pellicle and initial physicochemical attachment -->
 The pellicle contains molecules (known as adhesins)
 that enable specific bacteria to
-attach to complementary receptors on the pellicle. So when the pellicle adsorbs to the tooth, it becomes a surface for bacterial attachment [@yaoIdentificationProtein2003].
+attach to complementary receptors on the pellicle, in a process called adsorption,
+not to be confused with absorption. The difference being that it simply attaches
+to the surface of the tooth rather than being sucked into the tooth.
+When the pellicle adheres to the tooth, it becomes a surface for bacterial
+attachment [@yaoIdentificationProtein2003].
 The first bacteria
 to attach are known as early coloniser bacteria (or pioneer colonisers) and
-include *Streptococcus* species (spp.), *Actinomyces* spp., and *Haemophilus* spp
+include *Streptococcus* species (spp.), *Actinomyces* spp., and *Haemophilus* spp.
 [@zijngeBiofilmArchitecture2010; @uzelMicrobialShifts2011].
 The initial attachment occurs when the random movement of bacteria and the flow
 of saliva brings them close enough to the pellicle to attach. Some bacteria have
@@ -140,7 +143,7 @@ flagella, but most are brought to the surface by saliva<!--cite-->.
 As bacteria approach the pellicle-coated surface of a tooth, there are both
 attractive and repulsive forces at work. Repulsion because both the bacteria and
 pellicle proteins have a net negative charge [@songEffectsMaterial2015],
-causing eloctrostatic repulsive force; and attraction from van der Waals forces.
+causing electrostatic repulsive force; and attraction from van der Waals forces.
 Bacteria may be more or less likely to attach depending on the distance from the
 bacteria to the surface.
 If the bacteria come too close to the surface,
@@ -199,13 +202,13 @@ surface of the bacteria, although these appendages often consist of proteins
 in their structure, for example the already mentioned pili and fimbriae
 [@nobbsStreptococcusAdherence2009].
 This can occur on a large scale,
-causing the number and types of bacteria on the tooth surface to grow, due to the ability
-of different species to attach to one another (coaggregation)
-[@jinSupragingivalCalculus2002; @marshDentalPlaque2006]. Coaggregation and coadhesion is an
-important part of the growing oral biofilm. Most taxa don't have the necessary morphology
-to attach directly to a substrate, however most oral taxa CAN coaggregate with
-other species through cell-cell interactions, usually involving
-polysaccharides on the bacterial-cell surfaces
+causing the number and types of bacteria on the tooth surface to grow, due to the
+ability of different species to attach to one another (coaggregation)
+[@jinSupragingivalCalculus2002; @marshDentalPlaque2006]. Coaggregation and
+coadhesion are important parts of the growing oral biofilm. Most taxa don't have
+the necessary morphology to attach directly to a substrate, however most oral
+taxa CAN coaggregate with other species through cell-cell interactions, usually
+involving polysaccharides on the bacterial-cell surfaces
 [@kolenbranderOralMultispecies2010; @palmerInterbacterialAdhesion2017].
 <!--Fundamental changes in the genes of bacteria can occur upon attachment to the
 dental pellicle, inducing a biofilm phenotype in many bacteria that favours
@@ -247,7 +250,9 @@ who further break down the by-products, which can be used by yet other organisms
 [@flemmingBiofilmsEmergent2016].
 Working as a community can increase survivability in the harsh and dynamic
 environment of the oral cavity, with rapid changes in pH, oxygen, nutrient
-availability, etc.
+availability, etc; though, extended fluctuations
+in environmental conditions can alter the composition of biofilms
+[@huangEffectArginine2017; @huangFactorsAssociated2012].
 
 <!-- erosion, detachment, dispersion -->
 Perhaps ironically, an important part of the maturation of a biofilm is the
@@ -265,7 +270,7 @@ as such, not all bacteria can actively disperse from a biofilm
 of the biofilm, making the biofilm a highly dynamic structure undergoing
 continuous remodelling [@flemmingBiofilmsEmergent2016].
 
-So far, the picture of biofilm formation is one of peaceful coexsistance,
+So far, the picture of biofilm formation is one of peaceful coexsistence,
 collaboration, and even neighbourly interspecies actions. A basis for
 this cooperation is increased overall benefits to the communities
 [@renduelesMechanismsCompetition2015].
@@ -311,7 +316,7 @@ crystals are made up of calcium phosphates.
 Initial mineralisation of dental plaque is a chemical process in which equilibrium
 of minerals in saliva and gingival crevicular fluid tips towards saturation with
 regard to calcium and phosphate, causing an increase of precipitation relative to
-dissolution. This means, that when the concentration
+dissolution. This means that when the concentration
 of ions increases and tips the balance between dissolution
 and precipitation, salts will accumulate within and on the surface of the biofilm.
 An increase in concentration of minerals within the biofilm reaches a critical
@@ -322,11 +327,11 @@ This may or may not involve spontaneous
 sufficient to cause spontaneous nucleation, or whether other biochemical
 processes act as a catalyst [@omelonReviewPhosphate2013]. That it's a chemical
 process can be shown by the ability to produce calculus deposits in germ-free
-rats [@theiladeGermfreeCalculus1964; @glasBiophysicalStudies1962]. Although it's unclear
-how the germ-free calculus compares to conventional calculus, and, to my
+rats [@theiladeGermfreeCalculus1964; @glasBiophysicalStudies1962]. However, it's
+unclear how the germ-free calculus compares to conventional calculus, and, to my
 knowledge there have only been studies on rats.
-Just because calculus growth can be induced in sterile conditions, doesn't
-mean bacteria are non-essential to the process.
+Just because calculus growth can be induced in sterile conditions doesn't
+mean bacteria are not an essential part of the process.
 Bacteria are inevitably part of the scaffolding of dental calculus in humans,
 since, as I mentioned in the beginning of this chapter, our mouths are full
 of bacteria, and dental plaque is essentially built by bacteria.
@@ -341,6 +346,7 @@ While the process can be explained by chemistry, the conditions leading up to
 and surrounding the process are both chemical and biological in nature,
 and certainly involve bacteria.
 <!-- @bertranMineralizationDNA2013-->
+
 The main source of minerals in the
 oral cavity is saliva, which enters the mouth through salivary glands. The three
 main paired glands are the parotid, sublingual, and submandibular glands, located
@@ -379,11 +385,8 @@ a high-protein diet, which increases levels of urea in serum and saliva
 Hydrolysis of urea produces ammonia and causes a rise in pH.
 Bacteria possess the ability to produce ammonia from urea, <!--either directly or using enzymes ureases?-->
 which is further used by ammonia-oxidising organisms and converted to nitrite
-[@flemmingBiofilmsEmergent2016; @wongCalciumPhosphate2002; @sissonsPHResponse1994]. In a
-similar way, arginine can be broken down to ammonia and increase in pH.
-Extended fluctuations
-in environmental conditions can alter the composition of biofilms
-[@huangEffectArginine2017; @huangFactorsAssociated2012].
+[@flemmingBiofilmsEmergent2016; @wongCalciumPhosphate2002; @sissonsPHResponse1994].
+In a similar way, arginine can be broken down to ammonia and increase in pH.
 Another pathway to alkalinity is through enzymatic activity. Saliva contains
 proteases which specialise in breaking down proteins into smaller
 components such as ammonia, and increased protease activity in saliva
@@ -405,11 +408,11 @@ acids important for the immune system; and statherin, a protein that controls th
 precipitation of calcium phosphate in saliva [@jinSupragingivalCalculus2002].
 
 It's likely that multiple biomineralisation events occur under various conditions,
-resulting in a heterogenous calculus composition with crystals of various stages
+resulting in a heterogeneous calculus composition with crystals of various stages
 of growth [@friskoppComparativeScanning1980; @friskoppUltrastructureNondecalcified1983].
 The differing susceptibility of bacteria to calcification is also a contributor
-the heterogenous composition. Overall, plaque mineralisation is a complex interaction
-between conditions in the local environment, availability
+to the heterogeneous composition. Overall, plaque mineralisation is a complex
+interaction between conditions in the local environment, availability
 of minerals, the equilibrium between precipitation and dissolution, balance
 between nucleation promoters and inhibitors. 
 
@@ -444,7 +447,7 @@ Next, an inoculate is chosen. This can be anything from
 a single species of bacterium (pure culture), to multiple select species (defined
 consortium), to all organisms occurring naturally within a system (microcosm)
 [@mcbainBiofilmModels2009].
-The purpose of the incoulate is to initiate biofilm formation by allowing the
+The purpose of the inoculate is to initiate biofilm formation by allowing the
 bacteria to adsorb to the substrata, ideally in the presence of a conditioning
 film, such as saliva. For pure cultures and defined consortia, the inoculate may
 come from saliva or another oral site, such as dental plaque. The bacteria of
@@ -483,7 +486,7 @@ nutrients. This can, for example, be the multiwell plate model with a lid, where
 the samples can be periodically transferred to new plates containing fresh growth
 medium [@extercateAAA2010]. Other parameters that can be controlled to more closely
 simulate conditions in the oral cavity are pH and gas phase, as can be done
-with the multistation artificial mouth (MAM). The MAM gives researchers control
+with the multistation artificial mouth. This system gives researchers control
 over a large number of parameters using multiple chambers with complete control
 over the flow of treatment and/or nutrient conditions---environmental conditions
 such as pH, temperature, and gas phase---and access to real-time measurements
@@ -498,10 +501,10 @@ for days or even weeks
 [@sissonsMultistationPlaque1991; @wongCalciumPhosphate2002; @filocheFluorescenceAssay2007].
 
 Models developed for studying oral biofilms include, in increasing complexity,
-the ACTA active attachment (AAA) model [@extercateAAA2010], Calgary biofilm device
-[@ceriCalgaryBiofilm1999], modified Robbins device (MRD) [@honraetModifiedRobbins2006],
-constant depth film-fermenter (CDFF) [@petersConstantDepth1988],
-and the multistation artificial mouth (MAM) [@sissonsMultistationPlaque1991]
+the ACTA active attachment model [@extercateAAA2010], Calgary biofilm device
+[@ceriCalgaryBiofilm1999], modified Robbins device [@honraetModifiedRobbins2006],
+constant depth film-fermenter [@petersConstantDepth1988],
+and the multistation artificial mouth [@sissonsMultistationPlaque1991]
 representing the upper echelon of complexity.
 Summaries of biofilm models, including benefits and limitations of the various types,
 can be found in reviews by McBain -@mcbainBiofilmModels2009, Tan and colleagues
@@ -517,7 +520,7 @@ mimicking the complexity of the organisms' natural environment [@mcbainBiofilmMo
 However, even microcosms can be limited in their ability to recreate the complexity and
 diversity of the oral microbiome [@tianUsingDGGE2010].
 Alternatives to *in vitro* models are *in situ* models which usually involve
-growing plaque on a removable surface inside a the mouth of a willing participant.
+growing plaque on a removable surface inside the mouth of a willing participant.
 These models add a level of realism, as they are grown inside an actual oral
 cavity, and can reflect biogeographical differences in biofilm composition caused
 by differing conditions across the oral cavity. They also come with additional

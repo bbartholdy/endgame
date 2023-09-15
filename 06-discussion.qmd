@@ -38,8 +38,8 @@ may not be able to entirely accurately recreate the pieces, which results in pie
 that look like they fit, but are actually different from the originals.
 Dental calculus is an example of a puzzle with many missing and broken pieces.
 Even if we analysed dental calculus from a living person, we would still not
-be able to completely recreate the entirety of that persons diet by only looking
-at the food debris within the dental calculus. For some reason, some of the things
+be able to completely recreate the entirety of that person's diet by only looking
+at the food debris within the dental calculus. For whatever reason, some of the things
 we eat will leave traces on our teeth, while some will not. Now add to that a few
 hundred or thousand years in the ground with physical and chemical processes
 that are constantly degrading the organic material, and the picture becomes even
@@ -72,8 +72,9 @@ scrutinize the results of a method. All we have are pieces of information from t
 likely incomplete, dietary remains that ended up in the calculus, and from
 contextual remains, such as animal bones, food residues, and plant remains, both
 macro- and microscopic. And even then we have no way of saying for certain whether
-the materials were included in the diet, or just there because our pathological
-need for oxygen means the oral cavity is not a closed system [@radiniFoodPathways2017].
+the materials were included in the diet, or just there because our somewhat
+crucial requirement for oxygen means the oral cavity is not a closed system
+[@radiniFoodPathways2017].
 
 
 <!-- summary of the dissertation goals and outcomes -->
@@ -110,7 +111,8 @@ nutrition, medicine, recreation, or all of the above.
 
 While the use of oral biofilm models in dental research is well-established, even
 long-term calcifying models to produce dental calculus, they never made it into
-archaeological research. At least not to the extent that they were published.
+archaeological research, at least not to the extent that the results or protocols
+of these models were published (that I could find).
 The oral biofilm model outlined in this dissertation is by no means the ultimate
 solution to save us from the limitations of archaeological dental calculus, but
 may provide a small step towards understanding them a little better, and
@@ -156,7 +158,8 @@ sites inside the human mouth, including dental plaque and calculus.
 The bacterial composition of our model calculus samples had a strong oral signature,
 but was distinct from other natural oral samples, including modern dental plaque
 and calculus. The main difference between natural samples and model calculus was
-that the natural samples were more heterogenous in composition. They had a larger
+that the natural samples were more heterogeneous in composition, which is
+expected when comparing natural and lab-grown samples. Natural samples had a larger
 number and variety of microbes compared to the model calculus. This was reflected
 in the aerotolerance of dominant microbes in model calculus, which were largely
 anaerobes, while the most abundant microbes in natural samples were aerobes
@@ -164,7 +167,7 @@ and facultative anaerobes.
 The natural samples also had a more diverse representation of bacteria from all
 stages of biofilm development, including early- middle-, and late-colonisers, while
 model calculus samples were predominantly late-colonisers
-[[**Chapter 3**](#byoc-valid); @bartholdyAssessingValidity2023].
+([**Chapter 3**](#byoc-valid), @bartholdyAssessingValidity2023).
 Results from our metagenomic analysis were similar to a comparable *in vitro*
 biofilm model.
 In their study, the authors also used a 24-well plate with pooled saliva as
@@ -172,7 +175,7 @@ inoculate. The growth medium was similar but also contained a sheep's-blood seru
 and the samples were only grown for 24 hours [@edlundUncoveringComplex2018].
 As with our model, the comparison with natural oral samples showed a lower overall
 richness and diversity, and a distinct microbial profile
-[[**Chapter 3**](#byoc-valid); @bartholdyAssessingValidity2023]. Given that our results
+([**Chapter 3**](#byoc-valid), @bartholdyAssessingValidity2023). Given that our results
 are similar to a short-term biofilm model, we may be replacing the medium too
 often (every three days), and not allowing communities to establish more
 complex metabolic pathways that are normally present in mature biofilms.
@@ -189,7 +192,7 @@ concentrations of nutrients, let alone the type of nutrients, will impact the
 community composition of the biofilms [@edlundBiofilmModel2013].
 
 We also used Fourier Transform Infrared (FTIR) spectroscopy to assess the mineral
-content of our model and compare to natural dental calculus, both modern and
+content of our model and compare it to natural dental calculus, both modern and
 archaeological.
 Our analysis showed that, after 25 days of growth, our biofilm model produced a
 substance that is chemically very similar to both modern and
@@ -197,7 +200,7 @@ archaeological calculus.
 It is interesting that the mineral composition was so similar to natural calculus
 given the unique microbial profile. It suggests that the mineralisation occurs
 in a predictable manner regardless of the microbial profile, if conditions are
-favourable. Even in the absence of known mineraliser, *Corynebacterium matruchotii*.
+favourable. Even in the absence of the known mineraliser, *Corynebacterium matruchotii*.
 The crystallinity of the model calculus also matched the
 archaeological sample we used as a comparison, though with a slightly less ordered
 structure. This may be related to the age differences in model calculus compared
@@ -226,19 +229,19 @@ Put simply, we added a known amount of starch granules---well, to the extent we
 could estimate the large quantities in our starch solutions without counting
 every single granule---to our
 biofilm over the course of the 25-day experiment. Then we dissolved the calculus
-and counted the number of starches that that were inside. Those who are familiar
+and counted the number of starches that were inside. Those who are familiar
 with previous dietary research on archaeological dental calculus will probably
 not be surprised that the number of starches we extracted was nowhere near the
 amount we put in. More interestingly, though, the size of the starch granules
 influenced the outcome; fewer large starches were extracted than what was put
-in the model during growth<!--rephrase-->. This could be related to how starch
+in the model during growth. This could be related to how starch
 granules are trapped in
 biofilms in the first place, where size and/or surface morphology of the starch
 granules could influence the likelihood of being retained in the biofilm.
 We also found that a very, VERY, low proportion of the starch granules that we
 'fed' our samples actually made it into the dental calculus; only 0.06% to 0.16%
 of granules from the treatment solutions were extracted from the dental calculus
-[[**Chapter 4**](#byoc-starch); @bartholdyInvestigatingBiases2022]. Given how few
+([**Chapter 4**](#byoc-starch), @bartholdyInvestigatingBiases2022). Given how few
 actually make it in, this may suggest that evidence for dietary starches are
 the result of repeated exposure to a large quantity of granule-containing foods.
 
@@ -265,7 +268,7 @@ experimental setup; as is the ability to control salivary flow rates and circadi
 rhythms, both of which can influence the growth of plaque
 [@proctorSpatialGradient2018; @dawesCircadianRhythms1972].
 
-The effect of circadian rhythms differences in microbiome between individuals
+The effect of circadian differences in microbiome between individuals
 can influence replication of the microbial composition of our model, which will
 be limited by our use of whole saliva as inoculum rather than using a handful of
 select species. This means microbial
@@ -296,7 +299,7 @@ of dietary materials (see [below](#bfmodels-in-arch)).
 A well-known limitation of biofilm models in general is the difficulty in capturing
 the diversity and complexity of the natural oral biome. Diversity and complexity
 may be represented as interspecies communities and complex metabolic dependencies
-between organisms within the communitues, or as an environmental complexity
+between organisms within the communities, or as an environmental complexity
 determined by nutrient availability, host immune-responses to biofilms, and
 fluctuating microenvironments across the biofilm in response to these factors
 [@edlundUncoveringComplex2018; @bjarnsholtVivoBiofilm2013]. These limitations
@@ -309,13 +312,14 @@ another set of limitations (as discussed above).
 
 Then of course there's the inevitable limitation that we're dealing with a model.
 An attempt to recreate the real thing under controlled conditions, allowing us to
-test a variety of [situations] and see what the outcome might look like in the
-real world. These are generalizations that may not be comparable to any specific
-case<!--but allow us to view and quantify processes that can be difficult to access in natural systems-->. The very isolated and controlled model setup also
+test a variety of circumstances and see what the outcome might look like in the
+real world. These are generalisations that may not be comparable to any specific
+real-world case, but allow us to view and quantify processes that can be difficult
+to access in natural systems. The very isolated and controlled model setup also
 deviates from the natural conditions in our mouths. Many of the biofilm's natural
 predators are not present in our setup. Plaque is constantly at risk of removal
 by the tongue, salivary flow, and oral hygiene practices, processes which likely
-help shape the biofilm (ironic since they are processes of removal)
+help shape the biofilm (this is counterintuitive since they are processes of removal)
 [@shawCommonalityElastic2004].
 
 ### Further model validation
@@ -365,8 +369,9 @@ to time constraints. Hopefully these questions can be answered by myself or othe
 in the future.
 
 <!--How it can improve our understanding of the mechanism by which dietary compounds become trapped in dental calculus?-->
-The main question that came up concerns the mechanism of incorporation of dietary
-compounds in dental calculus. How does it happen?
+The main question that came up during experiments concerns the mechanism of
+incorporation of dietary compounds, especially starch granules, in dental calculus.
+How does it actually happen?
 This seemingly simple question is particularly challenging, and one that I hadn't
 prepared for in my experimental design. Going forward
 it will be an important question to answer, as it may influence the likelihood
@@ -375,37 +380,16 @@ the formation and mineralisation process this occurs. By staggering the treatmen
 during the experiment, we may be
 able to see if the rate of incorporation varies during biofilm growth, and whether
 or not particles can penetrate the surface of the calculus after it has mineralised.
-If not, this could mean the layered structure would indicative of chronological
+If not, this could mean the layered structure is indicative of chronological
 consumption events.
 If so, what is the size limit? Can starches infiltrate dental calculus post-burial,
 or is this limited to smaller molecules? And do the chemical/physical properties
 of molecules and microremains (amylopectin content of starch granules, polarity
 and hydrophobicity of molecules, etc)
 influence their ability to become incorporated or penetrate the mineralised surface?
-The surfaces of starch granules mainly contain polar phospholipids
-[@cornejo-ramirezStructuralCharacteristics2018], making the
-phospholipid bylayer compatible with, or even attracted to, a biofilm consisting
-largely of water, whereas hydrophobic molecules might be less likely to associate
-with a biofilm. Further growth of the biofilm with new layers would result in the
-starch molecules becoming trapped. Smaller molecules may be able to hitch a ride
-through diffusion
-channels that transport nutrients into the biofilm [@flemmingBiofilmMatrix2010].<!--what type of binding?-->
-Physicochemical properties of the smaller molecules will likely influence their
-likelihood of entering, since biofilms are known for their ability to limit
-diffusion of some molecule, such as antibiotics [@stewartAntimicrobialTolerance2015].
-Once trapped inside the biofilm, retention of the dietary particles depends on
-the ability to avoid digestive enzymes that are commonly used by the communities
-of bacteria to break down the macromolecules into more manageable sizes.
-These are just simplified examples. The real story is likely more
-complicated.
-Diffusion of molecules has been explored clinically, but mainly focusing on
-antibacterial agents
-[@stewartAntimicrobialTolerance2015; @takenakaDiffusionMacromolecules2009; @maModelingDiffusion2010].
-So far nothing has been done to explore the dietary perspective in which we're
-interested.
-
-This question also came up during the analysis of archaeological dental
-calculus in [**Chapter 5**](#mb11CalculusPilot) [@bartholdyMultiproxyAnalysis2023].
+This question of incorporation also came up during the analysis of archaeological
+dental calculus in
+[**Chapter 5**](#mb11CalculusPilot) [@bartholdyMultiproxyAnalysis2023].
 Based on the presence of many metabolites, it seems that this may not have been
 during consumption, but rather during excretion through saliva, or, put more
 simply, when the molecules are on their way out of the body again. This makes some
@@ -433,7 +417,7 @@ On a related note, the absence of host salivary $\alpha$-amylase activity in our
 model (as shown in [**Chapter 4**](#byoc-starch), @bartholdyInvestigatingBiases2022)
 provides an opportunity to explore the effect of various amylase levels on the
 incorporation and retention of dietary compounds, especially starches, in dental
-calculus. $\alpha$-amylase can be purchased from most laboratory supply
+calculus. Alpha-amylase can be purchased from most laboratory supply
 companies, and can therefore be added to the model and explored as a controlled
 variable. Some bacteria have the ability to bind $\alpha$-amylase in order to
 use the degradation products of starches as nutrients
@@ -472,7 +456,7 @@ studies of dental calculus, is identifying contamination versus the authentic
 remains left behind from the past.
 A challenge more specifically related to dental calculus, is understanding why
 some things are retained in dental calculus, and why others are not.
-<!--Another challenges  in differential degradation of materials and molecules-->
+<!--Another challenge  is differential degradation of materials and molecules-->
 Finally, we should continue to optimise our sampling and analytical methods to
 make sure we are getting the most out of these small deposits of minerals, bacteria,
 food debris, and whatever else made its way into the mouth during life.
@@ -481,18 +465,46 @@ food debris, and whatever else made its way into the mouth during life.
 
 ### Incorporation pathways
 
-Perhaps the main challenge of working with dental calculus is our lack of
-understanding of incorporation pathways. We need a better understanding of how
+As discussed above, one of the main challenges of working with dental calculus is
+our lack of
+understanding of incorporation pathways. We need to know how
 exogenous material becomes trapped inside, and to what extent the processes within
 the oral cavity cause damage to, or completely eliminate, the dietary compounds.
 
-Larger particles (relatively speaking), such as dietary starches and phytoliths
-are likely incorporated during consumption of containing foods. What exactly
-about their morphology or physicochemical properties
-allows them to enter and become trapped is still unknown. Therefore we also
+The incorpotation pathway for larger particles (relatively speaking), such as dietary
+starches and phytoliths, is likely during consumption of foods that contain them.
+What exactly about their morphology or physicochemical properties
+allows them to enter and become trapped is still unknown.
+<!-- this is largely repeated in the section ## incorporation pathways -->
+The surfaces of starch granules mainly contain polar phospholipids
+[@cornejo-ramirezStructuralCharacteristics2018], making the
+phospholipid bilayer of a starch granule compatible with, or even attracted to, a
+biofilm consisting largely of water. Conversely, hydrophobic molecules might be
+less likely to associate with a biofilm, and therefore be underrepresented in
+any analysis on dental calculus, if they are present at all. Once starch granules
+become attached, the repeated process of biofilm growth
+would result in the starch molecules becoming trapped between two biofilm layers,
+increasing the likelihood of retention.
+Once trapped inside the biofilm, retention of the dietary particles depends on
+the ability to avoid digestive enzymes that are commonly used by the communities
+of bacteria to break down the macromolecules into more manageable sizes.
+This gap in our knowledge is also why we
 don't understand why the remains of some plant species are overrepresented while
-others are underrepresented. This pathway will be heavily influenced by mode of
-consumption. If someone
+others are underrepresented. We know that this happens, but not why. 
+Smaller molecules
+may be able to hitch a ride through diffusion
+channels that transport nutrients into the biofilm [@flemmingBiofilmMatrix2010],
+although biofilms are known for their ability to limit diffusion of specific
+molecules, such as antibiotics [@stewartAntimicrobialTolerance2015].
+Diffusion of molecules has been explored clinically, but mainly focusing on
+antibacterial agents
+[@stewartAntimicrobialTolerance2015; @takenakaDiffusionMacromolecules2009; @maModelingDiffusion2010].
+So far nothing has been done to explore the dietary perspective in which we're
+interested.
+
+The
+incorporation pathway may also be heavily influenced
+by mode of consumption. If someone
 was chewing tobacco or storing coca in their cheeks, the most likely place to
 detect nicotine or cocaine, the principal alkaloids of these plants, would be
 in dental calculus deposits on the molars. However, mucous-rich saliva,
@@ -500,10 +512,10 @@ produced by the sublingual and submandibular glands (located in
 the front of the mouth), preferentially binds toxins [@doddsHealthBenefits2005],
 making the anterior teeth a good hypothetical target for detecting these compounds.
 
-Another consideration is the presence of molecules in dental calculus as a result
-of excretion from the body through the saliva. If you consider the amount of time
-you spend with food (or other things) in your mouth, it is relatively short. A
-few minutes at most? Whereas the time spent in your body is much longer, as food
+Another potential pathway is the presence of molecules in dental calculus as a
+result of excretion from the body through the saliva. If you consider the amount
+of time you spend with food (or other things) in your mouth, it is relatively short.
+A few minutes at most? Whereas the time spent in your body is much longer, as food
 molecules enter the bloodstream and are distributed throughout the body.
 The molecules can then re-enter the mouth through the saliva and spend
 significantly more time in the mouth the second time around, as excretion may take
@@ -518,11 +530,14 @@ of the parotid glands, located next to the molars [@doddsHealthBenefits2005].
 possible...-->
 Molecules originating from this pathway would mean that it, unfortunately, wouldn't
 be possible to determine the mode of consumption (e.g. chewing vs. smoking) based
-on the mass spectrometric results alone, but would also require analysis of the
-dentition to identify tooth staining and periodontal disease<!--citation that smoking causes discol Watts and Addy 2001 -->, and rely on contextual materials found at the site
-(something which should be done anyway).
-Further testing through systematic sampling of different parts of the dentition
-is needed.
+on the mass spectrometric results alone, but would require further analysis of the
+dentition to identify. For example, if nicotine is detected, it would be useful
+to identify tooth staining and periodontal disease caused
+by tobacco smoking [@nessEpidemiologicStudy1977]. It would also require
+relying on contextual materials found at the site, but that's something which
+should be done anyway.
+To bridge this essential gap in our knowledge, further testing through systematic
+sampling of different parts of the dentition is needed.
 
 
 
@@ -543,7 +558,7 @@ the cooking method [@henryCookingStarch2009]. The granules that survive the cook
 process are then submitted to further harm in the oral cavity by the act of chewing
 and the presence of digestive enzymes. After death, the starch granules that are
 trapped in dental calculus will have to resist degradation from the burial
-environment, including bacteria, funghi, and water damage [@graneroStarchTaphonomy2020].
+environment, including bacteria, fungi, and water damage [@graneroStarchTaphonomy2020].
 To add final insult to injury, further damage can occur during excavation
 and processing of the dental calculus [@trompEDTACalculus2017], and even during
 preparation for microscopic identification [@graneroStarchTaphonomy2020].
@@ -565,9 +580,10 @@ environments causing differences in the chemical and bacterial makeup of dental
 calculus [@hayashizakiSiteSpecific2008; @fagernasMicrobialBiogeography2022].
 Our best option to control these many factors and explore the precise nature of
 their individual impact on the incorporation and retention of dietary materials
-in dental calculus, is to conduct controlled experiments in a lab.
+in dental calculus, is to isolate these factors in separate, controlled
+experiments in a lab.
 
-More recently developed methods offer us the ability to make identifications on
+Methods developed more recently offer us the ability to make identifications on
 a much smaller scale. The 'omics' approaches can be used to detect many compounds
 which are otherwise invisible to the naked, microscopically-aided, eye.
 There are still limitations to these methods. Ancient DNA (aDNA) and paleoproteomics
@@ -591,9 +607,9 @@ as morphine or tetrahydrocannabinol, are relatively slim since these molecules a
 unstable and have a hard enough time surviving decades, let alone (pre-)historic
 timescales [@lindholstLongTerm2010]. Protein and bacterial abundances are also
 impacted by differential degradation [@hendyAncientProtein2021].
-This makes it hard to determine whether the quantities of molecules are an accurate
-reflection of the quantities during life, which in turn complicates interpretations
-we make on the health and diet of individuals.
+This makes it hard to determine whether the quantities of molecules are an
+accurate reflection of the quantities during life, which in turn complicates
+interpretations we make on the health and diet of individuals.
 
 
 ### Contamination and lab processing
@@ -606,12 +622,12 @@ material as bone. It can clearly provide good
 protection to the microremains and various molecules trapped inside, and survive
 thousands of years [@yatesOralMicrobiome2021; @henryNeanderthalCalculus2014].
 It is, however,
-not impenetrable. In fact, it can be quite porous [@friskoppComparativeScanning1980].
+not impenetrable. In fact, it can be quite porous [@friskoppComparativeScanning1980; @powerSynchrotronRadiationbased2022].
 This means it's important to consider what may have been originally trapped
 within the calculus during life, and what could have entered post-mortem.
 The proportions of original
 to exogenous material may also change with time, depending on the physicochemical
-propoerties of the molecules. It seems that small hydrophilic molecules are
+properties of the molecules. It seems that small hydrophilic molecules are
 more often lost from dental calculus than larger hydrophobic molecules, suggesting
 postmortem movement of water through the substrate [@velskoDentalCalculus2017].
 In addition, these molecules may also be present as contamination in labs or
@@ -620,7 +636,7 @@ control samples from surrounding soil <!--(found this out the hard way) -->and t
 findings in separate labs, with clear identification of potential contaminants
 [@crowtherDocumentingContamination2014].
 
-In the study from [[**Chapter 5**](#mb11CalculusPilot); @bartholdyMultiproxyAnalysis2023],
+In the study from [**Chapter 5**](#mb11CalculusPilot) [@bartholdyMultiproxyAnalysis2023],
 we detected various compounds in dental
 calculus using UHPLC-MS/MS, including salicylic acid, a phytohormone from willow
 trees (*Salix alba*, for example) with medicinal properties. Willow bark
@@ -644,7 +660,7 @@ subsequent increase in quantity as the calculus is dissolved and the compounds
 that were embedded within the calculus are extracted [@bartholdyMultiproxyAnalysis2023].
 This assumes that the embedded compounds were incorporated during life, and does
 not in any way verify that the molecules are actually old.
-So what does this mean for our interpretations? Well, until we can find a way
+So what does this mean for our interpretations? Until we can find a way
 to separate external contamination from authentic compounds from the past,
 and quantify the extent of external contamination in dental calculus, we can
 say that they most likely consumed plants containing salicylic acid, but that
@@ -654,12 +670,12 @@ It's most likely a combination of both.
 We also included modern synthetic compounds that we know would not have been
 present in the past. These included MDMA, Fentanyl, Amphetamine, and others.
 We detected cocaine in nine individuals. Cocaine is not a modern compound,
-since it has been used for millinea in the Americas
+since it has been used for millennia in the Americas
 [@indriatiCocaPrehistoric2001; @springfieldCocaineMetabolites1993; @abucaCocaTrade2019],
 however, it didn't become known to Europeans until colonisation in the late 15th
 century, and was only widely adopted in the late 19th century after cocaine
 was isolated by Albert Niemann [@abucaCocaTrade2019; @marianiCoca1886].
-This complicated things. Cocaine is an alkaloid find naturally in the leaves of
+This complicated things. Cocaine is an alkaloid found naturally in the leaves of
 various species of coca plants. While we wouldn't expect a rural population from
 19th century Netherlands to have access to coca leaves, it wasn't impossible to
 imagine. It was commonly observed to prevent fatigue and suppress appetite,
@@ -685,13 +701,13 @@ aDNA
 claims made in the past (no specifics will be mentioned here).
 Protocols for dental calculus sampling include various steps for decontaminating
 dental calculus, and range from brushing the surface to UV-radiation and sonication.
-Although, the use of liquids for decontamination may be problematic when there
+However, the use of liquids for decontamination may be problematic when there
 are plans to do biomolecular analyses [@velskoDentalCalculus2017].
 Sodium hydroxide (NaOH) has been suggested
 as a better decontamination solution based on testing on synthetic precipitates
 of calcium phosphate (the principal component of dental calculus)
-[@sotoCharacterizationDecontamination2019]. It's not clear how valid approach is
-since the synthetic dental calculus was grown without bacteria, and they're
+[@sotoCharacterizationDecontamination2019]. It's not clear how valid this approach
+is since the synthetic dental calculus was grown without bacteria, and they're
 generally responsible for the channels (supplying nutrients)
 in dental calculus that would allow a decontaminating agent to seep into the
 calculus and affect the microremains. Nevertheless, it is a step in the right
@@ -707,7 +723,7 @@ ethylenediaminetetratetraacetic acid (EDTA).
 HCl has long been the preferred method
 for decalcification of dental calculus for extraction of plant microremains
 [@hardyRecoveringInformation2018; @hardyDentalCalculus2016].
-Although, there was no apparent testing on the original use of HCl
+However, there was no apparent testing on the original use of HCl
 [@middletonImprovedMethod1990],
 which was originally developed for extraction of phytoliths, which are very
 resistant to chemical degradation [@cabanesPhytolithAnalysis2020]. It has since
@@ -746,16 +762,14 @@ calculus.
 The knack lies in learning how to make sure all contaminants are removed and
 authentic material is dislodged from the minerals, and preventing further
 degradation of the authentic materials crucial to our understanding of past
-dietary activities<!--cite h2g2?-->.
-<!-- There is a balance to be maintained between effective contamination and -->
+dietary activities.
 <!-- dissolution of the calculus,  -->
 To continue the laboured analogy from the beginning of this
 chapter; we don't want to cause any more damage to the already broken puzzle
 pieces.
 Since it's clear that water can potentially clear out some of the original molecules
-from dental calculus, we need to be careful with lab processing methods, and more
-extensive research on the effects of processing methods needs to be done.
-
+from dental calculus, we need to be careful with lab cleaning and processing methods,
+and more extensive research on the effects of processing methods needs to be done.
 
 
 
@@ -776,6 +790,7 @@ This doesn't mean
 we can throw caution to the wind and interpret everything in dental calculus as
 food [@radiniFoodPathways2017], but it is one of the likelier scenarios.
 <!--A wider range of analytical methods available.--> 
+
 Because the formation of dental calculus is continuous throughout life, the
 information we extract about diet more likely reflects a broader time frame, but
 given the potential for many growth disruptions and removal, it probably reflects
@@ -849,13 +864,12 @@ reference databases used to identify various compounds. However, it may not be
 the best option for
 every use-case, and the high temperatures required can cause problems, such as
 degradation of the compounds. Some
-metabolites, particularly alkaloids, are less volatile<!--?????-->, and are therefore not
+metabolites, particularly alkaloids, are less volatile, and are therefore not
 easily vaporised and detected following derivatization [@zimmermanBiomolecularArchaeology2023].
-Not a great feature when looking for
+This is not a great feature when looking for
 potentially interesting dietary and non-dietary alkaloids. Methods using liquid
 chromatography coupled with mass-spectrometry (LC-MS) use lower temperatures and
-are able to
-detect these compounds directly, .i.e., without the step of derivatization
+are able to detect these compounds directly, without the step of derivatization
 [@sorensenSensitiveDetermination2017; @rustichelliSimultaneousSeparation1996].
 This reduces sample preparation time,
 but comes at a higher cost, financially for instrumentation and operators (a
@@ -885,7 +899,8 @@ the material for future analyses and replication.
 Many of the analytical methods used on dental calculus required destruction of at
 least part of the sample. When deciding to perform destructive analyses, it is
 important to consider the goal of the research. Dental calculus may not be suitable
-for all purposes. Horses for courses. There are likely better sites to sample for
+for all purposes. It's important to select the right tool for the job.
+There are likely better sites on the human body to sample for
 human DNA. And while it has been preferentially targeted due to the fact that it's
 technically considered an ectopic growth and is not given the same ethical scrutiny
 as skeletal material, maybe it should. After all, it does contain human DNA, and
@@ -921,9 +936,9 @@ from incorporation
 to extraction and quantification without worrying about what was lost to enzymatic
 and acidic damage. An example of such a material is palynospheres, black ceramic
 spheres which are used as marker grains because they are resistant to chemical and
-mechanical degradation [@kitabaBlackCeramic2017] similar to [@boyadjianDentalWash2007].
-
-
+mechanical degradation. They were created as an alternative to *Lycopodium* spore
+tablets in places where you might expect to find indigenous *Lycopodium* spores
+[@kitabaBlackCeramic2017].
 
 
 The wide range of analytical methods that can provide important insights on
@@ -936,7 +951,7 @@ context. Lists of authors on archaeological papers are growing; as they should.
 Paleoproteomics has already shown that it's possible to detect very specific
 information about dietary molecules present in dental calculus, down to the type
 of food, its source, and method of processing [@hendyProteomicCalculus2018]. It
-also have the advantage over DNA in that proteins seem to preserve for longer.
+also has the advantage over DNA in that proteins seem to preserve for longer.
 Further development of reference databases and analytical methods is continuously
 improving the fields of paleoproteomics and (oral) metagenomics by increasing
 quantity of, and confidence in, species identifications of dietary sources
@@ -946,40 +961,24 @@ It will be exciting to see where these fields can lead us as they mature.
 Another area which may lead to exciting discoveries is accessing the layered
 structure of dental calculus through high-powered imaging techniques
 [e.g. @powerSynchrotronRadiationbased2022].
-Sequential analysis of dental calculus layers to determine a sequence of
-incorporation events. Since we can't yet access information about the age of
+We know that the formation of a biofilm is sequential, with new layers of
+biofilm continuously forming on the already established layers.
+Sequential analysis of dental calculus layers might therefore be able to determine
+a sequence of incorporation events for dietary material in dental calculus.
+However, since we can't yet access information about the age of
 occurrence of the seemingly haphazard mineralisation events in dental plaque, it
 is difficult to envision a scenario where we can talk about dietary activities
 and the age of individuals. Until then, though, it will still be beneficial to be
 able to generate a sequence of deposition events and talk about the dietary
 material found in each layer.
 
-
-
-
-<!--
-Given that it has been shown that the microbial composition of dental calculus
-seems to be quite stable over both environmental and dietary changes
-[@yatesOralMicrobiome2021; @velskoHighConservation2023], and that there is limited,
-fragmented, plant DNA present in dental calculus
-[@fagernasMicrobialBiogeography2022; @mannHaveSomething2023], (meta)genomics
-may not be the best way forward for dental calculus and dietary analyses.
-At least not before we have taken a closer look at our methodology and worked
-towards better reference databases<!--???--><!--, which is why it's important not
-just to give up on this approach, but to further develop our methods.
-Proteomics, on the other hand, has shown quite a lot of promise in this area...
-Though, paleoproteomics is not as well-established as paleogenetics...
-And future validation could benefit from degradation studies using a dental
-calculus model.
--->
-
-
+<!--don't get too distracted by shiny new technology-->
 Amidst a scientific revolution, it's important to remember that there are things
 that can be said about dental calculus without using biomolecular or microscopic
 methods. Not to mention, visually scoring calculus deposits is cheaper and
 requires no specialised equipment.
 The presence of dental calculus and the size of the deposit can be
-meaningful. For example, @yaussyCalculusSurvivorship2019 found an decreased
+meaningful. For example, @yaussyCalculusSurvivorship2019 found a decreased
 survivorship in individuals with dental calculus formations. Past populations
 are also a well-suited target to explore the relationship between dental diseases,
 such as dental calculus and periodontitis; and between dental diseases and diet,
@@ -1003,7 +1002,8 @@ and calculus by quadrant, given the pitfalls of a single index/ratio per
 individual.
 The teethr R package to help with this.
 -->
-No analyses or substances should be considered in isolation. The best approach
+No analytical method should be considered the be-all and end-all of our analytical
+toolkit. Results should not be considered in isolation. The best approach
 considers multiple angles and makes use of multiple lines of evidence to reach
 robust interpretations. Not only multiomic approaches, but studies that
 incorporate the entire spectrum of archaeological analyses.
@@ -1015,10 +1015,19 @@ incorporate the entire spectrum of archaeological analyses.
 <!-- you would expect to find them). -->
 <!-- If you see cocaine in Post-Medieval Europe, look for contamination, not early -->
 <!-- adoption of the coca leaf. -->
-<!-- <!-- show examples of multiproxy calculus research--> -->
 
 <!-- working more openly-->
-Contributing to the knowledge of dental calculus
+
+Working with new scientific methods and improving our analytical approaches is
+only one small way to contribute to existing knowledge of dental calculus, and
+may be unproductive if the method has already been tested by other labs. Moving
+past the disregard for 'null' results will prevent researchers from conducting
+the same experiments (as other labs) and expecting a different result.
+Registered Reports allow researchers to apply a method and have it
+guaranteed to be published in a journal, not because the results were deemed
+"positive" or "novel", but because their methodology was sound and their results
+contribute to a robust, scientific foundation of knowledge
+[@chambersInsteadPlaying2014; @nosekRegisteredReports2014].
 Opening our methods will facilitate faster improvements to existing protocols,
 as well as open up opportunities for researchers in smaller labs. Here I'm not
 talking about vague, cryptic methods sections in papers, but detailed protocols
@@ -1029,19 +1038,20 @@ and [10.17504/protocols.io.dm6gpj9rdgzp/v1](dx.doi.org/10.17504/protocols.io.dm6
 Adopting more open research practices will also make it easier to incorporate
 multiple proxies in research studies,
 as this will no longer be limited to those with access to enough material and range
-of materials to conduct large-scale analyses [@yatesOralMicrobiome2021].
+of materials to conduct large-scale analyses [such as @yatesOralMicrobiome2021].
 Ensuring that we publish our
 data in a manner that is Findable, Accessible, Interoperable, and Reusable (FAIR)
 will promote reproducibility and replication, two crucial aspects of scientific
-research. Creating communities that can promote these practices within specific
-fields and subfields can be effective in creating relevant standards and fostering
+research [@wilkinsonFAIRGuiding2016]. Creating communities that can promote these
+practices within specific fields and subfields can be effective in creating
+relevant standards and fostering
 an environment that promotes equitable research practices. This has been
 realised by the SPAAM community and Open Phytoliths with
 [AncientMetagenomeDir](https://zenodo.org/record/7789069) and the
 [FAIR Phytoliths Project](https://zenodo.org/record/6435441), respectively.
-Many of these initiatives fall on researchers early in their careers out of a
-need for more resources or sheer enthusiasm for what they do. Unfortunately,
-there are still very few incentives for organising these resources and practicing
+Unfortunately, many of these initiatives fall on researchers early in their careers
+out of a need for more resources or sheer enthusiasm for what they do. There are
+still very few incentives for organising these resources and practicing
 Open Science, and instead rewarding fast science and measures of impact that have
 somehow been assigned as important. Out-dated reward systems are preventing the
 widespread adoption of open practices and disproportionately impacting young
@@ -1051,20 +1061,19 @@ scholars and early career researchers.
 
 ## Concluding remarks
 
-
 In my dissertation I set out to put dental calculus under the microscope,
-scrutinizing what we know about dental calculus, what we think we know, and what
+scrutinising what we know about dental calculus, what we think we know, and what
 we need to know.
 To do this I created a model system that allowed me, and will allow myself and others,
 to address fundamental processes involved in all aspects relevant to the dental
-calculus analytical lifecycle. Formation and growth. Exposure to dietary and
-non-dietary materials. Burial with subsequent degradation of original materials
-and the colonisation of materials and molecules from the burial environment.
-Decontamination and extraction of materials trapped within the calculus.
-Interpretation of the results from applied analytical methods.
+calculus analytical lifecycle. Processes including formation and growth, exposure
+to dietary and non-dietary materials, burial with subsequent degradation of original
+materials and the colonisation of materials and molecules from the burial environment,
+decontamination and extraction of materials trapped within the calculus, and many
+more.
 With the help of co-authors, the model dental calculus was examined to ensure
 that the bacterial and mineral
-compositions were sufficient to mimic an oral environment and closely resembles
+compositions were sufficient to mimic an oral environment and closely resemble
 natural dental calculus. We deemed this to be satisfactory, but further validation
 is absolutely encouraged.
 The model calculus system was put into action to see what it could contribute to
@@ -1075,7 +1084,7 @@ what we ultimately end up seeing in archaeological dental calculus.
 We applied a new method, previously validated on cadavers, to explore the use
 of dietary and non-dietary alkaloids and metabolites in a rural Dutch population
 from the 19th century. Detection of mundane everyday compounds, such as those
-present in tea and coffee, has never been more exciting. Even the absence of
+present in tea and coffee, has never been more exciting! Even the absence of
 compounds raises a number of questions about why they were absent, and if they
 were ever there to begin with. Contamination is omnipresent in archaeological
 studies, especially those employing biomolecular methods. Ours was no exception,

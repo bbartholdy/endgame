@@ -80,3 +80,5 @@ software_versions <- readr::read_tsv(here("articles/byoc-valid/01-documentation/
 ## Discussion
 
 {{< include articles/byoc-valid/07-publication/04-disc.qmd >}}
+
+## References cited
