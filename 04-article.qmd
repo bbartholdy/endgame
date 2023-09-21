@@ -1,8 +1,40 @@
 ---
 engine: knitr
-title: Investigating Biases Associated with Dietary Starch Incorporation and Retention with an Oral Biofilm Model
-shift-heading-level-by: 1
+title: Article 2
+subtitle: Investigating Biases Associated with Dietary Starch Incorporation and Retention with an Oral Biofilm Model
+author: 
+  - name: Bjørn Peare Bartholdy
+    orcid: 0000-0003-3985-1016
+    affiliations:
+      - ref: leiden
+  - name: Amanda G. Henry
+    orcid: 0000-0002-2923-4199
+    affiliations:
+      - ref: leiden
+affiliations:
+  - id: leiden
+    name: Leiden University
+    department: Faculty of Archaeology
+    city: Leiden
+    country: The Netherlands
+#shift-heading-level-by: 1
 ---
+
+::: {.content-visible when-format="pdf"}
+
+Co-authors:
+
+- Amanda G. Henry, Leiden University
+
+\vfill
+
+Cite as:
+
+**Bartholdy, B. P.**, & Henry, A. G. (2022). Investigating Biases Associated With Dietary Starch Incorporation and Retention With an Oral Biofilm Model. Frontiers in Earth Science, 10. https://doi.org/10.3389/feart.2022.886512
+
+{{< pagebreak >}}
+
+:::
 
 ::: {.content-visible when-format="html"}
 {{< var article2.badges.status >}} {{< var article2.badges.version >}} {{< var article2.badges.doi >}}

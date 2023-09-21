@@ -1,4 +1,88 @@
-# Assessing the validity of a calcifying oral biofilm model as a suitable proxy for dental calculus {#byoc-valid}
+---
+subtitle: Assessing the validity of a calcifying oral biofilm model as a suitable proxy for dental calculus
+author: 
+  - name: Bjørn Peare Bartholdy
+    orcid: 0000-0003-3985-1016
+    corresponding: true
+    affiliations:
+      - ref: leiden
+  - name: Irina M. Velsko
+    orcid: 0000-0001-9810-9917
+    affiliations:
+      - ref: mpi
+  - name: Shira Gur-Arieh
+    orcid: 0000-0003-2015-7817
+    affiliations:
+      - ref: haifa
+      - ref: mun
+  - name: Zandra Fagernäs
+    orcid: 0000-0003-2667-3556
+    affiliations:
+      - ref: mpi
+      - ref: globe
+  - name: Christina Warinner
+    orcid: 0000-0002-4528-5877
+    affiliations:
+      - ref: harv
+      - ref: mpi
+  - name: Amanda G. Henry
+    orcid: 0000-0002-2923-4199
+    affiliations:
+      - ref: leiden
+affiliations:
+  - id: leiden
+    name: Leiden University
+    department: Faculty of Archaeology
+    city: Leiden
+    country: The Netherlands
+  - id: mpi
+    name: Max Planck Institute for Evolutionary Anthropology
+    department: Department of Archaeogenetics
+    city: Leipzig
+    country: Germany
+  - id: globe
+    name: University of Copenhagen
+    department: Globe Institute
+    city: Copenhagen
+    country: Denmark
+  - id: haifa
+    name: University of Haifa
+    department: The Leon Recanati Institute for Maritime Studies
+    city: Haifa
+    country: Israel
+  - id: mun
+    name: Ludwig Maximilian University
+    department: Institute for Pre- and Protohistoric Archaeology and Archaeology of the Roman Provinces
+    city: Munich
+    country: Germany
+  - id: harv
+    name: Department of Anthropology, Harvard University
+    department: Department of Anthropology
+    city: Cambridge, MA
+    country: USA
+---
+
+# Article 1 {#byoc-valid}
+
+::: {.content-visible when-format="pdf"}
+
+Co-authors:
+
+- Irina M. Velsko, Max Planck Institute for Evolutionary Anthropology
+- Shira Gur-Arieh, University of Haifa, Ludwig Maximilian University
+- Zandra Fagernäs, Max Planck Institute for Evolutionary Anthropology, University of Copenhagen
+- Christina Warinner, Max Planck Institute for Evolutionary Anthropology, Harvard University
+- Amanda G. Henry, Leiden University
+
+\vfill
+
+Cite as:
+
+**Bartholdy, B. P.**, Velsko, I. M., Gur-Arieh, S., Fagernäs, Z., Warinner, C., & Henry, A. G. (2023, May 30). Assessing the validity of a calcifying oral biofilm model as a suitable proxy for dental calculus. https://doi.org/10.1101/2023.05.23.541904
+
+{{< pagebreak >}}
+
+:::
 
 ::: {.content-visible when-format="html"}
 {{< var article1.badges.status >}} {{< var article1.badges.version >}} {{< var article1.badges.doi >}}

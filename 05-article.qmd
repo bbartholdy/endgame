@@ -1,8 +1,80 @@
 ---
 engine: knitr
-title: Multiproxy analysis exploring patterns of diet and disease in dental calculus and skeletal remains from a 19th century Dutch population
+title: Article 3
+subtitle: Multiproxy analysis exploring patterns of diet and disease in dental calculus and skeletal remains from a 19th century Dutch population
+author: 
+  - name: Bjørn Peare Bartholdy
+    orcid: 0000-0003-3985-1016
+    affiliations:
+      - ref: leiden
+  - name: Jørgen B. Hasselstrøm
+    affiliations: 
+      - ref: aarhus
+  - name: Lambert K. Sørensen
+    affiliations: 
+      - ref: aarhus
+  - name: Maia Casna
+    affiliations: 
+      - ref: leiden
+  - name: Menno Hoogland
+    affiliations:
+      - ref: leiden
+  - name: Historisch Genootschap Beemster
+    affiliations:
+      - ref: hgb
+  - name: Amanda G. Henry
+    orcid: 0000-0002-2923-4199
+    affiliations:
+      - ref: leiden
+affiliations:
+  - id: leiden
+    name: Leiden University
+    #department: Faculty of Archaeology
+    #city: Leiden
+    country: The Netherlands
+  - id: aarhus
+    name: Department of Forensic Medicine, Aarhus University
+    #address: Palle Juul-Jensens Boulevard 99, 8200, Aarhus N, Denmark
+  - id: hgb
+    name: Historisch Genootschap Beemster
+    #address: Postbus 73, 1462 ZH, Middenbeemster, Netherlands
 #shift-heading-level-by: 1
 ---
+
+:::{.content-visible when-format="pdf"}
+
+```{r}
+#| label: format-authors
+
+# prepare authors and affiliations for in-line code
+n_authors <- length(rmarkdown::metadata$author)
+name <- vector(mode = "character", length = n_authors)
+affil <- vector(mode = "character", length = n_authors)
+for(i in 1:n_authors){
+  name[i] <- rmarkdown::metadata$author[[i]]$name
+  affil[i] <- rmarkdown::metadata$author[[i]]$affiliations
+}
+```
+
+
+Co-authors:
+
+- Jørgen B. Hasselstrøm, Aarhus University
+- Lambert K. Sørensen, Aarhus University
+- Maia Casna, Leiden University
+- Menno Hoogland, Leiden University
+- Historisch Genootschap Beemster
+- Amanda G. Henry, Leiden University
+
+\vfill
+
+Cite as:
+
+**Bartholdy, B. P.**, Hasselstrøm, J. B., Sørensen, L. K., Casna, M., Hoogland, M., Beemster, H. G., & Henry, A. G. (2023). Multiproxy analysis exploring patterns of diet and disease in dental calculus and skeletal remains from a 19th century Dutch population. Zenodo. https://doi.org/10.5281/zenodo.7649151
+
+{{< pagebreak >}}
+
+:::
 
 ::: {.content-visible when-format="html"}
 {{< var article3.badges.status >}} {{< var article3.badges.version >}} {{< var article3.badges.doi >}}
