@@ -1,0 +1,70 @@
+This is not your traditional dissertation, which was a conscious choice
+on my part. Sort of. First of all, it's not very common for a dissertation
+in my faculty to have a preface, which is why I have prefaced this preface
+with an explanation for why I need a preface.
+
+Feel free to jump to [Chapter 1](01-intro.qmd) if you don't want to read this.
+
+When I started my PhD research I had no intentions of shaking things up.
+I was going to put my head down and do my research, publish my articles in
+traditional journal venues, create a traditional article-based dissertation,
+and finish in the allotted four years. Six years later, and I accomplished,
+well... none of the above. Along the way I got a look behind the curtain
+of academic publishing. I didn't like what I saw. Not even a little bit.
+This was fueled by an introduction to Open Science. Science in the context of
+Open Science just made sense to me. This caused some delays as I dived into an
+Open Science rabbit hole. Also, covid.
+At first I vowed (to myself and those around me who would listen) never
+to publish any of my papers in Evilseer. Then, I took it a step further
+and vowed the same for more major publishers, including Springer and
+Wiley. Why do we pay publishers to take our copyright, publish our research,
+then pay extra so we are allowed read it? You may not be paying out of pocket,
+but your library is likely covering those costs with expensive subscriptions.
+I'm sure they would much rather use that money on more useful stuff. All this to
+say, you won't find any of my PhD papers in the traditional journals.
+I wanted to try different platforms, like preprint servers and PCI_Archaeology.
+
+Around the beginning of my of PhD research I was also introduced to
+R statistical software. I can no longer remember how this came about,
+but after many months of rage-quitting
+and returning to SPSS, vowing never to open R again, I started to
+see the value of using scripting languages (and free, non-proprietary software)
+for statistical analysis.
+It turns out when something is reproducible, it's easy to reproduce...
+No need for the same 'point and click' all over again. I used R Markdown for most
+of my output, website, presentations, articles, etc. Then I took it a step further
+and started writing my dissertation in R Markdown. My dissertation was now fully
+reproducible, and could be output to different formats with little change to
+the documents with the actual content. One of these formats was HTML.
+I could turn my dissertation into a website. That was pretty cool. I could
+have a dynamic, outward-facing dissertation easily modified when needed.
+This series of events led me to publishing my dissertation online,
+before it was completed, as
+a way to show the progress to the world. Of course most of the world
+didn't actually care, but a few people thought it was a cool idea, and,
+more importantly, it made the writing part enjoyable. Well maybe
+not quite enjoyable, but certainly less unpleasant. It also motivated
+me to make continuous progress. Eventually I converted to Quarto (basically R
+Markdown on steroids). It allowed me to continue using
+R for all of my analyses, and conveniently output them to the necessary formats,
+with extra features for the HTML version, including summary paragraphs which
+became the TL;DR.
+It also feels less 'janky' than my previous implementation in R Markdown (but still
+not jank-free).
+The wide availability of my dissertation meant I started making accessibility a
+focus. This means increasing the readability and
+legibility of the dissertation, not only with the formatting, but with the
+language used. This doesn't necessarily mean that it can be easily picked
+up by someone with limited knowledge of the field. Writing 'academically' is
+not just exclusionary to members of the public, but also to those for whom
+English does not come naturally. Plus, I've found it to be a tedious read, even
+as a native English speaker. In my experience, writing more accessibly also
+requires a deeper understanding of the subject matter.
+
+Open Science is a priority in all of my work and will be reflected in this
+dissertation; sometimes directly, sometimes indirectly. Admittedly this is
+occasionally taken to an extreme: A fully reproducible dissertation, publishing
+everything before it's actually done, and avoiding traditional journals. Ultimately
+I was just fed up with the status quo. We as researchers need to do better.
+We need to ask ourselves why we are doing science, and for whom we are doing it.
+
