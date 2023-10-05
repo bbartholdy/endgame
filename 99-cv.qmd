@@ -10,7 +10,7 @@ I obtained my BSc (honours) in archaeology with a concentration in physical
 anthropology at the University of Calgary in 2015. My thesis was supervised 
 by Dr. Mary Anne Katzenberg and explored the application of micro-CT in 
 archaeological examination of osteoarthritis lesions in the vertebrae of 
-unprovenanced skeletal remains. I went on to get my MSc in Osteoarchaeology at
+un-provenanced skeletal remains. I went on to get my MSc in Osteoarchaeology at
 Leiden University in 2017. Here, my thesis research was supervised by Dr. Andrea
 Waters-Rist, where I looked for relationships between enamel properties and dental 
 disease in the deciduous dentition, using micro-CT. The materials used for this
@@ -22,11 +22,12 @@ to develop a model dental calculus system, which could be used to explore
 dietary research questions from an archaeological perspective. The protocol was
 validated using Fourier Transform Infrared (FTIR) spectroscopy to assess the 
 mineral composition, and metagenomic analysis to characterise the microbiome.
-The protocol was then applied to explore dietary questions ...
+The protocol was then applied to explore questions related to the incorporation
+and retention of dietary starches in dental calculus.
 
 Alongside my PhD research, I participated in a variety of activities both related
 and completely unrelated to my dissertation research. I helped develop and 
-co-instructed the Quantitative Methods in Archaeology course for two consequetive
+co-instructed the Quantitative Methods in Archaeology course for two consecutive
 years. I co-supervised multiple Master's students in the MSc Osteoarchaeology
 specialisation.
 I also taught a number of guest lectures on dental calculus, dental diseases, 
@@ -36,22 +37,3 @@ and co-instructed multiple Data Carpentry workshops teaching the R Statistical
 Programming language to social scientists,
 co-hosted by Leiden University, TU Delft, Erasmus University Rotterdam, and
 Vrije Universiteit Amsterdam.
-
-After my PhD contract ended, I took a job as a Data Steward at TU Delft, at the
-faculty of Mechanical, Maritime, and Materials Engineering. In this role I provide
-support and training for researchers on research data management and Open Science.
-
-Organised a workshop on dental non-metrics
-Editor-in-chief for the Inter-Section journal
-Steering committee of ARCHON
-Archaeology ambassador for the Open Science Community Leiden
-Founded the Rchaeology community, attempting to bring together 
-archaeologists from all fields with an interest in using/learning 
-R Statistical Programming language. The community currently consists of a 
-Facebook group, a Twitter profile, a Slack workspace, and a website.
-Co-supervised Master's theses.
-SPAAM
-<!-- guest lectures -->
-<!-- teaching assitant -->
-<!-- co-instructor -->
-<!-- host/help workshops -->

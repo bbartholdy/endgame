@@ -1,5 +1,10 @@
 ---
 subtitle: Assessing the validity of a calcifying oral biofilm model as a suitable proxy for dental calculus
+citation:
+  type: report
+  container-title: "bioRxiv"
+  doi: "10.1101/2023.05.23.541904"
+  url: https://doi.org/10.1101/2023.05.23.541904
 author: 
   - name: Bjørn Peare Bartholdy
     orcid: 0000-0003-3985-1016
@@ -66,7 +71,9 @@ affiliations:
 
 ::: {.content-visible when-format="pdf"}
 
-Co-authors:
+**Status:** Preprint on bioRxiv
+
+**Co-authors:**
 
 - Irina M. Velsko, Max Planck Institute for Evolutionary Anthropology
 - Shira Gur-Arieh, University of Haifa, Ludwig Maximilian University
@@ -76,7 +83,13 @@ Co-authors:
 
 \vfill
 
-Cite as:
+**Code:** [10.4121/99932661-fe79-4f4e-a812-a8917ad18fd0](https://doi.org/10.4121/99932661-fe79-4f4e-a812-a8917ad18fd0)  
+**Data:** [PRJEB61886 (ENA accession number)](https://www.ebi.ac.uk/ena/browser/view/PRJEB61886) & [10.4121/466b2588-9689-4d84-a8a0-5216aa39e40b](https://doi.org/10.4121/466b2588-9689-4d84-a8a0-5216aa39e40b)  
+**Protocols:** [10.17504/protocols.io.dm6gpj9rdgzp/v1](https://dx.doi.org/10.17504/protocols.io.dm6gpj9rdgzp/v1)
+
+\vspace{1cm}
+
+**Cite as:**
 
 **Bartholdy, B. P.**, Velsko, I. M., Gur-Arieh, S., Fagernäs, Z., Warinner, C., & Henry, A. G. (2023, May 30). Assessing the validity of a calcifying oral biofilm model as a suitable proxy for dental calculus. https://doi.org/10.1101/2023.05.23.541904
 
@@ -85,7 +98,7 @@ Cite as:
 :::
 
 ::: {.content-visible when-format="html"}
-{{< var article1.badges.status >}} {{< var article1.badges.version >}} {{< var article1.badges.doi >}}
+{{< var article1.badges.status >}} {{< var article1.badges.version >}} {{< var article1.badges.doi >}} {{< var article1.badges.github >}}
 
 ::: {.callout-note icon="false"}
 
@@ -113,7 +126,7 @@ library(cowplot)
 library(readr)
 library(here)
 
-knitr::opts_chunk$set(fig.path = "figures/fig-byoc-valid-")
+knitr::opts_chunk$set(fig.path = "figures/byoc-valid-")
 
 dna_metadata <- read_tsv(here("articles/byoc-valid/01-documentation/metadata.tsv"))
 dna_analysis_metadata <- read_tsv(here("articles/byoc-valid/01-documentation/analysis-metadata.tsv"))

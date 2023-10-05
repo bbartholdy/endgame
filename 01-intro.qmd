@@ -111,10 +111,12 @@ and stable isotope analyses.
 
 ```{r}
 #| label: fig-plot-and-wordclouds
-#| fig-cap: "Plot of articles with the term 'dental calculus' in the title."
+#| fig-cap: "Plot of the number of articles per year in bioarchaeology and clinical dentistry with the term 'dental calculus' in the title."
+#| fig-width: 6
+#| fig-height: 5
 
-titles_plot + bioarch_title_wordcloud / dental_title_wordcloud + 
-  plot_annotation(tag_levels = "A")
+titles_plot + bioarch_title_wordcloud / dental_title_wordcloud + theme(legend.position = "top", axis.title.x = element_blank()) +
+  plot_annotation(tag_levels = "A") + plot_layout(widths = c(5,4))
 ```
 
 Perhaps the most common use of dental calculus is to recreate the diet

@@ -1130,4 +1130,4 @@ without actually going to the trouble of testing them.
 "You can't possibly be a scientist if you mind people thinking that you're a fool"
 [@adamsLongThanks2002].
 
-## References {-}
+## References {.unnumbered}

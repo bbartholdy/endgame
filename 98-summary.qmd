@@ -23,9 +23,9 @@ from plants that were trapped inside the calculus matrix.
 The major problem—one of the major problems, for there are several—one of the many
 major problems is that this picture was never a complete picture of a lifetime of
 activities. Another problem is that it has faded over the years, and some parts of
-picture have been completely erased. There are many things influencing what gets
-trapped inside dental calculus, what gets preserved for all those years until it
-can be analysed, and how much of that information we can extract and interpret.
+the picture have been completely erased. There are many things influencing what
+gets trapped inside dental calculus, what gets preserved for all those years until
+it can be analysed, and how much of that information we can extract and interpret.
 <!-- research questions -->
 We know that these problems exist. We know that they limit our interpretations of
 past activities. We need to approach these problems more systematically at a
@@ -113,7 +113,7 @@ calculus.
 
 <!-- discussion -->
 
-# Samenvatting {-}
+<!-- # Samenvatting {-}
 
 <!-- will be provided when the English version is approved -->
 

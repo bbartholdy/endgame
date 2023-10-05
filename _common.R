@@ -17,6 +17,16 @@ calculus_palette <- c(
   "#ffcc66"
 )
 
+# copy figures from articles
+
+byoc_starch_img <- c("articles/byoc-starch/analysis/figures/protocol_overview.png",
+                     "articles/byoc-starch/analysis/figures/starches_w_bar.jpg",
+                     "articles/byoc-starch/analysis/figures/st2C3.2-mix.jpg",
+                     "articles/byoc-starch/analysis/figures/st1B4-wheat.jpg",
+                     "articles/byoc-starch/analysis/figures/2D2-potato.jpg")
+sapply(byoc_starch_img, file.copy, to = "figures/", overwrite = T)
+#file.copy("articles/byoc-starch/analysis/figures/protocol_overview.png", "figures/")
+
 # generate/update bibliography only if rendering project
 if (!nzchar(Sys.getenv("QUARTO_PROJECT_RENDER_ALL"))) {
   quit()
