@@ -25,25 +25,29 @@ article1:
   badges:
     version: "![](https://img.shields.io/github/v/release/bbartholdy/byoc-valid?include_prereleases)"
     status: "![](https://img.shields.io/badge/Status-preprint-blue)"
-    doi: ""
-  doi: "https://doi.org/10.1101/2023.05.23.541904"
-  github: https://github.com/bbartholdy/byoc-valid
-
+    doi: "[![](https://img.shields.io/badge/DOI-10.1101%2F2023.05.23.541904-blue)](https://doi.org/10.1101/2023.05.23.541904)"
+    github: "[![Static Badge](https://img.shields.io/badge/bbartholdy%2Fbyoc%2Dvalid?logo=github&labelColor=grey&color=blue&link=https%3A%2F%2Fgithub.com%2Fbbartholdy%2Fbyoc-valid)](https://github.com/bbartholdy/byoc-valid)"
+  doi: "[10.1101/2023.05.23.541904](https://doi.org/10.1101/2023.05.23.541904)"
+  supp-mat: <https://www.biorxiv.org/content/10.1101/2023.05.23.541904v2.supplementary-material>
+  
 article2:
   badges:
     version: "[![](https://img.shields.io/github/v/release/bbartholdy/byoc-starch?include_prereleases)](https://github.com/bbartholdy/byoc-starch/releases)"
     status: "[![](https://img.shields.io/badge/Status-published-blue)](https://doi.org/10.3389/feart.2022.886512)"
     doi: "[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5604670.svg)](https://doi.org/10.5281/zenodo.5604670)"
-  doi: https://doi.org/10.5281/zenodo.5604670
-  github: https://github.com/bbartholdy/byoc-starch
+    github: "![Static Badge](https://img.shields.io/badge/bbartholdy%2Fbyoc%2Dstarch?logo=github&labelColor=grey&color=blue&link=https%3A%2F%2Fgithub.com%2Fbbartholdy%2Fbyoc-starch)"
+  doi: "[10.5281/zenodo.5604670]()https://doi.org/10.5281/zenodo.5604670)"
+  supp-mat: <https://www.frontiersin.org/articles/file/downloadfile/886512_supplementary-materials_datasheets_1_pdf/octet-stream/Data%20Sheet%201.PDF/1/886512?isPublishedV2=False>
 
 article3:
   badges:
     version: "![](https://img.shields.io/github/v/release/bbartholdy/mb11CalculusPilot?include_prereleases)"
-    status: "![](https://img.shields.io/badge/Status-preprint-blue)"
+    status: "![](https://img.shields.io/badge/Status-under review-red)"
     doi: "[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7649825.svg)](https://zenodo.org/badge/DOI/10.5281/zenodo.7649825)"
-  doi: https://zenodo.org/badge/DOI/10.5281/zenodo.7649825
-  github: https://github.com/bbartholdy/mb11CalculusPilot
+    github: "![Static Badge](https://img.shields.io/badge/bbartholdy%2Fmb11CalculusPilot?logo=github&labelColor=grey&color=blue&link=https%3A%2F%2Fgithub.com%2Fbbartholdy%2Fmb11CalculusPilot)"
+  doi: "[10.5281/zenodo.8199885](https://doi.org/10.5281/zenodo.8199885)"
+  repo: https://github.com/bbartholdy/mb11CalculusPilot
+  supp-mat: <https://zenodo.org/record/8199885/files/supp-mat.pdf?download=1>
 
 discussion:
   version: "![Current version](https://img.shields.io/badge/Version-v1-blue)"

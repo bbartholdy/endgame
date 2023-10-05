@@ -1,9 +1,13 @@
+# Preface {.unnumbered}
+
+{{< include 00-preface.qmd >}}
+
 ::: {.content-visible when-format="html"}
 
-# Hello {-}
-
-This is a PhD dissertation written in [Quarto](https://quarto.org/). A PDF version of the dissertation, which
-includes a variety of trivial formalities, is available [here](https://myphd.netlify.app/endgame.pdf)<!-- and here (doi to repo)-->.
+This is a PhD dissertation written in [Quarto](https://quarto.org/). If you are
+reading this, you are likely looking at the HTML version. 
+A PDF version of the dissertation, which includes a variety of trivial formalities,
+is available [here](https://myphd.netlify.app/endgame.pdf).
 In the meantime you can follow the progress of my dissertation on this site.
 
 **Note: This is a continuously updated draft of my dissertation (until further notice). It has yet to be reviewed by a committee.**
@@ -18,73 +22,22 @@ visitors. No other information is recorded.
 
 :::
 
+
 ::: {.content-visible when-format="pdf"}
-\frontmatter
 
-# Acknowledgements {-}
+# Acknowledgements {.unnumbered}
 
-Where to begin? So many people helped shape this thesis, and are therefore also 
-to blame for this work.
-
-<!-- Amanda -->
-
-<!-- Shira -->
-
-<!-- Stephanie -->
-
-<!-- James and Zandra 
-
-James Fellows Yates and Dr. Zandra Fagernäs were always able to reignite my
-excitement for the project when I occasionally felt it slipping away. Their
-enthusiasm was always appreciated. James was also an important contributor
-to the main biofilm model paper, as I struggled to implement the EAGER pipeline,
-not to mention an inspiration on how to PhDad.
-
-<!-- Irina -->
-
-<!-- Open Science 
-
-Dr. Ben Marwick and Dr. Esther Plomp, whose passion and commitment to open science
-inspired me to make all of my work as open and transparent as possible. This also
-likely contributed to some of the delays, so thanks for that.
-
-<!-- Middenbeemster historical society -->
-
-<!-- Danish lab -->
-
-<!-- Jessica and Rachel -->
-
-<!-- Marie, Supriya, and Nina 
-
-Supriya and Nina for having the patience to be friends with a PhD student with a small child.
-
-<!-- family 
-
-Of course, I have to include my family, since they are the most likely to read this.
-
-And finally, most importantly, Liam, for making everything a bit more of a challenge,
--->
+{{< include 00-awknowledgements.qmd >}}
 
 :::
 
-# Open Science Statement {-}
+# Open Science Statement {.unnumbered}
 
-All materials and data, including the dissertation itself, are 
-made available to the best of my ability. All articles in association with the
-dissertation are/will be Open Access.
+All materials and data, including the source code for the dissertation itself,
+are  made available to the best of my ability. All articles in association with
+the dissertation are/will be Open Access.
 
-Protocols available: <https://protocols.io/workspaces/byoc>  
-Code available: <https://github.com/bbartholdy>  
-Data available: TBD
-
-::: {.content-visible when-format="pdf"}
-\clearpage
-\thispagestyle{empty}
-\vspace*{3cm}
-\hfill\textit{En bar røv at trutte i}
-\par
-\hfill\vspace*{4cm} Jan Bartholdy
-\vspace*{\fill}
+All outputs can be found, either directly or indirectly, on the Open Science
+Framework ([DOI: 10.17605/OSF.IO/3YX8M](https://doi.org/10.17605/OSF.IO/3YX8M)).
 
 \mainmatter
-:::

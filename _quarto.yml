@@ -1,6 +1,6 @@
 project:
   type: book
-  pre-render: _common.R # causes issue with quarto preview - issue caused by `bbt_update_bib(ref_files, here("book.bib"))`
+  pre-render: _common.R
 execute:
   freeze: auto
   echo: false
@@ -32,6 +32,8 @@ book:
       href: https://fediscience.org/@bjorn
   chapters: 
     - index.qmd
+    #- 00-awknowledgements.qmd
+    #- 00-preface.qmd
     - 01-intro.qmd
     - 02-background.qmd
     - 03-article.qmd
@@ -39,9 +41,9 @@ book:
     - 05-article.qmd
     - 06-discussion.qmd
   appendices:
-    #- supp-mat.qmd
+    - supp-mat.qmd
     - 98-summary.qmd
-    #- 99-cv.qmd
+    - 99-cv.qmd
 
 format:
   html:
@@ -49,11 +51,11 @@ format:
       light: [lightly, style.scss]
       dark: [darkly, style.scss]
     date-modified: today
-    reference-location: section
+    #reference-location: section
     #include-in-header: partials/analytics.html
     include-after-body: partials/analytics.html
     #citeproc: true
-    bibliography: [book.bib]
+    #bibliography: [book.bib]
 
   pdf:
     documentclass: book
@@ -61,19 +63,22 @@ format:
     lot: true
     lof: true
     keep-tex: true
-    cite-method: citeproc
+    #cite-method: citeproc
+    citeproc: false
     link-citations: true
-    bibliography: [book.bib]
+    #bibliography: [book.bib]
     #section-refs-bibliography: [book.bib, articles/byoc-starch/analysis/paper/refs.bib, articles/mb11CalculusPilot/analysis/paper/references.bib]
     template: pandoc-templates/default.latex
-    #include-before-body: latex/proef.tex
+    #include-before-body: latex/dedication.tex
     include-in-header: latex/preamble.tex
     filters: 
-      - section-refs.lua # needs pandoc version >= 2.11 to work 
+      - section-bibliographies
+      #- section-refs.lua # needs pandoc version >= 2.11 to work 
       #- shift-article-headings.lua
-   
-# link-citations: yes
-#bibliography: [book.bib, articles/byoc-starch/analysis/paper/refs.bib, articles/mb11CalculusPilot/analysis/paper/references.bib]
+
+bibliography: book.bib
+#cite-method: citeproc
+reference-location: section
 csl: apa.csl
 knitr:
   opts_chunk: 
@@ -82,30 +87,29 @@ knitr:
     message: false
 ### Mandatory for Leiden PhD dissertations ###
 proefschrift:
-  rector: Dr. H.J. Farnsworth # name of current rector
-  day: Wednesday # day of week
-  date: "21 March 3020" # date in dd month yyyy format
-  time: "13.00" # time in 00.00 format
-  birthplace: "Earth" # optional info
-  birthyear: "the 20th century" # optional info
+  rector: prof.dr.ir. H. Bijl # name of current rector
+  day: TBD # day of week
+  date: "" # date in dd month yyyy format
+  time: "TBD" # time in 00.00 format
+  #birthplace: "Earth" # optional info
+  #birthyear: "the 20th century" # optional info
 promotor:
   name: Dr. Amanda G. Henry
 copromotor:
   name: Dr. Annelou van Gijn
     #affiliation: required if different from Leiden
 committee:
-  - name: Dr. Bernadette Rostenkowski-Wolowitz
-    affiliation: ZanGen Pharmaceuticals
-  - name: Dr. Amy Farrah Fowler
-    affiliation: California Institute of Technology
-  - name: Dr. Sheldon Cooper
-    affiliation: California Institute of Technology
-  - name: Dr. Leonard Hofstadter
-    affiliation: California Institute of Technology
+  - name: Dr. Patrick Degryse
+    affiliation: Leiden University, Katholieke Universiteit Leuven
+  - name: Dr. Matthew James Collins
+    affiliation: University of Copenhagen, University of Cambridge
+  - name: Dr. Alison Crowther
+    affiliation: University of Queensland
+  - name: Dr. Carla Lancelotti
+    affiliation: Universitat Pompeu Fabra
+  - name: Dr. Christina Warinner
+    affiliation: Max Planck Institute for Evolutionary Anthropology, Harvard University
 ## End: Mandatory for Leiden PhD dissertations ###
-funding: |
-  This research has received funding from the European Research Council under the European Union’s Horizon 2020 research and innovation program, grant agreement   number STG–677576 (“HARVEST”).
+funding-statement: |
+  This research has received funding from the European Research Council under the European Union’s Horizon 2020 research and innovation program, grant agreement number STG–677576 (“HARVEST”).
 cover-caption: Petra Korlevic
-# #quote:
-#   # quote: Random quote only meaningful to me   # can also be used for a dedication
-# #  source: Someone old
