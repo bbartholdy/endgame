@@ -1,0 +1,24 @@
+# Supplementary information {-}
+
+This dissertation contains a lot of supplementary materials. Therefore
+none of it is included in the dissertation itself. I will instead provide
+links to the online material.
+
+Most of the materials can be found on the Open Science Framework [(DOI: 10.17605/OSF.IO/3YX8M).](https://doi.org/10.17605/OSF.IO/3YX8M)
+
+The oral biofilm model protocols are published on protocols.io [(DOI: 10.17504/protocols.io.dm6gpj9rdgzp/v1).](https://dx.doi.org/10.17504/protocols.io.dm6gpj9rdgzp/v1)
+
+Article 1: 
+
+- DOI: {{< var article1.doi >}}
+- supplementary material: {{< var article1.supp-mat >}}
+
+Article 2:
+
+- DOI: {{< var article2.doi >}}
+- supplementary material: {{< var article2.supp-mat >}}
+
+Article 3: 
+
+- DOI: {{< var article3.doi >}}
+- supplementary material: {{< var article3.supp-mat >}}
