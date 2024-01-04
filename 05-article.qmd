@@ -57,7 +57,7 @@ for(i in 1:n_authors){
 }
 ```
 
-**Status:** Preprint under review with PCI_Archaeology
+**Status:** Recommended by PCI_Archaeology
 
 **Co-authors:**
 
@@ -71,7 +71,8 @@ for(i in 1:n_authors){
 \vfill
 
 **Code:** [10.5281/zenodo.7649824](https://doi.org/10.5281/zenodo.7649824)  
-**Data:** [10.5281/zenodo.7648756](https://doi.org/10.5281/zenodo.7648756)
+**Data:** [10.5281/zenodo.7648756](https://doi.org/10.5281/zenodo.7648756)  
+**Recommendation:** [10.24072/pci.archaeo.100389](https://doi.org/10.24072/pci.archaeo.100389)
 
 \vspace{1cm}
 

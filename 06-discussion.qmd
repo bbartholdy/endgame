@@ -1017,7 +1017,6 @@ incorporate the entire spectrum of archaeological analyses.
 <!-- adoption of the coca leaf. -->
 
 <!-- working more openly-->
-
 Working with new scientific methods and improving our analytical approaches is
 only one small way to contribute to existing knowledge of dental calculus, and
 may be unproductive if the method has already been tested by other labs. Moving
@@ -1034,7 +1033,7 @@ talking about vague, cryptic methods sections in papers, but detailed protocols
 accessible to anyone with the necessary materials and equipment. Platforms like
 protocols.io are a great solution (e.g. 
 [10.17504/protocols.io.bvt9n6r6](dx.doi.org/10.17504/protocols.io.bvt9n6r6)
-and [10.17504/protocols.io.dm6gpj9rdgzp/v1](dx.doi.org/10.17504/protocols.io.dm6gpj9rdgzp/v1).
+and [10.17504/protocols.io.dm6gpj9rdgzp/v1](dx.doi.org/10.17504/protocols.io.dm6gpj9rdgzp/v1)).
 Adopting more open research practices will also make it easier to incorporate
 multiple proxies in research studies,
 as this will no longer be limited to those with access to enough material and range

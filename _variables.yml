@@ -15,11 +15,11 @@ dissertation:
 
 intro: 
   version: "![Current version](https://img.shields.io/badge/Version-v1-blue)"
-  status: "![](https://img.shields.io/badge/Status-committee-red)"
+  status: "![](https://img.shields.io/badge/Status-approved-green)"
 
 background:
   version: "![Current version](https://img.shields.io/badge/Version-v1-blue)"
-  status: "![](https://img.shields.io/badge/Status-committee-red)"
+  status: "![](https://img.shields.io/badge/Status-approved-green)"
 
 article1:
   badges:
@@ -42,7 +42,7 @@ article2:
 article3:
   badges:
     version: "![](https://img.shields.io/github/v/release/bbartholdy/mb11CalculusPilot?include_prereleases)"
-    status: "![](https://img.shields.io/badge/Status-under review-red)"
+    status: "![](https://img.shields.io/badge/Status-recommended-blue)"
     doi: "[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7649825.svg)](https://zenodo.org/badge/DOI/10.5281/zenodo.7649825)"
     github: "![Static Badge](https://img.shields.io/badge/bbartholdy%2Fmb11CalculusPilot?logo=github&labelColor=grey&color=blue&link=https%3A%2F%2Fgithub.com%2Fbbartholdy%2Fmb11CalculusPilot)"
   doi: "[10.5281/zenodo.8199885](https://doi.org/10.5281/zenodo.8199885)"
