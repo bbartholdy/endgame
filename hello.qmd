@@ -1,0 +1,14 @@
+This is a PhD dissertation written in [Quarto](https://quarto.org/). If you are
+reading this, you are likely looking at the HTML version. A PDF version of the
+dissertation, which includes a variety of trivial formalities, is available [here](https://myphd.netlify.app/endgame.pdf)<!-- and here (doi to repo)-->.
+In the meantime you can follow the progress of my dissertation on this site.
+
+**Note: My dissertation has been reviewed and approved by a committee!**
+
+The amazing cover image was created by the awesome
+[Petra Korlevic](https://twitter.com/petrathepostdoc). The site is hosted by [Netlify](https://www.netlify.com)
+and [GitHub](https://www.github.com), and is licensed under the
+[Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
+
+**Disclaimer:** This site contains a bare-bones tracker to count the number of
+visitors. No other information is recorded.

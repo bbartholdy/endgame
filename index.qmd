@@ -1,33 +1,21 @@
+::: {.content-visible when-format="pdf"}
+
 # Preface {.unnumbered}
 
 {{< include 00-preface.qmd >}}
 
-::: {.content-visible when-format="html"}
-
-This is a PhD dissertation written in [Quarto](https://quarto.org/). If you are
-reading this, you are likely looking at the HTML version. 
-A PDF version of the dissertation, which includes a variety of trivial formalities,
-is available [here](https://myphd.netlify.app/endgame.pdf).
-In the meantime you can follow the progress of my dissertation on this site.
-
-**Note: This is a continuously updated draft of my dissertation (until further notice). It has yet to be reviewed by a committee.**
-
-The amazing cover image was created by the awesome
-[Petra Korlevic](https://twitter.com/petrathepostdoc). The site is hosted by [Netlify](https://www.netlify.com)
-and [GitHub](https://www.github.com), and is licensed under the
-[Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
-
-**Disclaimer:** This site contains a bare-bones tracker to count the number of
-visitors. No other information is recorded.
-
-:::
-
-
-::: {.content-visible when-format="pdf"}
 
 # Acknowledgements {.unnumbered}
 
 {{< include 00-awknowledgements.qmd >}}
+
+:::
+
+::: {.content-visible when-format="html"}
+
+# Hello {.unnumbered}
+
+{{< include hello.qmd >}}
 
 :::
 
@@ -40,4 +28,8 @@ the dissertation are/will be Open Access.
 All outputs can be found, either directly or indirectly, on the Open Science
 Framework ([DOI: 10.17605/OSF.IO/3YX8M](https://doi.org/10.17605/OSF.IO/3YX8M)).
 
-\mainmatter
+::: {.content-visible when-format="pdf"}
+
+{{< include latex/dedication.tex >}}
+
+:::

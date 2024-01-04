@@ -32,8 +32,6 @@ book:
       href: https://fediscience.org/@bjorn
   chapters: 
     - index.qmd
-    #- 00-awknowledgements.qmd
-    #- 00-preface.qmd
     - 01-intro.qmd
     - 02-background.qmd
     - 03-article.qmd
@@ -52,7 +50,6 @@ format:
       dark: [darkly, style.scss]
     date-modified: today
     #reference-location: section
-    #include-in-header: partials/analytics.html
     include-after-body: partials/analytics.html
     #citeproc: true
     #bibliography: [book.bib]
