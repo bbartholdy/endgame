@@ -114,22 +114,22 @@ cor2_ci <- signif(count_cor$conf.int, 3)
 
 ## Introduction {#byocstarch-intro}
 
-{{< include articles/byoc-starch/analysis/paper/intro.Rmd >}}
+{{< include articles/byoc-starch/analysis/paper/intro.qmd >}}
 
 ## Materials and Methods
 
-{{< include articles/byoc-starch/analysis/paper/matmet.Rmd >}}
+{{< include articles/byoc-starch/analysis/paper/matmet.qmd >}}
 
 ## Results
 
-{{< include articles/byoc-starch/analysis/paper/results.Rmd >}}
+{{< include articles/byoc-starch/analysis/paper/results.qmd >}}
 
 ## Discussion
 
-{{< include articles/byoc-starch/analysis/paper/discussion.Rmd >}}
+{{< include articles/byoc-starch/analysis/paper/discussion.qmd >}}
 
 ## Conclusion
 
-{{< include articles/byoc-starch/analysis/paper/conclusion.Rmd >}}
+{{< include articles/byoc-starch/analysis/paper/conclusion.qmd >}}
 
 ## References cited {-}

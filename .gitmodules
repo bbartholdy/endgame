@@ -4,6 +4,7 @@
 [submodule "articles/byoc-starch"]
 	path = articles/byoc-starch
 	url = https://github.com/bbartholdy/byoc-starch.git
+	branch = qmd-paper
 [submodule "articles/mb11CalculusPilot"]
 	path = articles/mb11CalculusPilot
 	url = https://github.com/bbartholdy/mb11CalculusPilot.git
