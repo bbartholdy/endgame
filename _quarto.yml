@@ -49,10 +49,7 @@ format:
       light: [lightly, style.scss]
       dark: [darkly, style.scss]
     date-modified: today
-    #reference-location: section
     include-after-body: partials/analytics.html
-    #citeproc: true
-    #bibliography: [book.bib]
 
   pdf:
     documentclass: book
@@ -60,21 +57,14 @@ format:
     lot: true
     lof: true
     keep-tex: true
-    #cite-method: citeproc
     citeproc: false
     link-citations: true
-    #bibliography: [book.bib]
-    #section-refs-bibliography: [book.bib, articles/byoc-starch/analysis/paper/refs.bib, articles/mb11CalculusPilot/analysis/paper/references.bib]
     template: pandoc-templates/default.latex
-    #include-before-body: latex/dedication.tex
     include-in-header: latex/preamble.tex
     filters: 
       - section-bibliographies
-      #- section-refs.lua # needs pandoc version >= 2.11 to work 
-      #- shift-article-headings.lua
 
 bibliography: book.bib
-#cite-method: citeproc
 reference-location: section
 csl: apa.csl
 knitr:

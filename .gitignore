@@ -2,7 +2,6 @@
 .Rhistory
 .RData
 .Ruserdata
-*_files
 _book/
 chapters.*
 archive/
@@ -11,3 +10,4 @@ archive/
 /.vscode/
 /.luarc.json
 drive_upload.R
+.autochangelog
