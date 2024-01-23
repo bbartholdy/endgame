@@ -111,10 +111,33 @@ causing various dietary (and non-dietary) markers to become entrapped in dental
 calculus.
 
 
-<!-- discussion -->
+# Samenvatting {-}
 
-<!-- # Samenvatting {-}
+Tandsteen. Deze kleine, harde, onopvallende substantie vormt op de tanden van mensen en dieren. Tandsteen bevat verrassend veel informatie over ons leven. Tijdens de vorming en groei is tandsteen een levende biofilm plak en neemt het een grote verscheidenheid aan zeer kleine deeltjes op uit verschillende bronnen, met name bacteriën en voedselresten. Deze bronnen, en de deeltjes die ze achterlaten in onze mond, worden beïnvloed door activiteiten en biologische processen die uniek zijn voor elke persoon, dankzij onze eetgewoonten, mondhygiëne, genetica en de omgeving waarin we leven.
 
-<!-- will be provided when the English version is approved -->
+Wat het zo interessant maakt voor archeologen is dat deze deeltjes ingebed zijn in het tandsteen na de mineralisatie van de tandplak. Hierdoor zijn de deeltjes goed beschermd zijn tegen verwijdering en afbraak gedurende honderden tot duizenden jaren in de bodem, waardoor zij een beeld kunnen geven van de activiteiten van de mens. Archeologen kunnen dit beeld ontrafelen door eiwitten van planten en dieren, evenals genetisch materiaal en microresten van planten die gevangen zitten in de kalkmatrix, te extraheren en te identificeren.
 
-<!-- non-specialist summary -->
+Het grote probleem - of één van de grote problemen, want er zijn meerdere - is dat dit beeld nooit een compleet beeld is van een leven vol activiteiten. Een ander probleem is dat het beeld in de loop der jaren vervaagd en dat sommige delen volledig uitgewist zijn. Er zijn veel dingen van invloed op wat ingebed raakt in tandsteen, wat er al die jaren bewaard blijft, en hoe het tandsteen geanalyseerd kan worden. Dit heeft invloed op de hoeveelheid informatie die we uit tandsteen kunnen verkrijgen en op de manier waarop we deze informatie interpreteren.
+
+We weten dat deze problemen bestaan. We weten dat ze onze interpretaties van activiteiten in het verleden beïnvloeden. Het is noodzakelijk om deze problemen op een meer systematische wijze op een fundamenteel niveau aan te pakken. Hoe raken externe deeltjes precies vast in ons tandsteen? Ook moeten we preciezer kunnen kwantificeren welke factoren onze interpretaties van voedingsgewoontes beïnvloeden. 
+
+Mijn proefschrift introduceert een potentiële methode om deze problemen op te lossen. Deze methode bestaat uit een protocol voor het kweken van kunstmatig tandsteen in een laboratorium (model tandsteen). Door te werken met een gecontroleerd model van tandsteen in een laboratorium kunnen een breed scala aan invloeden op tandsteen onderzocht worden. Bijvoorbeeld de factoren die van invloed zijn op de opname van deeltjes in tandsteen, welke vertekeningen hierdoor worden geïntroduceerd, evenals de invloed van methoden die we momenteel gebruiken om informatie te halen uit archeologische tandsteen. 
+
+Het aanpakken van deze fundamentele problemen en beperkingen zal de resolutie van onze interpretaties van eetgewoonten in het verleden
+verbeteren. Ik onderzoek ook nieuwe manieren om informatie uit archeologische tandsteen te onttrekken om zo meer te weten te komen over ons verleden.
+
+**Hoofdstuk 1** is een korte introductie over de vele toepassingen van archeologische tandsteen om het dieet van vroegere populaties te reconstrueren.
+Ook schets ik de huidige stand van het tandsteenonderzoek, onder andere enkele de problemen waarmee we worden geconfronteerd. Ik beschrijf slechts kort wat tandsteen is en hoe het wordt gevormd. De vorming van tandsteen heeft invloed op de opname van voedseldeeltjes, en wordt tegelijkertijd ook beïnvloed door het dieet. **Hoofdstuk 2** biedt meer details over de vorming en groei van tandplak en het mineralisatie proces van tandsteen. Hier geef ik ook een overzicht van orale biofilmmodellen om enige context te bieden voor de experimenten met oraal biofilmmodel die ik heb uitgevoerd in mijn proefschriftonderzoek.
+
+**Hoofdstuk 3** is het eerste artikel waarin het orale biofilmmodel wordt geïntroduceerd dat ik voor mijn onderzoek heb ontwikkeld. In dit artikel beoordelen we het vermogen van ons model tandsteen om de eigenschappen van natuurlijke tandsteen na te bootsen. Hierdoor zou het model als proxy kunnen dienen voor archeologisch tandsteen. Door de bacteriën in het model te karakteriseren, vonden we dat het model indicatief was voor het microbioom in de mond (alhoewel enigszins verschillend van natuurlijk tandsteen). We bepaalden ook het mineraalgehalte met behulp van Fourier Transform Infrared (FTIR) spectroscopie, waarmee we vaststelden dat het model voornamelijk bestond uit hydroxyapatietcarbonaat, het overheersende mineraal in natuurlijk tandsteen. 
+
+In het tweede artikel dat **Hoofdstuk 4** vormt, pasten we het calculusmodel toe om uit te zoeken wat er gebeurt als we een bekende hoeveelheid zetmeelkorrels toevoegen aan het model tandsteen tijdens de vorming van tandsteen. We probeerden de zetmeel korrels te extraheren met behulp van een gebruikelijke methode voor het extraheren van korrels uit archeologische tandsteen. We waren in staat om te valideren wat eerdere studies op moderne mensen en niet-menselijke primaten al hebben aangetoond, namelijk dat de hoeveelheid zetmeel in tandsteen niet representatief is voor de voedselinname. Dit komt omdat grotere zetmeel korrels langzamer worden opgenomen in vergelijking met kleinere korrels. Zo waren aardappelkorrels, die een stuk groter zijn dan tarwekorrels, ondervertegenwoordigd in onze geëxtraheerde tellingen.
+
+Naast het onderzoeken van de oorzaken achter de beperkingen van tandsteen analyses, hebben we ook gezocht naar nieuwe toepassingen voor archeologische tandsteen. In **Hoofdstuk 5**, het laatste artikel in dit proefschrift, gebruikten we een nieuwe methode met ultrahoge prestatie vloeistofchromatografie-tandem massaspectrometrie (UHPLC-MS/MS) om verschillende alkaloïden op basis van planten te identificeren die traditioneel worden gebruikt voor medicatie en activiteiten die niet gerelateerd zijn aan het dieet (zoals nicotine, opioïden en cannabinoïden).
+We konden opioïden en cannabinoïden niet detecteren, maar we vonden wel bewijs van alkaloïden en metabolieten afkomstig van de consumptie van thee en/of koffie, evenals nicotine (en de metaboliet daarvan, cotinine), en salicylzuur (het primaire fytohormoon in wilgenbast).
+We combineerden deze resultaten met de aanwezigheid van skelet- en tandheelkundige indicatoren van ziekte om zo patronen te vinden van mogelijke ziekte behandelingen.
+We waren niet in staat om een definitief verband te leggen tussen ziektes en medicinale activiteiten, maar we vonden wel enkele interessante correlaties tussen sinusitis maxillaris en tabaksgebruik en thee- en koffieconsumptie.
+
+In het laatste deel van het proefschrift, **Hoofdstuk 6**, bespreek ik de uitkomsten van de studies uit voorgaande hoofdstukken, waarbij ik inga op het orale biofilmmodel en de implicaties ervan voor archeologisch onderzoek. 
+Ik beschrijf de uitdagingen die we moeten aangaan om ons begrip van archeologische tandsteen te vergroten om zo het dieet van de mens in het verleden beter te kunnen bestuderen. 
+Dit vereist het systematisch uitvoeren van fundamenteler onderzoek om de onderliggende mechanismen beter te begrijpen waardoor verschillende voedingsmarkers (en niet-dieetmarkers) ingebed worden in tandsteen.
