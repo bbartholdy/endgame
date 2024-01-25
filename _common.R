@@ -51,7 +51,8 @@ if(file.exists(here("book.bib"))) {
   bbt_update_bib(here(all_files),
     here("book.bib"),
     ignore = bbt_ignore,
-    overwrite = T)
+    overwrite = T,
+    translator = "bibtex")
 } else {
   refs <- rbbt::bbt_detect_citations(all_files)
   bbt_write_bib(here("book.bib"),
