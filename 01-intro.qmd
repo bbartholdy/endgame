@@ -9,9 +9,9 @@
 
 ## Summary {-}
 
-What is dental calculus? Why does it grow on our teeth? Is it bad?
-What makes it so interesting to archaeologists?
-Am I going to answer any of these questions?
+What is dental calculus? Why does it grow on our teeth? Is it bad for us?
+Why have archaeologists become endlessly fascinated by it? What is the point
+of this dissertation? Am I going to answer any of these questions?
 
 :::
 :::
@@ -195,12 +195,12 @@ blue particles were detected in the dental calculus of a Medieval German woman.
 These blue particles originated from lapis lazuli, an exotic stone
 often ground into pigments and used
 to illuminate manuscripts [@radiniMedievalWomen2019]. Nicotine was detected in dental
-calculus of pre-colonisation individuals from California using UPLC-MS/MS,
-showing direct consumption of tobacco and providing more
-detailed insights on the demographics of consumption in a way that no other
+calculus of pre-colonisation individuals from California using Ultra-Performance Liquid
+Chromatography Mass Spectrometry (UPLC-MS), showing direct consumption of tobacco and
+providing more detailed insights on the demographics of consumption in a way that no other
 human-adjacent archaeological materials can.
 
-![Word cloud of most common dental terms in articles. Figure is from @pilloudOutliningDefinition2019, Figure 1](figures/wordcloud.png){#fig-dental-terms}
+![Word cloud of most common dental terms in articles. Figure is from @pilloudOutliningDefinition2019, Figure 1.](figures/wordcloud.png){#fig-dental-terms}
 
 It wasn't always appreciated for the wealth of information hidden within its
 hardened shell.<!-- can't really blame them, most dental research is focused on its prevention and removal...-->

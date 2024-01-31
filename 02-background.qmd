@@ -14,7 +14,7 @@ but that's just peanuts to the oral biome<!--[@adamsHitchhikersGuide2002, p.66]-
 At any given moment, there are millions, if not billions, of microorganisms calling
 your mouth 'home'. These come from a selection of at least 700 species, with
 a few hundred different species living within the mouth of a single person.
-Don't worry, they're harmless. Well, mostly harmless.
+Don't worry, they're harmless. Well, mostly harmless.<!--[@adamsHitchhikersGuide2002]-->
 Given time, the organisms will start making themselves more and more at home.
 They will find a suitable surface to attach, and start building a complex
 community with communication, resource-sharing, and shelter from external
@@ -532,7 +532,7 @@ Reiterating a point made in the [Introduction](#chap-intro), and
 the benefit
 of using an oral biofilm model over naturally occurring dental calculus in the
 mouth of a research participant, is the control that it provides to tweak every
-aspect of system, from the quantity and quality of nutrients available, to the
+aspect of the system, from the quantity and quality of nutrients available, to the
 amount of enzymes and bacterial species present. Plus, the added ethical benefit
 of not needing to ask someone to give up their oral hygiene regime for a few weeks.
 The following chapters, [Chapter 3](#byoc-valid) and [Chapter 4](#byoc-starch),

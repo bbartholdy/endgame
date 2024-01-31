@@ -2,8 +2,8 @@
 
 <!-- Dental calculus -->
 
-Dental calculus. This small, hard, inconspicuous substance that forms on the of
-teeth humans and animals contains a surprising amount of information about our
+Dental calculus. This small, hard, inconspicuous substance that forms on the
+teeth of humans and animals contains a surprising amount of information about our
 lives. During formation and growth as a living plaque biofilm, it tends to
 accumulate a wide variety of very small particles, especially bacteria and food
 debris, from various sources. 
@@ -112,6 +112,8 @@ calculus.
 
 
 # Samenvatting {-}
+
+*Translation by Esther Plomp*
 
 Tandsteen. Deze kleine, harde, onopvallende substantie vormt op de tanden van mensen en dieren. Tandsteen bevat verrassend veel informatie over ons leven. Tijdens de vorming en groei is tandsteen een levende biofilm plak en neemt het een grote verscheidenheid aan zeer kleine deeltjes op uit verschillende bronnen, met name bacteriën en voedselresten. Deze bronnen, en de deeltjes die ze achterlaten in onze mond, worden beïnvloed door activiteiten en biologische processen die uniek zijn voor elke persoon, dankzij onze eetgewoonten, mondhygiëne, genetica en de omgeving waarin we leven.
 

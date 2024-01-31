@@ -1,7 +1,9 @@
 This is a PhD dissertation written in [Quarto](https://quarto.org/). If you are
 reading this, you are likely looking at the HTML version. A PDF version of the
 dissertation, which includes a variety of trivial formalities, is available [here](https://myphd.netlify.app/endgame.pdf)<!-- and here (doi to repo)-->.
-In the meantime you can follow the progress of my dissertation on this site.
+This version is much more interesting, though, since you can do a lot more in HTML
+than in PDF. More importantly, the published PDF version will likely be outdated as
+soon as it hits the printer.
 
 **Note: My dissertation has been reviewed and approved by a committee!**
 
