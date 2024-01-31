@@ -75,9 +75,9 @@ knitr:
 ### Mandatory for Leiden PhD dissertations ###
 proefschrift:
   rector: prof.dr.ir. H. Bijl # name of current rector
-  day: TBD # day of week
-  date: "" # date in dd month yyyy format
-  time: "TBD" # time in 00.00 format
+  day: Donderdag # day of week
+  date: "30 Mei 2024" # date in dd month yyyy format
+  time: "11.15" # time in 00.00 format
   #birthplace: "Earth" # optional info
   #birthyear: "the 20th century" # optional info
 promotor:
@@ -99,4 +99,4 @@ committee:
 ## End: Mandatory for Leiden PhD dissertations ###
 funding-statement: |
   This research has received funding from the European Research Council under the European Union’s Horizon 2020 research and innovation program, grant agreement number STG–677576 (“HARVEST”).
-cover-caption: Petra Korlevic
+cover-caption: Design by Krijn Boom and image by Petra Korlevic
