@@ -53,6 +53,7 @@ format:
 
   pdf:
     documentclass: book
+    papersize: b5
     block-headings: false # needed for titlesec (preamble.tex) to work
     lot: true
     lof: true
