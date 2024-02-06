@@ -44,22 +44,9 @@ affiliations:
 
 :::{.content-visible when-format="pdf"}
 
-```{r}
-#| label: format-authors
+\footnotesize
 
-# prepare authors and affiliations for in-line code
-n_authors <- length(rmarkdown::metadata$author)
-name <- vector(mode = "character", length = n_authors)
-affil <- vector(mode = "character", length = n_authors)
-for(i in 1:n_authors){
-  name[i] <- rmarkdown::metadata$author[[i]]$name
-  affil[i] <- rmarkdown::metadata$author[[i]]$affiliations
-}
-```
-
-**Status:** Recommended by PCI_Archaeology
-
-**Co-authors:**
+**Co-authors and contributions:**
 
 - Jørgen B. Hasselstrøm, Aarhus University
 - Lambert K. Sørensen, Aarhus University
@@ -68,19 +55,28 @@ for(i in 1:n_authors){
 - Historisch Genootschap Beemster
 - Amanda G. Henry, Leiden University
 
-\vfill
+<!-- generated with tenzing (https://rollercoaster.shinyapps.io/tenzing/) -->
 
-**Code:** [10.5281/zenodo.7649824](https://doi.org/10.5281/zenodo.7649824)  
-**Data:** [10.5281/zenodo.7648756](https://doi.org/10.5281/zenodo.7648756)  
-**Recommendation:** [10.24072/pci.archaeo.100389](https://doi.org/10.24072/pci.archaeo.100389)
-
-\vspace{1cm}
+Conceptualization: B.P.B., J.B.H., L.K.S., and A.G.H.
+Data curation: B.P.B. Formal analysis: B.P.B., J.B.H., L.K.S., and M.C.
+Funding acquisition: A.G.H.
+Investigation: B.P.B. and H.G.B.
+Methodology: B.P.B., J.B.H., L.K.S., and M.C.
+Resources: J.B.H., L.K.S., and M.H.
+Software: B.P.B.
+Supervision: A.G.H.
+Visualization: B.P.B.
+Writing - original draft: B.P.B. and M.C.
+Writing - review \& editing: B.P.B., J.B.H., L.K.S., M.C., M.H., H.G.B., and A.G.H.
 
 **Cite as:**
 
-**Bartholdy, B. P.**, Hasselstrøm, J. B., Sørensen, L. K., Casna, M., Hoogland, M., Beemster, H. G., & Henry, A. G. (2023). Multiproxy analysis exploring patterns of diet and disease in dental calculus and skeletal remains from a 19th century Dutch population. Zenodo. https://doi.org/10.5281/zenodo.7649151
+Bartholdy, B. P., Hasselstrøm, J. B., Sørensen, L. K., Casna, M., Hoogland, M., Beemster, H. G., & Henry, A. G. (2023). Multiproxy analysis exploring patterns of diet and disease in dental calculus and skeletal remains from a 19th century Dutch population. Zenodo. https://doi.org/10.5281/zenodo.7649151
+
+\normalsize
 
 {{< pagebreak >}}
+
 
 :::
 
@@ -89,7 +85,7 @@ for(i in 1:n_authors){
 
 ::: {.callout-note icon="false"}
 
-## Summary {-}
+## Summary {.unnumbered}
 
 We used a fancy chemical method to find different types of food
 and possible medicine
@@ -153,4 +149,4 @@ options(ggplot.discrete.colour = function() scale_fill_viridis_d())
 
 {{< include articles/mb11CalculusPilot/analysis/paper/_conclusions.qmd >}}
 
-## References cited {-}
+## References cited {.unnumbered}

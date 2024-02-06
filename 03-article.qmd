@@ -71,9 +71,9 @@ affiliations:
 
 ::: {.content-visible when-format="pdf"}
 
-**Status:** Preprint on bioRxiv
+\footnotesize
 
-**Co-authors:**
+**Co-authors and contributions:**
 
 - Irina M. Velsko, Max Planck Institute for Evolutionary Anthropology
 - Shira Gur-Arieh, University of Haifa, Ludwig Maximilian University
@@ -81,17 +81,14 @@ affiliations:
 - Christina Warinner, Max Planck Institute for Evolutionary Anthropology, Harvard University
 - Amanda G. Henry, Leiden University
 
-\vfill
-
-**Code:** [10.4121/99932661-fe79-4f4e-a812-a8917ad18fd0](https://doi.org/10.4121/99932661-fe79-4f4e-a812-a8917ad18fd0)  
-**Data:** [PRJEB61886 (ENA accession number)](https://www.ebi.ac.uk/ena/browser/view/PRJEB61886) & [10.4121/466b2588-9689-4d84-a8a0-5216aa39e40b](https://doi.org/10.4121/466b2588-9689-4d84-a8a0-5216aa39e40b)  
-**Protocols:** [10.17504/protocols.io.dm6gpj9rdgzp/v1](https://dx.doi.org/10.17504/protocols.io.dm6gpj9rdgzp/v1)
-
-\vspace{1cm}
+<!-- generated with tenzing (https://rollercoaster.shinyapps.io/tenzing/) -->
+Conceptualization: B.P.B., I.M.V., S.G.-A., and A.G.H. Data curation: B.P.B. Formal analysis: B.P.B., I.M.V., and S.G.-A. Funding acquisition: C.W. and A.G.H. Investigation: B.P.B., S.G.-A., and Z.F. Methodology: B.P.B., I.M.V., and S.G.-A. Resources: C.W. and A.G.H. Software: B.P.B. Supervision: C.W. and A.G.H. Visualization: B.P.B. and I.M.V. Writing - original draft: B.P.B., I.M.V., S.G.-A., Z.F., and A.G.H. Writing - review & editing: B.P.B., I.M.V., S.G.-A., Z.F., and A.G.H.
 
 **Cite as:**
 
-**Bartholdy, B. P.**, Velsko, I. M., Gur-Arieh, S., Fagernäs, Z., Warinner, C., & Henry, A. G. (2023, May 30). Assessing the validity of a calcifying oral biofilm model as a suitable proxy for dental calculus. https://doi.org/10.1101/2023.05.23.541904
+Bartholdy, B. P., Velsko, I. M., Gur-Arieh, S., Fagernäs, Z., Warinner, C., & Henry, A. G. (2023, May 30). Assessing the validity of a calcifying oral biofilm model as a suitable proxy for dental calculus. https://doi.org/10.1101/2023.05.23.541904
+
+\normalsize
 
 {{< pagebreak >}}
 

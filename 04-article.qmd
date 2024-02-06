@@ -22,22 +22,20 @@ affiliations:
 
 ::: {.content-visible when-format="pdf"}
 
-**Status:** Published in Frontiers in Earth Science
+\footnotesize
 
-**Co-authors:**
+**Co-authors and contributions:**
 
 - Amanda G. Henry, Leiden University
 
-\vfill
-
-Code and data: [10.5281/zenodo.5604669](https://doi.org/10.5281/zenodo.5604669)  
-Protocols: [10.17504/protocols.io.dm6gpj9rdgzp/v1](https://dx.doi.org/10.17504/protocols.io.dm6gpj9rdgzp/v1)
-
-\vspace{1cm}
+<!-- generated with tenzing (https://rollercoaster.shinyapps.io/tenzing/) -->
+Conceptualization: B.P.B. and A.G.H. Data curation: B.P.B. Formal analysis: B.P.B. Funding acquisition: A.G.H. Investigation: B.P.B. Methodology: B.P.B. and A.G.H. Resources: A.G.H. Software: B.P.B. Supervision: A.G.H. Visualization: B.P.B. Writing - original draft: B.P.B. Writing - review & editing: B.P.B. and A.G.H.
 
 **Cite as:**
 
-**Bartholdy, B. P.**, & Henry, A. G. (2022). Investigating Biases Associated With Dietary Starch Incorporation and Retention With an Oral Biofilm Model. Frontiers in Earth Science, 10. https://doi.org/10.3389/feart.2022.886512
+Bartholdy, B. P., & Henry, A. G. (2022). Investigating Biases Associated With Dietary Starch Incorporation and Retention With an Oral Biofilm Model. Frontiers in Earth Science, 10. https://doi.org/10.3389/feart.2022.886512
+
+\normalsize
 
 {{< pagebreak >}}
 
@@ -132,4 +130,4 @@ cor2_ci <- signif(count_cor$conf.int, 3)
 
 {{< include articles/byoc-starch/analysis/paper/conclusion.qmd >}}
 
-## References cited {-}
+## References cited {.unnumbered}
