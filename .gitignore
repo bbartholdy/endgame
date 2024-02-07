@@ -3,6 +3,7 @@
 .RData
 .Ruserdata
 _book/
+*_files/
 chapters.*
 archive/
 /.quarto/
