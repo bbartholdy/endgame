@@ -36,4 +36,5 @@ course for third year Bachelor's. I received my Data Carpentry teaching certific
 and co-instructed multiple Data Carpentry workshops teaching the R Statistical 
 Programming language to social scientists,
 co-hosted by Leiden University, TU Delft, Erasmus University Rotterdam, and
-Vrije Universiteit Amsterdam. In 2022 I started as a Data Steward at TU Delft.
+Vrije Universiteit Amsterdam. In 2022 I started as a Data Steward at TU Delft. I've
+done lots of other stuff, too, which you can in the CV I actually keep updated.
