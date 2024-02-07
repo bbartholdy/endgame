@@ -1,24 +1,36 @@
-# Supplementary information {-}
+# Supplementary information {.unnumbered}
 
 This dissertation contains a lot of supplementary materials. Therefore
 none of it is included in the dissertation itself. I will instead provide
-links to the online material.
+links to the online material, which will be useful unless you are
+reading a physical copy. You could type out the entire link or you
+could just go read the online version. However, if you are reading a physical copy it means
+you are special enough to have received one. What's much less
+likely is that you have borrowed one of the copies of this very
+niche PhD dissertation from the library. In this case, why? But
+also, just go to the online version.
 
-Most of the materials can be found on the Open Science Framework [(DOI: 10.17605/OSF.IO/3YX8M).](https://doi.org/10.17605/OSF.IO/3YX8M)
+Most of the materials can be found on the Open Science Framework [(DOI: 10.17605/OSF.IO/3YX8M)](https://doi.org/10.17605/OSF.IO/3YX8M).
 
-The oral biofilm model protocols are published on protocols.io [(DOI: 10.17504/protocols.io.dm6gpj9rdgzp/v1).](https://dx.doi.org/10.17504/protocols.io.dm6gpj9rdgzp/v1)
+The oral biofilm model protocols are published on protocols.io [(DOI: 10.17504/protocols.io.dm6gpj9rdgzp/v1)](https://dx.doi.org/10.17504/protocols.io.dm6gpj9rdgzp/v1).
 
 Article 1: 
 
 - DOI: {{< var article1.doi >}}
-- supplementary material: {{< var article1.supp-mat >}}
+- Supplementary material: {{< var article1.supp-mat >}}
+- Code: {{< var article1.code >}}
+- Data: {{< var article1.data >}}
 
 Article 2:
 
 - DOI: {{< var article2.doi >}}
-- supplementary material: {{< var article2.supp-mat >}}
+- Supplementary material: {{< var article2.supp-mat >}}
+- Code and data: {{< var article2.code >}}
 
 Article 3: 
 
 - DOI: {{< var article3.doi >}}
-- supplementary material: {{< var article3.supp-mat >}}
+- Supplementary material: {{< var article3.supp-mat >}}
+- Code: {{< var article3.code >}}
+- Data: {{< var article3.data >}}
+- PCI_Archaeology recommendation: {{< var article3.pci >}}

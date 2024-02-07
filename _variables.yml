@@ -29,6 +29,8 @@ article1:
     github: "[![Static Badge](https://img.shields.io/badge/bbartholdy%2Fbyoc%2Dvalid?logo=github&labelColor=grey&color=blue&link=https%3A%2F%2Fgithub.com%2Fbbartholdy%2Fbyoc-valid)](https://github.com/bbartholdy/byoc-valid)"
   doi: "[10.1101/2023.05.23.541904](https://doi.org/10.1101/2023.05.23.541904)"
   supp-mat: <https://www.biorxiv.org/content/10.1101/2023.05.23.541904v2.supplementary-material>
+  code: "[10.4121/99932661-fe79-4f4e-a812-a8917ad18fd0](https://doi.org/10.4121/99932661-fe79-4f4e-a812-a8917ad18fd0)"
+  data: "[PRJEB61886 (ENA accession number)](https://www.ebi.ac.uk/ena/browser/view/PRJEB61886) & [10.4121/466b2588-9689-4d84-a8a0-5216aa39e40b](https://doi.org/10.4121/466b2588-9689-4d84-a8a0-5216aa39e40b)"
   
 article2:
   badges:
@@ -38,6 +40,7 @@ article2:
     github: "![Static Badge](https://img.shields.io/badge/bbartholdy%2Fbyoc%2Dstarch?logo=github&labelColor=grey&color=blue&link=https%3A%2F%2Fgithub.com%2Fbbartholdy%2Fbyoc-starch)"
   doi: "[10.5281/zenodo.5604670]()https://doi.org/10.5281/zenodo.5604670)"
   supp-mat: <https://www.frontiersin.org/articles/file/downloadfile/886512_supplementary-materials_datasheets_1_pdf/octet-stream/Data%20Sheet%201.PDF/1/886512?isPublishedV2=False>
+  code: "[10.5281/zenodo.5604669](https://doi.org/10.5281/zenodo.5604669)"
 
 article3:
   badges:
@@ -48,7 +51,10 @@ article3:
   doi: "[10.5281/zenodo.8199885](https://doi.org/10.5281/zenodo.8199885)"
   repo: https://github.com/bbartholdy/mb11CalculusPilot
   supp-mat: <https://zenodo.org/record/8199885/files/supp-mat.pdf?download=1>
+  code: "[10.5281/zenodo.7649824](https://doi.org/10.5281/zenodo.7649824)"
+  data: "[10.5281/zenodo.7648756](https://doi.org/10.5281/zenodo.7648756)"
+  pci: "[10.24072/pci.archaeo.100389](https://doi.org/10.24072/pci.archaeo.100389)"
 
 discussion:
   version: "![Current version](https://img.shields.io/badge/Version-v1-blue)"
-  status: "![](https://img.shields.io/badge/Status-committee-red)"
+  status: "![](https://img.shields.io/badge/Status-approved-green)"
