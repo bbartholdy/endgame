@@ -54,7 +54,16 @@ format:
   pdf:
     documentclass: book
     papersize: b5
+    mainfont: AtkinsonHyperlegible
+    mainfontoptions: 
+      - Path=./font/ttf/
+      - Extension=.ttf
+      - UprightFont=*-Regular
+      - BoldFont=*-Bold
+      - ItalicFont=*-Italic
+      - BoldItalicFont=*-BoldItalic
     block-headings: false # needed for titlesec (preamble.tex) to work
+    linestretch: 1.24
     lot: true
     lof: true
     keep-tex: true
