@@ -5,12 +5,11 @@ none of it is included in the dissertation itself. I will instead provide
 links to the online material, which will be useful unless you are
 reading a physical copy. If you are reading the physical book, well done---it means I like you enough,
 or felt obligated enough, to provide you with a rare, albeit valueless, copy.
-What's much less
-likely is that you have borrowed a copy of this VERY
+It's much less
+likely that you have borrowed a copy of this VERY
 niche PhD dissertation from the library. First of all, why?
-You have to options: you could tediously type out the entire url,
-or you could just go read the online version. But
-also, just go to the online version.
+In both cases you have to options: you could tediously type out the entire url,
+or you could just go read the online version.
 
 Most of the materials can be found on the Open Science Framework [(DOI: 10.17605/OSF.IO/3YX8M)](https://doi.org/10.17605/OSF.IO/3YX8M).
 
