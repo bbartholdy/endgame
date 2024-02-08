@@ -1,5 +1,3 @@
-# build-date: need current date variable
-
 # chapter-versions:
   # draft: "![Current version](https://img.shields.io/badge/Version-draft-blue)"
 
@@ -14,11 +12,11 @@ dissertation:
   github: https://github.com/bbartholdy/endgame
 
 intro: 
-  version: "![Current version](https://img.shields.io/badge/Version-v1-blue)"
+  version: "![Current version](https://img.shields.io/badge/Version-v2-blue)"
   status: "![](https://img.shields.io/badge/Status-approved-green)"
 
 background:
-  version: "![Current version](https://img.shields.io/badge/Version-v1-blue)"
+  version: "![Current version](https://img.shields.io/badge/Version-v2-blue)"
   status: "![](https://img.shields.io/badge/Status-approved-green)"
 
 article1:
@@ -56,5 +54,5 @@ article3:
   pci: "[10.24072/pci.archaeo.100389](https://doi.org/10.24072/pci.archaeo.100389)"
 
 discussion:
-  version: "![Current version](https://img.shields.io/badge/Version-v1-blue)"
+  version: "![Current version](https://img.shields.io/badge/Version-v2-blue)"
   status: "![](https://img.shields.io/badge/Status-approved-green)"
