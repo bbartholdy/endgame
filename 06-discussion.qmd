@@ -228,7 +228,25 @@ cover a wider range of granule shapes and sizes.
 Put simply, we added a known amount of starch granules---well, to the extent we
 could estimate the large quantities in our starch solutions without counting
 every single granule---to our
-biofilm over the course of the 25-day experiment. Then we dissolved the calculus
+biofilm over the course of the 25-day experiment. 
+Starch solutions were added on day nine of the experiment. This was a somewhat
+arbitrary decision; we only needed to ensure that there was enough separation
+between the last saliva donation and the introduction of starch treatments.
+We did this to prevent our starch counts from being affected by $\alpha$-amylase
+activity from the donated saliva, thereby getting somewhat 'pure' counts from
+the added starches. However, we found no evidence of the model
+retaining $\alpha$-amylase from the donated saliva, there is no reason the
+starch treatments couldn't start sooner in the experiment. For future experiments
+looking at the effect of amylase activity, it's important to still keep this
+under consideration, as amylase activity from natural saliva can fluctuate
+in individuals throughout the day based on both physical and psychological
+influences [@naterHumanAmylase2005]. Controlling the level of amylase activity
+in the experiment is more easily done with amylase artificiallsupplier of scientificy added to the
+model. Amylase can be purchased from your local supplier of scientific equipment
+along with some overpriced sugar and baking soda. If it's not 'analytical grade'
+it's not
+
+At the end of the experiment, we dissolved the calculus
 and counted the number of starches that were inside. Those who are familiar
 with previous dietary research on archaeological dental calculus will probably
 not be surprised that the number of starches we extracted was nowhere near the
@@ -318,9 +336,9 @@ real-world case, but allow us to view and quantify processes that can be difficu
 to access in natural systems. The very isolated and controlled model setup also
 deviates from the natural conditions in our mouths. Many of the biofilm's natural
 predators are not present in our setup. Plaque is constantly at risk of removal
-by the tongue, salivary flow, and oral hygiene practices, processes which likely
-help shape the biofilm (this is counterintuitive since they are processes of removal)
-[@shawCommonalityElastic2004].
+by the tongue, salivary flow, oral hygiene practices, even the act of
+chewing---processes which help shape the biofilm (this is counterintuitive since
+they are processes of removal) [@shawCommonalityElastic2004].
 
 ### Further model validation
 

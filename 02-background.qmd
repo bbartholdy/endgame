@@ -121,7 +121,7 @@ them as occurring concurrently across different areas of the tooth surface. Biof
 formation is a very dynamic process, and is often over-simplified in visualisations
 (not unlike @fig-biofilm-form).
 
-![A simplified overview of biofilm formation. Created with BioRender.com. Still under construction.](./figures/biofilm_formation.png){#fig-biofilm-form fig-alt="Overview of biofilm formation progressing through multiple stages, including motility, adhesion, coaggregation, maturation, and mineralisation."}
+![A simplified overview of biofilm formation stages. Created with BioRender.com.](./figures/biofilm_formation.png){#fig-biofilm-form fig-alt="Overview of biofilm formation progressing through multiple stages, including motility, adhesion, coaggregation, maturation, and mineralisation."}
 
 <!-- pellicle and initial physicochemical attachment -->
 The pellicle contains molecules (known as adhesins)
@@ -165,8 +165,7 @@ organisms. The aforementioned flagellum, for example, may  give the necessary
 Additionally, the ionic strength of saliva may play a role in reducing electrostatic
 repulsion with increasing ionic strength [@rennerPhysicochemicalRegulation2011].
 
-![General structure of a bacterial cell. Common features of gram-negative bacteria on the left, and common features of gram-positive bacteria on the right. Created with BioRender.com. Still under construction.](figures/bacterial-structure.png){#fig-bacterial-structure fig-alt="Figure depicting the general structure of a bacterial cell. The bacterial cell is split in half with common features of gram-negative bacteria on the left side and common features of gram-positive bacteria on the right side. Common features of both, for example the nucleoid, ribosomes, flagellum, span both sides of the bacterial cell."}
-<!-- image of bacterial cell structure (biorender) -->
+![General structure of a bacterial cell. Common features of gram-negative bacteria on the left, and common features of gram-positive bacteria on the right. Created with BioRender.com.](figures/bacterial-structure.png){#fig-bacterial-structure fig-alt="Figure depicting the general structure of a bacterial cell. The bacterial cell is split in half with common features of gram-negative bacteria on the left side and common features of gram-positive bacteria on the right side. Common features of both, for example the nucleoid, ribosomes, flagellum, span both sides of the bacterial cell."}
 
 <!-- direct (irreversible) attachment to surface -->
 Attachment becomes stronger and colonisation becomes more solidified at a
