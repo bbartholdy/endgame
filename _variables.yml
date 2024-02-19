@@ -26,7 +26,7 @@ article1:
     doi: "[![](https://img.shields.io/badge/DOI-10.1101%2F2023.05.23.541904-blue)](https://doi.org/10.1101/2023.05.23.541904)"
     github: "[![Static Badge](https://img.shields.io/badge/bbartholdy%2Fbyoc%2Dvalid?logo=github&labelColor=grey&color=blue&link=https%3A%2F%2Fgithub.com%2Fbbartholdy%2Fbyoc-valid)](https://github.com/bbartholdy/byoc-valid)"
   doi: "[10.1101/2023.05.23.541904](https://doi.org/10.1101/2023.05.23.541904)"
-  supp-mat: <https://www.biorxiv.org/content/10.1101/2023.05.23.541904v2.supplementary-material>
+  supp-mat: "[10.1101/2023.05.23.541904](https://doi.org/10.1101/2023.05.23.541904)"
   code: "[10.4121/99932661-fe79-4f4e-a812-a8917ad18fd0](https://doi.org/10.4121/99932661-fe79-4f4e-a812-a8917ad18fd0)"
   data: "[PRJEB61886 (ENA accession number)](https://www.ebi.ac.uk/ena/browser/view/PRJEB61886) & [10.4121/466b2588-9689-4d84-a8a0-5216aa39e40b](https://doi.org/10.4121/466b2588-9689-4d84-a8a0-5216aa39e40b)"
   
@@ -36,7 +36,7 @@ article2:
     status: "[![](https://img.shields.io/badge/Status-published-blue)](https://doi.org/10.3389/feart.2022.886512)"
     doi: "[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5604670.svg)](https://doi.org/10.5281/zenodo.5604670)"
     github: "![Static Badge](https://img.shields.io/badge/bbartholdy%2Fbyoc%2Dstarch?logo=github&labelColor=grey&color=blue&link=https%3A%2F%2Fgithub.com%2Fbbartholdy%2Fbyoc-starch)"
-  doi: "[10.5281/zenodo.5604670]()https://doi.org/10.5281/zenodo.5604670)"
+  doi: "[10.3389/feart.2022.886512](https://doi.org/10.3389/feart.2022.886512)"
   supp-mat: <https://www.frontiersin.org/articles/file/downloadfile/886512_supplementary-materials_datasheets_1_pdf/octet-stream/Data%20Sheet%201.PDF/1/886512?isPublishedV2=False>
   code: "[10.5281/zenodo.5604669](https://doi.org/10.5281/zenodo.5604669)"
 
@@ -46,9 +46,9 @@ article3:
     status: "![](https://img.shields.io/badge/Status-recommended-blue)"
     doi: "[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7649825.svg)](https://zenodo.org/badge/DOI/10.5281/zenodo.7649825)"
     github: "![Static Badge](https://img.shields.io/badge/bbartholdy%2Fmb11CalculusPilot?logo=github&labelColor=grey&color=blue&link=https%3A%2F%2Fgithub.com%2Fbbartholdy%2Fmb11CalculusPilot)"
-  doi: "[10.5281/zenodo.8199885](https://doi.org/10.5281/zenodo.8199885)"
+  doi: "[10.5281/zenodo.10069669](https://doi.org/10.5281/zenodo.10069669)"
   repo: https://github.com/bbartholdy/mb11CalculusPilot
-  supp-mat: <https://zenodo.org/record/8199885/files/supp-mat.pdf?download=1>
+  supp-mat: "[10.5281/zenodo.10069669](https://doi.org/10.5281/zenodo.10069669)"
   code: "[10.5281/zenodo.7649824](https://doi.org/10.5281/zenodo.7649824)"
   data: "[10.5281/zenodo.7648756](https://doi.org/10.5281/zenodo.7648756)"
   pci: "[10.24072/pci.archaeo.100389](https://doi.org/10.24072/pci.archaeo.100389)"
