@@ -25,9 +25,9 @@ jobs:
         with:
           submodules: recursive
 
-      - uses: r-lib/actions/setup-pandoc@v2 # v3 now available
+      - uses: r-lib/actions/setup-pandoc@v2
         with:
-          pandoc-version: '3.1.2'
+          pandoc-version: '3.1.12'
             
       - name: Install missing system dependencies
         if: runner.os == 'Linux'
@@ -37,7 +37,7 @@ jobs:
         uses: quarto-dev/quarto-actions/setup@v2
         with:
           tinytex: true
-          version: 1.3.450
+          #version: 1.3.450
 
       - uses: r-lib/actions/setup-r@v2
         with:
