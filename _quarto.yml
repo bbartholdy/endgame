@@ -69,8 +69,8 @@ format:
     keep-tex: true
     citeproc: false
     link-citations: true
-    pdf-engine: latexmk
-    pdf-engine-opt: -xelatex
+    pdf-engine: xelatex
+    #pdf-engine-opt: -xelatex
     template: pandoc-templates/default.latex
     include-in-header: latex/preamble.tex
     filters: 
