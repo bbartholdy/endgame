@@ -538,4 +538,4 @@ The following chapters, [Chapter 3](#byoc-valid) and [Chapter 4](#byoc-starch),
 provide a small glimpse of what a model looks like, and how it might be used to
 inform archaeological research.
 
-## References {-}
+## References cited {.unnumbered}

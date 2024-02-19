@@ -39,4 +39,4 @@ and co-instructed multiple Data Carpentry workshops teaching the R Statistical
 Programming language to social scientists,
 co-hosted by Leiden University, TU Delft, Erasmus University Rotterdam, and
 Vrije Universiteit Amsterdam. In 2022 I started as a Data Steward at TU Delft. I've
-done lots of other stuff, too, which you can in the CV I actually keep updated.
+done lots of other stuff, too, which you can find in the CV I can actually keep updated.

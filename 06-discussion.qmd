@@ -1142,9 +1142,9 @@ How can we possibly expect to understand diet from
 archaeological dental calculus if we don't understand fundamental processes that
 lead to dietary components ending up in dental calculus in the first place?
 Basically, we need to ask more stupid questions. They are probably not stupid;
-it's more likely that they point out fundamental assumptions that we have made
-without actually going to the trouble of testing them.
+it's more likely that they point out fundamental assumptions that we have been
+making without actually going through the trouble of testing them. After all,
 "You can't possibly be a scientist if you mind people thinking that you're a fool"
 [@adamsLongThanks2002].
 
-## References {.unnumbered}
+## References cited {.unnumbered}

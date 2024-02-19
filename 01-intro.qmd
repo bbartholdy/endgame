@@ -652,4 +652,4 @@ highlights some of the limitations we are currently experiencing in the field.
 dental calculus in the field of archaeology, and what biofilm models can contribute to our
 understanding of past diet.
 
-## References {.unnumbered}
+## References cited {.unnumbered}
