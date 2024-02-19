@@ -1,34 +1,30 @@
 Where to begin? So many people helped shape this thesis, and therefore I do not take
 full responsibility for the quality (or lack thereof) of this work.
 
-<!-- Amanda -->
 First of all, my understanding supervisor, Dr. Amanda Henry, who waited patiently
 through delays caused by covid and two kids. Not to mention supporting all my
 non-traditional ventures in the name of Open Science and accessibility.
 prof. dr. Annelou van Gijn for providing feedback on experiment design and dissertation
 drafts.
 
-<!-- Shira -->
 Dr. Shira Gur-Arieh for endless encouragement and moral support, as well as
 FTIR analysis on the model calculus.
-<!-- James and Zandra -->
 Dr. James Fellows Yates and Dr. Zandra Fagernäs were always able to reignite my
 excitement for the project when I occasionally felt it slipping away. Their
 enthusiasm was always appreciated. James was also an important contributor
 to the main biofilm model paper, as I struggled to implement the EAGER pipeline,
 not to mention an inspiration on how to PhDad.
-<!-- Open Science -->
+
 Dr. Ben Marwick and Dr. Esther Plomp, whose passion and commitment to Open Science
 inspired me to make all of my work as open and transparent as possible. This also
 likely contributed to some of the delays; so, thanks for that.
-<!-- TU Delft -->
+
 My colleagues at TU Delft (Yasemin and the Data Steward team, especially) who were
 very encouraging about finishing my dissertation while working a part-time job.
 Some Figures were created on Biorender using the TU Delft institutional subscription.
 
-<!-- Marie, Supriya, and Nina -->
 Anouk, Marie, Supriya, and Nina for having the patience to be friends with a PhD student
-with a small child. Femke and Maia for being great and motivating office mates.
+with two small children. Femke and Maia for being great and motivating office mates.
 
 Of course, I have to acknowledge my family for their moral support, and since they
 are the most likely to read this. Liam and Oliver, for making everything a bit more

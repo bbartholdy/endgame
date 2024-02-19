@@ -69,6 +69,8 @@ format:
     keep-tex: true
     citeproc: false
     link-citations: true
+    pdf-engine: latexmk
+    pdf-engine-opt: -xelatex
     template: pandoc-templates/default.latex
     include-in-header: latex/preamble.tex
     filters: 
@@ -97,15 +99,21 @@ copromotor:
     #affiliation: required if different from Leiden
 committee:
   - name: Dr. Patrick Degryse
-    affiliation: Leiden University, Katholieke Universiteit Leuven
+    affiliation: 
+      - Leiden University
+      - Katholieke Universiteit Leuven
   - name: Dr. Matthew James Collins
-    affiliation: University of Copenhagen, University of Cambridge
+    affiliation: 
+      - University of Copenhagen
+      - University of Cambridge
   - name: Dr. Alison Crowther
     affiliation: University of Queensland
   - name: Dr. Carla Lancelotti
     affiliation: Universitat Pompeu Fabra and ICREA
   - name: Dr. Christina Warinner
-    affiliation: Max Planck Institute for Evolutionary Anthropology, Harvard University
+    affiliation: 
+      - Max Planck Institute for Evolutionary Anthropology
+      - Harvard University
 ## End: Mandatory for Leiden PhD dissertations ###
 funding-statement: |
   This research has received funding from the European Research Council under the European Union’s Horizon 2020 research and innovation program, grant agreement number STG–677576 (“HARVEST”).
