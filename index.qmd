@@ -30,6 +30,8 @@ Framework ([DOI: 10.17605/OSF.IO/3YX8M](https://doi.org/10.17605/OSF.IO/3YX8M)).
 
 ::: {.content-visible when-format="pdf"}
 
+![](figures/osf-qr.png){width="100"}
+
 {{< include latex/dedication.tex >}}
 
 :::
