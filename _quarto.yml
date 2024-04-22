@@ -2,7 +2,7 @@ project:
   type: book
   pre-render: _common.R
 execute:
-  freeze: auto
+  freeze: true
   echo: false
   warning: false
 
@@ -95,20 +95,20 @@ proefschrift:
 promotor:
   name: Dr. Amanda G. Henry
 copromotor:
-  name: Dr. Annelou van Gijn
+  name: Prof.dr. Annelou van Gijn
     #affiliation: required if different from Leiden
 committee:
-  - name: Dr. Patrick Degryse
+  - name: Prof.dr. Patrick Degryse
     affiliation: 
       - Leiden University
       - Katholieke Universiteit Leuven
-  - name: Dr. Matthew James Collins
+  - name: Prof.dr. Matthew James Collins
     affiliation: 
       - University of Copenhagen
       - University of Cambridge
   - name: Dr. Alison Crowther
     affiliation: University of Queensland
-  - name: Dr. Carla Lancelotti
+  - name: Prof.dr. Carla Lancelotti
     affiliation: Universitat Pompeu Fabra and ICREA
   - name: Dr. Christina Warinner
     affiliation: 
