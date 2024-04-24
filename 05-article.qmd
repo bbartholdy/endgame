@@ -71,7 +71,9 @@ Writing - review \& editing: B.P.B., J.B.H., L.K.S., M.C., M.H., H.G.B., and A.G
 
 **Cite as:**
 
-Bartholdy, B. P., Hasselstrøm, J. B., Sørensen, L. K., Casna, M., Hoogland, M., Beemster, H. G., & Henry, A. G. (2023). Multiproxy analysis exploring patterns of diet and disease in dental calculus and skeletal remains from a 19th century Dutch population. Zenodo. https://doi.org/10.5281/zenodo.7649151
+Bartholdy, B. P., Hasselstrøm, J. B., Sørensen, L. K., Casna, M., Hoogland, M., Beemster, H. G., & Henry, A. G. (2024).
+Multiproxy analysis exploring patterns of diet and disease in dental calculus and skeletal remains from a 19th century
+Dutch population. Peer Community Journal, 4. https://doi.org/10.24072/pcjournal.414
 
 \normalsize
 
