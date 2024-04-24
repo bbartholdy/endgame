@@ -20,3 +20,19 @@
 % chapter and section names in header
 \renewcommand{\chaptermark}[1]{\markboth{\MakeLowercase{\chaptername\ \thechapter\ -\ #1}}{}}
 \renewcommand{\sectionmark}[1]{ \markright{\MakeLowercase{#1}}{} }
+
+% modify captions for figures and tables
+\usepackage[labelfont=bf,
+    labelsep=endash,
+    singlelinecheck=off,
+    format=plain,
+    margin=1.2cm,
+    aboveskip=12pt,
+    belowskip=12pt,
+    font={footnotesize,stretch=1},
+    justification=justified]{caption}
+
+% make table font smaller
+\BeforeBeginEnvironment{longtable}{\begin{center}\footnotesize}
+\AfterEndEnvironment{longtable}{\end{center}}
+  
