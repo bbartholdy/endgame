@@ -46,10 +46,10 @@ article3:
     status: "![](https://img.shields.io/badge/Status-recommended-blue)"
     doi: "[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7649825.svg)](https://zenodo.org/badge/DOI/10.5281/zenodo.7649825)"
     github: "![Static Badge](https://img.shields.io/badge/bbartholdy%2Fmb11CalculusPilot?logo=github&labelColor=grey&color=blue&link=https%3A%2F%2Fgithub.com%2Fbbartholdy%2Fmb11CalculusPilot)"
-  doi: "[10.5281/zenodo.10069669](https://doi.org/10.5281/zenodo.10069669)"
+  doi: "[10.24072/pcjournal.414](https://doi.org/10.24072/pcjournal.414)"
   repo: https://github.com/bbartholdy/mb11CalculusPilot
   supp-mat: "[10.5281/zenodo.10069669](https://doi.org/10.5281/zenodo.10069669)"
-  code: "[10.5281/zenodo.7649824](https://doi.org/10.5281/zenodo.7649824)"
+  code: "[10.5281/zenodo.11040640](https://doi.org/10.5281/zenodo.11040640)"
   data: "[10.5281/zenodo.7648756](https://doi.org/10.5281/zenodo.7648756)"
   pci: "[10.24072/pci.archaeo.100389](https://doi.org/10.24072/pci.archaeo.100389)"
 
