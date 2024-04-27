@@ -19,7 +19,19 @@
 
 % chapter and section names in header
 \renewcommand{\chaptermark}[1]{\markboth{\MakeLowercase{\chaptername\ \thechapter\ -\ #1}}{}}
-\renewcommand{\sectionmark}[1]{ \markright{\MakeLowercase{#1}}{} }
+\renewcommand{\chaptermark}[1]{\markboth{\MakeLowercase{\chaptername\ \thechapter\ -\ #1}}{}}
+\renewcommand{\sectionmark}[1]{\markright{\MakeLowercase{#1}}{} }
+
+% fix header names for toc, lof, and lot to match chapter and section names
+\usepackage{etoolbox}
+\patchcmd{\tableofcontents}{\MakeUppercase\contentsname}{\MakeLowercase\contentsname}{}{} 
+\patchcmd{\tableofcontents}{\MakeUppercase\contentsname}{\MakeLowercase\contentsname}{}{} % twice to remove on both sides of header
+\patchcmd{\listoffigures}{\MakeUppercase\listfigurename}{\MakeLowercase\listfigurename}{}{}
+\patchcmd{\listoffigures}{\MakeUppercase\listfigurename}{\MakeLowercase\listfigurename}{}{} % twice to remove on both sides of header
+\patchcmd{\listoftables}{\MakeUppercase\listtablename}{\MakeLowercase\listtablename}{}{}
+\patchcmd{\listoftables}{\MakeUppercase\listtablename}{\MakeLowercase\listtablename}{}{} % twice to remove on both sides of header
+
+
 
 % modify captions for figures and tables
 \usepackage[labelfont=bf,
