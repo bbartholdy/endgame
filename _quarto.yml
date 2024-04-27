@@ -2,7 +2,7 @@ project:
   type: book
   pre-render: _common.R
 execute:
-  freeze: true
+  freeze: auto
   echo: false
   warning: false
 
@@ -38,7 +38,7 @@ book:
     - 04-article.qmd
     - 05-article.qmd
     - 06-discussion.qmd
-  appendices:
+  #appendices:
     - supp-mat.qmd
     - 98-summary.qmd
     - 99-cv.qmd
@@ -118,4 +118,4 @@ committee:
 funding-statement: |
   This research has received funding from the European Research Council under the European Union's Horizon 2020 research and innovation program, grant agreement number STG–677576 (“HARVEST”).
 cover-caption: Design by Krijn Boom and image by Petra Korlevic
-print-version: "[2024.XX.X](https://github.com/bbartholdy/endgame/)"
+print-version: "[2024.04.0](https://doi.org/10.5281/zenodo.11077010)"
