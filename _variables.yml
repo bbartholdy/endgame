@@ -10,6 +10,7 @@
 dissertation:
   doi: ""
   github: https://github.com/bbartholdy/endgame
+  version: "![GitHub release (with filter)](https://img.shields.io/github/v/release/bbartholdy/endgame)"
 
 intro: 
   version: "![Current version](https://img.shields.io/badge/Version-v2-blue)"
