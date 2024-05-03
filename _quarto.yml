@@ -73,6 +73,7 @@ format:
     #pdf-engine-opt: -xelatex
     template: pandoc-templates/default.latex
     include-in-header: latex/preamble.tex
+    include-before-body: latex/dedication.tex
     filters: 
       - section-bibliographies
 
