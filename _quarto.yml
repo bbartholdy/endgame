@@ -10,10 +10,9 @@ book:
   title: "Putting Dental Calculus Under the Microscope"
   subtitle: ""
   author: "Bjørn Peare Bartholdy"
-  #date: last-modified
   date-format: "DD-MMM-YYYY"
   output-file: "endgame"
-  cover-image: cover.png # path to the social sharing image like images/cover.jpg
+  cover-image: cover.jpg # path to the social sharing image like images/cover.jpg
   cover-image-alt: |
     The image depicts a tooth with a layer of dental calculus around the crown.
     A magnifying glass is placed over some of the dental calculus and gives us a
@@ -49,6 +48,7 @@ format:
       light: [lightly, style.scss]
       dark: [darkly, style.scss]
     date-modified: today
+    #date: "2024-05-03" date of print?
     include-after-body: partials/analytics.html
 
   pdf:
