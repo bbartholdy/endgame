@@ -7,7 +7,6 @@ _book/
 chapters.*
 archive/
 /.quarto/
-/_freeze/
 /.vscode/
 /.luarc.json
 drive_upload.R
