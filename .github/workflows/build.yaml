@@ -33,7 +33,7 @@ jobs:
             
       - name: Install missing system dependencies
         if: runner.os == 'Linux'
-        run: sudo apt-get update && sudo apt-get install libglpk-dev libcurl4-openssl-dev libfontconfig1-dev libharfbuzz-dev libfribidi-dev libfreetype6-dev libpng-dev libtiff5-dev libjpeg-dev
+        run: sudo apt-get update && sudo apt-get install libglpk-dev libcurl4-openssl-dev libfontconfig1-dev libharfbuzz-dev libfribidi-dev libfreetype6-dev libpng-dev libtiff5-dev libjpeg-dev libgsl-dev
 
       - name: Install Quarto
         uses: quarto-dev/quarto-actions/setup@v2
