@@ -29,7 +29,7 @@ jobs:
 
       - uses: r-lib/actions/setup-pandoc@v2
         #with:
-          #pandoc-version: '3.2.1'
+          #pandoc-version: '3.1.12'
             
       - name: Install missing system dependencies
         if: runner.os == 'Linux'
@@ -54,17 +54,3 @@ jobs:
         with:
           target: netlify
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
-          
-      # - name: Build Quarto site
-      #   run: |
-      #     quarto render --to all
-      #   
-      # - name: Deploy to Netlify
-      #   env:
-      #     NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
-      #     NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
-      #   run: |
-      #     npm install netlify-cli -g
-      #     netlify deploy --prod --dir _book
-      #     
-
