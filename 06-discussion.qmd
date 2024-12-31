@@ -1,3 +1,7 @@
+---
+date-modified: last-modified
+---
+
 # Discussion {#chap-discussion}
 
 ::: {.content-visible when-format="html"}

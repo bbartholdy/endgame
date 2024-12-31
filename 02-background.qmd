@@ -1,3 +1,7 @@
+---
+date-modified: last-modified
+---
+
 # Background {#chap-background}
 
 ::: {.content-visible when-format="html"}

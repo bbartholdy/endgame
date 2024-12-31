@@ -1,5 +1,6 @@
 ---
 engine: knitr
+date-modified: last-modified
 title: Article 3
 subtitle: Multiproxy analysis exploring patterns of diet and disease in dental calculus and skeletal remains from a 19th century Dutch population
 author: 
