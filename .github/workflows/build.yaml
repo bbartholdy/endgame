@@ -28,8 +28,8 @@ jobs:
           submodules: recursive
 
       - uses: r-lib/actions/setup-pandoc@v2
-        with:
-          pandoc-version: '3.1.12'
+        #with:
+          #pandoc-version: '3.1.12'
             
       - name: Install missing system dependencies
         if: runner.os == 'Linux'
