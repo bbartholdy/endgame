@@ -19,6 +19,16 @@ visitors. No other information is recorded. The stats are publically available
 The reproducibility of this repository has not been tested comprehensively, so please let me know if you
 encounter any issues.
 
+Software requirements:
+
+- [R](https://cran.r-project.org/)
+- [Quarto](https://quarto.org/)
+- [Git](https://git-scm.com/downloads)
+
+Linux dependencies
+
+- `libglpk-dev libcurl4-openssl-dev libfontconfig1-dev libharfbuzz-dev libfribidi-dev libfreetype6-dev libpng-dev libtiff5-dev libjpeg-dev libgsl-dev`
+
 To clone this repository you will need to use `--recurse-submodules`.
 
 ```sh
